@@ -1,0 +1,15 @@
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.xdv
+compile_check.*
+.DS_Store
+Thumbs.db

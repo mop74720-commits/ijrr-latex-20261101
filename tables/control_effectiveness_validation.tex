@@ -1,0 +1,31 @@
+\begin{table*}[t]
+\centering\small
+\caption{残差补偿的独立测试与初值匹配诊断。左：40条未训练测试轨迹各取64点的分量RMS，数值乘$10^6$；右：名义参考与真实对象从相同初值出发，I/G的杆端RMSE（$\mu\mathrm m$）。均报告五个初值块的均值$\pm$样本标准差，时间点不作为独立重复。}
+\label{tab:control_effectiveness}
+\begin{minipage}[t]{0.49\textwidth}\centering\setlength{\tabcolsep}{3.5pt}
+(a) 共同独立测试状态\par\smallskip
+\begin{tabular}{lrrr}
+\toprule
+补偿 & 补偿后力残差 & 运动学分量 & 正交力分量 \\
+\midrule
+无补偿 & $3.877\pm1.085$ & $0.000\pm0.000$ & $0.000\pm0.000$ \\
+精确残差 & $0.000\pm0.000$ & $0.000\pm0.000$ & $0.000\pm0.000$ \\
+GR & $2.927\pm0.465$ & $3.040\pm0.554$ & $2.069\pm0.492$ \\
+GC & $2.229\pm0.683$ & $2.135\pm0.997$ & $1.458\pm0.328$ \\
+\bottomrule
+\end{tabular}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.49\textwidth}\centering
+(b) 初值匹配跟踪\par\smallskip
+\begin{tabular}{lrr}
+\toprule
+补偿 & $h_0$ & $h_0/2$ \\
+\midrule
+无补偿 & $4.791\pm0.436$ & $1.572\pm0.137$ \\
+精确残差 & $4.653\pm0.419$ & $1.379\pm0.085$ \\
+GR & $4.679\pm0.427$ & $1.416\pm0.104$ \\
+GC & $4.671\pm0.428$ & $1.405\pm0.101$ \\
+\bottomrule
+\end{tabular}
+\end{minipage}
+\end{table*}

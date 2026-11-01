@@ -1,0 +1,16 @@
+\begin{table*}[t]
+\centering\small
+\caption{端到端网络的独立测试结果（五种子均值与样本标准差）。}
+\label{tab:neural}
+\begin{tabular}{lrrrr}
+\toprule
+模型 & 对教师RMSE ($\mu$m) & 对连续参考RMSE (mm) & 状态相对$L^2$误差 & 训练时间 (s) \\
+\midrule
+R & $869.229 \pm 211.337$ & $0.87180 \pm 0.20720$ & $0.8509 \pm 0.1116$ & $14.64 \pm 1.31$ \\
+C & $878.712 \pm 332.481$ & $0.87936 \pm 0.32998$ & $0.8082 \pm 0.2039$ & $24.21 \pm 2.03$ \\
+GR & $0.585 \pm 0.239$ & $0.07826 \pm 0.00890$ & $0.1271 \pm 0.0144$ & $17.94 \pm 1.63$ \\
+GC & $0.408 \pm 0.225$ & $0.07830 \pm 0.00867$ & $0.1272 \pm 0.0140$ & $26.28 \pm 2.13$ \\
+\bottomrule
+\end{tabular}
+\par\smallskip\begin{minipage}{0.96\textwidth}\footnotesize 每种子先对8条轨迹分别计算时间域末端位置RMSE，再取轨迹平均；预测时长15.993 s。状态误差相对于连续参考。R/C无先验，GR/GC固定已知二次能量。每组673个实参数、10000次更新；CPU单线程耗时仅代表本机。\end{minipage}
+\end{table*}

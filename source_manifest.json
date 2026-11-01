@@ -1,0 +1,177 @@
+{
+  "files": {
+    "audit/frozen_derivation.tex": {
+      "source": "audit/frozen_derivation.tex",
+      "source_sha256": "3e22b9c936f6734d60a66c78d0f191a3313fe2427f7b0971cde86ac9f686b883",
+      "uploaded_sha256": "3e22b9c936f6734d60a66c78d0f191a3313fe2427f7b0971cde86ac9f686b883"
+    },
+    "derivation_corrections.tex": {
+      "source": "manuscript/derivation_corrections.tex",
+      "source_sha256": "19eb06e3b1e8fb9241a1fe0a2416297bd7f289a42f0fb8ce2a7fabbe0bc89ec3",
+      "uploaded_sha256": "19eb06e3b1e8fb9241a1fe0a2416297bd7f289a42f0fb8ce2a7fabbe0bc89ec3"
+    },
+    "derivation_ijrr_layout.tex": {
+      "source": "manuscript/derivation_ijrr_layout.tex",
+      "source_sha256": "c1b5397e5ce5fd2e095e3b34d230363b38b1c2bd1eec2725ec315c8d4e2ee616",
+      "uploaded_sha256": "c1b5397e5ce5fd2e095e3b34d230363b38b1c2bd1eec2725ec315c8d4e2ee616"
+    },
+    "derivation_math.tex": {
+      "source": "manuscript/derivation_math.tex",
+      "source_sha256": "bb5c51b72d21616e5a6ac9583e31e4e8253ed62110d5c5048389537a57c5d827",
+      "uploaded_sha256": "bb5c51b72d21616e5a6ac9583e31e4e8253ed62110d5c5048389537a57c5d827"
+    },
+    "figures/beam_kam.pdf": {
+      "source": "manuscript/figures/beam_kam.pdf",
+      "source_sha256": "afe488f6fbbeed197a5330cde638e21c2471e881bd5ba4accf0ff7f49068b4e2",
+      "uploaded_sha256": "afe488f6fbbeed197a5330cde638e21c2471e881bd5ba4accf0ff7f49068b4e2"
+    },
+    "figures/control_comparison.pdf": {
+      "source": "manuscript/figures/control_comparison.pdf",
+      "source_sha256": "c3375d6e4b7d84568721eabfd0184bda1e26e229385535741776a1dc39d09f46",
+      "uploaded_sha256": "c3375d6e4b7d84568721eabfd0184bda1e26e229385535741776a1dc39d09f46"
+    },
+    "figures/equation36_diagnostics.png": {
+      "source": "manuscript/figures/equation36_diagnostics.png",
+      "source_sha256": "42c93454d5615d4d5de74b7cff6214e9bbf39924fdc2d8c0a3594bdd3df4dd8b",
+      "uploaded_sha256": "42c93454d5615d4d5de74b7cff6214e9bbf39924fdc2d8c0a3594bdd3df4dd8b"
+    },
+    "figures/neural_comparison.pdf": {
+      "source": "manuscript/figures/neural_comparison.pdf",
+      "source_sha256": "e1ce40d5a686675e7bfebcec0299d486bd47a0322832f2cae70cdae8f347bff8",
+      "uploaded_sha256": "e1ce40d5a686675e7bfebcec0299d486bd47a0322832f2cae70cdae8f347bff8"
+    },
+    "figures/neural_physics_refinement.pdf": {
+      "source": "manuscript/figures/neural_physics_refinement.pdf",
+      "source_sha256": "26579b7e502fde9fb43aec1fb9e2f5d1a9b353c57af4254a7374ad96be777087",
+      "uploaded_sha256": "26579b7e502fde9fb43aec1fb9e2f5d1a9b353c57af4254a7374ad96be777087"
+    },
+    "main.pdf": {
+      "source": "manuscript/main.pdf",
+      "source_sha256": "0c5a02141d8d73187668297aadf932a651334c30d7fabf6f1ec8aa620234601c",
+      "uploaded_sha256": "0c5a02141d8d73187668297aadf932a651334c30d7fabf6f1ec8aa620234601c"
+    },
+    "main.tex": {
+      "source": "manuscript/main.tex",
+      "source_sha256": "b0114f76508800a1dfb02ce75f17b810c8e9ae8fafb37a29ce531231e8236f56",
+      "uploaded_sha256": "a8ac706168813caf2df1883fcac2da1627e0a8346db1d60226c6c5a5c23ad738"
+    },
+    "references.bib": {
+      "source": "manuscript/references.bib",
+      "source_sha256": "61645be4478dea1de8bf3595d64116fac242806bf37b64d4fec5a474b3955b72",
+      "uploaded_sha256": "61645be4478dea1de8bf3595d64116fac242806bf37b64d4fec5a474b3955b72"
+    },
+    "SageH.bst": {
+      "source": "manuscript/SageH.bst",
+      "source_sha256": "70e72e23674f828550e55eadc0de8f110c4d6683c12288d58f6a583ae48a3f71",
+      "uploaded_sha256": "70e72e23674f828550e55eadc0de8f110c4d6683c12288d58f6a583ae48a3f71"
+    },
+    "sagej.cls": {
+      "source": "manuscript/sagej.cls",
+      "source_sha256": "3d355246afa097b6dc8b637ff49d74fccaf8886f9331b3a97bb1b0a3b22b9e23",
+      "uploaded_sha256": "3d355246afa097b6dc8b637ff49d74fccaf8886f9331b3a97bb1b0a3b22b9e23"
+    },
+    "sections/01_background.tex": {
+      "source": "manuscript/sections/01_background.tex",
+      "source_sha256": "497e2274d26ae91334bd27c1c0d5f6bbabd1b8f8c79bbe50f8c02b38cc84eefb",
+      "uploaded_sha256": "497e2274d26ae91334bd27c1c0d5f6bbabd1b8f8c79bbe50f8c02b38cc84eefb"
+    },
+    "sections/02_fixed_method.tex": {
+      "source": "manuscript/sections/02_fixed_method.tex",
+      "source_sha256": "b39ee39f7e09279497ba50084820ec320bcb00ff456ee74584361ab152a9690b",
+      "uploaded_sha256": "b39ee39f7e09279497ba50084820ec320bcb00ff456ee74584361ab152a9690b"
+    },
+    "sections/03_experiments.tex": {
+      "source": "manuscript/sections/03_experiments.tex",
+      "source_sha256": "3e02d0b5c452c88f79788a033e4afca2e9450374ff5d1329921a1c20bd224f9a",
+      "uploaded_sha256": "3e02d0b5c452c88f79788a033e4afca2e9450374ff5d1329921a1c20bd224f9a"
+    },
+    "sections/03_variable_mass.tex": {
+      "source": "manuscript/sections/03_variable_mass.tex",
+      "source_sha256": "dcaa21e81e38cc68cdbafd895ba9a62c7dab64adce66baa12e2fd251de685455",
+      "uploaded_sha256": "dcaa21e81e38cc68cdbafd895ba9a62c7dab64adce66baa12e2fd251de685455"
+    },
+    "sections/04_error_budget.tex": {
+      "source": "manuscript/sections/04_error_budget.tex",
+      "source_sha256": "7719cf9500ba382e6c032f1ce87c075639f5c0975dedfc97df08b1eb004a3665",
+      "uploaded_sha256": "7719cf9500ba382e6c032f1ce87c075639f5c0975dedfc97df08b1eb004a3665"
+    },
+    "sections/04_kam.tex": {
+      "source": "manuscript/sections/04_kam.tex",
+      "source_sha256": "47d937585608e5114e0a41f5ad15da16b09d54550ba4ceab2de0885b2f303ea9",
+      "uploaded_sha256": "47d937585608e5114e0a41f5ad15da16b09d54550ba4ceab2de0885b2f303ea9"
+    },
+    "sections/05_application.tex": {
+      "source": "manuscript/sections/05_application.tex",
+      "source_sha256": "f47b9575cfb51546c10b541ce8a552a6ec2c7173bb7109cbac773e4018d19831",
+      "uploaded_sha256": "f47b9575cfb51546c10b541ce8a552a6ec2c7173bb7109cbac773e4018d19831"
+    },
+    "sections/05_controlled_convergence.tex": {
+      "source": "manuscript/sections/05_controlled_convergence.tex",
+      "source_sha256": "a03d52969ae19745fa18bdd74d51f2a78939ed10e3eeacfed05084f45b6d4de9",
+      "uploaded_sha256": "a03d52969ae19745fa18bdd74d51f2a78939ed10e3eeacfed05084f45b6d4de9"
+    },
+    "sections/05_residual_compensation.tex": {
+      "source": "manuscript/sections/05_residual_compensation.tex",
+      "source_sha256": "bd98bf33ac42863261a6412076c5616c1da40ce830a7bcc8edf67df5e99c9d60",
+      "uploaded_sha256": "bd98bf33ac42863261a6412076c5616c1da40ce830a7bcc8edf67df5e99c9d60"
+    },
+    "sections/06_conclusion.tex": {
+      "source": "manuscript/sections/06_conclusion.tex",
+      "source_sha256": "315183bf3b5b0d29be089242f1b8440db5bb1b3b81a08ba280bfb82c66d40406",
+      "uploaded_sha256": "315183bf3b5b0d29be089242f1b8440db5bb1b3b81a08ba280bfb82c66d40406"
+    },
+    "tables/beam_kam.tex": {
+      "source": "manuscript/tables/beam_kam.tex",
+      "source_sha256": "82f5aeaaf43cecbb790714a83fb687dc3b0ae1aae75813a7e7c8f0c155218f17",
+      "uploaded_sha256": "82f5aeaaf43cecbb790714a83fb687dc3b0ae1aae75813a7e7c8f0c155218f17"
+    },
+    "tables/control.tex": {
+      "source": "manuscript/tables/control.tex",
+      "source_sha256": "9bec443aca3a3ac38785440a29ab85ffe98db49ffb22e9b5ed4e920c4d2b9f8c",
+      "uploaded_sha256": "9bec443aca3a3ac38785440a29ab85ffe98db49ffb22e9b5ed4e920c4d2b9f8c"
+    },
+    "tables/control_effectiveness_validation.tex": {
+      "source": "manuscript/tables/control_effectiveness_validation.tex",
+      "source_sha256": "95211a512a5c8960481a1dc053cfeff615d3c91bfa8a3cbcd7c274065707b00d",
+      "uploaded_sha256": "95211a512a5c8960481a1dc053cfeff615d3c91bfa8a3cbcd7c274065707b00d"
+    },
+    "tables/controlled_equation36_validation.tex": {
+      "source": "manuscript/tables/controlled_equation36_validation.tex",
+      "source_sha256": "2e670190da0b07c49971ae8d4bc2f492ba28110264325279614d4607d1e67783",
+      "uploaded_sha256": "2e670190da0b07c49971ae8d4bc2f492ba28110264325279614d4607d1e67783"
+    },
+    "tables/convergence.tex": {
+      "source": "manuscript/tables/convergence.tex",
+      "source_sha256": "0f8f267ac2103d0cfcf24de4263ff8f93b4ca772c82df210aa57f127abd075f3",
+      "uploaded_sha256": "0f8f267ac2103d0cfcf24de4263ff8f93b4ca772c82df210aa57f127abd075f3"
+    },
+    "tables/equation36_matrix_validation.tex": {
+      "source": "manuscript/tables/equation36_matrix_validation.tex",
+      "source_sha256": "a24dbfa044deb210ba0a98bbef52e36c501a0bfb35ab1da5f5cd7cab5df7a7b3",
+      "uploaded_sha256": "a24dbfa044deb210ba0a98bbef52e36c501a0bfb35ab1da5f5cd7cab5df7a7b3"
+    },
+    "tables/neural.tex": {
+      "source": "manuscript/tables/neural.tex",
+      "source_sha256": "ef0845ff6cea267d3cc23f18bc91277265d5be23ff366033a980e2d8f0d55282",
+      "uploaded_sha256": "ef0845ff6cea267d3cc23f18bc91277265d5be23ff366033a980e2d8f0d55282"
+    },
+    "tables/neural_refinement.tex": {
+      "source": "manuscript/tables/neural_refinement.tex",
+      "source_sha256": "fc197ef8c90fe77208e9557a41e349d4d437774b10b00190c7d89f8b6a7089c4",
+      "uploaded_sha256": "fc197ef8c90fe77208e9557a41e349d4d437774b10b00190c7d89f8b6a7089c4"
+    },
+    "tables/paired.tex": {
+      "source": "manuscript/tables/paired.tex",
+      "source_sha256": "d9a05b71f309c04c8cb8339f4aa6a1fe5c06f0dcabc663f4d445b644770f89c1",
+      "uploaded_sha256": "d9a05b71f309c04c8cb8339f4aa6a1fe5c06f0dcabc663f4d445b644770f89c1"
+    },
+    "tables/variable_mass_learning.tex": {
+      "source": "manuscript/tables/variable_mass_learning.tex",
+      "source_sha256": "883cc8ac011f886b81de77df147889f67e2bb630b77048a1e5f79c35eeaf89d0",
+      "uploaded_sha256": "883cc8ac011f886b81de77df147889f67e2bb630b77048a1e5f79c35eeaf89d0"
+    }
+  },
+  "entrypoint": "main.tex",
+  "source_pdf_sha256": "0c5a02141d8d73187668297aadf932a651334c30d7fabf6f1ec8aa620234601c",
+  "packaging_change": "Only main.tex input path ../audit/frozen_derivation.tex is changed to audit/frozen_derivation.tex."
+}

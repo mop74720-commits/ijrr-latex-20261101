@@ -1,0 +1,306 @@
+% Authorised local corrections, 2026-10-31.
+% Loaded AFTER derivation_ijrr_layout.tex so the source exporters remain intact.
+% The DOCX and DerivationOriginal definitions preserve the source expressions.
+% Mathematical scope and independent checks: audit/scheme1_local_corrections.md.
+
+\expandafter\def\csname DerivationLayoutP0337M01\endcsname{%
+\begin{aligned}
+\mathcal H(q,p)&=H(q,p)+G_2(q)-iG_1(p)\\
+&=H(q,p)+iG(q,p),\qquad G=-G_1-iG_2
+\end{aligned}}
+
+\expandafter\def\csname DerivationLayoutP0341M01\endcsname{%
+\begin{aligned}
+A&=CM^{-1}=A^T,\qquad G_1(p)=\tfrac12 p^TAp,\\
+\dot p_{\mathrm{diss}}&=-C\nabla_pH=-\nabla_pG_1=-Ap
+\end{aligned}}
+
+\expandafter\def\csname DerivationLayoutP0344M01\endcsname{%
+G_2(q)=-\int^q F_{\mathrm{ext}}(s)\cdot ds,
+\qquad F_{\mathrm{ext}}=-\nabla_qG_2}
+
+\expandafter\def\csname DerivationLayoutP0349M01\endcsname{%
+\left\{\begin{aligned}
+\xi&=\frac{q+ip}{\sqrt2},\\[2pt]
+\bar\xi&=\frac{q-ip}{\sqrt2}
+\end{aligned}\right.}
+
+\expandafter\def\csname DerivationLayoutP0350M01\endcsname{%
+\left\{\begin{aligned}
+\frac{\partial}{\partial\xi}
+&=\frac1{\sqrt2}\left(\frac{\partial}{\partial q}
+-i\frac{\partial}{\partial p}\right),\\[3pt]
+\frac{\partial}{\partial\bar\xi}
+&=\frac1{\sqrt2}\left(\frac{\partial}{\partial q}
++i\frac{\partial}{\partial p}\right)
+\end{aligned}\right.}
+
+\expandafter\def\csname DerivationLayoutP0356M01\endcsname{%
+\begin{aligned}
+q&=\frac{\xi+\bar\xi}{\sqrt2},
+&p&=-\frac{i}{\sqrt2}(\xi-\bar\xi),\\[2pt]
+dq&=\frac{d\xi+d\bar\xi}{\sqrt2},
+&dp&=-\frac{i}{\sqrt2}(d\xi-d\bar\xi)
+\end{aligned}}
+
+\expandafter\def\csname DerivationLayoutP0357M01\endcsname{%
+\begin{aligned}
+\omega&=dq\wedge dp\\
+&=-\frac i2(d\xi+d\bar\xi)\wedge(d\xi-d\bar\xi)\\
+&=-\frac i2(-d\xi\wedge d\bar\xi+d\bar\xi\wedge d\xi)\\
+&=i\,d\xi\wedge d\bar\xi
+\end{aligned}}
+
+\expandafter\def\csname DerivationLayoutP0366M01\endcsname{%
+\begin{aligned}
+\dot\xi&=\frac1{\sqrt2}(\dot q+i\dot p)\\
+&=\frac1{\sqrt2}\left[H_p+i(-H_q-CM^{-1}p+F_{\mathrm{ext}})\right]\\
+&=\frac1{\sqrt2}\left[H_p-iH_q-i\nabla_pG_1+iF_{\mathrm{ext}}\right]\\
+&=\frac1{\sqrt2}\left[H_p-iH_q-i\nabla_pG_1-i\nabla_qG_2\right]
+\end{aligned}}
+
+\expandafter\def\csname DerivationLayoutP0367M01\endcsname{%
+\begin{aligned}
+\frac{\partial H}{\partial\bar\xi}
+&=\frac1{\sqrt2}(H_q+iH_p),\\
+-i\frac{\partial H}{\partial\bar\xi}
+&=\frac1{\sqrt2}(H_p-iH_q)
+\end{aligned}}
+
+\expandafter\def\csname DerivationLayoutP0414M01\endcsname{%
+\left\{\begin{aligned}
+\frac{\partial}{\partial q}
+&=\frac1{\sqrt2}\left(\frac{\partial}{\partial\xi}
++\frac{\partial}{\partial\bar\xi}\right),\\[3pt]
+\frac{\partial}{\partial p}
+&=\frac{i}{\sqrt2}\left(\frac{\partial}{\partial\xi}
+-\frac{\partial}{\partial\bar\xi}\right)
+\end{aligned}\right.}
+
+\expandafter\def\csname DerivationLayoutP0416M01\endcsname{%
+\begin{aligned}
+\dot\xi={}&\frac1{\sqrt2}(H_p-iH_q)\\
+&+\frac12\left(\frac{\partial}{\partial\xi}
+-\frac{\partial}{\partial\bar\xi}\right)G_1\\
+&-\frac i2\left(\frac{\partial}{\partial\xi}
++\frac{\partial}{\partial\bar\xi}\right)G_2
+\end{aligned}}
+
+\expandafter\def\csname DerivationLayoutP0418M01\endcsname{%
+\begin{aligned}
+\dot\xi={}&-i\frac{\partial H}{\partial\bar\xi}
++\frac12\left(\frac{\partial G_1}{\partial\xi}
+-\frac{\partial G_1}{\partial\bar\xi}\right)\\
+&-\frac i2\left(\frac{\partial G_2}{\partial\xi}
++\frac{\partial G_2}{\partial\bar\xi}\right)
+\end{aligned}}
+
+\expandafter\def\csname DerivationLayoutP0423M01\endcsname{%
+\begin{aligned}
+\dot\xi={}&-i\frac{\partial H}{\partial\bar\xi}\\
+&+\frac12\left[\left(\partial_\xi-\partial_{\bar\xi}\right)G_1
+-i\left(\partial_\xi+\partial_{\bar\xi}\right)G_2\right]\\
+={}&-i\frac{\partial H}{\partial\bar\xi}+\frac12\mathcal P(\xi,\bar\xi)
+\end{aligned}}
+
+\expandafter\def\csname DerivationLayoutP0424M01\endcsname{%
+\mathcal P=(\partial_\xi-\partial_{\bar\xi})G_1
+-i(\partial_\xi+\partial_{\bar\xi})G_2}
+
+\expandafter\def\csname DerivationLayoutP0576M01\endcsname{%
+\begin{aligned}
+\widetilde P&=-G_1-iG_2,\\
+\frac{\partial\widetilde P}{\partial\bar\xi}
+&=\frac12\mathcal P(\xi,\bar\xi)
+\end{aligned}}
+
+\expandafter\def\csname DerivationLayoutP0570M01\endcsname{%
+\begin{aligned}
+\dot\xi&=-i\frac{\partial H}{\partial\bar\xi}
++\frac12\mathcal P(\xi,\bar\xi)\\
+&=-i\left(\frac{\partial H}{\partial\bar\xi}
++i\frac{\partial\widetilde P}{\partial\bar\xi}\right)
+\end{aligned}}
+
+\expandafter\def\csname DerivationLayoutP0571M01\endcsname{%
+\dot\xi=-i\frac{\partial(H+i\widetilde P)}{\partial\bar\xi}
+=-i\frac{\partial\widetilde H}{\partial\bar\xi}}
+
+\expandafter\def\csname DerivationLayoutP0572M01\endcsname{%
+\widetilde H(\xi,\bar\xi)=H+i\widetilde P
+=H+G_2-iG_1=\mathcal H}
+
+\expandafter\def\csname DerivationLayoutP0846M01\endcsname{%
+\left\{\begin{aligned}
+\frac{\partial B}{\partial p}&=\frac{\partial H}{\partial p}=M^{-1}(q)p,\\
+\frac{\partial B}{\partial q}&=\frac{\partial H}{\partial q}
+\end{aligned}\right.}
+
+\expandafter\def\csname DerivationLayoutP0850M01\endcsname{%
+\left\{\begin{aligned}
+B(q,p)&=H(q,p)=\frac12p^TM^{-1}(q)p+V(q),\\
+\nabla_qV(q)&=K(q)q,\qquad F_q=p,\quad F_p=0
+\end{aligned}\right.}
+
+\expandafter\def\csname DerivationLayoutP0909M01\endcsname{%
+\left\{\begin{aligned}
+\hat q&=q(t_0+\delta),\qquad q=q(t_0),\\
+\hat p&=p(t_0+\delta),\qquad p=p(t_0),\\
+\hat Q&=\hat p-p,\qquad \hat P=\hat q-q,\\[2pt]
+Q&=\tfrac12(\hat q+q),\\[2pt]
+P&=-\tfrac12(\hat p+p)
+\end{aligned}\right.}
+
+\expandafter\def\csname DerivationLayoutP0916M01\endcsname{%
+\begin{aligned}
+\alpha_*&=\frac{\partial(\hat Q,\hat P,Q,P)}
+{\partial(\hat q,\hat p,q,p)}\\[2pt]
+&=\begin{pmatrix}
+0&I&0&-I\\[2pt]
+I&0&-I&0\\[2pt]
+\tfrac12I&0&\tfrac12I&0\\[2pt]
+0&-\tfrac12I&0&-\tfrac12I
+\end{pmatrix}
+\end{aligned}}
+
+\expandafter\def\csname DerivationLayoutP0919M01\endcsname{%
+\left\{\begin{aligned}
+\hat q&=\frac{\hat P+2Q}{2}=Q+\tfrac12\hat P,\\[3pt]
+\hat p&=\frac{\hat Q-2P}{2}=\tfrac12\hat Q-P,\\[3pt]
+q&=\frac{2Q-\hat P}{2}=Q-\tfrac12\hat P,\\[3pt]
+p&=\frac{-2P-\hat Q}{2}=-\tfrac12\hat Q-P
+\end{aligned}\right.}
+
+\expandafter\def\csname DerivationLayoutP0930M01\endcsname{%
+\begin{aligned}
+\frac{dw}{dt}
+&=\begin{pmatrix}\tfrac12I&0\\0&-\tfrac12I\end{pmatrix}
+\begin{pmatrix}\dot{\hat q}\\\dot{\hat p}\end{pmatrix}
+=\begin{pmatrix}\tfrac12\dot{\hat q}\\-\tfrac12\dot{\hat p}\end{pmatrix}\\[3pt]
+&=\frac12\begin{pmatrix}
+M^{-1}(\hat q)\hat p\\[2pt]
+\nabla_qH(\hat q,\hat p)-Q(\hat q,\dot{\hat q})
+\end{pmatrix}
+\end{aligned}}
+
+\expandafter\def\csname DerivationLayoutP0931M01\endcsname{%
+\begin{aligned}
+\frac{d\hat w}{dt}
+&=\begin{pmatrix}0&I\\I&0\end{pmatrix}
+\begin{pmatrix}\dot{\hat q}\\\dot{\hat p}\end{pmatrix}
+=\begin{pmatrix}\dot{\hat p}\\\dot{\hat q}\end{pmatrix}\\[3pt]
+&=\begin{pmatrix}
+-\nabla_qH(\hat q,\hat p)+Q(\hat q,\dot{\hat q})\\[2pt]
+M^{-1}(\hat q)\hat p
+\end{pmatrix}
+\end{aligned}}
+
+\expandafter\def\csname DerivationLayoutP0959M01\endcsname{%
+\begin{aligned}
+\varphi_w^{(1)}(w,t_0)&=-\nabla_w H(Q,-P)\\[2pt]
+&=\begin{pmatrix}
+-\tfrac12 P^T\frac{\partial M^{-1}}{\partial Q}P-K(Q)Q\\[3pt]
+-M^{-1}(Q)P
+\end{pmatrix},\\[3pt]
+\begin{pmatrix}Q(Q,-M^{-1}P)\\0\end{pmatrix}
+&=\begin{pmatrix}F_{\mathrm{ext}}+CM^{-1}P\\0\end{pmatrix}
+\end{aligned}}
+
+\expandafter\def\csname DerivationLayoutP0954M01\endcsname{%
+\begin{aligned}
+\varphi_w^{(1)}(w,t_0)
+&=\left.A(0,w,0,t_0,t_0)\right|_{\mathrm{cons}}\\
+&=\left[\frac{d\hat w}{dt}
+-\frac{\partial\hat w}{\partial w}\frac{dw}{dt}
+\right]_{\delta=0,\,Q(\cdot,\cdot)=0}\\
+&=\left.\frac{d\hat w}{dt}\right|_{\delta=0,\,Q(\cdot,\cdot)=0}
+\end{aligned}}
+
+\expandafter\def\csname DerivationLayoutP0960M01\endcsname{%
+\begin{aligned}
+\hat w_{\mathrm{cons}}&=\varphi_w^{(0)}
++\delta\varphi_w^{(1)}+O(\delta^2),\\[2pt]
+\hat w&:=\delta\varphi_w^{(1)}
++\delta\begin{pmatrix}Q(Q,-M^{-1}P)\\0\end{pmatrix},\\
+\delta&=t-t_0
+\end{aligned}}
+
+\expandafter\def\csname DerivationLayoutP0962M01\endcsname{%
+\begin{aligned}
+Q&=\tfrac12(\hat q+q),\qquad P=-\tfrac12(\hat p+p),\\[3pt]
+\hat w&=\begin{pmatrix}\hat Q\\\hat P\end{pmatrix}
+=\begin{pmatrix}\hat p-p\\\hat q-q\end{pmatrix}\\[3pt]
+&=\delta\varphi_w^{(1)}(w,t_0)
++\delta\begin{pmatrix}Q(Q,-M^{-1}P)\\0\end{pmatrix}
+\end{aligned}}
+
+\expandafter\def\csname DerivationLayoutP0983M01\endcsname{%
+\left\{\begin{aligned}
+\hat q&=q+\tfrac\delta2M^{-1}\!\left(\tfrac{\hat q+q}{2}\right)(\hat p+p),\\[2pt]
+\hat p&=p+\delta\left\{-\tfrac18\left[
+(\hat p+p)^T\frac{\partial M^{-1}(Q)}{\partial Q_i}(\hat p+p)
+\right]_{i=1}^n\right.\\
+&\qquad-\tfrac12K(Q)(\hat q+q)+F_{\mathrm{ext}}(Q)\\
+&\qquad\left.-\tfrac12C(Q,v)M^{-1}(Q)(\hat p+p)\right\}
+\end{aligned}\right.}
+
+\expandafter\def\csname DerivationLayoutP0985M01\endcsname{%
+\left\{\begin{aligned}
+\hat q&=q+\tfrac\delta2M^{-1}(\hat p+p),\\[2pt]
+\hat p&=p+\delta\left[\Delta-\tfrac12K(\hat q+q)
++F_{\mathrm{ext}}\right.\\
+&\hspace{5em}\left.-\tfrac12CM^{-1}(\hat p+p)\right]
+\end{aligned}\right.}
+
+\expandafter\def\csname DerivationLayoutP0989M01\endcsname{%
+\begin{aligned}
+\hat p=p+\delta\left[\Delta
+-\tfrac12K\left(2q+\tfrac\delta2M^{-1}(\hat p+p)\right)\right.\\
+\left.\hspace{5em}+F_{\mathrm{ext}}
+-\tfrac12CM^{-1}(\hat p+p)\right]
+\end{aligned}}
+
+\expandafter\def\csname DerivationLayoutP0992M01\endcsname{%
+(I+\epsilon)\hat p=(I-\epsilon)p-\delta Kq
++\delta(\Delta+F_{\mathrm{ext}})}
+
+\expandafter\def\csname DerivationLayoutP0994M01\endcsname{%
+\begin{aligned}
+\Delta_i&=-\tfrac18(\hat p+p)^T
+\frac{\partial M^{-1}(Q)}{\partial Q_i}(\hat p+p),\\
+&\hspace{10em}i=1,\ldots,n,\\[2pt]
+\epsilon&=\tfrac{\delta^2}{4}KM^{-1}
++\tfrac\delta2CM^{-1}
+\end{aligned}}
+
+\expandafter\def\csname DerivationLayoutP1002M01\endcsname{%
+\left\{\begin{aligned}
+q_{k+1}&=q_k+\tfrac\delta2M^{-1}(p_{k+1}+p_k),\\[3pt]
+p_{k+1}&=(I+\epsilon)^{-1}\bigl[(I-\epsilon)p_k\\
+&\hspace{4em}-\delta Kq_k+\delta(\Delta+F_{\mathrm{ext}})\bigr]
+\end{aligned}\right.}
+
+% Layout cleanup (category 6): drop the source's placeholder tag "(\star)"
+% from the Birkhoff equation; the mathematical content is unchanged.
+\expandafter\def\csname DerivationLayoutP0796M01\endcsname{%
+\begin{aligned}
+&\left(\frac{\partial F_j}{\partial z_i}-\frac{\partial F_i}{\partial z_j}\right)\dot z_j
+-\left(\frac{\partial B}{\partial z_i}+\frac{\partial F_i}{\partial t}\right)=0,\\
+&\qquad i=1,2,\ldots,2n
+\end{aligned}}
+
+% Source equation (9): remove the leading implication arrow and unify the
+% centerline notation with source equation (8), paragraphs P0090--P0094.
+\providecommand{\EquationNineDisplay}{%
+M(s,t)\frac{\partial^2\vec r}{\partial t^2}
++C\Bigl(s,t,\frac{\partial\vec r}{\partial t}\Bigr)\frac{\partial\vec r}{\partial t}
+=\frac{\partial}{\partial s}\Bigl[k_{\mathrm{tan}}(s,t,\vec r)\frac{\partial\vec r}{\partial s}\Bigr]
+-\frac{\partial^2}{\partial s^2}\Bigl(EI\frac{\partial^2\vec r}{\partial s^2}\Bigr)+\vec F}
+
+% Local notation fixes: descriptive labels stay upright; variables remain italic.
+\expandafter\def\csname DerivationLayoutP0169M01\endcsname{H(q,p)=\frac{1}{2}{p}^{T}{M}^{-1}(q)p+{U}_{\mathrm{stretch}}(q)+{U}_{\mathrm{bend}}(q)}
+\expandafter\def\csname DerivationLayoutP0165M01\endcsname{\begin{aligned}&Q(q,\dot{q})={F}_{\mathrm{mag}}+{F}_{\mathrm{cont}}-c(q,\dot{q})\,\dot{q}\\ &={F}_{\mathrm{mag}}+{F}_{\mathrm{cont}}-C(q,\dot{q}){M}^{-1}(q)p\end{aligned}}
+\expandafter\def\csname DerivationLayoutP0170M01\endcsname{\begin{aligned}&\frac{dH}{dt}=\frac{\partial H}{\partial q}\dot{q}+\frac{\partial H}{\partial p}\dot{p}\\ &=\frac{\partial H}{\partial q}\frac{\partial H}{\partial p}+\frac{\partial H}{\partial p}\left( -\frac{\partial H}{\partial q}+{F}_{\mathrm{ext}}-C\frac{\partial H}{\partial p}\right)\\ &=\frac{\partial H}{\partial p}\left( {F}_{\mathrm{ext}}-C\frac{\partial H}{\partial p}\right)\end{aligned}}
+
+% Match the two time parameters to the component maps and Feng--Qin (3.1).
+\expandafter\def\csname DerivationLayoutP0854M01\endcsname{\alpha (t,t_0):\left( \begin{matrix}\hat{z} \\ z\end{matrix}\right)\mapsto \left( \begin{matrix}\hat{w} \\ w\end{matrix}\right)=\left( \begin{matrix}{\alpha }_{1}(\hat{z},z,t,t_0) \\ {\alpha }_{2}(\hat{z},z,t,t_0)\end{matrix}\right)}

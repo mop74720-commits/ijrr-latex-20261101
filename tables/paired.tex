@@ -1,0 +1,17 @@
+\begin{table*}[t]
+\centering\small
+\caption{端到端模型的五项种子内配对差。}
+\label{tab:paired}
+\begin{tabular}{lrr}
+\toprule
+配对差 & 对教师RMSE差 (mm) & 对连续参考RMSE差 (mm) \\
+\midrule
+$R-GR$ & $0.868644 \pm 0.211336$ & $0.793541 \pm 0.213387$ \\
+$C-GC$ & $0.878305 \pm 0.332367$ & $0.801059 \pm 0.335941$ \\
+$R-C$ & $-0.009483 \pm 0.176826$ & $-0.007553 \pm 0.179749$ \\
+$GR-GC$ & $0.000178 \pm 0.000065$ & $-0.000035 \pm 0.000316$ \\
+$(GR-GC)-(R-C)$ & $0.009661 \pm 0.176795$ & $0.007518 \pm 0.179507$ \\
+\bottomrule
+\end{tabular}
+\par\smallskip\begin{minipage}{0.96\textwidth}\footnotesize 报告5个配对差的均值$\pm$样本标准差。正值表示前一组误差更大；交互项按式\eqref{eq:five-contrasts}定义。这些描述性统计不构成显著性检验。\end{minipage}
+\end{table*}

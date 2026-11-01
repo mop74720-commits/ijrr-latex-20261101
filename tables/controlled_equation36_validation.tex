@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering\small\setlength{\tabcolsep}{4pt}
+\caption{加入控制后的观察阶。梁模型采用$2\times2$质量矩阵；外生输入行为零初值，其余两行为10个已训练模型与一个无补偿基线。梁按全时域相对$L^2$、标量按终点$L^2$计算最细两档观察阶；保留四位小数后各模型取值一致。}
+\label{tab:controlled_convergence}
+\begin{tabular}{lrrr}
+\toprule
+参考定义 & I/G & II & III \\
+\midrule
+光滑外生输入 & 2.0000 & 1.0121 & 2.0000 \\
+冻结保持序列 & 2.0000 & 1.0121 & 2.0000 \\
+实际采样反馈 & 1.0068 & 1.0028 & 1.0068 \\
+标量$m=2$、外生 & 1.9999 & 0.9927 & 1.9999 \\
+\bottomrule
+\end{tabular}
+\end{table}
