@@ -1,0 +1,149 @@
+{
+  "action_domain": [
+    [
+      0.0008,
+      0.02
+    ],
+    [
+      0.0008,
+      0.02
+    ]
+  ],
+  "b4": [
+    [
+      -0.0003241987056583109,
+      -0.0013184373454526036
+    ],
+    [
+      -0.0013184373454526036,
+      -0.0013404410655761256
+    ]
+  ],
+  "determinant": -1.3037077754130823e-06,
+  "eigenvalues": [
+    -0.0022452827893790052,
+    0.0005806430181445685
+  ],
+  "minimum_singular_value": 0.0005806430181445685,
+  "reference_non_degeneracy": "Exact algebraic property of the explicitly defined angle-average reference K(I); floating values are reproducible evaluations",
+  "angle_max_on_action_domain": 0.1094939156587142,
+  "quartic_angle_average_abs_bound": 8.603028924279288e-07,
+  "angle_dependent_quartic_abs_bound": 5.98892268379167e-06,
+  "full_physical_perturbation_C0_real_arithmetic_bound": 5.98892268379167e-06,
+  "full_physical_perturbation_grid_abs_max": 5.126226947005175e-06,
+  "cosine_Taylor_order6_energy_bound": 2.393356678892949e-09,
+  "cosine_Taylor_order6_gradient_component_bound": [
+    2.9596748702418558e-08,
+    4.2203951664369915e-08
+  ],
+  "caution": "The oscillatory quartic perturbation is retained; the Taylor order6 bound is not the full physical or normal-form remainder",
+  "finite_resonance_worst": {
+    "k": [
+      -6,
+      1
+    ],
+    "lower_bound": 0.15212326171762314
+  },
+  "finite_resonance_order": 32,
+  "finite_resonance_scope": "Linear frequency interval over the full declared action rectangle, for this finite integer set only",
+  "discrete_quadratic_budget": [
+    {
+      "divisor": 1,
+      "h_tau": 0.009999813692010036,
+      "modified_quadratic_frequencies": [
+        0.9999916671021656,
+        6.150178271219571
+      ],
+      "frequency_abs_difference": [
+        8.332897834417707e-06,
+        0.0019392329477359027
+      ],
+      "quadratic_modified_energy_C0_raw_bound_box": 0.00012172286534814503,
+      "scope": "Exact modified quadratic H0 only; no bound for the full nonlinear numerical map"
+    },
+    {
+      "divisor": 2,
+      "h_tau": 0.004999906846005018,
+      "modified_quadratic_frequencies": [
+        0.9999979167521061,
+        6.151632489565742
+      ],
+      "frequency_abs_difference": [
+        2.0832478938581644e-06,
+        0.0004850146015646928
+      ],
+      "quadratic_modified_energy_C0_raw_bound_box": 3.0443615591159434e-05,
+      "scope": "Exact modified quadratic H0 only; no bound for the full nonlinear numerical map"
+    },
+    {
+      "divisor": 4,
+      "h_tau": 0.002499953423002509,
+      "modified_quadratic_frequencies": [
+        0.9999994791865618,
+        6.151996237610955
+      ],
+      "frequency_abs_difference": [
+        5.208134381540219e-07,
+        0.00012126655635125161
+      ],
+      "quadratic_modified_energy_C0_raw_bound_box": 7.611710611837852e-06,
+      "scope": "Exact modified quadratic H0 only; no bound for the full nonlinear numerical map"
+    },
+    {
+      "divisor": 8,
+      "h_tau": 0.0012499767115012545,
+      "modified_quadratic_frequencies": [
+        0.9999998697965489,
+        6.152087186721468
+      ],
+      "frequency_abs_difference": [
+        1.30203451131905e-07,
+        3.031744583825713e-05
+      ],
+      "quadratic_modified_energy_C0_raw_bound_box": 1.9029780805868146e-06,
+      "scope": "Exact modified quadratic H0 only; no bound for the full nonlinear numerical map"
+    },
+    {
+      "divisor": 16,
+      "h_tau": 0.0006249883557506272,
+      "modified_quadratic_frequencies": [
+        0.9999999674491316,
+        6.152109924755424
+      ],
+      "frequency_abs_difference": [
+        3.255086844511368e-08,
+        7.579411883007481e-06
+      ],
+      "quadratic_modified_energy_C0_raw_bound_box": 4.7574767196578716e-07,
+      "scope": "Exact modified quadratic H0 only; no bound for the full nonlinear numerical map"
+    },
+    {
+      "divisor": 32,
+      "h_tau": 0.0003124941778753136,
+      "modified_quadratic_frequencies": [
+        0.9999999918622826,
+        6.152115609311184
+      ],
+      "frequency_abs_difference": [
+        8.137717388834176e-09,
+        1.8948561226750371e-06
+      ],
+      "quadratic_modified_energy_C0_raw_bound_box": 1.1893711500399196e-07,
+      "scope": "Exact modified quadratic H0 only; no bound for the full nonlinear numerical map"
+    },
+    {
+      "divisor": 64,
+      "h_tau": 0.0001562470889376568,
+      "modified_quadratic_frequencies": [
+        0.9999999979655707,
+        6.152117030453079
+      ],
+      "frequency_abs_difference": [
+        2.0344292916973927e-09,
+        4.7371422784436845e-07
+      ],
+      "quadratic_modified_energy_C0_raw_bound_box": 2.9734291071004115e-08,
+      "scope": "Exact modified quadratic H0 only; no bound for the full nonlinear numerical map"
+    }
+  ]
+}

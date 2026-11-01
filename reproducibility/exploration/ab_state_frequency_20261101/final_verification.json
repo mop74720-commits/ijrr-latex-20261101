@@ -1,0 +1,41 @@
+{
+  "protected_files_checked": 2409,
+  "missing": [],
+  "changed": [],
+  "all_protected_files_unchanged": true,
+  "manuscript_pdf_sha256": "0c5a02141d8d73187668297aadf932a651334c30d7fabf6f1ec8aa620234601c",
+  "new_scripts_ast_checked": [
+    "analysis/build_analysis.py",
+    "experiment_a/audit_and_report.py",
+    "experiment_a/execution_script.py",
+    "experiment_a.py",
+    "experiment_b/evaluate_completed_queue.py",
+    "experiment_b/evaluate_partition.py",
+    "experiment_b/execution_script.py",
+    "experiment_b/independent_audit.py",
+    "experiment_b/report_results.py",
+    "experiment_b.py",
+    "physical_design/build_models.py",
+    "physical_design/check_reconstruction.py",
+    "physical_design/finalize_models.py",
+    "physical_design/verify_design.py",
+    "verify_final.py"
+  ],
+  "protocol_input_checks": [
+    {
+      "protocol": "experiment_a/protocol.json",
+      "checked": 33,
+      "changed_or_missing": []
+    },
+    {
+      "protocol": "experiment_b/protocol.json",
+      "checked": 26,
+      "changed_or_missing": []
+    }
+  ],
+  "b_training_records": 30,
+  "b_new_fits": 20,
+  "b_reused_weights": 10,
+  "b_completed_seed_levels": 15,
+  "no_github_mutation_performed": true
+}

@@ -1,0 +1,18 @@
+{
+  "fields_T": [
+    0.03,
+    0.045,
+    0.06
+  ],
+  "elements": 32,
+  "modes": 2,
+  "slope_gate": 0.15,
+  "pairing": "Same original full-FE initial displacement/velocity, then mass-orthogonal projection into each bias-dependent modal subspace; report projection loss.",
+  "magnetic_model": "Same original constant dipole and full cosine of approximate tip slope; no new exact-angle dynamics.",
+  "geometry": "Elementwise quadratic Hermite-slope extrema; conservative energy bootstrap before training; curvature/strain proxies reported but no fabricated material limits.",
+  "physical_validity": "Conditional model-space sweep, not calibrated proof of admissible magnetization/B range or physical nonlinear coefficients.",
+  "source_hashes": {
+    "reference_model_spec.json": "fd18c090c9f58dac7a5813a5445b7f14c5409ec767c5cb9a4ec38dd2e883ae8c",
+    "run_beam_validation.py": "da1cd69ea2b8d5e6d2f5c835e85c25c7d4d9c33db99dd722f8ca8d63c5d611dd"
+  }
+}

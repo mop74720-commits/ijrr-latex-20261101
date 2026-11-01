@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "object": "Same explicit conservative two-mode magnetic beam h_* and scalar physical field ratio u=By/B0.",
+  "energy": ".5 sum nu*(X^2+Y^2)+1-cos(d.X)-.5*(d.X)^2",
+  "input_potential": "V_u(X)=-u sin(d.X); no independent state-component actuators.",
+  "methods": {
+    "I": "Implicit midpoint of h_*+V_u with input fixed during each step.",
+    "II": "Free implicit midpoint followed by one full exact potential kick (Lie composition).",
+    "III": "Half exact potential kick, free implicit midpoint, half kick (symmetric composition)."
+  },
+  "kick": "K_s^u(X,Y)=(X,Y+s*u*d*cos(d.X)); type-2 generating function X.P-s*u*sin(d.X).",
+  "open_loop": "u(tau)=.05*(1-exp(-(tau/(.25*omega0))^2))*sin(.85*tau); all schemes evaluate at each step midpoint.",
+  "reference_trajectory": "One common feasible trajectory: same model from zero state under smooth open-loop input, DOP853 dense output.",
+  "feedback": "u_k=clip(u_ref(tau_k)-kp*(s(x_k)-s_ref(tau_k))-kd*(v(x_k)-v_ref(tau_k)), -umax,umax), held on the full step.",
+  "output": "s=sin(d.X); v=cos(d.X)*d.(nu*Y), both use dimensionless time tau.",
+  "kp": 1.0,
+  "kd": 0.5,
+  "umax": 0.2,
+  "reference_input_amplitude": 0.05,
+  "B0_T": 0.03,
+  "By_budget_T": 0.006,
+  "budget_scope": "Budget matches the supplied model parameterization; not a calibrated real-actuator limit.",
+  "seeds": [
+    17,
+    43,
+    91,
+    137,
+    211
+  ],
+  "initials_per_seed": 8,
+  "initials": "All forty original held-out learning initials; none selected by controller performance.",
+  "training": "None. Explicit physical h_* is used; no learned-control, HNN compensation, or robustness claim.",
+  "step_multipliers_of_teacher_h0": [
+    4.0,
+    2.0,
+    1.0,
+    0.5
+  ],
+  "base_h_tau": 0.009999813692010036,
+  "base_steps": 9128,
+  "duration_tau": 91.2782993806676,
+  "duration_s": 7.994744909130721,
+  "common_output_stride_in_h0": 8,
+  "samples": 1142,
+  "closed_loop_baselines": [
+    "No-control physical trajectory",
+    "Independent continuous-feedback physical trajectory"
+  ],
+  "reference_tolerances": {
+    "method": "DOP853",
+    "rtol": 1e-12,
+    "atol": 1e-14
+  },
+  "tight_reference_tolerances": {
+    "rtol": 4e-14,
+    "atol": 2e-16
+  },
+  "solver": "Algebraic scalar reduction of forced midpoint, residual <=3e-13; exact kicks. No artificial damping.",
+  "statistics": "Per trajectory over common times; eight-trajectory mean per seed; five-seed mean and sample SD ddof=1. Initial-state blocks, not five independent controller training runs.",
+  "primary_metrics": [
+    "tracking_tip_rmse_mm",
+    "tail_half_tracking_tip_rmse_mm",
+    "tracking_port_rmse",
+    "continuous_controlled_flow_tip_rmse_mm",
+    "continuous_controlled_flow_state_relative_l2"
+  ],
+  "secondary_metrics": [
+    "integral_u_squared_seconds",
+    "max_abs_u",
+    "saturation_fraction",
+    "discrete_work_balance_relative",
+    "midpoint_residual",
+    "full_4d_symplectic_defect"
+  ],
+  "order_scope": "Open-loop smooth-input orders only. Closed-loop continuous-reference error includes zero-order-hold sampling and integration, so no second-order closed-loop claim.",
+  "structure_scope": "Differentiate fixed external u and full feedback u(x) separately; frozen-input symplecticity does not imply closed-loop symplecticity.",
+  "failures": "Every failed solve is recorded and raised; no failed case is omitted from an accepted aggregate.",
+  "inputs": [
+    {
+      "path": "results/learning/inputs/reference_model_spec.json",
+      "sha256": "fd18c090c9f58dac7a5813a5445b7f14c5409ec767c5cb9a4ec38dd2e883ae8c"
+    },
+    {
+      "path": "results/learning/data/seed_17.npz",
+      "sha256": "f02a36438e9d23894a4f7261b652f00d5d048b427f18a4433fb602791aec6c86"
+    },
+    {
+      "path": "results/learning/data/seed_43.npz",
+      "sha256": "4283c88184af6ea1e39c96572b6d1891adfd23f339a813f329d6d82cdbd8e40a"
+    },
+    {
+      "path": "results/learning/data/seed_91.npz",
+      "sha256": "d00061656bcf5ac2d77dfcd983de1bf211e2dd8bea899a32488dac34cce4864f"
+    },
+    {
+      "path": "results/learning/data/seed_137.npz",
+      "sha256": "e40c692789963e6b75de6e8e1bdac288505b589275baa80e8145178992b737cf"
+    },
+    {
+      "path": "results/learning/data/seed_211.npz",
+      "sha256": "e183c94bae91648c4d9d4695d0cc199b710cbba83b91897f83f3517c3fd853c2"
+    }
+  ]
+}

@@ -1,0 +1,316 @@
+{
+  "schema_version": 1,
+  "study": "KAM quantitative error bridge without torus certification",
+  "seeds": [
+    17,
+    43,
+    91,
+    137,
+    211
+  ],
+  "groups": [
+    "GR",
+    "GC"
+  ],
+  "box": [
+    [
+      -0.25,
+      0.25
+    ],
+    [
+      -0.25,
+      0.25
+    ],
+    [
+      -0.25,
+      0.25
+    ],
+    [
+      -0.25,
+      0.25
+    ]
+  ],
+  "endpoint_grid_nodes_per_axis": 17,
+  "midpoint_cells_per_axis": 16,
+  "sobol_power": 16,
+  "sobol_seed": 610202611,
+  "gradient_p": 6,
+  "normalized_norm": "(mean_points sum_components abs(gradient_error)^p)^(1/p)",
+  "lebesgue_norm": "box_volume^(1/p) times normalized norm",
+  "energy_gauge": "Composite-midpoint mean of HNN-H; exact domain mean differs by the reported analytic quadrature envelope",
+  "envelope": "Real-arithmetic absolute-weight Hessian plus nearest-grid Taylor bounds. Floating computations do not use outward-rounded intervals; no machine-certified enclosure.",
+  "integrable_reference": "K(I)=nu.I-(d1^4 I1^2+4d1^2d2^2 I1I2+d2^4 I2^2)/16",
+  "action_domain": [
+    [
+      0.0008,
+      0.02
+    ],
+    [
+      0.0008,
+      0.02
+    ]
+  ],
+  "finite_resonance_l1_order": 32,
+  "physical_perturbation": "Full cosine residual minus quartic angle average, retaining oscillatory quartic terms",
+  "cosine_remainder": "Only Taylor remainder after the full angle-dependent quartic, not a full normal-form remainder",
+  "quadratic_discretization": "Exact midpoint modified frequency for H0 only; not a full nonlinear modified-Hamiltonian bound",
+  "missing_for_KAM": [
+    "A specified theorem and its required analytic/high-order norm on an action-angle domain",
+    "Corresponding bounds for physical+learning+nonlinear discretization perturbations",
+    "Threshold and chart/small-divisor constants; full nonresonance conditions",
+    "Chen Theorem11 target-integrability/generalization assumptions for direct probabilistic application"
+  ],
+  "training_changed": false,
+  "sample_selection": "No training or model/checkpoint selection; all ten saved models reported",
+  "source_hashes": {
+    "results/learning/inputs/reference_model_spec.json": "fd18c090c9f58dac7a5813a5445b7f14c5409ec767c5cb9a4ec38dd2e883ae8c",
+    "results/learning/data/seed_17.npz": "f02a36438e9d23894a4f7261b652f00d5d048b427f18a4433fb602791aec6c86",
+    "results/neural_learning_10000/seed_17/GR_weights.npz": "c1dad775b3d9f6eb9e79d074f2fdae16b97031b4e5cfcb82cbdaa7fb64648822",
+    "results/neural_learning_10000/seed_17/GC_weights.npz": "3741547f85a25bd7ba8845dc16c8da783ea85dd8bfcb4ffbe6333e6b45cf84de",
+    "results/learning/data/seed_43.npz": "4283c88184af6ea1e39c96572b6d1891adfd23f339a813f329d6d82cdbd8e40a",
+    "results/neural_learning_10000/seed_43/GR_weights.npz": "c4f3f3c1df9c8462d84ff03a07841e3a39e3bb42458fba36721627fda26b35b5",
+    "results/neural_learning_10000/seed_43/GC_weights.npz": "8791a66a5a26f132c4b92ed6176498353d0bdc85b07b9e3c3af522a605a8c107",
+    "results/learning/data/seed_91.npz": "d00061656bcf5ac2d77dfcd983de1bf211e2dd8bea899a32488dac34cce4864f",
+    "results/neural_learning_10000/seed_91/GR_weights.npz": "039463690996f6979ee5950b8ae59ce6a3d1ad5cd6aa70f1ceeb032d4e8d8635",
+    "results/neural_learning_10000/seed_91/GC_weights.npz": "85cfb42e8a196ce52dd8bc13b588b738b9bce0cc618df483999d39a99e7bc578",
+    "results/learning/data/seed_137.npz": "e40c692789963e6b75de6e8e1bdac288505b589275baa80e8145178992b737cf",
+    "results/neural_learning_10000/seed_137/GR_weights.npz": "a68f8c67cd99a9f054751ec88e0776f00c5d84baef5a410b08df0c1407ad71fc",
+    "results/neural_learning_10000/seed_137/GC_weights.npz": "dbf6baafd07b5c93ed8f6ee5182bfc1f31f20be890e59fd66e21f711ab4c19fe",
+    "results/learning/data/seed_211.npz": "e183c94bae91648c4d9d4695d0cc199b710cbba83b91897f83f3517c3fd853c2",
+    "results/neural_learning_10000/seed_211/GR_weights.npz": "0d3141edd9a4a61bbfc09f9b571aef22ebe46e4961dfe1597c4eb130df790bd3",
+    "results/neural_learning_10000/seed_211/GC_weights.npz": "8ba2ff42d19683c54d36a8af03bf2110a3ddc0ecc76910be4cf40270f01016ed"
+  },
+  "preflight": {
+    "saved_state_arrays": [
+      {
+        "seed": 17,
+        "key": "train_initials",
+        "maximum_abs_state": 0.15284289531628595
+      },
+      {
+        "seed": 17,
+        "key": "train_midpoints",
+        "maximum_abs_state": 0.17366025100836524
+      },
+      {
+        "seed": 17,
+        "key": "train_sample_states",
+        "maximum_abs_state": 0.17366296947116383
+      },
+      {
+        "seed": 17,
+        "key": "val_initials",
+        "maximum_abs_state": 0.1294704714137643
+      },
+      {
+        "seed": 17,
+        "key": "val_midpoints",
+        "maximum_abs_state": 0.18080615270519002
+      },
+      {
+        "seed": 17,
+        "key": "val_sample_states",
+        "maximum_abs_state": 0.1808078457527068
+      },
+      {
+        "seed": 17,
+        "key": "test_initials",
+        "maximum_abs_state": 0.17304250956602213
+      },
+      {
+        "seed": 17,
+        "key": "test_teacher_states",
+        "maximum_abs_state": 0.1768140461379823
+      },
+      {
+        "seed": 17,
+        "key": "test_reference_states",
+        "maximum_abs_state": 0.1768139217344129
+      },
+      {
+        "seed": 43,
+        "key": "train_initials",
+        "maximum_abs_state": 0.17616324617688245
+      },
+      {
+        "seed": 43,
+        "key": "train_midpoints",
+        "maximum_abs_state": 0.1924010590552233
+      },
+      {
+        "seed": 43,
+        "key": "train_sample_states",
+        "maximum_abs_state": 0.1924027038262749
+      },
+      {
+        "seed": 43,
+        "key": "val_initials",
+        "maximum_abs_state": 0.18502498713638038
+      },
+      {
+        "seed": 43,
+        "key": "val_midpoints",
+        "maximum_abs_state": 0.1978129400771983
+      },
+      {
+        "seed": 43,
+        "key": "val_sample_states",
+        "maximum_abs_state": 0.19781625045640544
+      },
+      {
+        "seed": 43,
+        "key": "test_initials",
+        "maximum_abs_state": 0.17763677345119844
+      },
+      {
+        "seed": 43,
+        "key": "test_teacher_states",
+        "maximum_abs_state": 0.1914938253102999
+      },
+      {
+        "seed": 43,
+        "key": "test_reference_states",
+        "maximum_abs_state": 0.1914941065333512
+      },
+      {
+        "seed": 91,
+        "key": "train_initials",
+        "maximum_abs_state": 0.1809569420526231
+      },
+      {
+        "seed": 91,
+        "key": "train_midpoints",
+        "maximum_abs_state": 0.184740866996301
+      },
+      {
+        "seed": 91,
+        "key": "train_sample_states",
+        "maximum_abs_state": 0.1847426148819163
+      },
+      {
+        "seed": 91,
+        "key": "val_initials",
+        "maximum_abs_state": 0.18469189286658508
+      },
+      {
+        "seed": 91,
+        "key": "val_midpoints",
+        "maximum_abs_state": 0.18603000660869787
+      },
+      {
+        "seed": 91,
+        "key": "val_sample_states",
+        "maximum_abs_state": 0.18603218547746161
+      },
+      {
+        "seed": 91,
+        "key": "test_initials",
+        "maximum_abs_state": 0.18834732726989856
+      },
+      {
+        "seed": 91,
+        "key": "test_teacher_states",
+        "maximum_abs_state": 0.18983109385879537
+      },
+      {
+        "seed": 91,
+        "key": "test_reference_states",
+        "maximum_abs_state": 0.1898309202363892
+      },
+      {
+        "seed": 137,
+        "key": "train_initials",
+        "maximum_abs_state": 0.1741141311924422
+      },
+      {
+        "seed": 137,
+        "key": "train_midpoints",
+        "maximum_abs_state": 0.17589050358346714
+      },
+      {
+        "seed": 137,
+        "key": "train_sample_states",
+        "maximum_abs_state": 0.17589277087886612
+      },
+      {
+        "seed": 137,
+        "key": "val_initials",
+        "maximum_abs_state": 0.13878607508073337
+      },
+      {
+        "seed": 137,
+        "key": "val_midpoints",
+        "maximum_abs_state": 0.19047732393038808
+      },
+      {
+        "seed": 137,
+        "key": "val_sample_states",
+        "maximum_abs_state": 0.19047916573148282
+      },
+      {
+        "seed": 137,
+        "key": "test_initials",
+        "maximum_abs_state": 0.1917297415304498
+      },
+      {
+        "seed": 137,
+        "key": "test_teacher_states",
+        "maximum_abs_state": 0.1992334151683207
+      },
+      {
+        "seed": 137,
+        "key": "test_reference_states",
+        "maximum_abs_state": 0.1992334706510529
+      },
+      {
+        "seed": 211,
+        "key": "train_initials",
+        "maximum_abs_state": 0.19685116085241255
+      },
+      {
+        "seed": 211,
+        "key": "train_midpoints",
+        "maximum_abs_state": 0.19918395425871735
+      },
+      {
+        "seed": 211,
+        "key": "train_sample_states",
+        "maximum_abs_state": 0.19918855655468767
+      },
+      {
+        "seed": 211,
+        "key": "val_initials",
+        "maximum_abs_state": 0.17953801424084914
+      },
+      {
+        "seed": 211,
+        "key": "val_midpoints",
+        "maximum_abs_state": 0.1917812518448055
+      },
+      {
+        "seed": 211,
+        "key": "val_sample_states",
+        "maximum_abs_state": 0.19178315408767715
+      },
+      {
+        "seed": 211,
+        "key": "test_initials",
+        "maximum_abs_state": 0.12269969676606853
+      },
+      {
+        "seed": 211,
+        "key": "test_teacher_states",
+        "maximum_abs_state": 0.14609693085282396
+      },
+      {
+        "seed": 211,
+        "key": "test_reference_states",
+        "maximum_abs_state": 0.14609691946253178
+      }
+    ],
+    "maximum_abs_saved_state": 0.1992334706510529,
+    "box_halfwidth": 0.25,
+    "passed": true,
+    "scope": "Coverage of saved teacher/reference states and midpoint inputs, not a proof of orbit enclosure between samples"
+  }
+}

@@ -1,0 +1,1271 @@
+{
+  "status": "completed_numerical_diagnostics_only",
+  "protocol": {
+    "model": {
+      "M(q)": "1+0.3*q^2",
+      "K(q)": "1+0.4*q^2",
+      "C": 0.0,
+      "Fext": 0.0
+    },
+    "parameter_status": "Dimensionless diagnostic choices; not fitted physical robot parameters.",
+    "amplitudes": [
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1.0,
+      1.2
+    ],
+    "step_sizes": [
+      0.1,
+      0.05,
+      0.025
+    ],
+    "horizon": 300.0,
+    "initial_state": "[amplitude, 0]",
+    "integrator": "Imported scalar equation (36), midpoint coefficient interpretation from (35).",
+    "reference": "Endpoint-regularized action/period quadrature, independently checked by DOP853 events.",
+    "twist": "Symmetric amplitude finite differences, delta A=1e-4 and 5e-5; ratio delta omega/delta I.",
+    "phase_frequency": "Weighted average of unwrapped atan2(-p,q) increments; weights exp(-1/(u*(1-u))).",
+    "crossing_frequency": "Linear fit of cubic-interpolated downward q=0 crossing times against crossing index.",
+    "spectrum": "Hann-windowed q samples; logarithmic parabolic peak interpolation; no multiple-frequency claim.",
+    "finite_resonance_cutoff": 128,
+    "source_integrator_sha256": "5ab34c0ee36b71217c264f295c0939b1c88973a41b12f8de8951d85a17dfca7e",
+    "claim_scope": "Numerical structure, frequency, twist and drift diagnostics; no rigorous KAM certificate."
+  },
+  "continuous_references": [
+    {
+      "amplitude": 0.2,
+      "energy": 0.020160000000000004,
+      "period": 6.264517536633546,
+      "omega": 1.0029799215082207,
+      "action": 0.020129875726056578,
+      "quad_period_error_estimate": 6.95501160733863e-14,
+      "quad_action_error_estimate": 2.2348651513911054e-16,
+      "DOP853_event_period": 6.264517536633564,
+      "period_independent_check_error": 1.7763568394002505e-14,
+      "numerical_twist": 0.14610400609557656,
+      "twist_difference_refinement": 7.225335607596861e-10
+    },
+    {
+      "amplitude": 0.4,
+      "energy": 0.08256000000000002,
+      "period": 6.210604109139458,
+      "omega": 1.0116866566866367,
+      "action": 0.08207218200797013,
+      "quad_period_error_estimate": 6.895155678798235e-14,
+      "quad_action_error_estimate": 9.111842614647496e-16,
+      "DOP853_event_period": 6.210604109139471,
+      "period_independent_check_error": 1.2434497875801753e-14,
+      "numerical_twist": 0.13529832255929525,
+      "twist_difference_refinement": 6.089365400807623e-10
+    },
+    {
+      "amplitude": 0.6,
+      "energy": 0.19296,
+      "period": 6.127094134666209,
+      "omega": 1.0254755629802121,
+      "action": 0.19044338464113847,
+      "quad_period_error_estimate": 6.802440982352175e-14,
+      "quad_action_error_estimate": 2.1143463051613686e-15,
+      "DOP853_event_period": 6.127094134666235,
+      "period_independent_check_error": 2.5757174171303632e-14,
+      "numerical_twist": 0.11980523883030116,
+      "twist_difference_refinement": 4.843096895745802e-10
+    },
+    {
+      "amplitude": 0.8,
+      "energy": 0.36096000000000006,
+      "period": 6.021676783281836,
+      "omega": 1.0434278579388028,
+      "action": 0.35281106226108244,
+      "quad_period_error_estimate": 6.685404211650243e-14,
+      "quad_action_error_estimate": 3.916989646647134e-15,
+      "DOP853_event_period": 6.0216767832818725,
+      "period_independent_check_error": 3.6415315207705135e-14,
+      "numerical_twist": 0.10224669586408633,
+      "twist_difference_refinement": 3.6400929492863554e-10
+    },
+    {
+      "amplitude": 1.0,
+      "energy": 0.6,
+      "period": 5.902400679198325,
+      "omega": 1.0645135172410864,
+      "action": 0.5795399491541672,
+      "quad_period_error_estimate": 6.552981134609143e-14,
+      "quad_action_error_estimate": 6.4341859524104896e-15,
+      "DOP853_event_period": 5.902400679198362,
+      "period_independent_check_error": 3.6415315207705135e-14,
+      "numerical_twist": 0.08481970173584917,
+      "twist_difference_refinement": 2.594664622046494e-10
+    },
+    {
+      "amplitude": 1.2,
+      "energy": 0.92736,
+      "period": 5.776428275735662,
+      "omega": 1.0877284382760533,
+      "action": 0.8836303772878521,
+      "quad_period_error_estimate": 6.413123671817525e-14,
+      "quad_action_error_estimate": 9.810267901231874e-15,
+      "DOP853_event_period": 5.7764282757357055,
+      "period_independent_check_error": 4.3520742565306136e-14,
+      "numerical_twist": 0.06893392996643463,
+      "twist_difference_refinement": 1.7491465220675906e-10
+    }
+  ],
+  "case_metrics": [
+    {
+      "case": "A0p2_h0p100",
+      "amplitude": 0.2,
+      "h": 0.1,
+      "horizon": 300.0,
+      "steps": 3000,
+      "continuous_omega": 1.0029799215082207,
+      "continuous_action": 0.020129875726056578,
+      "omega_phase_weighted": 1.0021330463841058,
+      "omega_crossing": 1.002133046385196,
+      "omega_fft_interpolated": 1.0018957933863788,
+      "fft_resolution_omega": 0.020943951023931952,
+      "omega_error_signed": -0.0008468751241148542,
+      "omega_error_absolute": 0.0008468751241148542,
+      "omega_estimators_disagreement": 1.0902390101819037e-12,
+      "omega_first_second_window_difference": 1.7763568394002505e-13,
+      "rotation_number_per_step": 0.01594944279677701,
+      "crossing_count": 48,
+      "max_energy_change_absolute": 4.024744203745545e-07,
+      "energy_peak_to_peak": 4.944195922083894e-07,
+      "max_energy_change_relative": 1.9964008947150516e-05,
+      "end_energy_change": -4.0730550442819036e-08,
+      "max_action_change_absolute": 4.0127865324687817e-07,
+      "max_action_change_relative": 1.9934482393622222e-05,
+      "end_action_change": -4.060953733009409e-08,
+      "max_implicit_residual": 8.326672684688674e-17,
+      "max_sampled_canonical_defect": 2.220446049250313e-16,
+      "sampled_canonical_steps": 25,
+      "action_interpolation_check_error": 1.0408340855860843e-17,
+      "finite_nonresonance_cutoff": 128,
+      "finite_detuning_min": 0.004814896196951635,
+      "finite_detuning_witness_order": 63,
+      "spectrum_largest_local_peaks": [
+        {
+          "omega_bin": 1.0053096491487339,
+          "power_relative_to_primary": 1.0
+        },
+        {
+          "omega_bin": 3.0159289474462017,
+          "power_relative_to_primary": 5.210397580902905e-08
+        },
+        {
+          "omega_bin": 5.0056042947197374,
+          "power_relative_to_primary": 2.0138899330046703e-13
+        },
+        {
+          "omega_bin": 3.330088212805181,
+          "power_relative_to_primary": 3.637855188922279e-15
+        },
+        {
+          "omega_bin": 7.016223593017205,
+          "power_relative_to_primary": 1.661056439721406e-17
+        }
+      ],
+      "crossing_fit_intercept": 1.5674528768887799,
+      "trajectory_file": "A0p2_h0p100.npz"
+    },
+    {
+      "case": "A0p2_h0p050",
+      "amplitude": 0.2,
+      "h": 0.05,
+      "horizon": 300.0,
+      "steps": 6000,
+      "continuous_omega": 1.0029799215082207,
+      "continuous_action": 0.020129875726056578,
+      "omega_phase_weighted": 1.002767958398568,
+      "omega_crossing": 1.0027679583984699,
+      "omega_fft_interpolated": 1.0025713841897383,
+      "fft_resolution_omega": 0.020943951023931952,
+      "omega_error_signed": -0.00021196310965265752,
+      "omega_error_absolute": 0.00021196310965265752,
+      "omega_estimators_disagreement": 9.814371537686384e-14,
+      "omega_first_second_window_difference": 1.376676550535194e-13,
+      "rotation_number_per_step": 0.007979773867665008,
+      "crossing_count": 48,
+      "max_energy_change_absolute": 1.0080634459119775e-07,
+      "energy_peak_to_peak": 1.2363615231256175e-07,
+      "max_energy_change_relative": 5.000314711864967e-06,
+      "end_energy_change": 1.507135594103204e-08,
+      "max_action_change_absolute": 1.0050684282406075e-07,
+      "max_action_change_relative": 4.992919190949717e-06,
+      "end_action_change": 1.5026577905585814e-08,
+      "max_implicit_residual": 1.1046719095020308e-14,
+      "max_sampled_canonical_defect": 2.220446049250313e-16,
+      "sampled_canonical_steps": 25,
+      "action_interpolation_check_error": 1.3877787807814457e-17,
+      "finite_nonresonance_cutoff": 128,
+      "finite_detuning_min": 0.0025282665418739914,
+      "finite_detuning_witness_order": 125,
+      "spectrum_largest_local_peaks": [
+        {
+          "omega_bin": 1.0053096491487339,
+          "power_relative_to_primary": 1.0
+        },
+        {
+          "omega_bin": 3.0159289474462017,
+          "power_relative_to_primary": 5.502090802112021e-08
+        },
+        {
+          "omega_bin": 5.0056042947197374,
+          "power_relative_to_primary": 1.6734502370574123e-13
+        },
+        {
+          "omega_bin": 3.371976114853045,
+          "power_relative_to_primary": 2.4161390541298375e-15
+        },
+        {
+          "omega_bin": 7.037167544041138,
+          "power_relative_to_primary": 7.396889105292894e-18
+        }
+      ],
+      "crossing_fit_intercept": 1.5664604294914986,
+      "trajectory_file": "A0p2_h0p050.npz"
+    },
+    {
+      "case": "A0p2_h0p025",
+      "amplitude": 0.2,
+      "h": 0.025,
+      "horizon": 300.0,
+      "steps": 12000,
+      "continuous_omega": 1.0029799215082207,
+      "continuous_action": 0.020129875726056578,
+      "omega_phase_weighted": 1.0029269154337415,
+      "omega_crossing": 1.002926915433741,
+      "omega_fft_interpolated": 1.0027412509254763,
+      "fft_resolution_omega": 0.020943951023931952,
+      "omega_error_signed": -5.3006074479222676e-05,
+      "omega_error_absolute": 5.3006074479222676e-05,
+      "omega_estimators_disagreement": 4.440892098500626e-16,
+      "omega_first_second_window_difference": 1.2612133559741778e-13,
+      "rotation_number_per_step": 0.003990519403779682,
+      "crossing_count": 48,
+      "max_energy_change_absolute": 2.5213346986630025e-08,
+      "energy_peak_to_peak": 3.091103849273136e-08,
+      "max_energy_change_relative": 1.250662052908235e-06,
+      "end_energy_change": 4.663560780604481e-09,
+      "max_action_change_absolute": 2.5138436464400282e-08,
+      "max_action_change_relative": 1.2488123029920403e-06,
+      "end_action_change": 4.6497050203153645e-09,
+      "max_implicit_residual": 1.9484414082171497e-14,
+      "max_sampled_canonical_defect": 3.330669073875469e-16,
+      "sampled_canonical_steps": 25,
+      "action_interpolation_check_error": 1.0408340855860843e-17,
+      "finite_nonresonance_cutoff": 128,
+      "finite_detuning_min": 0.003990519403779682,
+      "finite_detuning_witness_order": 1,
+      "spectrum_largest_local_peaks": [
+        {
+          "omega_bin": 1.0053096491487339,
+          "power_relative_to_primary": 1.0
+        },
+        {
+          "omega_bin": 3.0159289474462017,
+          "power_relative_to_primary": 5.559743375064292e-08
+        },
+        {
+          "omega_bin": 5.0056042947197374,
+          "power_relative_to_primary": 1.5817063182030663e-13
+        },
+        {
+          "omega_bin": 3.371976114853045,
+          "power_relative_to_primary": 2.5928319257251916e-15
+        },
+        {
+          "omega_bin": 7.016223593017205,
+          "power_relative_to_primary": 7.140411266619024e-18
+        }
+      ],
+      "crossing_fit_intercept": 1.566212156261837,
+      "trajectory_file": "A0p2_h0p025.npz"
+    },
+    {
+      "case": "A0p4_h0p100",
+      "amplitude": 0.4,
+      "h": 0.1,
+      "horizon": 300.0,
+      "steps": 3000,
+      "continuous_omega": 1.0116866566866367,
+      "continuous_action": 0.08207218200797013,
+      "omega_phase_weighted": 1.0107972139036419,
+      "omega_crossing": 1.010797213893194,
+      "omega_fft_interpolated": 1.01112715195521,
+      "fft_resolution_omega": 0.020943951023931952,
+      "omega_error_signed": -0.0008894427829948537,
+      "omega_error_absolute": 0.0008894427829948537,
+      "omega_estimators_disagreement": 1.0447864795537498e-11,
+      "omega_first_second_window_difference": 2.2601920335318937e-12,
+      "rotation_number_per_step": 0.01608733730562805,
+      "crossing_count": 48,
+      "max_energy_change_absolute": 6.6081779102333815e-06,
+      "energy_peak_to_peak": 8.132031242322202e-06,
+      "max_energy_change_relative": 8.004091461038493e-05,
+      "end_energy_change": -6.473237220180894e-06,
+      "max_action_change_absolute": 6.531845362200972e-06,
+      "max_action_change_relative": 7.958659319629953e-05,
+      "end_action_change": -6.398463345297367e-06,
+      "max_implicit_residual": 1.6653345369377348e-16,
+      "max_sampled_canonical_defect": 3.330669073875469e-16,
+      "sampled_canonical_steps": 25,
+      "action_interpolation_check_error": 4.163336342344337e-17,
+      "finite_nonresonance_cutoff": 128,
+      "finite_detuning_min": 0.0025850870510608637,
+      "finite_detuning_witness_order": 62,
+      "spectrum_largest_local_peaks": [
+        {
+          "omega_bin": 1.0053096491487339,
+          "power_relative_to_primary": 1.0
+        },
+        {
+          "omega_bin": 3.036872898470133,
+          "power_relative_to_primary": 1.1329806959654934e-06
+        },
+        {
+          "omega_bin": 5.047492196767601,
+          "power_relative_to_primary": 5.26121145203749e-11
+        },
+        {
+          "omega_bin": 7.079055446089001,
+          "power_relative_to_primary": 5.888444089709362e-15
+        },
+        {
+          "omega_bin": 7.141887299160796,
+          "power_relative_to_primary": 1.449559763628892e-16
+        }
+      ],
+      "crossing_fit_intercept": 1.5540172670532826,
+      "trajectory_file": "A0p4_h0p100.npz"
+    },
+    {
+      "case": "A0p4_h0p050",
+      "amplitude": 0.4,
+      "h": 0.05,
+      "horizon": 300.0,
+      "steps": 6000,
+      "continuous_omega": 1.0116866566866367,
+      "continuous_action": 0.08207218200797013,
+      "omega_phase_weighted": 1.0114640205903977,
+      "omega_crossing": 1.0114640205906196,
+      "omega_fft_interpolated": 1.0117990988403875,
+      "fft_resolution_omega": 0.020943951023931952,
+      "omega_error_signed": -0.00022263609623895952,
+      "omega_error_absolute": 0.00022263609623895952,
+      "omega_estimators_disagreement": 2.2182256032010628e-13,
+      "omega_first_second_window_difference": 2.3090418466154006e-12,
+      "rotation_number_per_step": 0.008048974931828221,
+      "crossing_count": 49,
+      "max_energy_change_absolute": 1.655076622322782e-06,
+      "energy_peak_to_peak": 2.033469821430267e-06,
+      "max_energy_change_relative": 2.0046955212242994e-05,
+      "end_energy_change": -1.2390512522525432e-06,
+      "max_action_change_absolute": 1.6359579247532396e-06,
+      "max_action_change_relative": 1.9933159868886752e-05,
+      "end_action_change": -1.224738258170932e-06,
+      "max_implicit_residual": 2.220446049250313e-16,
+      "max_sampled_canonical_defect": 4.440892098500626e-16,
+      "sampled_canonical_steps": 25,
+      "action_interpolation_check_error": 4.163336342344337e-17,
+      "finite_nonresonance_cutoff": 128,
+      "finite_detuning_min": 0.0019271084533005745,
+      "finite_detuning_witness_order": 124,
+      "spectrum_largest_local_peaks": [
+        {
+          "omega_bin": 1.0053096491487339,
+          "power_relative_to_primary": 1.0
+        },
+        {
+          "omega_bin": 3.036872898470133,
+          "power_relative_to_primary": 1.1698104585170626e-06
+        },
+        {
+          "omega_bin": 5.047492196767601,
+          "power_relative_to_primary": 4.3329346405377906e-11
+        },
+        {
+          "omega_bin": 7.079055446089001,
+          "power_relative_to_primary": 4.5350495158752186e-15
+        },
+        {
+          "omega_bin": 7.141887299160796,
+          "power_relative_to_primary": 1.7184883460207116e-16
+        }
+      ],
+      "crossing_fit_intercept": 1.5529927855905696,
+      "trajectory_file": "A0p4_h0p050.npz"
+    },
+    {
+      "case": "A0p4_h0p025",
+      "amplitude": 0.4,
+      "h": 0.025,
+      "horizon": 300.0,
+      "steps": 12000,
+      "continuous_omega": 1.0116866566866367,
+      "continuous_action": 0.08207218200797013,
+      "omega_phase_weighted": 1.0116309804171475,
+      "omega_crossing": 1.011630980417148,
+      "omega_fft_interpolated": 1.0119655102328726,
+      "fft_resolution_omega": 0.020943951023931952,
+      "omega_error_signed": -5.5676269489213226e-05,
+      "omega_error_absolute": 5.5676269489213226e-05,
+      "omega_estimators_disagreement": 4.440892098500626e-16,
+      "omega_first_second_window_difference": 2.297495527159299e-12,
+      "rotation_number_per_step": 0.004025151777957235,
+      "crossing_count": 49,
+      "max_energy_change_absolute": 4.139592070379061e-07,
+      "energy_peak_to_peak": 5.083970781860625e-07,
+      "max_energy_change_relative": 5.014040782920373e-06,
+      "end_energy_change": -2.734216318356353e-07,
+      "max_action_change_absolute": 4.09177303650754e-07,
+      "max_action_change_relative": 4.985578470559224e-06,
+      "end_action_change": -2.7026316395950545e-07,
+      "max_implicit_residual": 1.8041124150158794e-14,
+      "max_sampled_canonical_defect": 4.440892098500626e-16,
+      "sampled_canonical_steps": 25,
+      "action_interpolation_check_error": 4.163336342344337e-17,
+      "finite_nonresonance_cutoff": 128,
+      "finite_detuning_min": 0.004025151777957235,
+      "finite_detuning_witness_order": 1,
+      "spectrum_largest_local_peaks": [
+        {
+          "omega_bin": 1.0053096491487339,
+          "power_relative_to_primary": 1.0
+        },
+        {
+          "omega_bin": 3.036872898470133,
+          "power_relative_to_primary": 1.1752748856317124e-06
+        },
+        {
+          "omega_bin": 5.047492196767601,
+          "power_relative_to_primary": 4.0814861491611314e-11
+        },
+        {
+          "omega_bin": 7.079055446089001,
+          "power_relative_to_primary": 4.060408999164224e-15
+        },
+        {
+          "omega_bin": 7.141887299160796,
+          "power_relative_to_primary": 1.746805583017421e-16
+        }
+      ],
+      "crossing_fit_intercept": 1.5527364792131302,
+      "trajectory_file": "A0p4_h0p025.npz"
+    },
+    {
+      "case": "A0p6_h0p100",
+      "amplitude": 0.6,
+      "h": 0.1,
+      "horizon": 300.0,
+      "steps": 3000,
+      "continuous_omega": 1.0254755629802121,
+      "continuous_action": 0.19044338464113847,
+      "omega_phase_weighted": 1.0245208191072457,
+      "omega_crossing": 1.0245208191007542,
+      "omega_fft_interpolated": 1.0243825526064516,
+      "fft_resolution_omega": 0.020943951023931952,
+      "omega_error_signed": -0.000954743872966457,
+      "omega_error_absolute": 0.000954743872966457,
+      "omega_estimators_disagreement": 6.49147402498329e-12,
+      "omega_first_second_window_difference": 3.672617765460018e-13,
+      "rotation_number_per_step": 0.01630575526614757,
+      "crossing_count": 49,
+      "max_energy_change_absolute": 3.490967201758011e-05,
+      "energy_peak_to_peak": 4.305358170614282e-05,
+      "max_energy_change_relative": 0.00018091662529840438,
+      "end_energy_change": 7.761912863973874e-06,
+      "max_action_change_absolute": 3.404248984498204e-05,
+      "max_action_change_relative": 0.0001787538585765524,
+      "end_action_change": 7.569082786818004e-06,
+      "max_implicit_residual": 3.3306690738754696e-16,
+      "max_sampled_canonical_defect": 4.440892098500626e-16,
+      "sampled_canonical_steps": 25,
+      "action_interpolation_check_error": 1.3877787807814457e-16,
+      "finite_nonresonance_cutoff": 128,
+      "finite_detuning_min": 0.005348928764998151,
+      "finite_detuning_witness_order": 61,
+      "spectrum_largest_local_peaks": [
+        {
+          "omega_bin": 1.0262536001726656,
+          "power_relative_to_primary": 1.0
+        },
+        {
+          "omega_bin": 3.0787608005179976,
+          "power_relative_to_primary": 5.452402308836412e-06
+        },
+        {
+          "omega_bin": 5.131268000863329,
+          "power_relative_to_primary": 1.1292482283164655e-09
+        },
+        {
+          "omega_bin": 7.162831250184729,
+          "power_relative_to_primary": 5.004594464411213e-13
+        },
+        {
+          "omega_bin": 9.21533845053006,
+          "power_relative_to_primary": 4.544230651586695e-16
+        }
+      ],
+      "crossing_fit_intercept": 1.5332009819140762,
+      "trajectory_file": "A0p6_h0p100.npz"
+    },
+    {
+      "case": "A0p6_h0p050",
+      "amplitude": 0.6,
+      "h": 0.05,
+      "horizon": 300.0,
+      "steps": 6000,
+      "continuous_omega": 1.0254755629802121,
+      "continuous_action": 0.19044338464113847,
+      "omega_phase_weighted": 1.0252365511601327,
+      "omega_crossing": 1.025236551159739,
+      "omega_fft_interpolated": 1.025153922782644,
+      "fft_resolution_omega": 0.020943951023931952,
+      "omega_error_signed": -0.00023901182007945998,
+      "omega_error_absolute": 0.00023901182007945998,
+      "omega_estimators_disagreement": 3.936850845320805e-13,
+      "omega_first_second_window_difference": 1.525446435834965e-13,
+      "rotation_number_per_step": 0.008158573247781098,
+      "crossing_count": 49,
+      "max_energy_change_absolute": 8.74283341939508e-06,
+      "energy_peak_to_peak": 1.0765260703704538e-05,
+      "max_energy_change_relative": 4.530904549852342e-05,
+      "end_energy_change": 9.892141900613716e-07,
+      "max_action_change_absolute": 8.52564223771668e-06,
+      "max_action_change_relative": 4.476733205399575e-05,
+      "end_action_change": 9.646394025231153e-07,
+      "max_implicit_residual": 4.440892098500626e-16,
+      "max_sampled_canonical_defect": 3.330669073875469e-16,
+      "sampled_canonical_steps": 25,
+      "action_interpolation_check_error": 1.1102230246251565e-16,
+      "finite_nonresonance_cutoff": 128,
+      "finite_detuning_min": 0.003504509477075146,
+      "finite_detuning_witness_order": 123,
+      "spectrum_largest_local_peaks": [
+        {
+          "omega_bin": 1.0262536001726656,
+          "power_relative_to_primary": 1.0
+        },
+        {
+          "omega_bin": 3.0787608005179976,
+          "power_relative_to_primary": 5.538864497126523e-06
+        },
+        {
+          "omega_bin": 5.131268000863329,
+          "power_relative_to_primary": 1.2308775870178284e-09
+        },
+        {
+          "omega_bin": 7.18377520120866,
+          "power_relative_to_primary": 4.988575209937421e-13
+        },
+        {
+          "omega_bin": 9.236282401553993,
+          "power_relative_to_primary": 2.589317797313036e-16
+        }
+      ],
+      "crossing_fit_intercept": 1.5321306336130163,
+      "trajectory_file": "A0p6_h0p050.npz"
+    },
+    {
+      "case": "A0p6_h0p025",
+      "amplitude": 0.6,
+      "h": 0.025,
+      "horizon": 300.0,
+      "steps": 12000,
+      "continuous_omega": 1.0254755629802121,
+      "continuous_action": 0.19044338464113847,
+      "omega_phase_weighted": 1.0254157896155274,
+      "omega_crossing": 1.0254157896155793,
+      "omega_fft_interpolated": 1.0253475084267143,
+      "fft_resolution_omega": 0.020943951023931952,
+      "omega_error_signed": -5.977336468476757e-05,
+      "omega_error_absolute": 5.977336468476757e-05,
+      "omega_estimators_disagreement": 5.1958437552457326e-14,
+      "omega_first_second_window_difference": 1.0791367799356522e-13,
+      "rotation_number_per_step": 0.004079999791044755,
+      "crossing_count": 49,
+      "max_energy_change_absolute": 2.186690861105678e-06,
+      "energy_peak_to_peak": 2.6914518087006734e-06,
+      "max_energy_change_relative": 1.133235313591251e-05,
+      "end_energy_change": 1.7798970361471156e-07,
+      "max_action_change_absolute": 2.1323678616735897e-06,
+      "max_action_change_relative": 1.1196859716034305e-05,
+      "end_action_change": 1.7356796033762834e-07,
+      "max_implicit_residual": 4.440892098500626e-16,
+      "max_sampled_canonical_defect": 4.440892098500626e-16,
+      "sampled_canonical_steps": 25,
+      "action_interpolation_check_error": 1.3877787807814457e-16,
+      "finite_nonresonance_cutoff": 128,
+      "finite_detuning_min": 0.004079999791044755,
+      "finite_detuning_witness_order": 1,
+      "spectrum_largest_local_peaks": [
+        {
+          "omega_bin": 1.0262536001726656,
+          "power_relative_to_primary": 1.0
+        },
+        {
+          "omega_bin": 3.0787608005179976,
+          "power_relative_to_primary": 5.539244939123708e-06
+        },
+        {
+          "omega_bin": 5.131268000863329,
+          "power_relative_to_primary": 1.2428810948724074e-09
+        },
+        {
+          "omega_bin": 7.18377520120866,
+          "power_relative_to_primary": 5.122582069652638e-13
+        },
+        {
+          "omega_bin": 9.236282401553993,
+          "power_relative_to_primary": 2.79142669751453e-16
+        }
+      ],
+      "crossing_fit_intercept": 1.5318628235572438,
+      "trajectory_file": "A0p6_h0p025.npz"
+    },
+    {
+      "case": "A0p8_h0p100",
+      "amplitude": 0.8,
+      "h": 0.1,
+      "horizon": 300.0,
+      "steps": 3000,
+      "continuous_omega": 1.0434278579388028,
+      "continuous_action": 0.35281106226108244,
+      "omega_phase_weighted": 1.042392441105247,
+      "omega_crossing": 1.0423924411317649,
+      "omega_fft_interpolated": 1.0420788724869352,
+      "fft_resolution_omega": 0.020943951023931952,
+      "omega_error_signed": -0.0010354168335557912,
+      "omega_error_absolute": 0.0010354168335557912,
+      "omega_estimators_disagreement": 2.651789898777679e-11,
+      "omega_first_second_window_difference": 8.837375276016246e-13,
+      "rotation_number_per_step": 0.016590190964352748,
+      "crossing_count": 50,
+      "max_energy_change_absolute": 0.00011700336596787153,
+      "energy_peak_to_peak": 0.00014454586831375016,
+      "max_energy_change_relative": 0.0003241449633418426,
+      "end_energy_change": -0.00010949242718472085,
+      "max_action_change_absolute": 0.00011213425818473732,
+      "max_action_change_relative": 0.0003178309020870702,
+      "end_action_change": -0.0001049358509223608,
+      "max_implicit_residual": 4.440892098500626e-16,
+      "max_sampled_canonical_defect": 4.440892098500626e-16,
+      "sampled_canonical_steps": 25,
+      "action_interpolation_check_error": 2.220446049250313e-16,
+      "finite_nonresonance_cutoff": 128,
+      "finite_detuning_min": 0.004588542138835083,
+      "finite_detuning_witness_order": 60,
+      "spectrum_largest_local_peaks": [
+        {
+          "omega_bin": 1.0471975511965979,
+          "power_relative_to_primary": 1.0
+        },
+        {
+          "omega_bin": 3.1206487025658616,
+          "power_relative_to_primary": 1.837090062844809e-05
+        },
+        {
+          "omega_bin": 5.215043804959057,
+          "power_relative_to_primary": 1.4522628810828302e-08
+        },
+        {
+          "omega_bin": 7.288494956328321,
+          "power_relative_to_primary": 1.642484728852648e-11
+        },
+        {
+          "omega_bin": 9.382890058721516,
+          "power_relative_to_primary": 3.580844630514844e-14
+        }
+      ],
+      "crossing_fit_intercept": 1.5069145460045057,
+      "trajectory_file": "A0p8_h0p100.npz"
+    },
+    {
+      "case": "A0p8_h0p050",
+      "amplitude": 0.8,
+      "h": 0.05,
+      "horizon": 300.0,
+      "steps": 6000,
+      "continuous_omega": 1.0434278579388028,
+      "continuous_action": 0.35281106226108244,
+      "omega_phase_weighted": 1.0431686103205156,
+      "omega_crossing": 1.0431686103219449,
+      "omega_fft_interpolated": 1.04288548366574,
+      "fft_resolution_omega": 0.020943951023931952,
+      "omega_error_signed": -0.0002592476182872172,
+      "omega_error_absolute": 0.0002592476182872172,
+      "omega_estimators_disagreement": 1.4293011219024265e-12,
+      "omega_first_second_window_difference": 2.5268676040468563e-13,
+      "rotation_number_per_step": 0.008301272040540661,
+      "crossing_count": 50,
+      "max_energy_change_absolute": 2.9299341163968595e-05,
+      "energy_peak_to_peak": 3.6139934982082345e-05,
+      "max_energy_change_relative": 8.11706038452144e-05,
+      "end_energy_change": -1.6520954593923776e-05,
+      "max_action_change_absolute": 2.8079930252278285e-05,
+      "max_action_change_relative": 7.958914347050421e-05,
+      "end_action_change": -1.583335856397694e-05,
+      "max_implicit_residual": 4.440892098500626e-16,
+      "max_sampled_canonical_defect": 3.330669073875469e-16,
+      "sampled_canonical_steps": 25,
+      "action_interpolation_check_error": 2.220446049250313e-16,
+      "finite_nonresonance_cutoff": 128,
+      "finite_detuning_min": 0.003847355135120689,
+      "finite_detuning_witness_order": 120,
+      "spectrum_largest_local_peaks": [
+        {
+          "omega_bin": 1.0471975511965979,
+          "power_relative_to_primary": 1.0
+        },
+        {
+          "omega_bin": 3.1206487025658616,
+          "power_relative_to_primary": 1.5700969811731148e-05
+        },
+        {
+          "omega_bin": 5.215043804959057,
+          "power_relative_to_primary": 1.3840120489502468e-08
+        },
+        {
+          "omega_bin": 7.309438907352252,
+          "power_relative_to_primary": 1.5557320531573726e-11
+        },
+        {
+          "omega_bin": 9.382890058721516,
+          "power_relative_to_primary": 2.924117719013112e-14
+        }
+      ],
+      "crossing_fit_intercept": 1.5057933218572501,
+      "trajectory_file": "A0p8_h0p050.npz"
+    },
+    {
+      "case": "A0p8_h0p025",
+      "amplitude": 0.8,
+      "h": 0.025,
+      "horizon": 300.0,
+      "steps": 12000,
+      "continuous_omega": 1.0434278579388028,
+      "continuous_action": 0.35281106226108244,
+      "omega_phase_weighted": 1.0433630213863503,
+      "omega_crossing": 1.0433630213864042,
+      "omega_fft_interpolated": 1.0430892458447765,
+      "fft_resolution_omega": 0.020943951023931952,
+      "omega_error_signed": -6.483655245248521e-05,
+      "omega_error_absolute": 6.483655245248521e-05,
+      "omega_estimators_disagreement": 5.395683899678261e-14,
+      "omega_first_second_window_difference": 1.2723155862204294e-13,
+      "rotation_number_per_step": 0.004151409557323314,
+      "crossing_count": 50,
+      "max_energy_change_absolute": 7.3278829164635795e-06,
+      "energy_peak_to_peak": 9.035219171005249e-06,
+      "max_energy_change_relative": 2.030109407264954e-05,
+      "end_energy_change": -3.2552082979142583e-06,
+      "max_action_change_absolute": 7.022896103603404e-06,
+      "max_action_change_relative": 1.9905543943535467e-05,
+      "end_action_change": -3.1197257872039863e-06,
+      "max_implicit_residual": 4.440892098500626e-16,
+      "max_sampled_canonical_defect": 4.440892098500626e-16,
+      "sampled_canonical_steps": 25,
+      "action_interpolation_check_error": 3.3306690738754696e-16,
+      "finite_nonresonance_cutoff": 128,
+      "finite_detuning_min": 0.004151409557323314,
+      "finite_detuning_witness_order": 1,
+      "spectrum_largest_local_peaks": [
+        {
+          "omega_bin": 1.0471975511965979,
+          "power_relative_to_primary": 1.0
+        },
+        {
+          "omega_bin": 3.1206487025658616,
+          "power_relative_to_primary": 1.5022620311387786e-05
+        },
+        {
+          "omega_bin": 5.215043804959057,
+          "power_relative_to_primary": 1.349241914932383e-08
+        },
+        {
+          "omega_bin": 7.309438907352252,
+          "power_relative_to_primary": 1.5988477186637935e-11
+        },
+        {
+          "omega_bin": 9.382890058721516,
+          "power_relative_to_primary": 2.647006989651282e-14
+        }
+      ],
+      "crossing_fit_intercept": 1.50551274542432,
+      "trajectory_file": "A0p8_h0p025.npz"
+    },
+    {
+      "case": "A1p0_h0p100",
+      "amplitude": 1.0,
+      "h": 0.1,
+      "horizon": 300.0,
+      "steps": 3000,
+      "continuous_omega": 1.0645135172410864,
+      "continuous_action": 0.5795399491541672,
+      "omega_phase_weighted": 1.0633905833149973,
+      "omega_crossing": 1.063390583362219,
+      "omega_fft_interpolated": 1.063078758231461,
+      "fft_resolution_omega": 0.020943951023931952,
+      "omega_error_signed": -0.001122933926089198,
+      "omega_error_absolute": 0.001122933926089198,
+      "omega_estimators_disagreement": 4.722178204019656e-11,
+      "omega_first_second_window_difference": 2.4784618801731995e-12,
+      "rotation_number_per_step": 0.01692438677719558,
+      "crossing_count": 51,
+      "max_energy_change_absolute": 0.00030760039113664206,
+      "energy_peak_to_peak": 0.00038013928314584167,
+      "max_energy_change_relative": 0.0005126673185610702,
+      "end_energy_change": -0.0002811086567893195,
+      "max_action_change_absolute": 0.00028896197896310927,
+      "max_action_change_relative": 0.0004986057982453952,
+      "end_action_change": -0.0002640751948317366,
+      "max_implicit_residual": 1.2212453270876722e-15,
+      "max_sampled_canonical_defect": 4.440892098500626e-16,
+      "sampled_canonical_steps": 25,
+      "action_interpolation_check_error": 4.440892098500626e-16,
+      "finite_nonresonance_cutoff": 128,
+      "finite_detuning_min": 0.0014611801454609274,
+      "finite_detuning_witness_order": 59,
+      "spectrum_largest_local_peaks": [
+        {
+          "omega_bin": 1.0681415022205298,
+          "power_relative_to_primary": 1.0
+        },
+        {
+          "omega_bin": 3.183480555637657,
+          "power_relative_to_primary": 4.64193994748807e-05
+        },
+        {
+          "omega_bin": 5.319763560078717,
+          "power_relative_to_primary": 8.479328016671809e-08
+        },
+        {
+          "omega_bin": 7.435102613495844,
+          "power_relative_to_primary": 2.1406868108317226e-10
+        },
+        {
+          "omega_bin": 9.571385617936903,
+          "power_relative_to_primary": 1.1004443488652887e-12
+        }
+      ],
+      "crossing_fit_intercept": 1.477158395853957,
+      "trajectory_file": "A1p0_h0p100.npz"
+    },
+    {
+      "case": "A1p0_h0p050",
+      "amplitude": 1.0,
+      "h": 0.05,
+      "horizon": 300.0,
+      "steps": 6000,
+      "continuous_omega": 1.0645135172410864,
+      "continuous_action": 0.5795399491541672,
+      "omega_phase_weighted": 1.0642323087476513,
+      "omega_crossing": 1.0642323087392265,
+      "omega_fft_interpolated": 1.063954901632255,
+      "fft_resolution_omega": 0.020943951023931952,
+      "omega_error_signed": -0.00028120849343515886,
+      "omega_error_absolute": 0.00028120849343515886,
+      "omega_estimators_disagreement": 8.424816400065538e-12,
+      "omega_first_second_window_difference": 1.4095391520640987e-12,
+      "rotation_number_per_step": 0.008468891626764442,
+      "crossing_count": 51,
+      "max_energy_change_absolute": 7.701323341002819e-05,
+      "energy_peak_to_peak": 9.503167086888364e-05,
+      "max_energy_change_relative": 0.00012835538901671367,
+      "end_energy_change": -3.595537191602993e-05,
+      "max_action_change_absolute": 7.234615074247497e-05,
+      "max_action_change_relative": 0.00012483375968828976,
+      "end_action_change": -3.377638678792039e-05,
+      "max_implicit_residual": 6.661338147750939e-16,
+      "max_sampled_canonical_defect": 4.440892098500626e-16,
+      "sampled_canonical_steps": 25,
+      "action_interpolation_check_error": 5.551115123125783e-16,
+      "finite_nonresonance_cutoff": 128,
+      "finite_detuning_min": 0.0006707880417958778,
+      "finite_detuning_witness_order": 118,
+      "spectrum_largest_local_peaks": [
+        {
+          "omega_bin": 1.0681415022205298,
+          "power_relative_to_primary": 1.0
+        },
+        {
+          "omega_bin": 3.183480555637657,
+          "power_relative_to_primary": 3.9148112219809466e-05
+        },
+        {
+          "omega_bin": 5.319763560078717,
+          "power_relative_to_primary": 8.004875399039111e-08
+        },
+        {
+          "omega_bin": 7.456046564519776,
+          "power_relative_to_primary": 2.1270264183476766e-10
+        },
+        {
+          "omega_bin": 9.571385617936903,
+          "power_relative_to_primary": 8.385640388341378e-13
+        }
+      ],
+      "crossing_fit_intercept": 1.4759900753248154,
+      "trajectory_file": "A1p0_h0p050.npz"
+    },
+    {
+      "case": "A1p0_h0p025",
+      "amplitude": 1.0,
+      "h": 0.025,
+      "horizon": 300.0,
+      "steps": 12000,
+      "continuous_omega": 1.0645135172410864,
+      "continuous_action": 0.5795399491541672,
+      "omega_phase_weighted": 1.0644431853495164,
+      "omega_crossing": 1.0644431853495726,
+      "omega_fft_interpolated": 1.064176384874833,
+      "fft_resolution_omega": 0.020943951023931952,
+      "omega_error_signed": -7.033189157001907e-05,
+      "omega_error_absolute": 7.033189157001907e-05,
+      "omega_estimators_disagreement": 5.617728504603292e-14,
+      "omega_first_second_window_difference": 1.1741718708435656e-12,
+      "rotation_number_per_step": 0.004235284864721452,
+      "crossing_count": 51,
+      "max_energy_change_absolute": 1.926043891498086e-05,
+      "energy_peak_to_peak": 2.375778604113421e-05,
+      "max_energy_change_relative": 3.2100731524968104e-05,
+      "end_energy_change": -6.430695431824951e-06,
+      "max_action_change_absolute": 1.8093197020507823e-05,
+      "max_action_change_relative": 3.121993064829209e-05,
+      "end_action_change": -6.0409725900489875e-06,
+      "max_implicit_residual": 8.881784197001252e-16,
+      "max_sampled_canonical_defect": 4.440892098500626e-16,
+      "sampled_canonical_steps": 25,
+      "action_interpolation_check_error": 3.3306690738754696e-16,
+      "finite_nonresonance_cutoff": 128,
+      "finite_detuning_min": 0.004235284864721452,
+      "finite_detuning_witness_order": 1,
+      "spectrum_largest_local_peaks": [
+        {
+          "omega_bin": 1.0681415022205298,
+          "power_relative_to_primary": 1.0
+        },
+        {
+          "omega_bin": 3.183480555637657,
+          "power_relative_to_primary": 3.7299383992686345e-05
+        },
+        {
+          "omega_bin": 5.319763560078717,
+          "power_relative_to_primary": 7.767133540356494e-08
+        },
+        {
+          "omega_bin": 7.456046564519776,
+          "power_relative_to_primary": 2.1777198121791038e-10
+        },
+        {
+          "omega_bin": 9.571385617936903,
+          "power_relative_to_primary": 7.420193031272066e-13
+        }
+      ],
+      "crossing_fit_intercept": 1.4756976684439511,
+      "trajectory_file": "A1p0_h0p025.npz"
+    },
+    {
+      "case": "A1p2_h0p100",
+      "amplitude": 1.2,
+      "h": 0.1,
+      "horizon": 300.0,
+      "steps": 3000,
+      "continuous_omega": 1.0877284382760533,
+      "continuous_action": 0.8836303772878521,
+      "omega_phase_weighted": 1.086519797202498,
+      "omega_crossing": 1.086519797395628,
+      "omega_fft_interpolated": 1.0863216814214687,
+      "fft_resolution_omega": 0.020943951023931952,
+      "omega_error_signed": -0.0012086410735552278,
+      "omega_error_absolute": 0.0012086410735552278,
+      "omega_estimators_disagreement": 1.9312995647169373e-10,
+      "omega_first_second_window_difference": 9.090506125630782e-13,
+      "rotation_number_per_step": 0.017292499649198125,
+      "crossing_count": 52,
+      "max_energy_change_absolute": 0.000696776505764829,
+      "energy_peak_to_peak": 0.0008595925241372537,
+      "max_energy_change_relative": 0.0007513549277139719,
+      "end_energy_change": 0.0001345072340876996,
+      "max_action_change_absolute": 0.0006405924741283986,
+      "max_action_change_relative": 0.0007249552421393484,
+      "end_action_change": 0.00012365835287597715,
+      "max_implicit_residual": 4.6629367034256575e-15,
+      "max_sampled_canonical_defect": 4.440892098500626e-16,
+      "sampled_canonical_steps": 25,
+      "action_interpolation_check_error": 5.551115123125783e-16,
+      "finite_nonresonance_cutoff": 128,
+      "finite_detuning_min": 0.0029649796534911843,
+      "finite_detuning_witness_order": 58,
+      "spectrum_largest_local_peaks": [
+        {
+          "omega_bin": 1.0890854532444616,
+          "power_relative_to_primary": 1.0
+        },
+        {
+          "omega_bin": 3.267256359733385,
+          "power_relative_to_primary": 9.036361129762926e-05
+        },
+        {
+          "omega_bin": 5.424483315198376,
+          "power_relative_to_primary": 2.780754927594697e-07
+        },
+        {
+          "omega_bin": 7.602654221687301,
+          "power_relative_to_primary": 1.9411099126756898e-09
+        },
+        {
+          "omega_bin": 9.780825128176224,
+          "power_relative_to_primary": 1.5573695358432434e-11
+        }
+      ],
+      "crossing_fit_intercept": 1.4457135163858843,
+      "trajectory_file": "A1p2_h0p100.npz"
+    },
+    {
+      "case": "A1p2_h0p050",
+      "amplitude": 1.2,
+      "h": 0.05,
+      "horizon": 300.0,
+      "steps": 6000,
+      "continuous_omega": 1.0877284382760533,
+      "continuous_action": 0.8836303772878521,
+      "omega_phase_weighted": 1.0874257101913751,
+      "omega_crossing": 1.0874257101905156,
+      "omega_fft_interpolated": 1.0872929187541647,
+      "fft_resolution_omega": 0.020943951023931952,
+      "omega_error_signed": -0.00030272808467812773,
+      "omega_error_absolute": 0.00030272808467812773,
+      "omega_estimators_disagreement": 8.595346656647962e-13,
+      "omega_first_second_window_difference": 2.6911806116913795e-13,
+      "rotation_number_per_step": 0.00865345885110861,
+      "crossing_count": 52,
+      "max_energy_change_absolute": 0.00017440153531866898,
+      "energy_peak_to_peak": 0.00021484989522480014,
+      "max_energy_change_relative": 0.0001880623871189926,
+      "end_energy_change": 3.52094356173005e-05,
+      "max_action_change_absolute": 0.0001603363627162846,
+      "max_action_change_relative": 0.00018145184551985282,
+      "end_action_change": 3.2369659801467776e-05,
+      "max_implicit_residual": 6.661338147750939e-16,
+      "max_sampled_canonical_defect": 4.440892098500626e-16,
+      "sampled_canonical_steps": 25,
+      "action_interpolation_check_error": 5.551115123125783e-16,
+      "finite_nonresonance_cutoff": 128,
+      "finite_detuning_min": 0.003801226728598728,
+      "finite_detuning_witness_order": 116,
+      "spectrum_largest_local_peaks": [
+        {
+          "omega_bin": 1.0890854532444616,
+          "power_relative_to_primary": 1.0
+        },
+        {
+          "omega_bin": 3.267256359733385,
+          "power_relative_to_primary": 9.629987024837086e-05
+        },
+        {
+          "omega_bin": 5.445427266222309,
+          "power_relative_to_primary": 2.5825609826001293e-07
+        },
+        {
+          "omega_bin": 7.602654221687301,
+          "power_relative_to_primary": 1.394578643991267e-09
+        },
+        {
+          "omega_bin": 9.780825128176224,
+          "power_relative_to_primary": 1.23599173797911e-11
+        }
+      ],
+      "crossing_fit_intercept": 1.4445090931964897,
+      "trajectory_file": "A1p2_h0p050.npz"
+    },
+    {
+      "case": "A1p2_h0p025",
+      "amplitude": 1.2,
+      "h": 0.025,
+      "horizon": 300.0,
+      "steps": 12000,
+      "continuous_omega": 1.0877284382760533,
+      "continuous_action": 0.8836303772878521,
+      "omega_phase_weighted": 1.0876527206632056,
+      "omega_crossing": 1.0876527206629025,
+      "omega_fft_interpolated": 1.0875373438865843,
+      "fft_resolution_omega": 0.020943951023931952,
+      "omega_error_signed": -7.571761284763667e-05,
+      "omega_error_absolute": 7.571761284763667e-05,
+      "omega_estimators_disagreement": 3.0309088572266774e-13,
+      "omega_first_second_window_difference": 1.7541523789077473e-13,
+      "rotation_number_per_step": 0.0043276326715224415,
+      "crossing_count": 52,
+      "max_energy_change_absolute": 4.361350215387194e-05,
+      "energy_peak_to_peak": 5.370961074280256e-05,
+      "max_energy_change_relative": 4.702974266074873e-05,
+      "end_energy_change": 7.402679365053899e-06,
+      "max_action_change_absolute": 4.009599825816057e-05,
+      "max_action_change_relative": 4.537643712660511e-05,
+      "end_action_change": 6.805630438755372e-06,
+      "max_implicit_residual": 6.661338147750939e-16,
+      "max_sampled_canonical_defect": 3.330669073875469e-16,
+      "sampled_canonical_steps": 25,
+      "action_interpolation_check_error": 4.440892098500626e-16,
+      "finite_nonresonance_cutoff": 128,
+      "finite_detuning_min": 0.0043276326715224415,
+      "finite_detuning_witness_order": 1,
+      "spectrum_largest_local_peaks": [
+        {
+          "omega_bin": 1.0890854532444616,
+          "power_relative_to_primary": 1.0
+        },
+        {
+          "omega_bin": 3.267256359733385,
+          "power_relative_to_primary": 9.723553626589954e-05
+        },
+        {
+          "omega_bin": 5.445427266222309,
+          "power_relative_to_primary": 2.679808135123236e-07
+        },
+        {
+          "omega_bin": 7.623598172711231,
+          "power_relative_to_primary": 1.3069228499810188e-09
+        },
+        {
+          "omega_bin": 9.780825128176224,
+          "power_relative_to_primary": 1.0964022464271267e-11
+        }
+      ],
+      "crossing_fit_intercept": 1.4442076013037144,
+      "trajectory_file": "A1p2_h0p025.npz"
+    }
+  ],
+  "step_sensitivity": [
+    {
+      "amplitude": 0.2,
+      "coarse_h": 0.1,
+      "fine_h": 0.05,
+      "observed_frequency_error_order": 1.9983360547574072,
+      "energy_excursion_reduction_factor": 3.9925504888280408,
+      "action_excursion_reduction_factor": 3.992550576375427
+    },
+    {
+      "amplitude": 0.2,
+      "coarse_h": 0.05,
+      "fine_h": 0.025,
+      "observed_frequency_error_order": 1.9995835913783917,
+      "energy_excursion_reduction_factor": 3.9981341883984185,
+      "action_excursion_reduction_factor": 3.998134210391056
+    },
+    {
+      "amplitude": 0.4,
+      "coarse_h": 0.1,
+      "fine_h": 0.05,
+      "observed_frequency_error_order": 1.998214283880618,
+      "energy_excursion_reduction_factor": 3.9926718927122993,
+      "action_excursion_reduction_factor": 3.9926731998234035
+    },
+    {
+      "amplitude": 0.4,
+      "coarse_h": 0.05,
+      "fine_h": 0.025,
+      "observed_frequency_error_order": 1.9995530636335506,
+      "energy_excursion_reduction_factor": 3.9981635730866283,
+      "action_excursion_reduction_factor": 3.9981639014601416
+    },
+    {
+      "amplitude": 0.6,
+      "coarse_h": 0.1,
+      "fine_h": 0.05,
+      "observed_frequency_error_order": 1.998031789491468,
+      "energy_excursion_reduction_factor": 3.992947176614,
+      "action_excursion_reduction_factor": 3.992953128431909
+    },
+    {
+      "amplitude": 0.6,
+      "coarse_h": 0.05,
+      "fine_h": 0.025,
+      "observed_frequency_error_order": 1.9995073064627091,
+      "energy_excursion_reduction_factor": 3.9982027523425763,
+      "action_excursion_reduction_factor": 3.9982042455964075
+    },
+    {
+      "amplitude": 0.8,
+      "coarse_h": 0.1,
+      "fine_h": 0.05,
+      "observed_frequency_error_order": 1.9978090383429272,
+      "energy_excursion_reduction_factor": 3.993378735483601,
+      "action_excursion_reduction_factor": 3.9933951821564526
+    },
+    {
+      "amplitude": 0.8,
+      "coarse_h": 0.05,
+      "fine_h": 0.025,
+      "observed_frequency_error_order": 1.999451449304198,
+      "energy_excursion_reduction_factor": 3.998336422398571,
+      "action_excursion_reduction_factor": 3.998340547551408
+    },
+    {
+      "amplitude": 1.0,
+      "coarse_h": 0.1,
+      "fine_h": 0.05,
+      "observed_frequency_error_order": 1.9975609670577774,
+      "energy_excursion_reduction_factor": 3.994123834522551,
+      "action_excursion_reduction_factor": 3.9941583069388864
+    },
+    {
+      "amplitude": 1.0,
+      "coarse_h": 0.05,
+      "fine_h": 0.025,
+      "observed_frequency_error_order": 1.9993892451782755,
+      "energy_excursion_reduction_factor": 3.998519127730103,
+      "action_excursion_reduction_factor": 3.9985277704362514
+    },
+    {
+      "amplitude": 1.2,
+      "coarse_h": 0.1,
+      "fine_h": 0.05,
+      "observed_frequency_error_order": 1.9972914473184917,
+      "energy_excursion_reduction_factor": 3.995242957532851,
+      "action_excursion_reduction_factor": 3.995303768128555
+    },
+    {
+      "amplitude": 1.2,
+      "coarse_h": 0.05,
+      "fine_h": 0.025,
+      "observed_frequency_error_order": 1.9993216900585282,
+      "energy_excursion_reduction_factor": 3.998796856610284,
+      "action_excursion_reduction_factor": 3.998812093016091
+    }
+  ],
+  "summary": {
+    "case_count": 18,
+    "total_steps": 126000,
+    "elapsed_seconds": 8.326450600000499,
+    "sampled_twist_min": 0.06893392996643463,
+    "sampled_twist_max": 0.14610400609557656,
+    "maximum_twist_refinement_change": 7.225335607596861e-10,
+    "maximum_period_independent_check_error": 4.3520742565306136e-14,
+    "maximum_implicit_residual": 1.9484414082171497e-14,
+    "maximum_sampled_canonical_defect": 4.440892098500626e-16,
+    "maximum_phase_crossing_frequency_disagreement": 1.9312995647169373e-10,
+    "maximum_first_second_window_frequency_difference": 2.4784618801731995e-12,
+    "observed_frequency_order_min": 1.9972914473184917,
+    "observed_frequency_order_max": 1.9995835913783917
+  },
+  "limitations": [
+    "Finite-time bounded trajectories and Fourier peaks do not prove an invariant circle or irrational rotation.",
+    "Sampled positive twist is not a rigorous lower bound on an interval or an analytic neighborhood.",
+    "The cutoff-128 detuning check is not an infinite-order Diophantine condition or an error-certified bound.",
+    "The action reported along discrete trajectories is the original continuous Hamiltonian action evaluated at the numerical energy, not an exactly conserved discrete action.",
+    "No candidate invariant-circle embedding, posterior KAM constants, or rigorous torus certificate is computed.",
+    "The conservative one-degree-of-freedom result does not apply to the full driven, damped, contact-coupled robotic model."
+  ],
+  "environment": {
+    "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26100-SP0",
+    "numpy": "1.26.4",
+    "scipy": "1.13.1"
+  }
+}

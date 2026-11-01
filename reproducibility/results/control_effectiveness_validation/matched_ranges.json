@@ -1,0 +1,8 @@
+{
+  "max_abs_u": 0.052014041970105215,
+  "max_abs_compensation": 0.000227571372936771,
+  "max_modal_radius": 0.27708468204438635,
+  "max_abs_theta": 0.10931526413476594,
+  "max_implicit_residual": 1.0690233420707074e-16,
+  "raw_input_saturation_fraction": 0.0
+}

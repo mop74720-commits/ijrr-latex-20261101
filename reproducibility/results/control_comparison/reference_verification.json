@@ -1,0 +1,12 @@
+{
+  "all_40_open_tolerance_state_gap": 1.0030126035287523e-11,
+  "all_40_continuous_feedback_tolerance_state_gap": 5.716542690603621e-13,
+  "reference_calls": {
+    "target": 21854,
+    "open_loop": 43997,
+    "continuous_feedback": 29048
+  },
+  "grid_max_tau_gap": 0.0,
+  "seconds_for_references_and_rollouts": 30.47831920000317,
+  "closed_loop_comparison_scope": "Errors to continuous feedback combine sample-and-hold and integrator effects; open-loop data determine discretization orders."
+}

@@ -1,0 +1,179 @@
+{
+  "independent_midpoint_checks": [
+    {
+      "h": 0.009999813692010036,
+      "u": 0.00043656688044640957,
+      "independent_state_gap": 1.3877787807814457e-17,
+      "midpoint_residual": 1.5612511283791264e-17,
+      "independent_residual": 3.537209587733958e-18
+    },
+    {
+      "h": 0.009999813692010036,
+      "u": 0.12993706562887852,
+      "independent_state_gap": 0.0,
+      "midpoint_residual": 4.228388472693467e-18,
+      "independent_residual": 4.228388472693467e-18
+    },
+    {
+      "h": 0.009999813692010036,
+      "u": 0.09318454666071674,
+      "independent_state_gap": 6.938893903907228e-18,
+      "midpoint_residual": 7.806255641895632e-18,
+      "independent_residual": 5.692061405548898e-18
+    },
+    {
+      "h": 0.009999813692010036,
+      "u": -0.0707441310685338,
+      "independent_state_gap": 2.7755575615628914e-17,
+      "midpoint_residual": 2.4069288229178198e-17,
+      "independent_residual": 3.686287386450715e-18
+    },
+    {
+      "h": 0.009999813692010036,
+      "u": 0.15235134471486161,
+      "independent_state_gap": 1.3877787807814457e-17,
+      "midpoint_residual": 1.3877787807814457e-17,
+      "independent_residual": 1.2576745200831851e-17
+    },
+    {
+      "h": 0.009999813692010036,
+      "u": -0.14242794325741512,
+      "independent_state_gap": 1.3877787807814457e-17,
+      "midpoint_residual": 8.40256683676266e-18,
+      "independent_residual": 5.4752209710517974e-18
+    },
+    {
+      "h": 0.009999813692010036,
+      "u": -0.0599742938368765,
+      "independent_state_gap": 2.7755575615628914e-17,
+      "midpoint_residual": 2.4069288229178198e-17,
+      "independent_residual": 3.686287386450715e-18
+    },
+    {
+      "h": 0.009999813692010036,
+      "u": 0.135376784028098,
+      "independent_state_gap": 1.3877787807814457e-17,
+      "midpoint_residual": 1.9081958235744878e-17,
+      "independent_residual": 5.204170427930421e-18
+    },
+    {
+      "h": 0.03999925476804014,
+      "u": 0.07576318661675346,
+      "independent_state_gap": 6.938893903907228e-18,
+      "midpoint_residual": 6.938893903907228e-18,
+      "independent_residual": 5.204170427930421e-18
+    },
+    {
+      "h": 0.03999925476804014,
+      "u": 0.018242843115849616,
+      "independent_state_gap": 3.469446951953614e-18,
+      "midpoint_residual": 3.469446951953614e-18,
+      "independent_residual": 1.3010426069826053e-18
+    },
+    {
+      "h": 0.03999925476804014,
+      "u": 0.009028467310768784,
+      "independent_state_gap": 1.3877787807814457e-17,
+      "midpoint_residual": 1.1275702593849246e-17,
+      "independent_residual": 3.1712913545201005e-18
+    },
+    {
+      "h": 0.03999925476804014,
+      "u": -0.029866898215274607,
+      "independent_state_gap": 6.938893903907228e-18,
+      "midpoint_residual": 6.938893903907228e-18,
+      "independent_residual": 6.938893903907228e-18
+    },
+    {
+      "h": 0.03999925476804014,
+      "u": -0.13736673254192078,
+      "independent_state_gap": 2.7755575615628914e-17,
+      "midpoint_residual": 2.0816681711721685e-17,
+      "independent_residual": 6.938893903907228e-18
+    },
+    {
+      "h": 0.03999925476804014,
+      "u": 0.18621913881980462,
+      "independent_state_gap": 3.2526065174565133e-19,
+      "midpoint_residual": 4.9873299934333204e-18,
+      "independent_residual": 4.9873299934333204e-18
+    },
+    {
+      "h": 0.03999925476804014,
+      "u": 0.15217263174736717,
+      "independent_state_gap": 0.0,
+      "midpoint_residual": 6.938893903907228e-18,
+      "independent_residual": 6.938893903907228e-18
+    },
+    {
+      "h": 0.03999925476804014,
+      "u": 0.1362915543872904,
+      "independent_state_gap": 1.3877787807814457e-17,
+      "midpoint_residual": 1.0408340855860843e-17,
+      "independent_residual": 3.469446951953614e-18
+    },
+    {
+      "h": 0.1,
+      "u": -0.17729973251722875,
+      "independent_state_gap": 0.0,
+      "midpoint_residual": 6.938893903907228e-18,
+      "independent_residual": 6.938893903907228e-18
+    },
+    {
+      "h": 0.1,
+      "u": -0.021659659476109816,
+      "independent_state_gap": 6.938893903907228e-18,
+      "midpoint_residual": 6.938893903907228e-18,
+      "independent_residual": 3.469446951953614e-18
+    },
+    {
+      "h": 0.1,
+      "u": 0.14480751523724172,
+      "independent_state_gap": 0.0,
+      "midpoint_residual": 6.938893903907228e-18,
+      "independent_residual": 6.938893903907228e-18
+    },
+    {
+      "h": 0.1,
+      "u": 0.17855554176042865,
+      "independent_state_gap": 2.7755575615628914e-17,
+      "midpoint_residual": 1.5612511283791264e-17,
+      "independent_residual": 1.214306433183765e-17
+    },
+    {
+      "h": 0.1,
+      "u": 0.016275497824194934,
+      "independent_state_gap": 2.7755575615628914e-17,
+      "midpoint_residual": 2.7755575615628914e-17,
+      "independent_residual": 1.3877787807814457e-17
+    },
+    {
+      "h": 0.1,
+      "u": 0.0282957743472311,
+      "independent_state_gap": 0.0,
+      "midpoint_residual": 6.938893903907228e-18,
+      "independent_residual": 6.938893903907228e-18
+    },
+    {
+      "h": 0.1,
+      "u": -0.004859046142230428,
+      "independent_state_gap": 1.3877787807814457e-17,
+      "midpoint_residual": 1.0408340855860843e-17,
+      "independent_residual": 6.938893903907228e-18
+    },
+    {
+      "h": 0.1,
+      "u": -0.07899574663295446,
+      "independent_state_gap": 1.3877787807814457e-17,
+      "midpoint_residual": 1.496198998029996e-17,
+      "independent_residual": 1.734723475976807e-18
+    }
+  ],
+  "maximum_fixed_u_jacobian_gap": 2.2536754972334868e-11,
+  "maximum_feedback_jacobian_gap": 3.193514550026144e-11,
+  "fixed_u_max_symplectic_defect": 4.710283323315494e-16,
+  "feedback_min_symplectic_defect": 0.005400212540058217,
+  "feedback_max_symplectic_defect": 0.02105314308090153,
+  "input_potential_gradient": "Analytic gradient -u*d*cos(d.X); exact kick follows type-2 generating function X.P-s*u*sin(d.X).",
+  "scope": "Frozen external input and full start-sampled feedback are explicitly distinguished."
+}

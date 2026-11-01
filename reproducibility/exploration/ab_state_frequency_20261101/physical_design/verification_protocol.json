@@ -1,0 +1,20 @@
+{
+  "duration_s": 16.0,
+  "output_dt_s": 0.002,
+  "solver": "DOP853",
+  "rtol": 1e-10,
+  "atol": 1e-12,
+  "initial_selection": "Highest original exact energy in seed17 test initials, independent of neural results.",
+  "seed": 17,
+  "initial_index": 4,
+  "modes_compared": [
+    2,
+    8
+  ],
+  "fields_T": [
+    0.03,
+    0.06,
+    0.12
+  ],
+  "scope": "Finite-element modal-truncation sensitivity only. Not geometric/constitutive validation or a substitute for full FE convergence."
+}

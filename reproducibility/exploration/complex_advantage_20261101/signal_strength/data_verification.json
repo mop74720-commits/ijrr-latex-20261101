@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "seed": 17,
+      "angles": {
+        "train": 0.14523831033338536,
+        "val": 0.12969313217771317,
+        "test_teacher": 0.1689160215285414,
+        "test_continuous_reference": 0.16890812938137006
+      },
+      "train_points": 3432,
+      "val_points": 2284,
+      "new_nonlinear_vs_scaled_old_max_gap": 0.00043013619341441406,
+      "train_noise_vs_validation_noise_prefix_differ": true
+    },
+    {
+      "seed": 43,
+      "angles": {
+        "train": 0.18016886065310964,
+        "val": 0.12996798836435425,
+        "test_teacher": 0.18757280475445598,
+        "test_continuous_reference": 0.18756672296430255
+      },
+      "train_points": 3432,
+      "val_points": 2284,
+      "new_nonlinear_vs_scaled_old_max_gap": 0.0007640070804294692,
+      "train_noise_vs_validation_noise_prefix_differ": true
+    },
+    {
+      "seed": 91,
+      "angles": {
+        "train": 0.16341821804002676,
+        "val": 0.15915613076177484,
+        "test_teacher": 0.1693471853765412,
+        "test_continuous_reference": 0.16935330377919938
+      },
+      "train_points": 3432,
+      "val_points": 2284,
+      "new_nonlinear_vs_scaled_old_max_gap": 0.0005788819731724418,
+      "train_noise_vs_validation_noise_prefix_differ": true
+    }
+  ],
+  "protection": {
+    "files_checked": 453,
+    "all_unchanged": true,
+    "manifest_sha256": "0b1cf2432f9b654ba5b359ab035d5abfff2698152515475014e8678dcef6089c"
+  }
+}

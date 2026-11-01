@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-01",
+  "scope": "Same conservative two-mode beam; separate prescribed-force integration, actual sampled feedback, and frozen common-input integration.",
+  "dimensions": {
+    "N": 2,
+    "q": "R2",
+    "p": "R2",
+    "z": "R4",
+    "M": "diag(1/nu), 2x2",
+    "physical_input": "scalar magnetic field ratio u=By/B0",
+    "state_increment": "R4; kick=(0,h*u*d*cos(d.q))"
+  },
+  "base_h_tau": 0.009999813692010036,
+  "base_steps": 9128,
+  "h_multipliers": [
+    4.0,
+    2.0,
+    1.0,
+    0.5,
+    0.25
+  ],
+  "common_stride_h0": 8,
+  "duration_seconds": 7.994744909130721,
+  "prescribed_initials": "Zero plus first original test initial from seeds17,43,91; preselected without inspecting outcomes",
+  "held_feedback_initials": "Zero for all original5 model seeds; none is one reused deterministic baseline",
+  "policies": [
+    "none",
+    "GR",
+    "GC"
+  ],
+  "methods": [
+    "I",
+    "II",
+    "III"
+  ],
+  "generator_G": "Shares I only after original320 independent generating-function equivalence checks; no duplicated statistical unit",
+  "branch_A": "Smooth prescribed original u_ref(tau). Each discrete step samples u at its temporal midpoint. Independent continuous DOP853 flow.",
+  "branch_B": "Actual state feedback sampled at start and held; compare to own continuous feedback flow. Reuse old stored zero-initial levels2,1,.5,.25, recompute errors against the current shared tight flow. Only4h0 newly simulated.",
+  "branch_C": "For each h freeze u_k from the own continuous feedback trajectory sampled at t_k; all I/II/III share that same exogenous sequence. Compare to high-order continuous flow of exactly that held sequence. This branch is not an additional closed-loop implementation.",
+  "held_reference": "Independent fixed-step DOP853 RK order8, two substeps per hold; four-substep refinement for every case. AdaptiveDOP853 and linear-expm single-step checks before running.",
+  "scalar_control": {
+    "N": 1,
+    "mass": 2.0,
+    "stiffness": 1.0,
+    "forcing": ".05*sin(.7*t)",
+    "h": [
+      0.2,
+      0.1,
+      0.05,
+      0.025,
+      0.0125
+    ],
+    "horizon": 5.0,
+    "initial": [
+      0.1,
+      0.2
+    ],
+    "reference": "Augmented4x4 linear-expm exact forcing"
+  },
+  "negative_control": "Scalar post-step momentum increment .05*sin(.7*t_mid) without h, versus same fixed continuous forcing. Inconsistent example only, never proposed as controller. It can remain symplectic yet fail convergence.",
+  "structure": "Fixed exogenous u map and full feedback Jacobian differentiated separately at zero and first test initial per model; local defect shrinking withh is not strict symplecticity at fixedh.",
+  "reporting": "Endpoint and whole-path state/tip errors, h-halving observed orders, hold-reference refinement and all signs. No time-point pseudoreplication or model/gain selection.",
+  "inputs": [
+    {
+      "path": "results/learning/inputs/reference_model_spec.json",
+      "sha256": "fd18c090c9f58dac7a5813a5445b7f14c5409ec767c5cb9a4ec38dd2e883ae8c"
+    },
+    {
+      "path": "results/learning/data/seed_17.npz",
+      "sha256": "f02a36438e9d23894a4f7261b652f00d5d048b427f18a4433fb602791aec6c86"
+    },
+    {
+      "path": "results/learning/data/seed_43.npz",
+      "sha256": "4283c88184af6ea1e39c96572b6d1891adfd23f339a813f329d6d82cdbd8e40a"
+    },
+    {
+      "path": "results/learning/data/seed_91.npz",
+      "sha256": "d00061656bcf5ac2d77dfcd983de1bf211e2dd8bea899a32488dac34cce4864f"
+    },
+    {
+      "path": "results/learning/data/seed_137.npz",
+      "sha256": "e40c692789963e6b75de6e8e1bdac288505b589275baa80e8145178992b737cf"
+    },
+    {
+      "path": "results/learning/data/seed_211.npz",
+      "sha256": "e183c94bae91648c4d9d4695d0cc199b710cbba83b91897f83f3517c3fd853c2"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_17/GR_weights.npz",
+      "sha256": "c1dad775b3d9f6eb9e79d074f2fdae16b97031b4e5cfcb82cbdaa7fb64648822"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_17/GC_weights.npz",
+      "sha256": "3741547f85a25bd7ba8845dc16c8da783ea85dd8bfcb4ffbe6333e6b45cf84de"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_43/GR_weights.npz",
+      "sha256": "c4f3f3c1df9c8462d84ff03a07841e3a39e3bb42458fba36721627fda26b35b5"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_43/GC_weights.npz",
+      "sha256": "8791a66a5a26f132c4b92ed6176498353d0bdc85b07b9e3c3af522a605a8c107"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_91/GR_weights.npz",
+      "sha256": "039463690996f6979ee5950b8ae59ce6a3d1ad5cd6aa70f1ceeb032d4e8d8635"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_91/GC_weights.npz",
+      "sha256": "85cfb42e8a196ce52dd8bc13b588b738b9bce0cc618df483999d39a99e7bc578"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_137/GR_weights.npz",
+      "sha256": "a68f8c67cd99a9f054751ec88e0776f00c5d84baef5a410b08df0c1407ad71fc"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_137/GC_weights.npz",
+      "sha256": "dbf6baafd07b5c93ed8f6ee5182bfc1f31f20be890e59fd66e21f711ab4c19fe"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_211/GR_weights.npz",
+      "sha256": "0d3141edd9a4a61bbfc09f9b571aef22ebe46e4961dfe1597c4eb130df790bd3"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_211/GC_weights.npz",
+      "sha256": "8ba2ff42d19683c54d36a8af03bf2110a3ddc0ecc76910be4cf40270f01016ed"
+    },
+    {
+      "path": "code/control_comparison.py",
+      "sha256": "bcab9128e397505a5594c5bc6e4620973e792ca9191f6cf235224536a3784f0b"
+    },
+    {
+      "path": "code/neural_physics_refinement.py",
+      "sha256": "0eea7c635d7ace0073170e48a2eab69db6a77129f46e08e59d3f6b872e271221"
+    },
+    {
+      "path": "code/train_neural_hnn.py",
+      "sha256": "3dadee3db2a884eb93e1b8ca75fa4f0496890095dbd82ac9880e9b7e2acf92e5"
+    },
+    {
+      "path": "code/learned_residual_control.py",
+      "sha256": "4d6b186c7c828c72b69273655e28c55130468b7d817880d963a380c68f24f44b"
+    },
+    {
+      "path": "code/controlled_equation36_validation.py",
+      "sha256": "e0991dc6c75598caff181dac3f2606287525a9e35632bb7edd6b7c2f21baac31"
+    }
+  ]
+}

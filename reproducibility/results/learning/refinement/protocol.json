@@ -1,0 +1,58 @@
+{
+  "seed": 17,
+  "models": [
+    "teacher",
+    "R",
+    "C",
+    "GR",
+    "GC"
+  ],
+  "step_refinement_factors": [
+    1,
+    2,
+    4
+  ],
+  "initial_states": "the same eight fixed held-out states from seed_17.npz",
+  "prediction_duration_s": 40.00000000000001,
+  "retraining": false,
+  "reference": "the unchanged stored DOP853 reference at identical output times",
+  "original_step_tau": 0.009999813692010036,
+  "original_nsteps": 45670,
+  "sample_alignment": "nsteps and sample_stride are multiplied by the refinement factor; step is divided by it; include final step",
+  "implicit_solver": "linearly preconditioned fixed-point iteration, maximum 30 iterations; same tolerance as baseline",
+  "scope": "the declared constant-mass conservative example only",
+  "command": "\"D:\\Apps\\Miniconda3\\python.exe\" -B \"E:\\1030\\IJRR_1025_20261030\\code\\learning_step_refinement.py\"",
+  "code_sha256": "37b860ab5731fcb51c10bf65f83927cdf089de715c3af60e072f8653be575384",
+  "baseline_code_sha256": "d566a7a40a5cef8932a728f8aa1e98b5df74d63d020bfc7c060b6023f84e2db5",
+  "inputs": [
+    {
+      "role": "fixed test data and independent reference",
+      "path": "E:/1030/IJRR_1025_20261030/results/learning/data/seed_17.npz",
+      "sha256": "f02a36438e9d23894a4f7261b652f00d5d048b427f18a4433fb602791aec6c86"
+    },
+    {
+      "role": "unchanged learned coefficients",
+      "model": "R",
+      "path": "E:/1030/IJRR_1025_20261030/results/learning/fits/seed_17_R.npz",
+      "sha256": "c451942f9c41f611cb88f18065b88b1e372298669d129784d97ba15b525b6faa"
+    },
+    {
+      "role": "unchanged learned coefficients",
+      "model": "C",
+      "path": "E:/1030/IJRR_1025_20261030/results/learning/fits/seed_17_C.npz",
+      "sha256": "cb0a96f93433068f9052ed3e8a2f2d4cf889e391543818159c94fd28f47218c6"
+    },
+    {
+      "role": "unchanged learned coefficients",
+      "model": "GR",
+      "path": "E:/1030/IJRR_1025_20261030/results/learning/fits/seed_17_GR.npz",
+      "sha256": "7f52a6d7e307c62c529d620239ce73ec4aa0f8915a93d31370a9026d1247bcc9"
+    },
+    {
+      "role": "unchanged learned coefficients",
+      "model": "GC",
+      "path": "E:/1030/IJRR_1025_20261030/results/learning/fits/seed_17_GC.npz",
+      "sha256": "2968879f6788cc71b56873016b4dd00debed42877bb23202f82b3d670bd9cea1"
+    }
+  ]
+}

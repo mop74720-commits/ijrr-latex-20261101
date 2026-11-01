@@ -1,0 +1,89 @@
+{
+  "midpoint_independent_4d_checks": [
+    {
+      "h": 0.01,
+      "radii": [
+        0.05,
+        0.05
+      ],
+      "independent_root_residual": 3.469446951953614e-18,
+      "state_max_abs_difference": 6.938893903907228e-18
+    },
+    {
+      "h": 0.01,
+      "radii": [
+        0.12,
+        0.1
+      ],
+      "independent_root_residual": 5.4752209710517974e-18,
+      "state_max_abs_difference": 6.938893903907228e-18
+    },
+    {
+      "h": 0.01,
+      "radii": [
+        0.2,
+        0.16
+      ],
+      "independent_root_residual": 1.214306433183765e-17,
+      "state_max_abs_difference": 0.0
+    },
+    {
+      "h": 0.05,
+      "radii": [
+        0.05,
+        0.05
+      ],
+      "independent_root_residual": 1.734723475976807e-18,
+      "state_max_abs_difference": 1.734723475976807e-18
+    },
+    {
+      "h": 0.05,
+      "radii": [
+        0.12,
+        0.1
+      ],
+      "independent_root_residual": 6.5052130349130266e-18,
+      "state_max_abs_difference": 5.204170427930421e-18
+    },
+    {
+      "h": 0.05,
+      "radii": [
+        0.2,
+        0.16
+      ],
+      "independent_root_residual": 1.3444106938820255e-17,
+      "state_max_abs_difference": 3.469446951953614e-18
+    },
+    {
+      "h": 0.1,
+      "radii": [
+        0.05,
+        0.05
+      ],
+      "independent_root_residual": 1.734723475976807e-18,
+      "state_max_abs_difference": 2.6020852139652106e-18
+    },
+    {
+      "h": 0.1,
+      "radii": [
+        0.12,
+        0.1
+      ],
+      "independent_root_residual": 6.938893903907228e-18,
+      "state_max_abs_difference": 1.3877787807814457e-17
+    },
+    {
+      "h": 0.1,
+      "radii": [
+        0.2,
+        0.16
+      ],
+      "independent_root_residual": 1.3877787807814457e-17,
+      "state_max_abs_difference": 1.0408340855860843e-17
+    }
+  ],
+  "stable_force_vs_direct_max_abs": 6.938893903907228e-18,
+  "stable_potential_vs_direct_max_abs": 1.4120039230729187e-18,
+  "stable_force_series_remainder_bound_abs_theta_le_0p1": 1.6059043836821626e-23,
+  "stable_potential_series_remainder_bound_abs_theta_le_0p1": 1.1470745597729733e-25
+}

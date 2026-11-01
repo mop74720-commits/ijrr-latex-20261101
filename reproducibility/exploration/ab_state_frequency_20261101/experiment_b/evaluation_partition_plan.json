@@ -1,0 +1,78 @@
+{
+  "protocol_sha256": "859075ce2c2f3bc245bfd19c9c43d1ee74d82aac10b533e942321d6f4639b0ac",
+  "numerical_implementation_sha256": "bc63bf5fc8a58324f8985cc3926083344757ae23fc3bc7be13f5dd598cacf823",
+  "prior_completed": [
+    {
+      "level": "B030mT",
+      "seed": 17,
+      "archive_sha256": "66b2335fd312482ab336a83ae9047fad2d1d8cd7c74855884d42ab7efb0bfd5b"
+    },
+    {
+      "level": "B030mT",
+      "seed": 43,
+      "archive_sha256": "15ab45daca592e51f2acc757b853e86c25c2a9c7963b17311dae218fee346078"
+    },
+    {
+      "level": "B030mT",
+      "seed": 91,
+      "archive_sha256": "585326f97881401d3cb1c2d2aed4bef9cfd0df2a5dd6325e6a95ca41afee66bd"
+    }
+  ],
+  "workers": {
+    "0": [
+      {
+        "level": "B030mT",
+        "seed": 137
+      },
+      {
+        "level": "B060mT",
+        "seed": 43
+      },
+      {
+        "level": "B060mT",
+        "seed": 211
+      },
+      {
+        "level": "B120mT",
+        "seed": 91
+      }
+    ],
+    "1": [
+      {
+        "level": "B030mT",
+        "seed": 211
+      },
+      {
+        "level": "B060mT",
+        "seed": 91
+      },
+      {
+        "level": "B120mT",
+        "seed": 17
+      },
+      {
+        "level": "B120mT",
+        "seed": 137
+      }
+    ],
+    "2": [
+      {
+        "level": "B060mT",
+        "seed": 17
+      },
+      {
+        "level": "B060mT",
+        "seed": 137
+      },
+      {
+        "level": "B120mT",
+        "seed": 43
+      },
+      {
+        "level": "B120mT",
+        "seed": 211
+      }
+    ]
+  },
+  "scope": "Disjoint field/seed scheduling only; original numerical evaluator and training/evaluation protocol unchanged. Prior serial queue stopped between completed seeds; one incomplete in-memory flow discarded."
+}

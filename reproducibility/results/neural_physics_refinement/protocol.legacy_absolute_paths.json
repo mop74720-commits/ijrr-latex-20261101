@@ -1,0 +1,237 @@
+{
+  "objective": "Evaluate every saved 10000-update model and a zero-parameter quadratic physical baseline under fixed-weight midpoint step refinement, without assuming any model wins.",
+  "seeds": [
+    17,
+    43,
+    91,
+    137,
+    211
+  ],
+  "models": [
+    "H0",
+    "R",
+    "C",
+    "GR",
+    "GC"
+  ],
+  "step_divisors": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "network_training_updates": 10000,
+  "training": "None; all saved weights remain fixed.",
+  "reference": "Original saved DOP853 nonlinear continuous reference; additionally recompute the full nonlinear Hamiltonian teacher at each matching step.",
+  "grid": "Use all 914 original saved times, including t=0, actual endpoint 15.992993212174294 s; original stride 20, refined stride 20*divisor.",
+  "solver": "Implicit midpoint with the known physical quadratic part solved by its exact Cayley matrix; fixed-point solve for the remaining vector field, float64, fastmath=False.",
+  "stopping_absolute_midpoint_residual": 2e-14,
+  "maximum_iterations": 40,
+  "baseline": "H0=0.5*sum_j nu_j*(X_j^2+Y_j^2); analytic Cayley rotations at each step, plus its exact continuous rotation.",
+  "statistics": "For each trajectory compute RMSE over the same saved times; average eight trajectory RMSEs within seed; report the mean and sample SD (ddof=1) across all five seeds. Paired differences use the same seed. No significance or general superiority claim.",
+  "primary_metrics": [
+    "continuous_tip_rmse_mm",
+    "matched_teacher_tip_rmse_mm",
+    "continuous_state_relative_l2",
+    "matched_teacher_state_relative_l2"
+  ],
+  "secondary_metrics": [
+    "target_energy_drift_relative",
+    "own_energy_drift_relative",
+    "midpoint_residual",
+    "nonlinear_force_to_linear_force_training_L2"
+  ],
+  "verification": "Independent original NumPy field comparison and finite differences; reproduce all 20 original-h saved network trajectories and all five original-h teacher trajectories before accepting summaries.",
+  "retained_outputs": "Common-grid float64 trajectories only, per-trajectory and per-seed CSVs, paired differences, summary JSON, source hashes, solver diagnostics, vector PDF and 300dpi PNG; no internal substep trajectories.",
+  "claim_limits": "Time samples and eight trajectories are not independent training replicates. The common output grid resolves the same stored states at all steps. Fixed-weight refinement does not reduce learned vector-field bias or prove KAM/physical calibration.",
+  "inputs": [
+    {
+      "path": "E:/1030/IJRR_1025_20261030/code/train_neural_hnn.py",
+      "sha256": "3dadee3db2a884eb93e1b8ca75fa4f0496890095dbd82ac9880e9b7e2acf92e5"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/neural_learning_10000/protocol.json",
+      "sha256": "b966a82f3666cdda6e0f3b738ad6b80e17a647aca0375dd3fcad229abfb689fa"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/learning/data/seed_17.npz",
+      "sha256": "f02a36438e9d23894a4f7261b652f00d5d048b427f18a4433fb602791aec6c86"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/neural_learning_10000/seed_17/R_weights.npz",
+      "sha256": "197f514d0f4c91152c27faf0ae3347709d5ccbd38a49bfae4cd573359d117beb"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/neural_learning_10000/seed_17/R_rollout.npz",
+      "sha256": "61b21b87ccdfeb26baa8c75244db4a26ad1583227288c5998d5d6bfe562d0408"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/neural_learning_10000/seed_17/C_weights.npz",
+      "sha256": "4088f4a1cbcc6879820887243af1f80b9862a6b43a3ee0cf3f5a004e560befe8"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/neural_learning_10000/seed_17/C_rollout.npz",
+      "sha256": "a98e50a3fe6f619b6f16130a71555a1e0bf0c986cc0127135f6c3ce2fc3aa981"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/neural_learning_10000/seed_17/GR_weights.npz",
+      "sha256": "c1dad775b3d9f6eb9e79d074f2fdae16b97031b4e5cfcb82cbdaa7fb64648822"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/neural_learning_10000/seed_17/GR_rollout.npz",
+      "sha256": "7b4f0d6ca3934b6446a2eb8bcce8a4af448cf0de7e394656e8abe131ee67ba0f"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/neural_learning_10000/seed_17/GC_weights.npz",
+      "sha256": "3741547f85a25bd7ba8845dc16c8da783ea85dd8bfcb4ffbe6333e6b45cf84de"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/neural_learning_10000/seed_17/GC_rollout.npz",
+      "sha256": "3d75e3268f7c0cc7f15c299293966db561015f8a650b62ba7be6eee1f4708592"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/learning/data/seed_43.npz",
+      "sha256": "4283c88184af6ea1e39c96572b6d1891adfd23f339a813f329d6d82cdbd8e40a"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/neural_learning_10000/seed_43/R_weights.npz",
+      "sha256": "9a902254cf7a5f0fdcd18c3b252c3a35f77e28411fe5539ca27eee08632c7710"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/neural_learning_10000/seed_43/R_rollout.npz",
+      "sha256": "7461ffa7aaad10305494165241713b50baa3c39d9ef8459a6b46fe96a631b541"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/neural_learning_10000/seed_43/C_weights.npz",
+      "sha256": "33026616a0ef4d48a379249c82cd55dfe432a6dd64d4e9fc8034b5c48aa6665b"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/neural_learning_10000/seed_43/C_rollout.npz",
+      "sha256": "e0d43a125461f0ae439ac40ea666aaf5c56a212e8d18cf215b551d43483d04e0"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/neural_learning_10000/seed_43/GR_weights.npz",
+      "sha256": "c4f3f3c1df9c8462d84ff03a07841e3a39e3bb42458fba36721627fda26b35b5"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/neural_learning_10000/seed_43/GR_rollout.npz",
+      "sha256": "0ad73d8872f7231c7b02d5ffa746ab549b015952347b0af59c83ce005ceac6e2"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/neural_learning_10000/seed_43/GC_weights.npz",
+      "sha256": "8791a66a5a26f132c4b92ed6176498353d0bdc85b07b9e3c3af522a605a8c107"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/neural_learning_10000/seed_43/GC_rollout.npz",
+      "sha256": "30bc796bc7a8c6b32fd14877fd04868e4c0eb52d3f53a0c246f486c4e25a5126"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/learning/data/seed_91.npz",
+      "sha256": "d00061656bcf5ac2d77dfcd983de1bf211e2dd8bea899a32488dac34cce4864f"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/neural_learning_10000/seed_91/R_weights.npz",
+      "sha256": "72d377239a00685e4b24aaf950a7fd20eea15e96dbf38acce1a59b5eb66e369f"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/neural_learning_10000/seed_91/R_rollout.npz",
+      "sha256": "a9e32b6df16d8fe829634318fce3e95de4c4c99b3af768d4c18925226b9afb0c"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/neural_learning_10000/seed_91/C_weights.npz",
+      "sha256": "069a969f67bc3b1e447d7ede2271f7575c25b7eb8c384109ca0174aed8edb131"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/neural_learning_10000/seed_91/C_rollout.npz",
+      "sha256": "4058ef12c63c71df257f44f417627cced945bb9033be259e31416cca156064dd"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/neural_learning_10000/seed_91/GR_weights.npz",
+      "sha256": "039463690996f6979ee5950b8ae59ce6a3d1ad5cd6aa70f1ceeb032d4e8d8635"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/neural_learning_10000/seed_91/GR_rollout.npz",
+      "sha256": "4fb3078b01895bb2d477fcebd01fd10f71fccc39f00c4989d2f09e4b3c88baef"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/neural_learning_10000/seed_91/GC_weights.npz",
+      "sha256": "85cfb42e8a196ce52dd8bc13b588b738b9bce0cc618df483999d39a99e7bc578"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/neural_learning_10000/seed_91/GC_rollout.npz",
+      "sha256": "c040869a8422bdfb35186b98a90ff3758c8b7a7327a1a74913629f3b5af2f1e6"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/learning/data/seed_137.npz",
+      "sha256": "e40c692789963e6b75de6e8e1bdac288505b589275baa80e8145178992b737cf"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/neural_learning_10000/seed_137/R_weights.npz",
+      "sha256": "7971f7c032011498a78b48f03724a6921fe40834b0522044bed8d322d56f8ce8"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/neural_learning_10000/seed_137/R_rollout.npz",
+      "sha256": "ff1cb6ab912e95bef4411129d7bdbbfde08f2c6f2a27cec7d3d1c18874df44b0"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/neural_learning_10000/seed_137/C_weights.npz",
+      "sha256": "ad72be5108f6654f0ff2566ff6bdbb5d5c200383cdc6e3aec49e2d1d80ea179a"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/neural_learning_10000/seed_137/C_rollout.npz",
+      "sha256": "5a3549d26e057edf474d6c5fa2e1271e3b9288bd04e8822ccc8206835acddc5a"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/neural_learning_10000/seed_137/GR_weights.npz",
+      "sha256": "a68f8c67cd99a9f054751ec88e0776f00c5d84baef5a410b08df0c1407ad71fc"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/neural_learning_10000/seed_137/GR_rollout.npz",
+      "sha256": "6d864222c96723739103c81dcc263af8b0b7b31b8e7d96ef5cb5c6a1f280ead2"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/neural_learning_10000/seed_137/GC_weights.npz",
+      "sha256": "dbf6baafd07b5c93ed8f6ee5182bfc1f31f20be890e59fd66e21f711ab4c19fe"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/neural_learning_10000/seed_137/GC_rollout.npz",
+      "sha256": "97816f0b53184d762f7f5336e1ca9cfce94aaae3570cbb63a0e59c6d5b5d2177"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/learning/data/seed_211.npz",
+      "sha256": "e183c94bae91648c4d9d4695d0cc199b710cbba83b91897f83f3517c3fd853c2"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/neural_learning_10000/seed_211/R_weights.npz",
+      "sha256": "14723738af25a2d32c38ddac22cab527526347b197f68b31d0768007a6646610"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/neural_learning_10000/seed_211/R_rollout.npz",
+      "sha256": "51a40a28d9cf4a930011aebd0468a3e86bce068099d889dc361cfc6fe6586067"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/neural_learning_10000/seed_211/C_weights.npz",
+      "sha256": "f52cb00f25775cd20bb6d10efe388f536c02733d6eba4a6b661b90b02b7a4427"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/neural_learning_10000/seed_211/C_rollout.npz",
+      "sha256": "85c424ba087bee598e08be3cc2d4626004425a7983feb8b4b66e9c94f756498f"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/neural_learning_10000/seed_211/GR_weights.npz",
+      "sha256": "0d3141edd9a4a61bbfc09f9b571aef22ebe46e4961dfe1597c4eb130df790bd3"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/neural_learning_10000/seed_211/GR_rollout.npz",
+      "sha256": "5353de47723c62baffb814de87f02c60a0242c0e674b7c471a3da63a94caa29b"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/neural_learning_10000/seed_211/GC_weights.npz",
+      "sha256": "8ba2ff42d19683c54d36a8af03bf2110a3ddc0ecc76910be4cf40270f01016ed"
+    },
+    {
+      "path": "E:/1030/IJRR_1025_20261030/results/neural_learning_10000/seed_211/GC_rollout.npz",
+      "sha256": "55bcaba48c80359e7a0ba5b4d3fda60d648d71980c82a996dcad352b0988354c"
+    }
+  ]
+}

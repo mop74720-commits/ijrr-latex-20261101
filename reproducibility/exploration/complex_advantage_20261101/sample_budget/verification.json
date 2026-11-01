@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "new_training_fits": 18,
+  "saved_baseline_evaluations": 6,
+  "failures": 0,
+  "full_validation_points_per_run": 2284,
+  "weight_selection_subset_per_seed": 2048,
+  "nested_whole_trajectory_subsets_verified": true,
+  "maximum_independent_rms_metric_gap": 0.0,
+  "maximum_training_only_input_scale_gap": 0.0,
+  "all_best_steps_match_saved_histories": true,
+  "protected": {
+    "protected_file_count": 453,
+    "changed": []
+  },
+  "actual_execution_snapshot_sha256": "3aec83aab5a17b8f9d71dabadba4401c46b526f90f872db525a2272a9cf6af02",
+  "final_script_sha256": "661a94bbc807c35c963646a5e79824351870b7f10165268b324bafd0b4aee19f",
+  "raw_scores_role": "raw diagnostic, not global nomination",
+  "global_nomination_metric": "common_scale_clean_gradient_rms",
+  "pilot_test_performance_evaluated": false,
+  "script_stable_after_this_audit": true,
+  "audit_environment": "MKL_THREADING_LAYER=SEQUENTIAL set before NumPy and PyTorch imports; no duplicate-runtime bypass used."
+}

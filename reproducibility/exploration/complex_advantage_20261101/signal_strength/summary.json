@@ -1,0 +1,1360 @@
+{
+  "scope": "Three-seed exploratory pilot; no five-seed confirmation and no paper claim",
+  "conditions": {
+    "noise_1e-6": {
+      "amplitude_multiplier": 2.0,
+      "noise_bound": 1e-06,
+      "training": [
+        {
+          "seed": 17,
+          "group": "GR",
+          "real_parameter_count": 673,
+          "training_steps": 10000,
+          "selected_validation_step": 9400,
+          "validation_normalized_mse": 6.346905766414321e-10,
+          "training_seconds": 19.84350110000014,
+          "numpy_torch_field_max_difference": 5.551115123125783e-17,
+          "clean_full_validation_scaled_gradient_rms": 2.496370021029314e-05,
+          "clean_full_validation_gradient_relative_l2": 1.1314641866803962e-05,
+          "clean_full_validation_gradient_rms": 7.138916331786074e-06,
+          "clean_full_validation_points": 2284,
+          "output_component_scale": [
+            0.1570967296903856,
+            0.806516630122394,
+            0.156767612050042,
+            0.8077100941038445
+          ],
+          "status": "completed",
+          "amplitude_multiplier": 2.0,
+          "noise_bound": 1e-06,
+          "dataset_sha256": "725dc3d45c661ec413db6548db1eeaad5a374ea354f0bd5c7f4c08622def7005",
+          "weights_sha256": "65e12aebd6c9c771fa690d7fae48c060a96aa35f74710a1c74c32899d43304e6",
+          "selection": "Unchanged train_one: noisy validation labels when noise=1e-6, independent validation noise, fixed original 2048 subset"
+        },
+        {
+          "seed": 17,
+          "group": "GC",
+          "real_parameter_count": 673,
+          "training_steps": 10000,
+          "selected_validation_step": 10000,
+          "validation_normalized_mse": 5.446444783938706e-10,
+          "training_seconds": 30.569100600001548,
+          "numpy_torch_field_max_difference": 5.551115123125783e-17,
+          "clean_full_validation_scaled_gradient_rms": 2.3274838578775004e-05,
+          "clean_full_validation_gradient_relative_l2": 1.021212126327848e-05,
+          "clean_full_validation_gradient_rms": 6.443286506706868e-06,
+          "clean_full_validation_points": 2284,
+          "output_component_scale": [
+            0.1570967296903856,
+            0.806516630122394,
+            0.156767612050042,
+            0.8077100941038445
+          ],
+          "status": "completed",
+          "amplitude_multiplier": 2.0,
+          "noise_bound": 1e-06,
+          "dataset_sha256": "725dc3d45c661ec413db6548db1eeaad5a374ea354f0bd5c7f4c08622def7005",
+          "weights_sha256": "9f6043e10fe1ff2bfc3289742840b38499b658b142d6fcf88d59a7644dee1573",
+          "selection": "Unchanged train_one: noisy validation labels when noise=1e-6, independent validation noise, fixed original 2048 subset"
+        },
+        {
+          "seed": 43,
+          "group": "GR",
+          "real_parameter_count": 673,
+          "training_steps": 10000,
+          "selected_validation_step": 10000,
+          "validation_normalized_mse": 5.7089220050953e-10,
+          "training_seconds": 20.008023100001083,
+          "numpy_torch_field_max_difference": 5.551115123125783e-17,
+          "clean_full_validation_scaled_gradient_rms": 2.3808359873782084e-05,
+          "clean_full_validation_gradient_relative_l2": 1.300398801192897e-05,
+          "clean_full_validation_gradient_rms": 7.824603336722989e-06,
+          "clean_full_validation_points": 2284,
+          "output_component_scale": [
+            0.18026828754947324,
+            0.9448532795759416,
+            0.1810481634143726,
+            0.9435919687437223
+          ],
+          "status": "completed",
+          "amplitude_multiplier": 2.0,
+          "noise_bound": 1e-06,
+          "dataset_sha256": "509e34c84ba38269579b5014674b1421006b6dd68790cc7bd58d356209942f28",
+          "weights_sha256": "46249dca6bf71bca6738c13ffccf2d001f57a3d54b779b3b486a55fd88d9a4a9",
+          "selection": "Unchanged train_one: noisy validation labels when noise=1e-6, independent validation noise, fixed original 2048 subset"
+        },
+        {
+          "seed": 43,
+          "group": "GC",
+          "real_parameter_count": 673,
+          "training_steps": 10000,
+          "selected_validation_step": 10000,
+          "validation_normalized_mse": 1.6426573903177562e-10,
+          "training_seconds": 31.27729240000008,
+          "numpy_torch_field_max_difference": 1.1102230246251565e-16,
+          "clean_full_validation_scaled_gradient_rms": 1.2567847766894842e-05,
+          "clean_full_validation_gradient_relative_l2": 9.630298521137391e-06,
+          "clean_full_validation_gradient_rms": 5.7946274537477394e-06,
+          "clean_full_validation_points": 2284,
+          "output_component_scale": [
+            0.18026828754947324,
+            0.9448532795759416,
+            0.1810481634143726,
+            0.9435919687437223
+          ],
+          "status": "completed",
+          "amplitude_multiplier": 2.0,
+          "noise_bound": 1e-06,
+          "dataset_sha256": "509e34c84ba38269579b5014674b1421006b6dd68790cc7bd58d356209942f28",
+          "weights_sha256": "61d3997876435499f202aef72e2513e1803343b3ab66fd37dae4ddcacb865058",
+          "selection": "Unchanged train_one: noisy validation labels when noise=1e-6, independent validation noise, fixed original 2048 subset"
+        },
+        {
+          "seed": 91,
+          "group": "GR",
+          "real_parameter_count": 673,
+          "training_steps": 10000,
+          "selected_validation_step": 10000,
+          "validation_normalized_mse": 7.401295601718159e-10,
+          "training_seconds": 19.470041499998842,
+          "numpy_torch_field_max_difference": 5.551115123125783e-17,
+          "clean_full_validation_scaled_gradient_rms": 2.7152349484318052e-05,
+          "clean_full_validation_gradient_relative_l2": 1.8989558785546718e-05,
+          "clean_full_validation_gradient_rms": 1.0286542140876135e-05,
+          "clean_full_validation_points": 2284,
+          "output_component_scale": [
+            0.1987163571583806,
+            0.9328761104703002,
+            0.1988694933546833,
+            0.9339671383345812
+          ],
+          "status": "completed",
+          "amplitude_multiplier": 2.0,
+          "noise_bound": 1e-06,
+          "dataset_sha256": "aff8db3b5ef48b17701fc3e51fca460963ce0b857ef7ece8c101b05bf7ff08f0",
+          "weights_sha256": "ac460ebc034e39c5a95fcb3085c76b554e488689e0d1cb37f01b3ab75686ffc9",
+          "selection": "Unchanged train_one: noisy validation labels when noise=1e-6, independent validation noise, fixed original 2048 subset"
+        },
+        {
+          "seed": 91,
+          "group": "GC",
+          "real_parameter_count": 673,
+          "training_steps": 10000,
+          "selected_validation_step": 10000,
+          "validation_normalized_mse": 8.136620158403641e-10,
+          "training_seconds": 29.788932600000408,
+          "numpy_torch_field_max_difference": 1.1102230246251565e-16,
+          "clean_full_validation_scaled_gradient_rms": 2.839364895270654e-05,
+          "clean_full_validation_gradient_relative_l2": 1.6890065457418432e-05,
+          "clean_full_validation_gradient_rms": 9.149257865966207e-06,
+          "clean_full_validation_points": 2284,
+          "output_component_scale": [
+            0.1987163571583806,
+            0.9328761104703002,
+            0.1988694933546833,
+            0.9339671383345812
+          ],
+          "status": "completed",
+          "amplitude_multiplier": 2.0,
+          "noise_bound": 1e-06,
+          "dataset_sha256": "aff8db3b5ef48b17701fc3e51fca460963ce0b857ef7ece8c101b05bf7ff08f0",
+          "weights_sha256": "75ce98ff4ef6ed5cff8ba7a848de8444492509053b0aa9274912c502c7be18db",
+          "selection": "Unchanged train_one: noisy validation labels when noise=1e-6, independent validation noise, fixed original 2048 subset"
+        }
+      ],
+      "fine_rollouts": [
+        {
+          "status": "completed",
+          "seed": 17,
+          "group": "GR",
+          "noise_bound": 1e-06,
+          "divisor": 16,
+          "h_tau": 0.0006249883557506272,
+          "nsteps": 292160,
+          "stride": 320,
+          "maximum_implicit_residual": 1.1809841570387808e-16,
+          "maximum_iterations": 2,
+          "mean_iterations": 2.0,
+          "elapsed_seconds": 11.864369599999918,
+          "numpy_jit_field_max_gap": 5.551115123125783e-17,
+          "weights_sha256": "65e12aebd6c9c771fa690d7fae48c060a96aa35f74710a1c74c32899d43304e6",
+          "trajectory_sha256": "cf9eff65b643df7ba4041817c60908ec95daede0b39c6691e7eedaa9d09d76e0",
+          "prediction_saved_grid_max_abs_angle_rad": 0.1688803087767208,
+          "metrics": {
+            "continuous": {
+              "tip_rmse_mm_per_trajectory": [
+                0.0011208567988392438,
+                0.0015307098781885305,
+                0.0017061202014667465,
+                0.00225953694514131,
+                0.012953789364659612,
+                0.0016794657082841136,
+                0.0033106946830420408,
+                0.0017557323323400785
+              ],
+              "tip_rmse_mm_mean": 0.0032896132389952093,
+              "state_relative_l2_per_trajectory": [
+                0.00039795795478803585,
+                0.002156069199011729,
+                0.0021915850696655258,
+                0.0012091760163740078,
+                0.005526716835205185,
+                0.0021756117262382007,
+                0.0014399089703224812,
+                0.0009647974989302966
+              ],
+              "state_relative_l2_mean": 0.0020077279088169327
+            },
+            "matched_teacher": {
+              "tip_rmse_mm_per_trajectory": [
+                0.0013352335855036273,
+                0.0012086918636027735,
+                0.0014135502363577194,
+                0.002131656031691258,
+                0.013608984151769895,
+                0.00138917001050008,
+                0.003106542606699503,
+                0.001539405008513244
+              ],
+              "tip_rmse_mm_mean": 0.0032166541868297624,
+              "state_relative_l2_per_trajectory": [
+                0.0007615553728133522,
+                0.0014947346260353867,
+                0.001697059965970804,
+                0.0010751869545623464,
+                0.006049122903739029,
+                0.0016995488928026618,
+                0.0011885378187374645,
+                0.000588844839556798
+              ],
+              "state_relative_l2_mean": 0.0018193239217772304
+            }
+          }
+        },
+        {
+          "status": "completed",
+          "seed": 17,
+          "group": "GC",
+          "noise_bound": 1e-06,
+          "divisor": 16,
+          "h_tau": 0.0006249883557506272,
+          "nsteps": 292160,
+          "stride": 320,
+          "maximum_implicit_residual": 1.1916821831626026e-16,
+          "maximum_iterations": 2,
+          "mean_iterations": 2.0,
+          "elapsed_seconds": 16.131122999999207,
+          "numpy_jit_field_max_gap": 5.551115123125783e-17,
+          "weights_sha256": "9f6043e10fe1ff2bfc3289742840b38499b658b142d6fcf88d59a7644dee1573",
+          "trajectory_sha256": "cae13669bb8983c00bff8e38e15a2e7aded5c7642812979f3b2962b1d593ea97",
+          "prediction_saved_grid_max_abs_angle_rad": 0.16888571233382293,
+          "metrics": {
+            "continuous": {
+              "tip_rmse_mm_per_trajectory": [
+                0.0008448524919026816,
+                0.001829647342870763,
+                0.001720935581127079,
+                0.0009116485178166714,
+                0.00955068915145818,
+                0.0016921003555315666,
+                0.0010254435319613092,
+                0.0011075107945174754
+              ],
+              "tip_rmse_mm_mean": 0.0023353534708982155,
+              "state_relative_l2_per_trajectory": [
+                0.0005508578179230008,
+                0.0029709625797482765,
+                0.0023284716232915958,
+                0.00041233392943130516,
+                0.0035456517650308507,
+                0.0022507864354380075,
+                0.0003954819844254246,
+                0.0009814559804195593
+              ],
+              "state_relative_l2_mean": 0.0016795002644635023
+            },
+            "matched_teacher": {
+              "tip_rmse_mm_per_trajectory": [
+                0.0006568490420880786,
+                0.0014179523405371936,
+                0.0014035325190289005,
+                0.0008104104598337063,
+                0.010099176367690907,
+                0.0013887013044756031,
+                0.0009464705604040858,
+                0.0004927714485817197
+              ],
+              "tip_rmse_mm_mean": 0.0021519830053300243,
+              "state_relative_l2_per_trajectory": [
+                0.00028101437340510724,
+                0.002273639931445354,
+                0.0018250863292290321,
+                0.0002964325270566735,
+                0.0040365572571320636,
+                0.0017701345563021862,
+                0.000266541966473009,
+                0.0003655631798429981
+              ],
+              "state_relative_l2_mean": 0.001389371265110803
+            }
+          }
+        },
+        {
+          "status": "completed",
+          "seed": 43,
+          "group": "GR",
+          "noise_bound": 1e-06,
+          "divisor": 16,
+          "h_tau": 0.0006249883557506272,
+          "nsteps": 292160,
+          "stride": 320,
+          "maximum_implicit_residual": 1.224775760411828e-16,
+          "maximum_iterations": 2,
+          "mean_iterations": 2.0,
+          "elapsed_seconds": 10.589200600001277,
+          "numpy_jit_field_max_gap": 5.551115123125783e-17,
+          "weights_sha256": "46249dca6bf71bca6738c13ffccf2d001f57a3d54b779b3b486a55fd88d9a4a9",
+          "trajectory_sha256": "75f34d5716517ce234c9e5284d87ee4df8ebeadee46e647f7d0b788d491efb8d",
+          "prediction_saved_grid_max_abs_angle_rad": 0.18741265224991846,
+          "metrics": {
+            "continuous": {
+              "tip_rmse_mm_per_trajectory": [
+                0.003785495792369546,
+                0.0028852171279982208,
+                0.002424258028891724,
+                0.0019278563063808661,
+                0.002094727502359215,
+                0.0012759395025434231,
+                0.007767748379886432,
+                0.0027866102740140538
+              ],
+              "tip_rmse_mm_mean": 0.003118481614305435,
+              "state_relative_l2_per_trajectory": [
+                0.001287876386750255,
+                0.002199310870730842,
+                0.001978119946629495,
+                0.0011641907325092402,
+                0.0015943916582242166,
+                0.0007022350908988698,
+                0.002038068491476548,
+                0.0016825813798477787
+              ],
+              "state_relative_l2_mean": 0.0015808468196334055
+            },
+            "matched_teacher": {
+              "tip_rmse_mm_per_trajectory": [
+                0.003599696101165402,
+                0.0024623058185395262,
+                0.0019107176296126796,
+                0.0017151229282710218,
+                0.0018306380067787456,
+                0.0006640030210928291,
+                0.008149349362756613,
+                0.0021987089764706215
+              ],
+              "tip_rmse_mm_mean": 0.00281631773058593,
+              "state_relative_l2_per_trajectory": [
+                0.0010132408984457341,
+                0.0018728122402600373,
+                0.0014647868850275816,
+                0.000750826242900996,
+                0.0013920283496454977,
+                0.0001993988280362451,
+                0.0024047449422156548,
+                0.0013266818582322486
+              ],
+              "state_relative_l2_mean": 0.0013030650305954994
+            }
+          }
+        },
+        {
+          "status": "completed",
+          "seed": 43,
+          "group": "GC",
+          "noise_bound": 1e-06,
+          "divisor": 16,
+          "h_tau": 0.0006249883557506272,
+          "nsteps": 292160,
+          "stride": 320,
+          "maximum_implicit_residual": 1.2110538266663085e-16,
+          "maximum_iterations": 2,
+          "mean_iterations": 2.0,
+          "elapsed_seconds": 15.905803100000412,
+          "numpy_jit_field_max_gap": 1.3877787807814457e-17,
+          "weights_sha256": "61d3997876435499f202aef72e2513e1803343b3ab66fd37dae4ddcacb865058",
+          "trajectory_sha256": "1e26cb15bd9cbe08705a58013949e4b39ace176dd6daf8f395220607857411ce",
+          "prediction_saved_grid_max_abs_angle_rad": 0.1874115583844363,
+          "metrics": {
+            "continuous": {
+              "tip_rmse_mm_per_trajectory": [
+                0.002942469553058313,
+                0.0007617612486719807,
+                0.0014539684386888733,
+                0.001329899000923334,
+                0.0005085851923628167,
+                0.0016228714580754284,
+                0.005187918588785026,
+                0.0008080999814677418
+              ],
+              "tip_rmse_mm_mean": 0.0018269466827541892,
+              "state_relative_l2_per_trajectory": [
+                0.0019694413559645813,
+                0.0004246771766797061,
+                0.00055162719120729,
+                0.0005638442944433446,
+                0.00038714093571370634,
+                0.0009918861082171397,
+                0.001102990770077478,
+                0.00021518706272561218
+              ],
+              "state_relative_l2_mean": 0.0007758493618786073
+            },
+            "matched_teacher": {
+              "tip_rmse_mm_per_trajectory": [
+                0.002037488151122907,
+                0.0010860380507836495,
+                0.0016308600634974944,
+                0.0014265637662634527,
+                0.0007731992182533885,
+                0.0007589530727698219,
+                0.005305993771578327,
+                0.0010953518261648898
+              ],
+              "tip_rmse_mm_mean": 0.0017643059900542411,
+              "state_relative_l2_per_trajectory": [
+                0.0013158433918241635,
+                0.0007337665644959048,
+                0.0008725106726863668,
+                0.0007844106412955792,
+                0.0005895759343380952,
+                0.00043200051844949973,
+                0.001237095530172735,
+                0.000489400049935314
+              ],
+              "state_relative_l2_mean": 0.0008068254128997072
+            }
+          }
+        },
+        {
+          "status": "completed",
+          "seed": 91,
+          "group": "GR",
+          "noise_bound": 1e-06,
+          "divisor": 16,
+          "h_tau": 0.0006249883557506272,
+          "nsteps": 292160,
+          "stride": 320,
+          "maximum_implicit_residual": 1.2155939232635915e-16,
+          "maximum_iterations": 2,
+          "mean_iterations": 2.0,
+          "elapsed_seconds": 11.016146199999639,
+          "numpy_jit_field_max_gap": 1.1102230246251565e-16,
+          "weights_sha256": "ac460ebc034e39c5a95fcb3085c76b554e488689e0d1cb37f01b3ab75686ffc9",
+          "trajectory_sha256": "87374d96aa825a2dc0c6de14aacb3962ed461b63fcf39edb5d96a4d7eeaabd3c",
+          "prediction_saved_grid_max_abs_angle_rad": 0.16925084807947488,
+          "metrics": {
+            "continuous": {
+              "tip_rmse_mm_per_trajectory": [
+                0.0038874917761798407,
+                0.002456909989251623,
+                0.0024646711063635086,
+                0.008933606616299253,
+                0.0024478589839179903,
+                0.0024351059560212365,
+                0.002469931726435023,
+                0.0014840543906620555
+              ],
+              "tip_rmse_mm_mean": 0.0033224538181413164,
+              "state_relative_l2_per_trajectory": [
+                0.00142326058667666,
+                0.0007897533246580714,
+                0.0016489633802842225,
+                0.0029958047221394068,
+                0.0010937609225787819,
+                0.0007627388389165446,
+                0.0009577876356735855,
+                0.0011561802809460114
+              ],
+              "state_relative_l2_mean": 0.0013535312114841605
+            },
+            "matched_teacher": {
+              "tip_rmse_mm_per_trajectory": [
+                0.00426372736172778,
+                0.0024229164404037913,
+                0.0020201345121937755,
+                0.00935922999327181,
+                0.0030006918527773077,
+                0.002405011113792977,
+                0.0024485532512410054,
+                0.00166970641323923
+              ],
+              "tip_rmse_mm_mean": 0.00344874636733096,
+              "state_relative_l2_per_trajectory": [
+                0.0017555618940921756,
+                0.0007464860734396376,
+                0.0010451548836116012,
+                0.003372308362772142,
+                0.0015571259789467727,
+                0.0007273076959177401,
+                0.0009284995678274652,
+                0.001662340412377364
+              ],
+              "state_relative_l2_mean": 0.0014743481086231123
+            }
+          }
+        },
+        {
+          "status": "completed",
+          "seed": 91,
+          "group": "GC",
+          "noise_bound": 1e-06,
+          "divisor": 16,
+          "h_tau": 0.0006249883557506272,
+          "nsteps": 292160,
+          "stride": 320,
+          "maximum_implicit_residual": 1.2183044286948053e-16,
+          "maximum_iterations": 2,
+          "mean_iterations": 2.0,
+          "elapsed_seconds": 15.296057200001087,
+          "numpy_jit_field_max_gap": 1.1102230246251565e-16,
+          "weights_sha256": "75ce98ff4ef6ed5cff8ba7a848de8444492509053b0aa9274912c502c7be18db",
+          "trajectory_sha256": "2f1b3dc97a59c47ad947806cdae11b5575f0e7f32242a23a5650eb593d136e8f",
+          "prediction_saved_grid_max_abs_angle_rad": 0.1692402941743118,
+          "metrics": {
+            "continuous": {
+              "tip_rmse_mm_per_trajectory": [
+                0.0009893040349116561,
+                0.0021541574430048007,
+                0.001057651439570505,
+                0.004377796229762054,
+                0.0017397421948857255,
+                0.0021888335534903276,
+                0.001650985003632163,
+                0.0019944192158215146
+              ],
+              "tip_rmse_mm_mean": 0.002019111139384843,
+              "state_relative_l2_per_trajectory": [
+                0.00025239385222187527,
+                0.0015128036611370928,
+                0.000813776954459451,
+                0.0015759291627121428,
+                0.0005556482442571013,
+                0.0014194841862612722,
+                0.0015127689397004432,
+                0.0029771863856263565
+              ],
+              "state_relative_l2_mean": 0.001327498923296967
+            },
+            "matched_teacher": {
+              "tip_rmse_mm_per_trajectory": [
+                0.0011125777678856095,
+                0.0017909629001448683,
+                0.0006125991063941554,
+                0.004873216087737449,
+                0.0021263284820800072,
+                0.001889697889472564,
+                0.0013962221944196014,
+                0.001591558404623126
+              ],
+              "tip_rmse_mm_mean": 0.0019241453540946728,
+              "state_relative_l2_per_trajectory": [
+                0.0003831991025023191,
+                0.0012118701618939265,
+                0.0002366768909028988,
+                0.0019755616711642815,
+                0.0009546685562096353,
+                0.0011646479077249304,
+                0.001272173130131251,
+                0.0023231971658798827
+              ],
+              "state_relative_l2_mean": 0.0011902493233011406
+            }
+          }
+        }
+      ],
+      "models": {
+        "H0": {
+          "state_relative_l2_mean": {
+            "n": 3,
+            "mean": 0.005220692227224374,
+            "sample_sd": 0.0013146117361808839
+          },
+          "tip_rmse_mm_mean": {
+            "n": 3,
+            "mean": 0.012867016549923144,
+            "sample_sd": 0.003924825054701801
+          }
+        },
+        "GR": {
+          "state_relative_l2_mean": {
+            "n": 3,
+            "mean": 0.001647368646644833,
+            "sample_sd": 0.0003321327969381831
+          },
+          "tip_rmse_mm_mean": {
+            "n": 3,
+            "mean": 0.0032435162238139865,
+            "sample_sd": 0.0001095210760122452
+          }
+        },
+        "GC": {
+          "state_relative_l2_mean": {
+            "n": 3,
+            "mean": 0.0012609495165463588,
+            "sample_sd": 0.00045548639506550284
+          },
+          "tip_rmse_mm_mean": {
+            "n": 3,
+            "mean": 0.0020604704310124163,
+            "sample_sd": 0.0002567144499452303
+          }
+        }
+      },
+      "nomination": {
+        "paired_seeds": [
+          17,
+          43,
+          91
+        ],
+        "log_GR_over_GC_per_seed": [
+          0.07004989037052262,
+          0.6388949860777562,
+          -0.04470191192133157
+        ],
+        "mean_log_GR_over_GC": 0.22141432150898244,
+        "GC_validation_wins": 2,
+        "eligible_on_validation": true
+      },
+      "paired_rollout": {
+        "state_relative_l2_mean": {
+          "seeds": [
+            17,
+            43,
+            91
+          ],
+          "GR": [
+            0.0020077279088169327,
+            0.0015808468196334055,
+            0.0013535312114841605
+          ],
+          "GC": [
+            0.0016795002644635023,
+            0.0007758493618786073,
+            0.001327498923296967
+          ],
+          "GC_relative_improvement_per_seed": [
+            0.1634821346617833,
+            0.5092191398667425,
+            0.01923286878523392
+          ],
+          "GC_mean_paired_relative_improvement": 0.2306447144379199,
+          "GC_wins": 3
+        },
+        "tip_rmse_mm_mean": {
+          "seeds": [
+            17,
+            43,
+            91
+          ],
+          "GR": [
+            0.0032896132389952093,
+            0.003118481614305435,
+            0.0033224538181413164
+          ],
+          "GC": [
+            0.0023353534708982155,
+            0.0018269466827541892,
+            0.002019111139384843
+          ],
+          "GC_relative_improvement_per_seed": [
+            0.29008266284472584,
+            0.4141550572645923,
+            0.3922831588026718
+          ],
+          "GC_mean_paired_relative_improvement": 0.36550695963733,
+          "GC_wins": 3
+        }
+      }
+    },
+    "noise_0": {
+      "amplitude_multiplier": 2.0,
+      "noise_bound": 0.0,
+      "training": [
+        {
+          "seed": 17,
+          "group": "GR",
+          "real_parameter_count": 673,
+          "training_steps": 10000,
+          "selected_validation_step": 9900,
+          "validation_normalized_mse": 6.237775708429202e-10,
+          "training_seconds": 19.449562400001014,
+          "numpy_torch_field_max_difference": 5.551115123125783e-17,
+          "clean_full_validation_scaled_gradient_rms": 2.4865383831427725e-05,
+          "clean_full_validation_gradient_relative_l2": 1.1117380258558876e-05,
+          "clean_full_validation_gradient_rms": 7.014455113011942e-06,
+          "clean_full_validation_points": 2284,
+          "output_component_scale": [
+            0.15709674010370142,
+            0.8065166492322039,
+            0.15676760887499883,
+            0.8077100923771554
+          ],
+          "status": "completed",
+          "amplitude_multiplier": 2.0,
+          "noise_bound": 0.0,
+          "dataset_sha256": "6249ee06eae1898117169890c13d7dfb66a6d0c84ab419ae4d6602cc41c419f1",
+          "weights_sha256": "9cbb4a62364a8c129f22b408237df46fe4ebcca3ee931dea069f6e4a38ab570e",
+          "selection": "Unchanged train_one: noisy validation labels when noise=1e-6, independent validation noise, fixed original 2048 subset"
+        },
+        {
+          "seed": 17,
+          "group": "GC",
+          "real_parameter_count": 673,
+          "training_steps": 10000,
+          "selected_validation_step": 10000,
+          "validation_normalized_mse": 5.35514922774726e-10,
+          "training_seconds": 29.4849049000004,
+          "numpy_torch_field_max_difference": 1.1102230246251565e-16,
+          "clean_full_validation_scaled_gradient_rms": 2.3244541419350653e-05,
+          "clean_full_validation_gradient_relative_l2": 1.018039436621291e-05,
+          "clean_full_validation_gradient_rms": 6.423268580705797e-06,
+          "clean_full_validation_points": 2284,
+          "output_component_scale": [
+            0.15709674010370142,
+            0.8065166492322039,
+            0.15676760887499883,
+            0.8077100923771554
+          ],
+          "status": "completed",
+          "amplitude_multiplier": 2.0,
+          "noise_bound": 0.0,
+          "dataset_sha256": "6249ee06eae1898117169890c13d7dfb66a6d0c84ab419ae4d6602cc41c419f1",
+          "weights_sha256": "75d20122d32df033e2f44014ded86b510168401ebc71ae789ab7a2161e04bb55",
+          "selection": "Unchanged train_one: noisy validation labels when noise=1e-6, independent validation noise, fixed original 2048 subset"
+        },
+        {
+          "seed": 43,
+          "group": "GR",
+          "real_parameter_count": 673,
+          "training_steps": 10000,
+          "selected_validation_step": 10000,
+          "validation_normalized_mse": 5.631940071762599e-10,
+          "training_seconds": 19.53251459999956,
+          "numpy_torch_field_max_difference": 5.551115123125783e-17,
+          "clean_full_validation_scaled_gradient_rms": 2.3773093425399142e-05,
+          "clean_full_validation_gradient_relative_l2": 1.2974671462498597e-05,
+          "clean_full_validation_gradient_rms": 7.806963335033991e-06,
+          "clean_full_validation_points": 2284,
+          "output_component_scale": [
+            0.18026829431441754,
+            0.9448532900200586,
+            0.18104815787846787,
+            0.9435919685669134
+          ],
+          "status": "completed",
+          "amplitude_multiplier": 2.0,
+          "noise_bound": 0.0,
+          "dataset_sha256": "2e51883195b5fe02aef935187d638606c6253f6a191790365c6d631642ee2483",
+          "weights_sha256": "71b3ed8ac9c2ec865cb5d3dc90d0b7d963d04403ddc3dd31a000f56e5ba3179f",
+          "selection": "Unchanged train_one: noisy validation labels when noise=1e-6, independent validation noise, fixed original 2048 subset"
+        },
+        {
+          "seed": 43,
+          "group": "GC",
+          "real_parameter_count": 673,
+          "training_steps": 10000,
+          "selected_validation_step": 9900,
+          "validation_normalized_mse": 1.5513561034609483e-10,
+          "training_seconds": 29.89649400000053,
+          "numpy_torch_field_max_difference": 5.551115123125783e-17,
+          "clean_full_validation_scaled_gradient_rms": 1.2466757910138518e-05,
+          "clean_full_validation_gradient_relative_l2": 9.72360619885989e-06,
+          "clean_full_validation_gradient_rms": 5.850771427871642e-06,
+          "clean_full_validation_points": 2284,
+          "output_component_scale": [
+            0.18026829431441754,
+            0.9448532900200586,
+            0.18104815787846787,
+            0.9435919685669134
+          ],
+          "status": "completed",
+          "amplitude_multiplier": 2.0,
+          "noise_bound": 0.0,
+          "dataset_sha256": "2e51883195b5fe02aef935187d638606c6253f6a191790365c6d631642ee2483",
+          "weights_sha256": "6ec11608a32248bbeb3db277b66accb8e959bc3fefaf2186de068e369245c49e",
+          "selection": "Unchanged train_one: noisy validation labels when noise=1e-6, independent validation noise, fixed original 2048 subset"
+        },
+        {
+          "seed": 91,
+          "group": "GR",
+          "real_parameter_count": 673,
+          "training_steps": 10000,
+          "selected_validation_step": 10000,
+          "validation_normalized_mse": 7.386140825819912e-10,
+          "training_seconds": 19.777547499999855,
+          "numpy_torch_field_max_difference": 2.7755575615628914e-17,
+          "clean_full_validation_scaled_gradient_rms": 2.7196942269439865e-05,
+          "clean_full_validation_gradient_relative_l2": 1.9017954187310783e-05,
+          "clean_full_validation_gradient_rms": 1.0301923777708864e-05,
+          "clean_full_validation_points": 2284,
+          "output_component_scale": [
+            0.19871634531103147,
+            0.9328761181746137,
+            0.19886949636771634,
+            0.9339671417878544
+          ],
+          "status": "completed",
+          "amplitude_multiplier": 2.0,
+          "noise_bound": 0.0,
+          "dataset_sha256": "26acdafe6b00978d28591a0dd7f552b8fdd216c4bfa549842cda8d75ed0d42c1",
+          "weights_sha256": "94fac44895a60fe02b72a4273bee3f8418fff09c6e5c3ac1bc786fa6bf5145e7",
+          "selection": "Unchanged train_one: noisy validation labels when noise=1e-6, independent validation noise, fixed original 2048 subset"
+        },
+        {
+          "seed": 91,
+          "group": "GC",
+          "real_parameter_count": 673,
+          "training_steps": 10000,
+          "selected_validation_step": 10000,
+          "validation_normalized_mse": 8.078913963111601e-10,
+          "training_seconds": 30.508517799999026,
+          "numpy_torch_field_max_difference": 1.1102230246251565e-16,
+          "clean_full_validation_scaled_gradient_rms": 2.834491253470787e-05,
+          "clean_full_validation_gradient_relative_l2": 1.6889347902962617e-05,
+          "clean_full_validation_gradient_rms": 9.1488691705662e-06,
+          "clean_full_validation_points": 2284,
+          "output_component_scale": [
+            0.19871634531103147,
+            0.9328761181746137,
+            0.19886949636771634,
+            0.9339671417878544
+          ],
+          "status": "completed",
+          "amplitude_multiplier": 2.0,
+          "noise_bound": 0.0,
+          "dataset_sha256": "26acdafe6b00978d28591a0dd7f552b8fdd216c4bfa549842cda8d75ed0d42c1",
+          "weights_sha256": "cea6a102ebc1cc4ae4ffbc4c3e25f2d4e54e0f677f75085880fe513e746e2d0c",
+          "selection": "Unchanged train_one: noisy validation labels when noise=1e-6, independent validation noise, fixed original 2048 subset"
+        }
+      ],
+      "fine_rollouts": [
+        {
+          "status": "completed",
+          "seed": 17,
+          "group": "GR",
+          "noise_bound": 0.0,
+          "divisor": 16,
+          "h_tau": 0.0006249883557506272,
+          "nsteps": 292160,
+          "stride": 320,
+          "maximum_implicit_residual": 1.1989920774974072e-16,
+          "maximum_iterations": 2,
+          "mean_iterations": 2.0,
+          "elapsed_seconds": 10.531767599999512,
+          "numpy_jit_field_max_gap": 1.734723475976807e-18,
+          "weights_sha256": "9cbb4a62364a8c129f22b408237df46fe4ebcca3ee931dea069f6e4a38ab570e",
+          "trajectory_sha256": "b8b813cb068af480c84c08eb2bc244b7b79799f57bf76db7657178e48a09bde1",
+          "prediction_saved_grid_max_abs_angle_rad": 0.16888081427583546,
+          "metrics": {
+            "continuous": {
+              "tip_rmse_mm_per_trajectory": [
+                0.00121343400506523,
+                0.0017114933522853727,
+                0.0018702648705010909,
+                0.002209426454180506,
+                0.01265423979332764,
+                0.0018453026253806473,
+                0.00330475484164328,
+                0.0019517325731631583
+              ],
+              "tip_rmse_mm_mean": 0.0033450810644433653,
+              "state_relative_l2_per_trajectory": [
+                0.00051344404666637,
+                0.0024977680400640797,
+                0.002456415880575435,
+                0.0012667235394131513,
+                0.005332518859998872,
+                0.0024363671274728153,
+                0.0015568362094403282,
+                0.0012072535862009653
+              ],
+              "state_relative_l2_mean": 0.0021584159112290023
+            },
+            "matched_teacher": {
+              "tip_rmse_mm_per_trajectory": [
+                0.0012275293935035878,
+                0.0013662390886759114,
+                0.0015666053189719784,
+                0.002065598751857767,
+                0.013299240424979307,
+                0.0015454716756161178,
+                0.0030643142677032067,
+                0.001636907437916074
+              ],
+              "tip_rmse_mm_mean": 0.003221488294902994,
+              "state_relative_l2_per_trajectory": [
+                0.0005515703488449169,
+                0.0018248626928474379,
+                0.001957753758592682,
+                0.0011282930208508918,
+                0.005852386031266979,
+                0.0019570139491189116,
+                0.0012872616892808028,
+                0.0007233451271840921
+              ],
+              "state_relative_l2_mean": 0.0019103108272483394
+            }
+          }
+        },
+        {
+          "status": "completed",
+          "seed": 17,
+          "group": "GC",
+          "noise_bound": 0.0,
+          "divisor": 16,
+          "h_tau": 0.0006249883557506272,
+          "nsteps": 292160,
+          "stride": 320,
+          "maximum_implicit_residual": 1.1695153309329576e-16,
+          "maximum_iterations": 2,
+          "mean_iterations": 2.0,
+          "elapsed_seconds": 16.07626580000033,
+          "numpy_jit_field_max_gap": 1.1102230246251565e-16,
+          "weights_sha256": "75d20122d32df033e2f44014ded86b510168401ebc71ae789ab7a2161e04bb55",
+          "trajectory_sha256": "f92847fd313c911ccd4ccf65ef478c493051e1e46b8d6c98b3ef19ba85d7e275",
+          "prediction_saved_grid_max_abs_angle_rad": 0.16888551164951504,
+          "metrics": {
+            "continuous": {
+              "tip_rmse_mm_per_trajectory": [
+                0.0008350434576439263,
+                0.0017982315506130206,
+                0.0016808207630224612,
+                0.0009533732742393013,
+                0.009486729536952478,
+                0.0016512373094718263,
+                0.000996506779462634,
+                0.0010932547097267206
+              ],
+              "tip_rmse_mm_mean": 0.002311899672641546,
+              "state_relative_l2_per_trajectory": [
+                0.0005305162205529873,
+                0.0029295217719656997,
+                0.0022992764351343446,
+                0.0004218604593579147,
+                0.003536761593273516,
+                0.0022227342216135336,
+                0.00039173584514507425,
+                0.0009619925307106175
+              ],
+              "state_relative_l2_mean": 0.0016617998847192111
+            },
+            "matched_teacher": {
+              "tip_rmse_mm_per_trajectory": [
+                0.0006762047071062057,
+                0.0013845059607467418,
+                0.0013584391241151174,
+                0.0008556700933417949,
+                0.010038859540220697,
+                0.0013425448324416408,
+                0.0009122790769955837,
+                0.0004927755550345352
+              ],
+              "tip_rmse_mm_mean": 0.0021326598612502897,
+              "state_relative_l2_per_trajectory": [
+                0.00029939402943474867,
+                0.002231606646596423,
+                0.0017943560909974999,
+                0.0003083036916966024,
+                0.004028939510890777,
+                0.001740435695512554,
+                0.00025673012866847956,
+                0.00034925738344529386
+              ],
+              "state_relative_l2_mean": 0.0013761278971552973
+            }
+          }
+        },
+        {
+          "status": "completed",
+          "seed": 43,
+          "group": "GR",
+          "noise_bound": 0.0,
+          "divisor": 16,
+          "h_tau": 0.0006249883557506272,
+          "nsteps": 292160,
+          "stride": 320,
+          "maximum_implicit_residual": 1.2264359449884465e-16,
+          "maximum_iterations": 2,
+          "mean_iterations": 2.0,
+          "elapsed_seconds": 10.7898325999995,
+          "numpy_jit_field_max_gap": 1.1102230246251565e-16,
+          "weights_sha256": "71b3ed8ac9c2ec865cb5d3dc90d0b7d963d04403ddc3dd31a000f56e5ba3179f",
+          "trajectory_sha256": "31df16504c5fa25d01d09602a500b256c7d5e16a4770501e25b8a4a4962a37e3",
+          "prediction_saved_grid_max_abs_angle_rad": 0.18741263516358686,
+          "metrics": {
+            "continuous": {
+              "tip_rmse_mm_per_trajectory": [
+                0.0037809493611006923,
+                0.0028848897549418866,
+                0.002422886395430187,
+                0.00192443933455095,
+                0.002095099093541803,
+                0.0012756360704025515,
+                0.007762115485179456,
+                0.00278099146304934
+              ],
+              "tip_rmse_mm_mean": 0.003115875869774608,
+              "state_relative_l2_per_trajectory": [
+                0.0012866598595490714,
+                0.0021979909508929025,
+                0.0019772704162487787,
+                0.0011624775086264666,
+                0.001593014743941692,
+                0.0007016878685985351,
+                0.002038262406036581,
+                0.001679501006674358
+              ],
+              "state_relative_l2_mean": 0.001579608095071048
+            },
+            "matched_teacher": {
+              "tip_rmse_mm_per_trajectory": [
+                0.0035950195081889164,
+                0.002462218169961418,
+                0.001909241419687069,
+                0.0017116938173580073,
+                0.0018312531471539174,
+                0.0006646883156656402,
+                0.008144453053244871,
+                0.002192781615806052
+              ],
+              "tip_rmse_mm_mean": 0.0028139186308832366,
+              "state_relative_l2_per_trajectory": [
+                0.001011886249074696,
+                0.001871523117656935,
+                0.001463914362233629,
+                0.0007491517465103161,
+                0.0013906820113929839,
+                0.0001992206990502972,
+                0.002405363119372684,
+                0.0013235701948340723
+              ],
+              "state_relative_l2_mean": 0.0013019139375157018
+            }
+          }
+        },
+        {
+          "status": "completed",
+          "seed": 43,
+          "group": "GC",
+          "noise_bound": 0.0,
+          "divisor": 16,
+          "h_tau": 0.0006249883557506272,
+          "nsteps": 292160,
+          "stride": 320,
+          "maximum_implicit_residual": 1.2263004197168859e-16,
+          "maximum_iterations": 2,
+          "mean_iterations": 2.0,
+          "elapsed_seconds": 15.840046399998755,
+          "numpy_jit_field_max_gap": 5.551115123125783e-17,
+          "weights_sha256": "6ec11608a32248bbeb3db277b66accb8e959bc3fefaf2186de068e369245c49e",
+          "trajectory_sha256": "1e29866ae325a3d0a2aff1492f7099ccf86c2868b7b92d8255c0866c1274e41e",
+          "prediction_saved_grid_max_abs_angle_rad": 0.18741115762984334,
+          "metrics": {
+            "continuous": {
+              "tip_rmse_mm_per_trajectory": [
+                0.003247427317949003,
+                0.000918188799709542,
+                0.0016255219091250517,
+                0.0014796210886554996,
+                0.0005122622503523167,
+                0.0018531919587817785,
+                0.004970774485197039,
+                0.00045551223088520466
+              ],
+              "tip_rmse_mm_mean": 0.0018828125050819292,
+              "state_relative_l2_per_trajectory": [
+                0.0021680410064879767,
+                0.00038194555346171983,
+                0.0005906320577188929,
+                0.0006945526880002941,
+                0.00033270463715049357,
+                0.0011492623900954762,
+                0.001059718602978967,
+                0.00011227231886825497
+              ],
+              "state_relative_l2_mean": 0.0008111411568452594
+            },
+            "matched_teacher": {
+              "tip_rmse_mm_per_trajectory": [
+                0.002344260517057664,
+                0.0011477880588477518,
+                0.001716649556417485,
+                0.0014668303420784228,
+                0.0007405921588360451,
+                0.0009498510168884664,
+                0.00504444669031519,
+                0.0007405086323327104
+              ],
+              "tip_rmse_mm_mean": 0.001768865871596717,
+              "state_relative_l2_per_trajectory": [
+                0.0015146686612096181,
+                0.0006579574786561434,
+                0.0007844107468756009,
+                0.0006791478634784062,
+                0.0005298821112530712,
+                0.0005850267432017922,
+                0.00114028917543277,
+                0.00036487516677506974
+              ],
+              "state_relative_l2_mean": 0.000782032243360309
+            }
+          }
+        },
+        {
+          "status": "completed",
+          "seed": 91,
+          "group": "GR",
+          "noise_bound": 0.0,
+          "divisor": 16,
+          "h_tau": 0.0006249883557506272,
+          "nsteps": 292160,
+          "stride": 320,
+          "maximum_implicit_residual": 1.2120702662030136e-16,
+          "maximum_iterations": 2,
+          "mean_iterations": 2.0,
+          "elapsed_seconds": 10.469716300000073,
+          "numpy_jit_field_max_gap": 5.551115123125783e-17,
+          "weights_sha256": "94fac44895a60fe02b72a4273bee3f8418fff09c6e5c3ac1bc786fa6bf5145e7",
+          "trajectory_sha256": "e1982a85a1b5de17f2ecac8814ffaee1a75a03e41f6b86d74e8b4cdcd5f74c00",
+          "prediction_saved_grid_max_abs_angle_rad": 0.16925096848937254,
+          "metrics": {
+            "continuous": {
+              "tip_rmse_mm_per_trajectory": [
+                0.003888813339229317,
+                0.0024944083151053576,
+                0.002477987415591899,
+                0.008946103782710426,
+                0.0024475457500639296,
+                0.0024727950128219205,
+                0.0025225826383522216,
+                0.0015012301061844138
+              ],
+              "tip_rmse_mm_mean": 0.003343933295007436,
+              "state_relative_l2_per_trajectory": [
+                0.0014304024200721122,
+                0.0007990886052988636,
+                0.0016532006221747304,
+                0.0030041203604342297,
+                0.0010984680859052257,
+                0.0007720938814634012,
+                0.0009767086371826425,
+                0.0011572498702076375
+              ],
+              "state_relative_l2_mean": 0.0013614165603423553
+            },
+            "matched_teacher": {
+              "tip_rmse_mm_per_trajectory": [
+                0.0042674591935976044,
+                0.002462109367194647,
+                0.002035496220645328,
+                0.00937262645500587,
+                0.0030029881349319903,
+                0.00244429893552598,
+                0.0025017570523313717,
+                0.0016826309964521956
+              ],
+              "tip_rmse_mm_mean": 0.003471170794460623,
+              "state_relative_l2_per_trajectory": [
+                0.0017635551807340171,
+                0.0007588989735601759,
+                0.0010504600184093925,
+                0.00338097490783842,
+                0.0015624966615063723,
+                0.0007394925078517151,
+                0.0009486574189448442,
+                0.0016574969010207312
+              ],
+              "state_relative_l2_mean": 0.0014827540712332085
+            }
+          }
+        },
+        {
+          "status": "completed",
+          "seed": 91,
+          "group": "GC",
+          "noise_bound": 0.0,
+          "divisor": 16,
+          "h_tau": 0.0006249883557506272,
+          "nsteps": 292160,
+          "stride": 320,
+          "maximum_implicit_residual": 1.2237254395572328e-16,
+          "maximum_iterations": 2,
+          "mean_iterations": 2.0,
+          "elapsed_seconds": 15.421411100000114,
+          "numpy_jit_field_max_gap": 5.551115123125783e-17,
+          "weights_sha256": "cea6a102ebc1cc4ae4ffbc4c3e25f2d4e54e0f677f75085880fe513e746e2d0c",
+          "trajectory_sha256": "a7ea511205c538f70f6e608b1d14dba68bb1eb711df9442e618bf549f9564180",
+          "prediction_saved_grid_max_abs_angle_rad": 0.16924041247353133,
+          "metrics": {
+            "continuous": {
+              "tip_rmse_mm_per_trajectory": [
+                0.0010171500114944001,
+                0.002158716693163987,
+                0.0010542273759567681,
+                0.004416743610312458,
+                0.00175274036990215,
+                0.002194856931469372,
+                0.0016611764459562497,
+                0.001999280852966572
+              ],
+              "tip_rmse_mm_mean": 0.0020318615364027445,
+              "state_relative_l2_per_trajectory": [
+                0.00025678898437206035,
+                0.0015110673886833328,
+                0.0008215792407990965,
+                0.0015864887694090875,
+                0.0005602305223519472,
+                0.0014173003236182928,
+                0.001514962523014713,
+                0.0029972145284417307
+              ],
+              "state_relative_l2_mean": 0.0013332040350862826
+            },
+            "matched_teacher": {
+              "tip_rmse_mm_per_trajectory": [
+                0.0011446796864924241,
+                0.0017971462005302449,
+                0.0005916845896870021,
+                0.004910400307847084,
+                0.0021390258929686844,
+                0.0018974894958941702,
+                0.0014078010215458829,
+                0.0015936557344950638
+              ],
+              "tip_rmse_mm_mean": 0.0019352353661825695,
+              "state_relative_l2_per_trajectory": [
+                0.0003933220637488656,
+                0.0012104092319273972,
+                0.00023264491411277577,
+                0.00198561700048178,
+                0.0009591808341521867,
+                0.0011628192013352133,
+                0.001274604495342066,
+                0.002342437651776525
+              ],
+              "state_relative_l2_mean": 0.0011951294241096012
+            }
+          }
+        }
+      ],
+      "models": {
+        "H0": {
+          "state_relative_l2_mean": {
+            "n": 3,
+            "mean": 0.005220692227224374,
+            "sample_sd": 0.0013146117361808839
+          },
+          "tip_rmse_mm_mean": {
+            "n": 3,
+            "mean": 0.012867016549923144,
+            "sample_sd": 0.003924825054701801
+          }
+        },
+        "GR": {
+          "state_relative_l2_mean": {
+            "n": 3,
+            "mean": 0.001699813522214135,
+            "sample_sd": 0.0004118725529389197
+          },
+          "tip_rmse_mm_mean": {
+            "n": 3,
+            "mean": 0.0032682967430751365,
+            "sample_sd": 0.0001320015958499795
+          }
+        },
+        "GC": {
+          "state_relative_l2_mean": {
+            "n": 3,
+            "mean": 0.001268715025550251,
+            "sample_sd": 0.0004289804099142946
+          },
+          "tip_rmse_mm_mean": {
+            "n": 3,
+            "mean": 0.0020755245713754062,
+            "sample_sd": 0.0002178503954743979
+          }
+        }
+      },
+      "nomination": {
+        "paired_seeds": [
+          17,
+          43,
+          91
+        ],
+        "log_GR_over_GC_per_seed": [
+          0.06740630185594962,
+          0.6454886780829757,
+          -0.041343011613769236
+        ],
+        "mean_log_GR_over_GC": 0.2238506561083854,
+        "GC_validation_wins": 2,
+        "eligible_on_validation": true
+      },
+      "paired_rollout": {
+        "state_relative_l2_mean": {
+          "seeds": [
+            17,
+            43,
+            91
+          ],
+          "GR": [
+            0.0021584159112290023,
+            0.001579608095071048,
+            0.0013614165603423553
+          ],
+          "GC": [
+            0.0016617998847192111,
+            0.0008111411568452594,
+            0.0013332040350862826
+          ],
+          "GC_relative_improvement_per_seed": [
+            0.23008356449106138,
+            0.4864921499349649,
+            0.02072291911079596
+          ],
+          "GC_mean_paired_relative_improvement": 0.24576621117894074,
+          "GC_wins": 3
+        },
+        "tip_rmse_mm_mean": {
+          "seeds": [
+            17,
+            43,
+            91
+          ],
+          "GR": [
+            0.0033450810644433653,
+            0.003115875869774608,
+            0.003343933295007436
+          ],
+          "GC": [
+            0.002311899672641546,
+            0.0018828125050819292,
+            0.0020318615364027445
+          ],
+          "GC_relative_improvement_per_seed": [
+            0.30886587556398876,
+            0.3957357148447234,
+            0.3923737834614233
+          ],
+          "GC_mean_paired_relative_improvement": 0.36565845795671187,
+          "GC_wins": 3
+        }
+      }
+    }
+  },
+  "protection": {
+    "files_checked": 453,
+    "all_unchanged": true,
+    "manifest_sha256": "0b1cf2432f9b654ba5b359ab035d5abfff2698152515475014e8678dcef6089c"
+  }
+}

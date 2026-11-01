@@ -1,0 +1,80 @@
+{
+  "seed": 211,
+  "group": "GR",
+  "coordinates": "new(q,p)",
+  "energy_mean_shift": 2.3922196591754132e-05,
+  "endpoint_grid": {
+    "n_points": 83521,
+    "gradient_lp6_normalized": 0.0001310021063241723,
+    "gradient_lp6_lebesgue": 8.252615566919549e-05,
+    "gradient_rms": 3.9196414892030686e-05,
+    "gradient_component_abs_max": [
+      0.0002312356003955544,
+      0.00038039018134013305,
+      0.0001135740521685769,
+      0.00014346392850075188
+    ],
+    "energy_abs_max_shifted": 3.15039437134567e-05,
+    "energy_rms_shifted": 4.333779733903585e-06
+  },
+  "midpoint_grid": {
+    "n_points": 65536,
+    "gradient_lp6_normalized": 0.00011008981700195672,
+    "gradient_lp6_lebesgue": 6.935223890991989e-05,
+    "gradient_rms": 3.283076590811283e-05,
+    "gradient_component_abs_max": [
+      0.00018270198547211912,
+      0.0003164863050868563,
+      9.88131876462181e-05,
+      0.00012217402298782832
+    ],
+    "energy_abs_max_shifted": 2.429394646145142e-05,
+    "energy_rms_shifted": 3.348692083022387e-06
+  },
+  "independent_sobol": {
+    "n_points": 65536,
+    "gradient_lp6_normalized": 0.00011209133637860357,
+    "gradient_lp6_lebesgue": 7.06131171071248e-05,
+    "gradient_rms": 3.313173168418456e-05,
+    "gradient_component_abs_max": [
+      0.00019540114712342715,
+      0.0003530686454561729,
+      9.749866274013086e-05,
+      0.00013992404619533148
+    ],
+    "energy_abs_max_shifted": 2.9351945071435197e-05,
+    "energy_rms_shifted": 3.408897409357001e-06
+  },
+  "hessian_component_abs_bound": [
+    [
+      0.1144338979506921,
+      0.12794544636138158,
+      0.11168769675823846,
+      0.0880412141303096
+    ],
+    [
+      0.12794544636138158,
+      0.19680991612766957,
+      0.1542106223746503,
+      0.10157838294290833
+    ],
+    [
+      0.11168769675823847,
+      0.1542106223746503,
+      0.15669935879215516,
+      0.088844494700755
+    ],
+    [
+      0.0880412141303096,
+      0.10157838294290833,
+      0.088844494700755,
+      0.07670729594380629
+    ]
+  ],
+  "mean_quadrature_bound": 2.216188431047864e-05,
+  "C0_envelope": 0.00029353583609974,
+  "physical_plus_learning_C0": 0.0002995247587835317,
+  "gradient_autograd_probe_gap": 1.0950441942103595e-17,
+  "interval_certified": false,
+  "KAM_certificate": false
+}

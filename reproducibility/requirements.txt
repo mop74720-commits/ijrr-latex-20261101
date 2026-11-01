@@ -1,0 +1,8 @@
+# Original training used CPU PyTorch 2.6.0+cpu; see archived protocols.
+# Install in an isolated environment if needed; no global installation is required.
+numpy==1.26.4
+scipy==1.13.1
+torch==2.6.0
+numba==0.60.0
+matplotlib==3.9.2
+threadpoolctl==3.5.0

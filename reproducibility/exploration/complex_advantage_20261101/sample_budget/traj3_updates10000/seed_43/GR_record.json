@@ -1,0 +1,62 @@
+{
+  "condition": "traj3_updates10000",
+  "seed": 43,
+  "group": "GR",
+  "train_trajectories": 3,
+  "training_rows": 858,
+  "training_trajectory_ids": [
+    6,
+    9,
+    10
+  ],
+  "training_updates": 10000,
+  "baseline_saved_weights": false,
+  "validation_selection_count": 2048,
+  "validation_reporting_count": 2284,
+  "status": "completed",
+  "real_parameter_count": 673,
+  "training_steps": 10000,
+  "selected_validation_step": 9500,
+  "validation_normalized_mse": 3.2153999215788417e-10,
+  "training_seconds": 20.18364290000136,
+  "numpy_torch_field_max_difference": 2.7755575615628914e-17,
+  "validation_reporting_points": 2284,
+  "clean_label_rhs_max_gap": 5.551115123125783e-15,
+  "clean_gradient_rms": 3.727529125427957e-06,
+  "common_scale_clean_gradient_rms": 2.1466644583326098e-05,
+  "common_reporting_output_rms": [
+    0.09013683180795413,
+    0.4724278623866872,
+    0.09052929713060638,
+    0.47180264450669984
+  ],
+  "clean_field_mse": 1.389447338091371e-11,
+  "clean_field_relative_l2": 1.2389727405269729e-05,
+  "nonlinear_residual_relative_l2": 1.8566912324878426,
+  "nonlinear_momentum_relative_l2": 1.509958452027026,
+  "spurious_kinematic_residual_rms": 3.0675579232528665e-06,
+  "noisy_full_validation_normalized_mse": 3.2154933171806877e-10,
+  "quadratic_baseline_field_relative_l2": 6.673014440138395e-06,
+  "validation_nonlinear_field_l2": 0.00019189312010480666,
+  "validation_field_error_component_rmse": [
+    2.419227601773115e-06,
+    3.6009944509516833e-06,
+    2.7668022011022087e-06,
+    5.394708136559852e-06
+  ],
+  "train_only_input_rms": [
+    0.11043487136858168,
+    0.09477700153244346,
+    0.11062141889928966,
+    0.09513818275781986
+  ],
+  "train_only_output_rms": [
+    0.11062140991801604,
+    0.5853012611997601,
+    0.1104315494939445,
+    0.5830741146246236
+  ],
+  "train_only_energy_scale": 0.02160333015905728,
+  "elapsed_seconds_this_evaluation": 20.197087499998815,
+  "weights_sha256": "740d793a673cf1e8807cee59697aa1fdc4ee8e51d1b084da0983a28e164dda2b"
+}

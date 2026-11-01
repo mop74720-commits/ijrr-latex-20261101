@@ -1,0 +1,45 @@
+{
+  "records": [
+    {
+      "condition": "traj12_updates10000_saved",
+      "scaled_GC_over_GR_ratios": [
+        0.9623070909401447,
+        0.5335186643899308,
+        1.2006355276538143
+      ],
+      "scaled_mean_log_GR_over_GC": 0.16127728632632168,
+      "GC_wins": 2
+    },
+    {
+      "condition": "traj1_updates10000",
+      "scaled_GC_over_GR_ratios": [
+        0.5366051487022399,
+        0.39280326902096263,
+        0.7183100701084913
+      ],
+      "scaled_mean_log_GR_over_GC": 0.6292643589359522,
+      "GC_wins": 3
+    },
+    {
+      "condition": "traj3_updates10000",
+      "scaled_GC_over_GR_ratios": [
+        0.6988582906768612,
+        0.4997882047415441,
+        1.601900634407652
+      ],
+      "scaled_mean_log_GR_over_GC": 0.1935624429549073,
+      "GC_wins": 2
+    },
+    {
+      "condition": "traj12_updates30000",
+      "scaled_GC_over_GR_ratios": [
+        0.8924752282609437,
+        0.7487406464839675,
+        1.737955896423316
+      ],
+      "scaled_mean_log_GR_over_GC": -0.04986350250041114,
+      "GC_wins": 2
+    }
+  ],
+  "scope": "Inputs to central global nomination only; no local candidate chosen and no test performance read."
+}

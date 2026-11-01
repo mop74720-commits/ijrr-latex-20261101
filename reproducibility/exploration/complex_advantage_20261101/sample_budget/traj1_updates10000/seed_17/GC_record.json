@@ -1,0 +1,60 @@
+{
+  "condition": "traj1_updates10000",
+  "seed": 17,
+  "group": "GC",
+  "train_trajectories": 1,
+  "training_rows": 286,
+  "training_trajectory_ids": [
+    11
+  ],
+  "training_updates": 10000,
+  "baseline_saved_weights": false,
+  "validation_selection_count": 2048,
+  "validation_reporting_count": 2284,
+  "status": "completed",
+  "real_parameter_count": 673,
+  "training_steps": 10000,
+  "selected_validation_step": 10000,
+  "validation_normalized_mse": 1.4199779739332473e-10,
+  "training_seconds": 23.63445910000155,
+  "numpy_torch_field_max_difference": 1.1102230246251565e-16,
+  "validation_reporting_points": 2284,
+  "clean_label_rhs_max_gap": 5.523359547510154e-15,
+  "clean_gradient_rms": 1.6834361532878216e-06,
+  "common_scale_clean_gradient_rms": 1.2820153582172027e-05,
+  "common_reporting_output_rms": [
+    0.07854905630135695,
+    0.4032594569156331,
+    0.07838624586167481,
+    0.40385916231872815
+  ],
+  "clean_field_mse": 2.833957282196498e-12,
+  "clean_field_relative_l2": 5.336183643100973e-06,
+  "nonlinear_residual_relative_l2": 0.6845924177241094,
+  "nonlinear_momentum_relative_l2": 0.5987695784274977,
+  "spurious_kinematic_residual_rms": 1.1541322833253422e-06,
+  "noisy_full_validation_normalized_mse": 1.4213738374927892e-10,
+  "quadratic_baseline_field_relative_l2": 7.794687035595322e-06,
+  "validation_nonlinear_field_l2": 0.00023504045030602516,
+  "validation_field_error_component_rmse": [
+    8.038136524431112e-07,
+    1.4205373163767493e-06,
+    1.7636005088606184e-06,
+    2.3582832143022534e-06
+  ],
+  "train_only_input_rms": [
+    0.09226045199443647,
+    0.06287222288404555,
+    0.09538468953918817,
+    0.06257706031125776
+  ],
+  "train_only_output_rms": [
+    0.09538470863099588,
+    0.3849814248549216,
+    0.09225899546226378,
+    0.3867953230821771
+  ],
+  "train_only_energy_scale": 0.010486241864276553,
+  "elapsed_seconds_this_evaluation": 23.673000600001615,
+  "weights_sha256": "df34cf3379f9b3829da04dd529682ff5d5e86e778f03e73ebfa1550f7474d9f8"
+}

@@ -1,0 +1,6302 @@
+{
+  "common_test": [
+    {
+      "policy": "none",
+      "seed_count": 5,
+      "metrics": {
+        "true_force_rms": {
+          "mean": 3.8774848831852445e-06,
+          "sample_sd": 1.0846701189053499e-06,
+          "n": 5
+        },
+        "remaining_force_rms": {
+          "mean": 3.8774848831852445e-06,
+          "sample_sd": 1.0846701189053499e-06,
+          "n": 5
+        },
+        "learned_force_error_rms": {
+          "mean": 3.8774848831852445e-06,
+          "sample_sd": 1.0846701189053499e-06,
+          "n": 5
+        },
+        "unrealizable_kinematic_rms": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "unrealizable_orthogonal_force_rms": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "max_abs_ff": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "n": 5
+        }
+      }
+    },
+    {
+      "policy": "oracle",
+      "seed_count": 5,
+      "metrics": {
+        "true_force_rms": {
+          "mean": 3.8774848831852445e-06,
+          "sample_sd": 1.0846701189053499e-06,
+          "n": 5
+        },
+        "remaining_force_rms": {
+          "mean": 4.4538173150697865e-22,
+          "sample_sd": 1.2101362267255557e-22,
+          "n": 5
+        },
+        "learned_force_error_rms": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "unrealizable_kinematic_rms": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "unrealizable_orthogonal_force_rms": {
+          "mean": 4.4538173150697865e-22,
+          "sample_sd": 1.2101362267255557e-22,
+          "n": 5
+        },
+        "max_abs_ff": {
+          "mean": 4.1320934949791006e-05,
+          "sample_sd": 1.2400789129164403e-05,
+          "n": 5
+        }
+      }
+    },
+    {
+      "policy": "GR",
+      "seed_count": 5,
+      "metrics": {
+        "true_force_rms": {
+          "mean": 3.8774848831852445e-06,
+          "sample_sd": 1.0846701189053499e-06,
+          "n": 5
+        },
+        "remaining_force_rms": {
+          "mean": 2.9269420633100823e-06,
+          "sample_sd": 4.649078067385859e-07,
+          "n": 5
+        },
+        "learned_force_error_rms": {
+          "mean": 3.6075856597809912e-06,
+          "sample_sd": 5.934777760122897e-07,
+          "n": 5
+        },
+        "unrealizable_kinematic_rms": {
+          "mean": 3.0397329266852023e-06,
+          "sample_sd": 5.538342839715984e-07,
+          "n": 5
+        },
+        "unrealizable_orthogonal_force_rms": {
+          "mean": 2.0686381951222698e-06,
+          "sample_sd": 4.918421252838282e-07,
+          "n": 5
+        },
+        "max_abs_ff": {
+          "mean": 3.9292454763468544e-05,
+          "sample_sd": 1.1465598675238796e-05,
+          "n": 5
+        }
+      }
+    },
+    {
+      "policy": "GC",
+      "seed_count": 5,
+      "metrics": {
+        "true_force_rms": {
+          "mean": 3.8774848831852445e-06,
+          "sample_sd": 1.0846701189053499e-06,
+          "n": 5
+        },
+        "remaining_force_rms": {
+          "mean": 2.2292923720939383e-06,
+          "sample_sd": 6.826482090843118e-07,
+          "n": 5
+        },
+        "learned_force_error_rms": {
+          "mean": 2.6773518545646673e-06,
+          "sample_sd": 7.202242510813211e-07,
+          "n": 5
+        },
+        "unrealizable_kinematic_rms": {
+          "mean": 2.1354233770638497e-06,
+          "sample_sd": 9.972584727890723e-07,
+          "n": 5
+        },
+        "unrealizable_orthogonal_force_rms": {
+          "mean": 1.4575575723999974e-06,
+          "sample_sd": 3.275137780231889e-07,
+          "n": 5
+        },
+        "max_abs_ff": {
+          "mean": 3.744343231754475e-05,
+          "sample_sd": 1.4647157476908823e-05,
+          "n": 5
+        }
+      }
+    }
+  ],
+  "own_closed_loop": [
+    {
+      "policy": "GC",
+      "method": "I",
+      "step_divisor": 1,
+      "seed_count": 5,
+      "metrics": {
+        "true_force_rms": {
+          "mean": 8.479983616210905e-07,
+          "sample_sd": 2.8013634369343643e-07,
+          "n": 5
+        },
+        "remaining_force_rms": {
+          "mean": 1.3510239883385058e-06,
+          "sample_sd": 3.6388183986741764e-07,
+          "n": 5
+        },
+        "learned_force_error_rms": {
+          "mean": 1.6781012512168646e-06,
+          "sample_sd": 4.067490566884553e-07,
+          "n": 5
+        },
+        "unrealizable_kinematic_rms": {
+          "mean": 1.2488880970258548e-06,
+          "sample_sd": 6.848372401333338e-07,
+          "n": 5
+        },
+        "unrealizable_orthogonal_force_rms": {
+          "mean": 9.645530106641433e-07,
+          "sample_sd": 2.4749345247433874e-07,
+          "n": 5
+        },
+        "max_abs_ff": {
+          "mean": 2.1451509359770794e-05,
+          "sample_sd": 5.601599037183853e-06,
+          "n": 5
+        },
+        "remaining_force_with_total_budget_rms": {
+          "mean": 1.351023988338493e-06,
+          "sample_sd": 3.6388183986744147e-07,
+          "n": 5
+        }
+      }
+    },
+    {
+      "policy": "GC",
+      "method": "II",
+      "step_divisor": 1,
+      "seed_count": 5,
+      "metrics": {
+        "true_force_rms": {
+          "mean": 8.52099177596045e-07,
+          "sample_sd": 2.8076130163276875e-07,
+          "n": 5
+        },
+        "remaining_force_rms": {
+          "mean": 1.3525318117367322e-06,
+          "sample_sd": 3.6334367419526567e-07,
+          "n": 5
+        },
+        "learned_force_error_rms": {
+          "mean": 1.680348753918154e-06,
+          "sample_sd": 4.06397454694278e-07,
+          "n": 5
+        },
+        "unrealizable_kinematic_rms": {
+          "mean": 1.2513016853710124e-06,
+          "sample_sd": 6.86000467674301e-07,
+          "n": 5
+        },
+        "unrealizable_orthogonal_force_rms": {
+          "mean": 9.661036648107665e-07,
+          "sample_sd": 2.4778719516233404e-07,
+          "n": 5
+        },
+        "max_abs_ff": {
+          "mean": 2.1471624998020235e-05,
+          "sample_sd": 5.573338838639242e-06,
+          "n": 5
+        },
+        "remaining_force_with_total_budget_rms": {
+          "mean": 1.352531811736761e-06,
+          "sample_sd": 3.6334367419526503e-07,
+          "n": 5
+        }
+      }
+    },
+    {
+      "policy": "GC",
+      "method": "III",
+      "step_divisor": 1,
+      "seed_count": 5,
+      "metrics": {
+        "true_force_rms": {
+          "mean": 8.479983825500414e-07,
+          "sample_sd": 2.801363488410215e-07,
+          "n": 5
+        },
+        "remaining_force_rms": {
+          "mean": 1.351023993837279e-06,
+          "sample_sd": 3.6388184033408944e-07,
+          "n": 5
+        },
+        "learned_force_error_rms": {
+          "mean": 1.6781012599838437e-06,
+          "sample_sd": 4.067490550021161e-07,
+          "n": 5
+        },
+        "unrealizable_kinematic_rms": {
+          "mean": 1.248888101431239e-06,
+          "sample_sd": 6.848372468057018e-07,
+          "n": 5
+        },
+        "unrealizable_orthogonal_force_rms": {
+          "mean": 9.645530172206129e-07,
+          "sample_sd": 2.4749345060010545e-07,
+          "n": 5
+        },
+        "max_abs_ff": {
+          "mean": 2.1451509801151193e-05,
+          "sample_sd": 5.601599451887412e-06,
+          "n": 5
+        },
+        "remaining_force_with_total_budget_rms": {
+          "mean": 1.351023993837297e-06,
+          "sample_sd": 3.638818403340717e-07,
+          "n": 5
+        }
+      }
+    },
+    {
+      "policy": "GR",
+      "method": "I",
+      "step_divisor": 1,
+      "seed_count": 5,
+      "metrics": {
+        "true_force_rms": {
+          "mean": 8.479777593591204e-07,
+          "sample_sd": 2.8014169419490326e-07,
+          "n": 5
+        },
+        "remaining_force_rms": {
+          "mean": 1.7032309308065033e-06,
+          "sample_sd": 5.684177148726029e-07,
+          "n": 5
+        },
+        "learned_force_error_rms": {
+          "mean": 1.9399806172038194e-06,
+          "sample_sd": 6.286594930118605e-07,
+          "n": 5
+        },
+        "unrealizable_kinematic_rms": {
+          "mean": 1.8632439686600467e-06,
+          "sample_sd": 5.561670127082217e-07,
+          "n": 5
+        },
+        "unrealizable_orthogonal_force_rms": {
+          "mean": 9.071487546873438e-07,
+          "sample_sd": 2.85027218408588e-07,
+          "n": 5
+        },
+        "max_abs_ff": {
+          "mean": 2.2784676817576868e-05,
+          "sample_sd": 5.868124560313514e-06,
+          "n": 5
+        },
+        "remaining_force_with_total_budget_rms": {
+          "mean": 1.7032309308065145e-06,
+          "sample_sd": 5.684177148726566e-07,
+          "n": 5
+        }
+      }
+    },
+    {
+      "policy": "GR",
+      "method": "II",
+      "step_divisor": 1,
+      "seed_count": 5,
+      "metrics": {
+        "true_force_rms": {
+          "mean": 8.520782954233512e-07,
+          "sample_sd": 2.807667522055428e-07,
+          "n": 5
+        },
+        "remaining_force_rms": {
+          "mean": 1.7072386755209898e-06,
+          "sample_sd": 5.687975357053055e-07,
+          "n": 5
+        },
+        "learned_force_error_rms": {
+          "mean": 1.94504490813639e-06,
+          "sample_sd": 6.294282058333614e-07,
+          "n": 5
+        },
+        "unrealizable_kinematic_rms": {
+          "mean": 1.8648503022931611e-06,
+          "sample_sd": 5.530023689947692e-07,
+          "n": 5
+        },
+        "unrealizable_orthogonal_force_rms": {
+          "mean": 9.103347020750962e-07,
+          "sample_sd": 2.8626796345730155e-07,
+          "n": 5
+        },
+        "max_abs_ff": {
+          "mean": 2.285379203001299e-05,
+          "sample_sd": 5.858923330716831e-06,
+          "n": 5
+        },
+        "remaining_force_with_total_budget_rms": {
+          "mean": 1.7072386755209752e-06,
+          "sample_sd": 5.687975357053767e-07,
+          "n": 5
+        }
+      }
+    },
+    {
+      "policy": "GR",
+      "method": "III",
+      "step_divisor": 1,
+      "seed_count": 5,
+      "metrics": {
+        "true_force_rms": {
+          "mean": 8.479777802891595e-07,
+          "sample_sd": 2.801416993413465e-07,
+          "n": 5
+        },
+        "remaining_force_rms": {
+          "mean": 1.703230940249231e-06,
+          "sample_sd": 5.68417725233727e-07,
+          "n": 5
+        },
+        "learned_force_error_rms": {
+          "mean": 1.9399806305485164e-06,
+          "sample_sd": 6.286595025395162e-07,
+          "n": 5
+        },
+        "unrealizable_kinematic_rms": {
+          "mean": 1.863243975854196e-06,
+          "sample_sd": 5.561670039177545e-07,
+          "n": 5
+        },
+        "unrealizable_orthogonal_force_rms": {
+          "mean": 9.071487659208972e-07,
+          "sample_sd": 2.8502721961984143e-07,
+          "n": 5
+        },
+        "max_abs_ff": {
+          "mean": 2.2784676739764173e-05,
+          "sample_sd": 5.8681247649388965e-06,
+          "n": 5
+        },
+        "remaining_force_with_total_budget_rms": {
+          "mean": 1.7032309402492147e-06,
+          "sample_sd": 5.684177252337525e-07,
+          "n": 5
+        }
+      }
+    },
+    {
+      "policy": "none",
+      "method": "I",
+      "step_divisor": 1,
+      "seed_count": 5,
+      "metrics": {
+        "true_force_rms": {
+          "mean": 8.480289999260634e-07,
+          "sample_sd": 2.80133195604353e-07,
+          "n": 5
+        },
+        "remaining_force_rms": {
+          "mean": 8.480289999260634e-07,
+          "sample_sd": 2.80133195604353e-07,
+          "n": 5
+        },
+        "learned_force_error_rms": {
+          "mean": 8.480289999260634e-07,
+          "sample_sd": 2.80133195604353e-07,
+          "n": 5
+        },
+        "unrealizable_kinematic_rms": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "unrealizable_orthogonal_force_rms": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "max_abs_ff": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "remaining_force_with_total_budget_rms": {
+          "mean": 8.480289999260623e-07,
+          "sample_sd": 2.8013319560435356e-07,
+          "n": 5
+        }
+      }
+    },
+    {
+      "policy": "none",
+      "method": "II",
+      "step_divisor": 1,
+      "seed_count": 5,
+      "metrics": {
+        "true_force_rms": {
+          "mean": 8.521284438941758e-07,
+          "sample_sd": 2.8075802502336674e-07,
+          "n": 5
+        },
+        "remaining_force_rms": {
+          "mean": 8.521284438941758e-07,
+          "sample_sd": 2.8075802502336674e-07,
+          "n": 5
+        },
+        "learned_force_error_rms": {
+          "mean": 8.521284438941758e-07,
+          "sample_sd": 2.8075802502336674e-07,
+          "n": 5
+        },
+        "unrealizable_kinematic_rms": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "unrealizable_orthogonal_force_rms": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "max_abs_ff": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "remaining_force_with_total_budget_rms": {
+          "mean": 8.521284438941585e-07,
+          "sample_sd": 2.807580250233249e-07,
+          "n": 5
+        }
+      }
+    },
+    {
+      "policy": "none",
+      "method": "III",
+      "step_divisor": 1,
+      "seed_count": 5,
+      "metrics": {
+        "true_force_rms": {
+          "mean": 8.480290208571158e-07,
+          "sample_sd": 2.801332007514466e-07,
+          "n": 5
+        },
+        "remaining_force_rms": {
+          "mean": 8.480290208571158e-07,
+          "sample_sd": 2.801332007514466e-07,
+          "n": 5
+        },
+        "learned_force_error_rms": {
+          "mean": 8.480290208571158e-07,
+          "sample_sd": 2.801332007514466e-07,
+          "n": 5
+        },
+        "unrealizable_kinematic_rms": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "unrealizable_orthogonal_force_rms": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "max_abs_ff": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "remaining_force_with_total_budget_rms": {
+          "mean": 8.480290208571306e-07,
+          "sample_sd": 2.801332007514399e-07,
+          "n": 5
+        }
+      }
+    },
+    {
+      "policy": "oracle",
+      "method": "I",
+      "step_divisor": 1,
+      "seed_count": 5,
+      "metrics": {
+        "true_force_rms": {
+          "mean": 8.480071974716353e-07,
+          "sample_sd": 2.8013062430158263e-07,
+          "n": 5
+        },
+        "remaining_force_rms": {
+          "mean": 8.476806430105531e-23,
+          "sample_sd": 2.02902520622125e-23,
+          "n": 5
+        },
+        "learned_force_error_rms": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "unrealizable_kinematic_rms": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "unrealizable_orthogonal_force_rms": {
+          "mean": 8.476806430105531e-23,
+          "sample_sd": 2.02902520622125e-23,
+          "n": 5
+        },
+        "max_abs_ff": {
+          "mean": 1.6811301453102608e-05,
+          "sample_sd": 8.089237182908105e-06,
+          "n": 5
+        },
+        "remaining_force_with_total_budget_rms": {
+          "mean": 7.426976965401949e-19,
+          "sample_sd": 1.1448520906747263e-19,
+          "n": 5
+        }
+      }
+    },
+    {
+      "policy": "oracle",
+      "method": "II",
+      "step_divisor": 1,
+      "seed_count": 5,
+      "metrics": {
+        "true_force_rms": {
+          "mean": 8.521075591728098e-07,
+          "sample_sd": 2.8075562240416016e-07,
+          "n": 5
+        },
+        "remaining_force_rms": {
+          "mean": 8.015369021994328e-23,
+          "sample_sd": 1.7722962655117665e-23,
+          "n": 5
+        },
+        "learned_force_error_rms": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "unrealizable_kinematic_rms": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "unrealizable_orthogonal_force_rms": {
+          "mean": 8.015369021994328e-23,
+          "sample_sd": 1.7722962655117665e-23,
+          "n": 5
+        },
+        "max_abs_ff": {
+          "mean": 1.6859139830776643e-05,
+          "sample_sd": 8.096163822825609e-06,
+          "n": 5
+        },
+        "remaining_force_with_total_budget_rms": {
+          "mean": 6.782187263699447e-19,
+          "sample_sd": 5.3008346068551784e-20,
+          "n": 5
+        }
+      }
+    },
+    {
+      "policy": "oracle",
+      "method": "III",
+      "step_divisor": 1,
+      "seed_count": 5,
+      "metrics": {
+        "true_force_rms": {
+          "mean": 8.480072184012419e-07,
+          "sample_sd": 2.8013062944843646e-07,
+          "n": 5
+        },
+        "remaining_force_rms": {
+          "mean": 8.514386979114022e-23,
+          "sample_sd": 1.6786911767434782e-23,
+          "n": 5
+        },
+        "learned_force_error_rms": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "unrealizable_kinematic_rms": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "unrealizable_orthogonal_force_rms": {
+          "mean": 8.514386979114022e-23,
+          "sample_sd": 1.6786911767434782e-23,
+          "n": 5
+        },
+        "max_abs_ff": {
+          "mean": 1.681130203403946e-05,
+          "sample_sd": 8.089237260024397e-06,
+          "n": 5
+        },
+        "remaining_force_with_total_budget_rms": {
+          "mean": 6.9230208686257875e-19,
+          "sample_sd": 2.78524888170457e-20,
+          "n": 5
+        }
+      }
+    },
+    {
+      "policy": "GC",
+      "method": "I",
+      "step_divisor": 2,
+      "seed_count": 5,
+      "metrics": {
+        "true_force_rms": {
+          "mean": 8.461483784503451e-07,
+          "sample_sd": 2.7985190172063755e-07,
+          "n": 5
+        },
+        "remaining_force_rms": {
+          "mean": 1.3502850496933868e-06,
+          "sample_sd": 3.641010503550758e-07,
+          "n": 5
+        },
+        "learned_force_error_rms": {
+          "mean": 1.676995132971184e-06,
+          "sample_sd": 4.0683325078330243e-07,
+          "n": 5
+        },
+        "unrealizable_kinematic_rms": {
+          "mean": 1.2478591813595545e-06,
+          "sample_sd": 6.842119627167344e-07,
+          "n": 5
+        },
+        "unrealizable_orthogonal_force_rms": {
+          "mean": 9.637688378346865e-07,
+          "sample_sd": 2.472338621798723e-07,
+          "n": 5
+        },
+        "max_abs_ff": {
+          "mean": 2.143406404246707e-05,
+          "sample_sd": 5.607471886840825e-06,
+          "n": 5
+        },
+        "remaining_force_with_total_budget_rms": {
+          "mean": 1.35028504969338e-06,
+          "sample_sd": 3.6410105035505475e-07,
+          "n": 5
+        }
+      }
+    },
+    {
+      "policy": "GC",
+      "method": "II",
+      "step_divisor": 2,
+      "seed_count": 5,
+      "metrics": {
+        "true_force_rms": {
+          "mean": 8.481350725278879e-07,
+          "sample_sd": 2.801448129812541e-07,
+          "n": 5
+        },
+        "remaining_force_rms": {
+          "mean": 1.3510329459515395e-06,
+          "sample_sd": 3.6383712194451733e-07,
+          "n": 5
+        },
+        "learned_force_error_rms": {
+          "mean": 1.6781082098323258e-06,
+          "sample_sd": 4.066633282643773e-07,
+          "n": 5
+        },
+        "unrealizable_kinematic_rms": {
+          "mean": 1.2490494448305681e-06,
+          "sample_sd": 6.847890565817398e-07,
+          "n": 5
+        },
+        "unrealizable_orthogonal_force_rms": {
+          "mean": 9.64534340880405e-07,
+          "sample_sd": 2.473818175650501e-07,
+          "n": 5
+        },
+        "max_abs_ff": {
+          "mean": 2.144339590377497e-05,
+          "sample_sd": 5.5929833211876335e-06,
+          "n": 5
+        },
+        "remaining_force_with_total_budget_rms": {
+          "mean": 1.3510329459515435e-06,
+          "sample_sd": 3.638371219445228e-07,
+          "n": 5
+        }
+      }
+    },
+    {
+      "policy": "GC",
+      "method": "III",
+      "step_divisor": 2,
+      "seed_count": 5,
+      "metrics": {
+        "true_force_rms": {
+          "mean": 8.461483836745672e-07,
+          "sample_sd": 2.798519030030937e-07,
+          "n": 5
+        },
+        "remaining_force_rms": {
+          "mean": 1.3502850510635553e-06,
+          "sample_sd": 3.6410105047309584e-07,
+          "n": 5
+        },
+        "learned_force_error_rms": {
+          "mean": 1.6769951351432632e-06,
+          "sample_sd": 4.06833250385826e-07,
+          "n": 5
+        },
+        "unrealizable_kinematic_rms": {
+          "mean": 1.2478591824839179e-06,
+          "sample_sd": 6.842119643678775e-07,
+          "n": 5
+        },
+        "unrealizable_orthogonal_force_rms": {
+          "mean": 9.637688394518435e-07,
+          "sample_sd": 2.472338617385085e-07,
+          "n": 5
+        },
+        "max_abs_ff": {
+          "mean": 2.143406415171382e-05,
+          "sample_sd": 5.6074719881070655e-06,
+          "n": 5
+        },
+        "remaining_force_with_total_budget_rms": {
+          "mean": 1.3502850510635617e-06,
+          "sample_sd": 3.6410105047308085e-07,
+          "n": 5
+        }
+      }
+    },
+    {
+      "policy": "GR",
+      "method": "I",
+      "step_divisor": 2,
+      "seed_count": 5,
+      "metrics": {
+        "true_force_rms": {
+          "mean": 8.461279000490163e-07,
+          "sample_sd": 2.7985716227185194e-07,
+          "n": 5
+        },
+        "remaining_force_rms": {
+          "mean": 1.7013199982769574e-06,
+          "sample_sd": 5.681242029796526e-07,
+          "n": 5
+        },
+        "learned_force_error_rms": {
+          "mean": 1.9376314527000745e-06,
+          "sample_sd": 6.282384951603253e-07,
+          "n": 5
+        },
+        "unrealizable_kinematic_rms": {
+          "mean": 1.8625729162570666e-06,
+          "sample_sd": 5.575094507706193e-07,
+          "n": 5
+        },
+        "unrealizable_orthogonal_force_rms": {
+          "mean": 9.057469984079746e-07,
+          "sample_sd": 2.8455068259075336e-07,
+          "n": 5
+        },
+        "max_abs_ff": {
+          "mean": 2.2754931582371648e-05,
+          "sample_sd": 5.866049739135439e-06,
+          "n": 5
+        },
+        "remaining_force_with_total_budget_rms": {
+          "mean": 1.7013199982769637e-06,
+          "sample_sd": 5.681242029796589e-07,
+          "n": 5
+        }
+      }
+    },
+    {
+      "policy": "GR",
+      "method": "II",
+      "step_divisor": 2,
+      "seed_count": 5,
+      "metrics": {
+        "true_force_rms": {
+          "mean": 8.481144535905149e-07,
+          "sample_sd": 2.801501262398356e-07,
+          "n": 5
+        },
+        "remaining_force_rms": {
+          "mean": 1.7033065926092884e-06,
+          "sample_sd": 5.683222677155071e-07,
+          "n": 5
+        },
+        "learned_force_error_rms": {
+          "mean": 1.940133217212024e-06,
+          "sample_sd": 6.286313155273274e-07,
+          "n": 5
+        },
+        "unrealizable_kinematic_rms": {
+          "mean": 1.8633521726474762e-06,
+          "sample_sd": 5.559499997985435e-07,
+          "n": 5
+        },
+        "unrealizable_orthogonal_force_rms": {
+          "mean": 9.073060415741957e-07,
+          "sample_sd": 2.851756962794865e-07,
+          "n": 5
+        },
+        "max_abs_ff": {
+          "mean": 2.2789802488779094e-05,
+          "sample_sd": 5.861220643697055e-06,
+          "n": 5
+        },
+        "remaining_force_with_total_budget_rms": {
+          "mean": 1.7033065926092844e-06,
+          "sample_sd": 5.683222677155388e-07,
+          "n": 5
+        }
+      }
+    },
+    {
+      "policy": "GR",
+      "method": "III",
+      "step_divisor": 2,
+      "seed_count": 5,
+      "metrics": {
+        "true_force_rms": {
+          "mean": 8.46127905273498e-07,
+          "sample_sd": 2.7985716355404393e-07,
+          "n": 5
+        },
+        "remaining_force_rms": {
+          "mean": 1.7013200006496118e-06,
+          "sample_sd": 5.681242055446721e-07,
+          "n": 5
+        },
+        "learned_force_error_rms": {
+          "mean": 1.9376314560335997e-06,
+          "sample_sd": 6.282384975334657e-07,
+          "n": 5
+        },
+        "unrealizable_kinematic_rms": {
+          "mean": 1.8625729180652863e-06,
+          "sample_sd": 5.575094485875939e-07,
+          "n": 5
+        },
+        "unrealizable_orthogonal_force_rms": {
+          "mean": 9.057470011900309e-07,
+          "sample_sd": 2.8455068291872844e-07,
+          "n": 5
+        },
+        "max_abs_ff": {
+          "mean": 2.2754931566142896e-05,
+          "sample_sd": 5.8660497912205014e-06,
+          "n": 5
+        },
+        "remaining_force_with_total_budget_rms": {
+          "mean": 1.7013200006495985e-06,
+          "sample_sd": 5.681242055447125e-07,
+          "n": 5
+        }
+      }
+    },
+    {
+      "policy": "none",
+      "method": "I",
+      "step_divisor": 2,
+      "seed_count": 5,
+      "metrics": {
+        "true_force_rms": {
+          "mean": 8.461795839587293e-07,
+          "sample_sd": 2.798487794716306e-07,
+          "n": 5
+        },
+        "remaining_force_rms": {
+          "mean": 8.461795839587293e-07,
+          "sample_sd": 2.798487794716306e-07,
+          "n": 5
+        },
+        "learned_force_error_rms": {
+          "mean": 8.461795839587293e-07,
+          "sample_sd": 2.798487794716306e-07,
+          "n": 5
+        },
+        "unrealizable_kinematic_rms": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "unrealizable_orthogonal_force_rms": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "max_abs_ff": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "remaining_force_with_total_budget_rms": {
+          "mean": 8.461795839587477e-07,
+          "sample_sd": 2.7984877947162786e-07,
+          "n": 5
+        }
+      }
+    },
+    {
+      "policy": "none",
+      "method": "II",
+      "step_divisor": 2,
+      "seed_count": 5,
+      "metrics": {
+        "true_force_rms": {
+          "mean": 8.481656075128067e-07,
+          "sample_sd": 2.8014163003414575e-07,
+          "n": 5
+        },
+        "remaining_force_rms": {
+          "mean": 8.481656075128067e-07,
+          "sample_sd": 2.8014163003414575e-07,
+          "n": 5
+        },
+        "learned_force_error_rms": {
+          "mean": 8.481656075128067e-07,
+          "sample_sd": 2.8014163003414575e-07,
+          "n": 5
+        },
+        "unrealizable_kinematic_rms": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "unrealizable_orthogonal_force_rms": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "max_abs_ff": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "remaining_force_with_total_budget_rms": {
+          "mean": 8.481656075128186e-07,
+          "sample_sd": 2.8014163003415274e-07,
+          "n": 5
+        }
+      }
+    },
+    {
+      "policy": "none",
+      "method": "III",
+      "step_divisor": 2,
+      "seed_count": 5,
+      "metrics": {
+        "true_force_rms": {
+          "mean": 8.461795891834882e-07,
+          "sample_sd": 2.7984878075397693e-07,
+          "n": 5
+        },
+        "remaining_force_rms": {
+          "mean": 8.461795891834882e-07,
+          "sample_sd": 2.7984878075397693e-07,
+          "n": 5
+        },
+        "learned_force_error_rms": {
+          "mean": 8.461795891834882e-07,
+          "sample_sd": 2.7984878075397693e-07,
+          "n": 5
+        },
+        "unrealizable_kinematic_rms": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "unrealizable_orthogonal_force_rms": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "max_abs_ff": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "remaining_force_with_total_budget_rms": {
+          "mean": 8.461795891834989e-07,
+          "sample_sd": 2.798487807539928e-07,
+          "n": 5
+        }
+      }
+    },
+    {
+      "policy": "oracle",
+      "method": "I",
+      "step_divisor": 2,
+      "seed_count": 5,
+      "metrics": {
+        "true_force_rms": {
+          "mean": 8.461573966481064e-07,
+          "sample_sd": 2.798461583720989e-07,
+          "n": 5
+        },
+        "remaining_force_rms": {
+          "mean": 8.697210595052008e-23,
+          "sample_sd": 1.82637299985363e-23,
+          "n": 5
+        },
+        "learned_force_error_rms": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "unrealizable_kinematic_rms": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "unrealizable_orthogonal_force_rms": {
+          "mean": 8.697210595052008e-23,
+          "sample_sd": 1.82637299985363e-23,
+          "n": 5
+        },
+        "max_abs_ff": {
+          "mean": 1.6789268852543755e-05,
+          "sample_sd": 8.087346255848833e-06,
+          "n": 5
+        },
+        "remaining_force_with_total_budget_rms": {
+          "mean": 6.870496026501352e-19,
+          "sample_sd": 6.395669408419281e-20,
+          "n": 5
+        }
+      }
+    },
+    {
+      "policy": "oracle",
+      "method": "II",
+      "step_divisor": 2,
+      "seed_count": 5,
+      "metrics": {
+        "true_force_rms": {
+          "mean": 8.481438661888577e-07,
+          "sample_sd": 2.801390913492262e-07,
+          "n": 5
+        },
+        "remaining_force_rms": {
+          "mean": 9.160189757309076e-23,
+          "sample_sd": 1.5913237901402623e-23,
+          "n": 5
+        },
+        "learned_force_error_rms": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "unrealizable_kinematic_rms": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "unrealizable_orthogonal_force_rms": {
+          "mean": 9.160189757309076e-23,
+          "sample_sd": 1.5913237901402623e-23,
+          "n": 5
+        },
+        "max_abs_ff": {
+          "mean": 1.6812787643873996e-05,
+          "sample_sd": 8.090513583451399e-06,
+          "n": 5
+        },
+        "remaining_force_with_total_budget_rms": {
+          "mean": 7.047928717501624e-19,
+          "sample_sd": 3.5106588712663363e-20,
+          "n": 5
+        }
+      }
+    },
+    {
+      "policy": "oracle",
+      "method": "III",
+      "step_divisor": 2,
+      "seed_count": 5,
+      "metrics": {
+        "true_force_rms": {
+          "mean": 8.461574018724855e-07,
+          "sample_sd": 2.798461596543753e-07,
+          "n": 5
+        },
+        "remaining_force_rms": {
+          "mean": 8.499958350462772e-23,
+          "sample_sd": 1.5841868999312746e-23,
+          "n": 5
+        },
+        "learned_force_error_rms": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "unrealizable_kinematic_rms": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "unrealizable_orthogonal_force_rms": {
+          "mean": 8.499958350462772e-23,
+          "sample_sd": 1.5841868999312746e-23,
+          "n": 5
+        },
+        "max_abs_ff": {
+          "mean": 1.678926899632162e-05,
+          "sample_sd": 8.08734627590506e-06,
+          "n": 5
+        },
+        "remaining_force_with_total_budget_rms": {
+          "mean": 6.973001423551283e-19,
+          "sample_sd": 2.26708490721135e-20,
+          "n": 5
+        }
+      }
+    }
+  ],
+  "tracking_pairs": [
+    {
+      "case": "forty_initials",
+      "step_divisor": 1,
+      "method": "I",
+      "contrast": "none-oracle",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 5.551406713877328e-07,
+          "sample_sd": 1.975715803888611e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 9.603695740094534e-07,
+          "sample_sd": 2.6081200947430193e-06,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 3,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 1,
+      "method": "I",
+      "contrast": "none-oracle",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -2.7010376365765865e-06,
+          "sample_sd": 4.383867639042445e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": -1.4713458187428487e-06,
+          "sample_sd": 2.492211275137405e-06,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 2,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 1,
+      "method": "I",
+      "contrast": "none-oracle",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -1.3745268388209997e-07,
+          "sample_sd": 1.1781848245828958e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": -1.0234649416725847e-05,
+          "sample_sd": 8.622217111492658e-06,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 1,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 1,
+      "method": "I",
+      "contrast": "none-GR",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 2.374676030183487e-05,
+          "sample_sd": 3.8453646535620315e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 3.8552348058485116e-05,
+          "sample_sd": 6.150879165835943e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 3,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 1,
+      "method": "I",
+      "contrast": "none-GR",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 3.983531341660296e-05,
+          "sample_sd": 7.471947797567774e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 3.0464690226882748e-05,
+          "sample_sd": 5.401799941319863e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 3,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 1,
+      "method": "I",
+      "contrast": "none-GR",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 4.0712426133474033e-08,
+          "sample_sd": 3.843238111031543e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 3.790223682530507e-06,
+          "sample_sd": 2.992479423589029e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 2,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 1,
+      "method": "I",
+      "contrast": "none-GC",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -2.8549534161870225e-06,
+          "sample_sd": 2.272138512060288e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": -5.691200454748622e-07,
+          "sample_sd": 3.2733674890922634e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 2,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 1,
+      "method": "I",
+      "contrast": "none-GC",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -1.4542889685742466e-05,
+          "sample_sd": 4.6029030898508655e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": -6.435122074656443e-06,
+          "sample_sd": 2.9420915396590498e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 2,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 1,
+      "method": "I",
+      "contrast": "none-GC",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -5.8156218465943436e-09,
+          "sample_sd": 3.098358144465043e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 2.5271558346057053e-07,
+          "sample_sd": 2.3959739866971503e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 2,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 1,
+      "method": "I",
+      "contrast": "GR-GC",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -2.660171371802189e-05,
+          "sample_sd": 3.527317477657386e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": -3.9124967509954416e-05,
+          "sample_sd": 4.759798169395539e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 1,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 1,
+      "method": "I",
+      "contrast": "GR-GC",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -5.437820310234542e-05,
+          "sample_sd": 7.045456382158047e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": -3.690252762578662e-05,
+          "sample_sd": 4.387782234220022e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 1,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 1,
+      "method": "I",
+      "contrast": "GR-GC",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -4.6528047980068375e-08,
+          "sample_sd": 1.5143466441965734e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": -3.537703894126826e-06,
+          "sample_sd": 1.1598602386657703e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 3,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 1,
+      "method": "II",
+      "contrast": "none-oracle",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 1.3702531709292032e-07,
+          "sample_sd": 2.0541182296837757e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 4.101112638120371e-07,
+          "sample_sd": 2.66578750650251e-06,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 3,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 1,
+      "method": "II",
+      "contrast": "none-oracle",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -3.6892036026969776e-06,
+          "sample_sd": 4.5851299292081185e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": -2.066637437863256e-06,
+          "sample_sd": 2.5460469939956135e-06,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 1,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 1,
+      "method": "II",
+      "contrast": "none-oracle",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -1.4870691861443296e-07,
+          "sample_sd": 1.2174101878937652e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": -1.1088475652859176e-05,
+          "sample_sd": 8.88398630456937e-06,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 1,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 1,
+      "method": "II",
+      "contrast": "none-GR",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 2.3156645778388273e-05,
+          "sample_sd": 3.860867077188436e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 3.7623017621453615e-05,
+          "sample_sd": 6.140047171105734e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 3,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 1,
+      "method": "II",
+      "contrast": "none-GR",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 3.8451181937482205e-05,
+          "sample_sd": 7.500951230688748e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 2.9494326667328153e-05,
+          "sample_sd": 5.3898887715571405e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 3,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 1,
+      "method": "II",
+      "contrast": "none-GR",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 2.4421045026826184e-08,
+          "sample_sd": 3.8481959727074984e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 2.5572703981302674e-06,
+          "sample_sd": 2.9943199213768262e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 2,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 1,
+      "method": "II",
+      "contrast": "none-GC",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -3.7028982782905116e-06,
+          "sample_sd": 2.2954137653436475e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": -1.703490044145354e-06,
+          "sample_sd": 3.270242164620118e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 2,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 1,
+      "method": "II",
+      "contrast": "none-GC",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -1.644195705949869e-05,
+          "sample_sd": 4.654247099586896e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": -7.587929855103987e-06,
+          "sample_sd": 2.9430040144429503e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 2,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 1,
+      "method": "II",
+      "contrast": "none-GC",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -2.5678849770865987e-08,
+          "sample_sd": 3.131297587743193e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": -1.2574200245340473e-06,
+          "sample_sd": 2.4170031541641322e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 2,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 1,
+      "method": "II",
+      "contrast": "GR-GC",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -2.6859544056678786e-05,
+          "sample_sd": 3.53432717926809e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": -3.932997231923121e-05,
+          "sample_sd": 4.7555999654879485e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 1,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 1,
+      "method": "II",
+      "contrast": "GR-GC",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -5.4893138996980895e-05,
+          "sample_sd": 7.058027579763423e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": -3.708493392784097e-05,
+          "sample_sd": 4.381699959277921e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 1,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 1,
+      "method": "II",
+      "contrast": "GR-GC",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -5.009989479769217e-08,
+          "sample_sd": 1.4908871160784162e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": -3.814877303306423e-06,
+          "sample_sd": 1.1418989127194467e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 3,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 1,
+      "method": "III",
+      "contrast": "none-oracle",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 5.551407130655051e-07,
+          "sample_sd": 1.975715873575163e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 9.603696310898084e-07,
+          "sample_sd": 2.608120177781424e-06,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 3,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 1,
+      "method": "III",
+      "contrast": "none-oracle",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -2.701037720997945e-06,
+          "sample_sd": 4.383867854267213e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": -1.471345845447543e-06,
+          "sample_sd": 2.4922113723226075e-06,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 2,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 1,
+      "method": "III",
+      "contrast": "none-oracle",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -1.374527319304708e-07,
+          "sample_sd": 1.1781850413054781e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": -1.0234652805956883e-05,
+          "sample_sd": 8.622218345722645e-06,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 1,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 1,
+      "method": "III",
+      "contrast": "none-GR",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 2.374676027978584e-05,
+          "sample_sd": 3.845364586278139e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 3.855234716989172e-05,
+          "sample_sd": 6.150878929744969e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 3,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 1,
+      "method": "III",
+      "contrast": "none-GR",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 3.983531329181389e-05,
+          "sample_sd": 7.471947633950807e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 3.0464689348981047e-05,
+          "sample_sd": 5.401799697777538e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 3,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 1,
+      "method": "III",
+      "contrast": "none-GR",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 4.0712378187104935e-08,
+          "sample_sd": 3.843238155748687e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 3.7902199969891116e-06,
+          "sample_sd": 2.9924793718448812e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 2,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 1,
+      "method": "III",
+      "contrast": "none-GC",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -2.854953068798238e-06,
+          "sample_sd": 2.272138432369951e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": -5.691196538165662e-07,
+          "sample_sd": 3.273367360221585e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 2,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 1,
+      "method": "III",
+      "contrast": "none-GC",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -1.454288905544665e-05,
+          "sample_sd": 4.602902898042821e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": -6.435121693133577e-06,
+          "sample_sd": 2.9420913958092364e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 2,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 1,
+      "method": "III",
+      "contrast": "none-GC",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -5.815678156759208e-09,
+          "sample_sd": 3.0983582265246976e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 2.5271132400260476e-07,
+          "sample_sd": 2.3959739781809086e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 2,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 1,
+      "method": "III",
+      "contrast": "GR-GC",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -2.660171334858408e-05,
+          "sample_sd": 3.527317376949594e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": -3.9124966229452283e-05,
+          "sample_sd": 4.75979794915196e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 1,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 1,
+      "method": "III",
+      "contrast": "GR-GC",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -5.437820234726054e-05,
+          "sample_sd": 7.045456178850435e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": -3.6902526366144885e-05,
+          "sample_sd": 4.387782020521249e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 1,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 1,
+      "method": "III",
+      "contrast": "GR-GC",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -4.6528056343864145e-08,
+          "sample_sd": 1.5143466716769316e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": -3.5377044680209066e-06,
+          "sample_sd": 1.159860229268101e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 3,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 2,
+      "method": "I",
+      "contrast": "none-oracle",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 7.484392892775916e-07,
+          "sample_sd": 1.942153142722932e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 1.2159699420171879e-06,
+          "sample_sd": 2.581754838732807e-06,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 3,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 2,
+      "method": "I",
+      "contrast": "none-oracle",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -2.238013300326358e-06,
+          "sample_sd": 4.294326692102497e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": -1.1904473409284915e-06,
+          "sample_sd": 2.4677285038365143e-06,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 3,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 2,
+      "method": "I",
+      "contrast": "none-oracle",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -1.3201396947999655e-07,
+          "sample_sd": 1.1581485544148212e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": -9.835097868871463e-06,
+          "sample_sd": 8.498857186743866e-06,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 1,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 2,
+      "method": "I",
+      "contrast": "none-GR",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 2.4029896783184235e-05,
+          "sample_sd": 3.835515126368085e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 3.898738142722008e-05,
+          "sample_sd": 6.151272326360389e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 3,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 2,
+      "method": "I",
+      "contrast": "none-GR",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 4.0507554715674135e-05,
+          "sample_sd": 7.45357323056871e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 3.0928957347416876e-05,
+          "sample_sd": 5.4038028625683055e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 3,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 2,
+      "method": "I",
+      "contrast": "none-GR",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 4.7859865921415225e-08,
+          "sample_sd": 3.8320149828320396e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 4.334054964492696e-06,
+          "sample_sd": 2.988689737669739e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 2,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 2,
+      "method": "I",
+      "contrast": "none-GC",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -2.4539643796339662e-06,
+          "sample_sd": 2.2600020437255658e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": -2.8293594701256186e-08,
+          "sample_sd": 3.2729169622198555e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 3,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 2,
+      "method": "I",
+      "contrast": "none-GC",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -1.3635937199030224e-05,
+          "sample_sd": 4.57637667965891e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": -5.87858856083002e-06,
+          "sample_sd": 2.940058088616031e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 2,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 2,
+      "method": "I",
+      "contrast": "none-GC",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 3.0714634842443632e-09,
+          "sample_sd": 3.0784966262645904e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 9.27948159907978e-07,
+          "sample_sd": 2.3856419790667092e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 2,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 2,
+      "method": "I",
+      "contrast": "GR-GC",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -2.64838611628182e-05,
+          "sample_sd": 3.520244311150576e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": -3.901918606367974e-05,
+          "sample_sd": 4.7556678491287917e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 1,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 2,
+      "method": "I",
+      "contrast": "GR-GC",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -5.414349191470436e-05,
+          "sample_sd": 7.032024214892426e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": -3.6810275970923544e-05,
+          "sample_sd": 4.385260219650676e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 1,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 2,
+      "method": "I",
+      "contrast": "GR-GC",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -4.478840243717086e-08,
+          "sample_sd": 1.5204553570050016e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": -3.4063056105538106e-06,
+          "sample_sd": 1.1661697428956972e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 3,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 2,
+      "method": "II",
+      "contrast": "none-oracle",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 5.425951166371234e-07,
+          "sample_sd": 1.9783700042877943e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 9.433846184943824e-07,
+          "sample_sd": 2.609404485368042e-06,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 3,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 2,
+      "method": "II",
+      "contrast": "none-oracle",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -2.72366645606148e-06,
+          "sample_sd": 4.389263093458507e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": -1.484804273912766e-06,
+          "sample_sd": 2.493579534435813e-06,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 2,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 2,
+      "method": "II",
+      "contrast": "none-oracle",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -1.374664188018987e-07,
+          "sample_sd": 1.1771036362890766e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": -1.0249654769989448e-05,
+          "sample_sd": 8.626132622948407e-06,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 1,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 2,
+      "method": "II",
+      "contrast": "none-GR",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 2.3740471632294203e-05,
+          "sample_sd": 3.8432539911402445e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 3.8528184793878856e-05,
+          "sample_sd": 6.146062358991444e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 3,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 2,
+      "method": "II",
+      "contrast": "none-GR",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 3.982966080982031e-05,
+          "sample_sd": 7.468159509852551e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 3.0450655767231324e-05,
+          "sample_sd": 5.3981895434813906e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 3,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 2,
+      "method": "II",
+      "contrast": "none-GR",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 3.990240995156713e-08,
+          "sample_sd": 3.833938632058376e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 3.73155986539259e-06,
+          "sample_sd": 2.989440078720214e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 2,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 2,
+      "method": "II",
+      "contrast": "none-GC",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -2.8731151513694543e-06,
+          "sample_sd": 2.271615230150096e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": -5.924241462806347e-07,
+          "sample_sd": 3.2714227560500695e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 2,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 2,
+      "method": "II",
+      "contrast": "none-GC",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -1.4573439601717198e-05,
+          "sample_sd": 4.602032001097961e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": -6.451077002985808e-06,
+          "sample_sd": 2.9406379809431796e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 2,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 2,
+      "method": "II",
+      "contrast": "none-GC",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -6.662589237607652e-09,
+          "sample_sd": 3.0942551182363007e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 1.872818840362447e-07,
+          "sample_sd": 2.3958286320802635e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 2,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 2,
+      "method": "II",
+      "contrast": "GR-GC",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -2.6613586783663655e-05,
+          "sample_sd": 3.5239306470638126e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": -3.912410323608082e-05,
+          "sample_sd": 4.753830081413827e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 1,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 2,
+      "method": "II",
+      "contrast": "GR-GC",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -5.440310041153751e-05,
+          "sample_sd": 7.038778841933229e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": -3.690444459083172e-05,
+          "sample_sd": 4.3825760152409424e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 1,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 2,
+      "method": "II",
+      "contrast": "GR-GC",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -4.656499918917478e-08,
+          "sample_sd": 1.5087536874625097e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": -3.5444726544500555e-06,
+          "sample_sd": 1.1572675647614381e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 3,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 2,
+      "method": "III",
+      "contrast": "none-oracle",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 7.484393141687917e-07,
+          "sample_sd": 1.9421531608262626e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 1.2159699747984857e-06,
+          "sample_sd": 2.5817548610917456e-06,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 3,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 2,
+      "method": "III",
+      "contrast": "none-oracle",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -2.2380132855825963e-06,
+          "sample_sd": 4.294326744542149e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": -1.1904473264039754e-06,
+          "sample_sd": 2.4677285292106996e-06,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 3,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 2,
+      "method": "III",
+      "contrast": "none-oracle",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -1.3201398096594763e-07,
+          "sample_sd": 1.1581486063150159e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": -9.835098679948358e-06,
+          "sample_sd": 8.49885748218954e-06,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 1,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 2,
+      "method": "III",
+      "contrast": "none-GR",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 2.4029896787203243e-05,
+          "sample_sd": 3.835515109771143e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 3.89873812175894e-05,
+          "sample_sd": 6.151272267816467e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 3,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 2,
+      "method": "III",
+      "contrast": "none-GR",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 4.0507554705770944e-05,
+          "sample_sd": 7.453573189899348e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 3.0928957140318804e-05,
+          "sample_sd": 5.4038028019477214e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 3,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 2,
+      "method": "III",
+      "contrast": "none-GR",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 4.785985424395067e-08,
+          "sample_sd": 3.8320149925247556e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 4.334054062471897e-06,
+          "sample_sd": 2.9886897239076606e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 2,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 2,
+      "method": "III",
+      "contrast": "none-GC",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -2.4539642818233178e-06,
+          "sample_sd": 2.2600020237187343e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": -2.829348453070634e-08,
+          "sample_sd": 3.272916929726901e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 3,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 2,
+      "method": "III",
+      "contrast": "none-GC",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -1.3635937017175693e-05,
+          "sample_sd": 4.576376631691471e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": -5.87858845296544e-06,
+          "sample_sd": 2.9400580524892826e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 2,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 2,
+      "method": "III",
+      "contrast": "none-GC",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 3.0714497261524753e-09,
+          "sample_sd": 3.0784966457429934e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 9.279471145719061e-07,
+          "sample_sd": 2.38564197644889e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 2,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 2,
+      "method": "III",
+      "contrast": "GR-GC",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -2.648386106902656e-05,
+          "sample_sd": 3.520244286595512e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": -3.901918574381702e-05,
+          "sample_sd": 4.7556677951467626e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 1,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 2,
+      "method": "III",
+      "contrast": "GR-GC",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -5.4143491722946635e-05,
+          "sample_sd": 7.032024165314299e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": -3.681027565590741e-05,
+          "sample_sd": 4.3852601671742207e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 1,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "forty_initials",
+      "step_divisor": 2,
+      "method": "III",
+      "contrast": "GR-GC",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": -4.4788404517798196e-08,
+          "sample_sd": 1.5204553641584553e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": -3.4063057538636423e-06,
+          "sample_sd": 1.1661697407813088e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 3,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 0.5,
+      "method": "I",
+      "contrast": "none-oracle",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 3.2930730126438067e-06,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.0009614958464026886,
+          "sample_sd": 1.21217487951527e-19,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 0.5,
+      "method": "I",
+      "contrast": "none-oracle",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 7.304665802090188e-06,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.0010910061853263739,
+          "sample_sd": 0.0,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 0.5,
+      "method": "I",
+      "contrast": "none-oracle",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 9.664427002772924e-08,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 9.98545897721996e-06,
+          "sample_sd": 0.0,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 0.5,
+      "method": "I",
+      "contrast": "none-GR",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 1.4524864266074206e-05,
+          "sample_sd": 1.1068463713233222e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.004240901008806077,
+          "sample_sd": 0.0032317175615212326,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 0.5,
+      "method": "I",
+      "contrast": "none-GR",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 3.399076708637348e-05,
+          "sample_sd": 2.6532636656549067e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.00507677396063899,
+          "sample_sd": 0.003962846691361187,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 0.5,
+      "method": "I",
+      "contrast": "none-GR",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 4.99807141618458e-07,
+          "sample_sd": 5.011841592417595e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 5.164096855116929e-05,
+          "sample_sd": 5.178324447693748e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 0.5,
+      "method": "I",
+      "contrast": "none-GC",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 2.2236186710410718e-05,
+          "sample_sd": 9.435258348563663e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.006492416378199241,
+          "sample_sd": 0.0027548620018591477,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 0.5,
+      "method": "I",
+      "contrast": "none-GC",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 4.9147382494001135e-05,
+          "sample_sd": 2.1158410171550495e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.007340527239208303,
+          "sample_sd": 0.003160165980793907,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 0.5,
+      "method": "I",
+      "contrast": "none-GC",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 7.173060023249467e-07,
+          "sample_sd": 3.3085596088371323e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 7.411334017292794e-05,
+          "sample_sd": 3.418463012680521e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 0.5,
+      "method": "I",
+      "contrast": "GR-GC",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 7.711322444336512e-06,
+          "sample_sd": 8.749384208373963e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.0022573252786890893,
+          "sample_sd": 0.002567370448977539,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 4,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 0.5,
+      "method": "I",
+      "contrast": "GR-GC",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 1.515661540762766e-05,
+          "sample_sd": 2.0189911212885856e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.002269326264519302,
+          "sample_sd": 0.003034517666381294,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 4,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 0.5,
+      "method": "I",
+      "contrast": "GR-GC",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 2.1749886070648872e-07,
+          "sample_sd": 3.899101910497755e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 2.2472277715467963e-05,
+          "sample_sd": 4.028729132198401e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 4,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 0.5,
+      "method": "II",
+      "contrast": "none-oracle",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 2.85166251637152e-06,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.0004156364151509476,
+          "sample_sd": 0.0,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 0.5,
+      "method": "II",
+      "contrast": "none-oracle",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 5.9537015979788804e-06,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.0004152555582135547,
+          "sample_sd": 0.0,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 0.5,
+      "method": "II",
+      "contrast": "none-oracle",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 9.55702613800874e-08,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 9.937590215738877e-06,
+          "sample_sd": 0.0,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 0.5,
+      "method": "II",
+      "contrast": "none-GR",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 1.2040433264147617e-05,
+          "sample_sd": 8.793581952009826e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.0017549210294148816,
+          "sample_sd": 0.001281684932170727,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 0.5,
+      "method": "II",
+      "contrast": "none-GR",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 2.6434370545151686e-05,
+          "sample_sd": 1.9792729834701036e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.001843730176278454,
+          "sample_sd": 0.0013804926130105341,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 0.5,
+      "method": "II",
+      "contrast": "none-GR",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 4.952303347498938e-07,
+          "sample_sd": 4.974168640952764e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 5.1495057752065893e-05,
+          "sample_sd": 5.172241752188679e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 0.5,
+      "method": "II",
+      "contrast": "none-GC",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 1.907125591362833e-05,
+          "sample_sd": 8.077196129717597e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.00277967971134705,
+          "sample_sd": 0.0011772700396885081,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 0.5,
+      "method": "II",
+      "contrast": "none-GC",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 3.985774647300606e-05,
+          "sample_sd": 1.7043077401993827e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.002779976538696723,
+          "sample_sd": 0.0011887113426451025,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 0.5,
+      "method": "II",
+      "contrast": "none-GC",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 7.092270729376626e-07,
+          "sample_sd": 3.2728187069119975e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 7.374687396461313e-05,
+          "sample_sd": 3.403143476854858e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 0.5,
+      "method": "II",
+      "contrast": "GR-GC",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 7.0308226494807115e-06,
+          "sample_sd": 7.522880247713123e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.0010259749484833609,
+          "sample_sd": 0.0010986535060910339,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 4,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 0.5,
+      "method": "II",
+      "contrast": "GR-GC",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 1.3423375927854377e-05,
+          "sample_sd": 1.5882541462715937e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.0009372856073851977,
+          "sample_sd": 0.0011102422343215149,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 4,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 0.5,
+      "method": "II",
+      "contrast": "GR-GC",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 2.1399673818776887e-07,
+          "sample_sd": 3.880683767671987e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 2.2251703880722135e-05,
+          "sample_sd": 4.035320756352221e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 4,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 0.5,
+      "method": "III",
+      "contrast": "none-oracle",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 3.2930554490838253e-06,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.0009614912951889928,
+          "sample_sd": 1.21217487951527e-19,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 0.5,
+      "method": "III",
+      "contrast": "none-oracle",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 7.304627935316235e-06,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.0010910012739847343,
+          "sample_sd": 0.0,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 0.5,
+      "method": "III",
+      "contrast": "none-oracle",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 9.664426926792036e-08,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 9.985458884576412e-06,
+          "sample_sd": 0.0,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 0.5,
+      "method": "III",
+      "contrast": "none-GR",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 1.4524800889079582e-05,
+          "sample_sd": 1.1068409917511628e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.0042408850488954725,
+          "sample_sd": 0.0032317037935792286,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 0.5,
+      "method": "III",
+      "contrast": "none-GR",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 3.399063061745068e-05,
+          "sample_sd": 2.6532521624143188e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.005076757041640856,
+          "sample_sd": 0.003962832214083815,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 0.5,
+      "method": "III",
+      "contrast": "none-GR",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 4.998071409838961e-07,
+          "sample_sd": 5.011841610192482e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 5.164096841248512e-05,
+          "sample_sd": 5.178324458726923e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 0.5,
+      "method": "III",
+      "contrast": "none-GC",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 2.2236071588928838e-05,
+          "sample_sd": 9.43521402124048e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.006492386661118175,
+          "sample_sd": 0.0027548507123351896,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 0.5,
+      "method": "III",
+      "contrast": "none-GC",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 4.9147134474349444e-05,
+          "sample_sd": 2.115831664299412e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.007340495203729082,
+          "sample_sd": 0.0031601541676440827,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 0.5,
+      "method": "III",
+      "contrast": "none-GC",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 7.173060034990075e-07,
+          "sample_sd": 3.308559619277841e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 7.411334018929451e-05,
+          "sample_sd": 3.418463018627735e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 0.5,
+      "method": "III",
+      "contrast": "GR-GC",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 7.711270699849258e-06,
+          "sample_sd": 8.749344164115632e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.0022573114584584055,
+          "sample_sd": 0.0025673602231561844,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 4,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 0.5,
+      "method": "III",
+      "contrast": "GR-GC",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 1.5156503856898761e-05,
+          "sample_sd": 2.018982487823673e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.002269311074892394,
+          "sample_sd": 0.0030345067452373685,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 4,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 0.5,
+      "method": "III",
+      "contrast": "GR-GC",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 2.1749886251511142e-07,
+          "sample_sd": 3.899101920105923e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 2.2472277870519326e-05,
+          "sample_sd": 4.0287291364211636e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 4,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 1,
+      "method": "I",
+      "contrast": "none-oracle",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 2.833842467657747e-06,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.001685115849978117,
+          "sample_sd": 0.0,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 1,
+      "method": "I",
+      "contrast": "none-oracle",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 6.324782004477492e-06,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.0019297056180348064,
+          "sample_sd": 2.42434975903054e-19,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 1,
+      "method": "I",
+      "contrast": "none-oracle",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 9.655723493331991e-08,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 9.971846317396722e-06,
+          "sample_sd": 0.0,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 1,
+      "method": "I",
+      "contrast": "none-GR",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 1.1978310059516983e-05,
+          "sample_sd": 8.731164043462406e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.007122781300517295,
+          "sample_sd": 0.005191898662792736,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 1,
+      "method": "I",
+      "contrast": "none-GR",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 2.85883383705581e-05,
+          "sample_sd": 2.147291583762426e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.008722368158284607,
+          "sample_sd": 0.006551436286360241,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 1,
+      "method": "I",
+      "contrast": "none-GR",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 4.992814363068837e-07,
+          "sample_sd": 5.011896392987741e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 5.1562762287254334e-05,
+          "sample_sd": 5.1759829933098465e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 1,
+      "method": "I",
+      "contrast": "none-GC",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 1.8602691682642832e-05,
+          "sample_sd": 7.813959174705554e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.0110619030395812,
+          "sample_sd": 0.004646492035692271,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 1,
+      "method": "I",
+      "contrast": "none-GC",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 4.143735709225523e-05,
+          "sample_sd": 1.7731711205800087e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.012642633488526882,
+          "sample_sd": 0.005409986100229223,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 1,
+      "method": "I",
+      "contrast": "none-GC",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 7.181237860188345e-07,
+          "sample_sd": 3.3137186687407466e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 7.416347450289078e-05,
+          "sample_sd": 3.422207908769394e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 1,
+      "method": "I",
+      "contrast": "GR-GC",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 6.624381623125848e-06,
+          "sample_sd": 7.323991563473276e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.003957529133426267,
+          "sample_sd": 0.004392376416221748,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 4,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 1,
+      "method": "I",
+      "contrast": "GR-GC",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 1.2849018721697129e-05,
+          "sample_sd": 1.6907735698610057e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.003938398546131711,
+          "sample_sd": 0.0052172255762645975,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 4,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 1,
+      "method": "I",
+      "contrast": "GR-GC",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 2.1884234971195072e-07,
+          "sample_sd": 3.8996223027373423e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 2.2600625592739298e-05,
+          "sample_sd": 4.0273999461628286e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 4,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 1,
+      "method": "II",
+      "contrast": "none-oracle",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 2.583776315791611e-06,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.0007595918781221654,
+          "sample_sd": 0.0,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 1,
+      "method": "II",
+      "contrast": "none-oracle",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 5.412168060670193e-06,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.0007614643595635828,
+          "sample_sd": 0.0,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 1,
+      "method": "II",
+      "contrast": "none-oracle",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 9.601424166838513e-08,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 9.947507801902397e-06,
+          "sample_sd": 0.0,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 1,
+      "method": "II",
+      "contrast": "none-GR",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 1.0429180268300802e-05,
+          "sample_sd": 7.349531379113789e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.00306602416736146,
+          "sample_sd": 0.0021606531143809307,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 1,
+      "method": "II",
+      "contrast": "none-GR",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 2.317710466587016e-05,
+          "sample_sd": 1.6766858824300323e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.0032609000613239487,
+          "sample_sd": 0.0023590112637703014,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 1,
+      "method": "II",
+      "contrast": "none-GR",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 4.969777575272033e-07,
+          "sample_sd": 4.993038093387707e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 5.148913363757405e-05,
+          "sample_sd": 5.173012307977692e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 1,
+      "method": "II",
+      "contrast": "none-GC",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 1.6931230745584682e-05,
+          "sample_sd": 7.116482912609323e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.0049775304782984486,
+          "sample_sd": 0.0020921403250641116,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 1,
+      "method": "II",
+      "contrast": "none-GC",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 3.5556766883836426e-05,
+          "sample_sd": 1.5090993767201753e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.005002655205795544,
+          "sample_sd": 0.0021232256233183807,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 1,
+      "method": "II",
+      "contrast": "none-GC",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 7.140680842506603e-07,
+          "sample_sd": 3.2957797538208526e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 7.39806690730947e-05,
+          "sample_sd": 3.414576238358192e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 1,
+      "method": "II",
+      "contrast": "GR-GC",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 6.502050477283881e-06,
+          "sample_sd": 6.791729425133008e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.0019156655252709543,
+          "sample_sd": 0.0020032872574435073,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 4,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 1,
+      "method": "II",
+      "contrast": "GR-GC",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 1.2379662217966262e-05,
+          "sample_sd": 1.415400870145824e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.0017454332467751305,
+          "sample_sd": 0.001999207164943221,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 4,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 1,
+      "method": "II",
+      "contrast": "GR-GC",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 2.1709032672345697e-07,
+          "sample_sd": 3.890425397178751e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 2.2491439585648354e-05,
+          "sample_sd": 4.0307619430860384e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 4,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 1,
+      "method": "III",
+      "contrast": "none-oracle",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 2.8338333316120946e-06,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.0016851108530281946,
+          "sample_sd": 0.0,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 1,
+      "method": "III",
+      "contrast": "none-oracle",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 6.324762162556851e-06,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.0019297001349820012,
+          "sample_sd": 2.42434975903054e-19,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 1,
+      "method": "III",
+      "contrast": "none-oracle",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 9.655723474423505e-08,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 9.971846294348466e-06,
+          "sample_sd": 0.0,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 1,
+      "method": "III",
+      "contrast": "none-GR",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 1.1978276731306001e-05,
+          "sample_sd": 8.731135744956828e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.007122763323916535,
+          "sample_sd": 0.0051918831778011995,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 1,
+      "method": "III",
+      "contrast": "none-GR",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 2.8588265813305098e-05,
+          "sample_sd": 2.1472854498012652e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.008722348600778756,
+          "sample_sd": 0.006551419509269401,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 1,
+      "method": "III",
+      "contrast": "none-GR",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 4.992814361420849e-07,
+          "sample_sd": 5.011896397363999e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 5.156276225202987e-05,
+          "sample_sd": 5.175982996001918e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 1,
+      "method": "III",
+      "contrast": "none-GC",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 1.8602631266070303e-05,
+          "sample_sd": 7.813936371071617e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.011061869973667052,
+          "sample_sd": 0.004646479677149525,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 1,
+      "method": "III",
+      "contrast": "none-GC",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 4.143722583840516e-05,
+          "sample_sd": 1.7731662811196258e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.012642597182077258,
+          "sample_sd": 0.005409972935075278,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 1,
+      "method": "III",
+      "contrast": "none-GC",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 7.181237863047169e-07,
+          "sample_sd": 3.313718671333405e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 7.416347450623038e-05,
+          "sample_sd": 3.42220791023867e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 1,
+      "method": "III",
+      "contrast": "GR-GC",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 6.624354534764303e-06,
+          "sample_sd": 7.3239718415374e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.003957513920236038,
+          "sample_sd": 0.004392365675398893,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 4,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 1,
+      "method": "III",
+      "contrast": "GR-GC",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 1.2848960025100067e-05,
+          "sample_sd": 1.690769191581101e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.003938381653261679,
+          "sample_sd": 0.005217213555296846,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 4,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 1,
+      "method": "III",
+      "contrast": "GR-GC",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 2.1884235016263188e-07,
+          "sample_sd": 3.899622305117859e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 2.2600625631303522e-05,
+          "sample_sd": 4.0273999471993e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 4,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 2,
+      "method": "I",
+      "contrast": "none-oracle",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 2.6173470665686325e-06,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.0031347477034409585,
+          "sample_sd": 0.0,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 2,
+      "method": "I",
+      "contrast": "none-oracle",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 5.859643947735832e-06,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.003605370361098427,
+          "sample_sd": 0.0,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 2,
+      "method": "I",
+      "contrast": "none-oracle",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 9.652793375898583e-08,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 9.966546720705353e-06,
+          "sample_sd": 0.0,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 2,
+      "method": "I",
+      "contrast": "none-GR",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 1.0048281239416544e-05,
+          "sample_sd": 6.815242783100207e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.012034638791746158,
+          "sample_sd": 0.008162489008660376,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 2,
+      "method": "I",
+      "contrast": "none-GR",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 2.4496593626974424e-05,
+          "sample_sd": 1.725763409627167e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.01507246743971411,
+          "sample_sd": 0.01061842033890496,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 2,
+      "method": "I",
+      "contrast": "none-GR",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 4.990497768933566e-07,
+          "sample_sd": 5.011897498040117e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 5.152708365004455e-05,
+          "sample_sd": 5.1748036685756876e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 2,
+      "method": "I",
+      "contrast": "none-GC",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 1.5938674886842458e-05,
+          "sample_sd": 6.455592871509398e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.01908945326189561,
+          "sample_sd": 0.007731743025904608,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 2,
+      "method": "I",
+      "contrast": "none-GC",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 3.5786759472356856e-05,
+          "sample_sd": 1.485504045724607e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.022019174385373513,
+          "sample_sd": 0.009140132584022926,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 2,
+      "method": "I",
+      "contrast": "none-GC",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 7.18540195640896e-07,
+          "sample_sd": 3.316255834378735e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 7.41895547918853e-05,
+          "sample_sd": 3.424047052915456e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 2,
+      "method": "I",
+      "contrast": "GR-GC",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 5.890393647425916e-06,
+          "sample_sd": 6.317684436318949e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.007114572294859442,
+          "sample_sd": 0.007673804042097142,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 4,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 2,
+      "method": "I",
+      "contrast": "GR-GC",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 1.1290165845382434e-05,
+          "sample_sd": 1.4494732238405327e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.007008287015234167,
+          "sample_sd": 0.00909860886076504,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 4,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 2,
+      "method": "I",
+      "contrast": "GR-GC",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 2.194904187475394e-07,
+          "sample_sd": 3.8998862791488506e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 2.2662388095251927e-05,
+          "sample_sd": 4.0267535426328754e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 4,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 2,
+      "method": "II",
+      "contrast": "none-oracle",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 2.458985029808042e-06,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.0014506747491966087,
+          "sample_sd": 0.0,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 2,
+      "method": "II",
+      "contrast": "none-oracle",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 5.159657812889035e-06,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.0014568277369293144,
+          "sample_sd": 0.0,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 2,
+      "method": "II",
+      "contrast": "none-oracle",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 9.625490007825199e-08,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 9.954275117925e-06,
+          "sample_sd": 0.0,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 2,
+      "method": "II",
+      "contrast": "none-GR",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 9.319663325804305e-06,
+          "sample_sd": 6.305828074524469e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.005498122230867505,
+          "sample_sd": 0.0037201143762968843,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 2,
+      "method": "II",
+      "contrast": "none-GR",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 2.095475501067588e-05,
+          "sample_sd": 1.4559309951972758e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.0059165683902239205,
+          "sample_sd": 0.004110816518801006,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 2,
+      "method": "II",
+      "contrast": "none-GR",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 4.978940154557604e-07,
+          "sample_sd": 5.002462330948988e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 5.1490095625114553e-05,
+          "sample_sd": 5.173335203593815e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 2,
+      "method": "II",
+      "contrast": "none-GC",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 1.546984968421503e-05,
+          "sample_sd": 6.379097266338083e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.009126415996322582,
+          "sample_sd": 0.0037633394326390727,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 2,
+      "method": "II",
+      "contrast": "none-GC",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 3.26404888418317e-05,
+          "sample_sd": 1.3599333774890796e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.009216031608322251,
+          "sample_sd": 0.0038397675515476335,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 2,
+      "method": "II",
+      "contrast": "none-GC",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 7.16508074953201e-07,
+          "sample_sd": 3.3072685030148984e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 7.409823807931498e-05,
+          "sample_sd": 3.4202373636141356e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 2,
+      "method": "II",
+      "contrast": "GR-GC",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 6.150186358410727e-06,
+          "sample_sd": 6.329452388604995e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.003642857800533969,
+          "sample_sd": 0.00375504347087395,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 4,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 2,
+      "method": "II",
+      "contrast": "GR-GC",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 1.1685733831155819e-05,
+          "sample_sd": 1.3026680317800479e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.0033127640869441387,
+          "sample_sd": 0.003703834499021451,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 4,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 2,
+      "method": "II",
+      "contrast": "GR-GC",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 2.1861405949744062e-07,
+          "sample_sd": 3.895290302364275e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 2.2608054789841525e-05,
+          "sample_sd": 4.028450341803766e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 4,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 2,
+      "method": "III",
+      "contrast": "none-oracle",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 2.6173424245989896e-06,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.0031347425203464797,
+          "sample_sd": 4.84869951806108e-19,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 2,
+      "method": "III",
+      "contrast": "none-oracle",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 5.859633833874261e-06,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.003605364634634581,
+          "sample_sd": 0.0,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 2,
+      "method": "III",
+      "contrast": "none-oracle",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 9.65279337121483e-08,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 9.966546714990676e-06,
+          "sample_sd": 0.0,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 2,
+      "method": "III",
+      "contrast": "none-GR",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 1.0048264079604625e-05,
+          "sample_sd": 6.815228201007669e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.012034619685207151,
+          "sample_sd": 0.008162472524334077,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 2,
+      "method": "III",
+      "contrast": "none-GR",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 2.4496556013330582e-05,
+          "sample_sd": 1.7257602055121107e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.015072446372030823,
+          "sample_sd": 0.010618402086567285,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 2,
+      "method": "III",
+      "contrast": "none-GR",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 4.990497768558866e-07,
+          "sample_sd": 5.011897499166558e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 5.1527083641632963e-05,
+          "sample_sd": 5.1748036692825156e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 2,
+      "method": "III",
+      "contrast": "none-GC",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 1.5938643788275184e-05,
+          "sample_sd": 6.455581340684392e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.01908941830850336,
+          "sample_sd": 0.0077317301442890885,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 2,
+      "method": "III",
+      "contrast": "none-GC",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 3.578669156909906e-05,
+          "sample_sd": 1.4855015941390305e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.022019135637439204,
+          "sample_sd": 0.00914011875834404,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 2,
+      "method": "III",
+      "contrast": "none-GC",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 7.185401957168769e-07,
+          "sample_sd": 3.3162558350086877e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 7.418955479318956e-05,
+          "sample_sd": 3.424047053264009e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 2,
+      "method": "III",
+      "contrast": "GR-GC",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 5.890379708670557e-06,
+          "sample_sd": 6.317675060612675e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.007114556209851934,
+          "sample_sd": 0.007673793451814795,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 4,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 2,
+      "method": "III",
+      "contrast": "GR-GC",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 1.1290135555768474e-05,
+          "sample_sd": 1.4494710680858631e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.0070082690586839415,
+          "sample_sd": 0.009098596436217245,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 4,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 2,
+      "method": "III",
+      "contrast": "GR-GC",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 2.194904188609903e-07,
+          "sample_sd": 3.8998862797207254e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 2.2662388104967815e-05,
+          "sample_sd": 4.026753542868323e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 4,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 4,
+      "method": "I",
+      "contrast": "none-oracle",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 2.5457521979705333e-06,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.006104202224335453,
+          "sample_sd": 0.0,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 4,
+      "method": "I",
+      "contrast": "none-oracle",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 5.704712806598399e-06,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.007029043807876781,
+          "sample_sd": 0.0,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 4,
+      "method": "I",
+      "contrast": "none-oracle",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 9.651682356982827e-08,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 9.96427212960904e-06,
+          "sample_sd": 0.0,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 4,
+      "method": "I",
+      "contrast": "none-GR",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 7.787331514489663e-06,
+          "sample_sd": 4.448203366247757e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.018672456176324036,
+          "sample_sd": 0.010665897845121019,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 4,
+      "method": "I",
+      "contrast": "none-GR",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 1.9712550710601108e-05,
+          "sample_sd": 1.1830807328555965e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.024288756894043965,
+          "sample_sd": 0.014577291761082651,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 4,
+      "method": "I",
+      "contrast": "none-GR",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 4.989417347962128e-07,
+          "sample_sd": 5.011891839950949e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 5.151009988151781e-05,
+          "sample_sd": 5.174212363226768e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 4,
+      "method": "I",
+      "contrast": "none-GC",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 1.2944395402485785e-05,
+          "sample_sd": 4.681824749623694e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.03103805911334263,
+          "sample_sd": 0.011226074978304908,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 4,
+      "method": "I",
+      "contrast": "none-GC",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 2.946137637009432e-05,
+          "sample_sd": 1.1083904828804314e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.036300741538857484,
+          "sample_sd": 0.013656998212756332,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 4,
+      "method": "I",
+      "contrast": "none-GC",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 7.187503704268044e-07,
+          "sample_sd": 3.3175142998338967e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 7.420285934926695e-05,
+          "sample_sd": 3.424958888488331e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 4,
+      "method": "I",
+      "contrast": "GR-GC",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 5.157063887996122e-06,
+          "sample_sd": 5.260868724666441e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.012540128340160692,
+          "sample_sd": 0.012855262539530388,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 4,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 4,
+      "method": "I",
+      "contrast": "GR-GC",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 9.748825659493211e-06,
+          "sample_sd": 1.1777740368299877e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.012211805451756227,
+          "sample_sd": 0.01497596220389031,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 4,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 4,
+      "method": "I",
+      "contrast": "GR-GC",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 2.198086356305917e-07,
+          "sample_sd": 3.90001953494784e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 2.2692678193630143e-05,
+          "sample_sd": 4.0264353192718154e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 4,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 4,
+      "method": "II",
+      "contrast": "none-oracle",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 2.4152968679936986e-06,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.002851318619418249,
+          "sample_sd": 0.0,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 4,
+      "method": "II",
+      "contrast": "none-oracle",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 5.0710258432430655e-06,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.0028651822350648872,
+          "sample_sd": 0.0,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 4,
+      "method": "II",
+      "contrast": "none-oracle",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 9.637991750348351e-08,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 9.95811058330871e-06,
+          "sample_sd": 0.0,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 4,
+      "method": "II",
+      "contrast": "none-GR",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 8.1433849031359e-06,
+          "sample_sd": 5.136836372757604e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.009613470421417964,
+          "sample_sd": 0.006064164363660687,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 4,
+      "method": "II",
+      "contrast": "none-GR",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 1.862775879725308e-05,
+          "sample_sd": 1.203739323258204e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.010524877063302508,
+          "sample_sd": 0.0068012521159678116,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 4,
+      "method": "II",
+      "contrast": "none-GR",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 4.983628609272345e-07,
+          "sample_sd": 5.007172685152285e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 5.149156181367482e-05,
+          "sample_sd": 5.1734822564739246e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 4,
+      "method": "II",
+      "contrast": "none-GC",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 1.3948446186524401e-05,
+          "sample_sd": 5.4834803728339374e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.01646649107636497,
+          "sample_sd": 0.006473386312657911,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 4,
+      "method": "II",
+      "contrast": "none-GC",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 2.9636791882523515e-05,
+          "sample_sd": 1.1796002060486781e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.016745095022394164,
+          "sample_sd": 0.006664863598265739,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 4,
+      "method": "II",
+      "contrast": "none-GC",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 7.177332168831207e-07,
+          "sample_sd": 3.313016073378393e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 7.415721997041223e-05,
+          "sample_sd": 3.423055474371912e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 4,
+      "method": "II",
+      "contrast": "GR-GC",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 5.805061283388501e-06,
+          "sample_sd": 5.867954775836164e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.006902136518854516,
+          "sample_sd": 0.006988583813424324,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 4,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 4,
+      "method": "II",
+      "contrast": "GR-GC",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 1.1009033085270437e-05,
+          "sample_sd": 1.1872237775579458e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.006267302873245411,
+          "sample_sd": 0.006788338576094571,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 4,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 4,
+      "method": "II",
+      "contrast": "GR-GC",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 2.1937035595588627e-07,
+          "sample_sd": 3.8977220973112554e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 2.2665574572572593e-05,
+          "sample_sd": 4.027287579736478e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 4,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 4,
+      "method": "III",
+      "contrast": "none-oracle",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 2.5457498627694903e-06,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.006104196989128727,
+          "sample_sd": 0.0,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 4,
+      "method": "III",
+      "contrast": "none-oracle",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 5.704707712885946e-06,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.00702903801236437,
+          "sample_sd": 0.0,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 4,
+      "method": "III",
+      "contrast": "none-oracle",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 9.651682356115465e-08,
+          "sample_sd": 0.0,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 9.96427212849409e-06,
+          "sample_sd": 0.0,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 4,
+      "method": "III",
+      "contrast": "none-GR",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 7.787322730576992e-06,
+          "sample_sd": 4.448196111051949e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.018672436228140903,
+          "sample_sd": 0.010665881084875468,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 4,
+      "method": "III",
+      "contrast": "none-GR",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 1.9712531336132153e-05,
+          "sample_sd": 1.1830790685523913e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.024288734682867866,
+          "sample_sd": 0.014577272251307803,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 4,
+      "method": "III",
+      "contrast": "none-GR",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 4.989417347799063e-07,
+          "sample_sd": 5.011891840197967e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 5.151009987869969e-05,
+          "sample_sd": 5.174212363367805e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 4,
+      "method": "III",
+      "contrast": "none-GC",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 1.2944379461456797e-05,
+          "sample_sd": 4.681819076107946e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.031038022741482076,
+          "sample_sd": 0.011226062044027015,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 4,
+      "method": "III",
+      "contrast": "none-GC",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 2.946134140986178e-05,
+          "sample_sd": 1.1083892799808677e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.03630070094518499,
+          "sample_sd": 0.013656984325216835,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 4,
+      "method": "III",
+      "contrast": "none-GC",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 7.187503704379067e-07,
+          "sample_sd": 3.317514300022883e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 7.420285934877857e-05,
+          "sample_sd": 3.4249588886079925e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 5,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 4,
+      "method": "III",
+      "contrast": "GR-GC",
+      "metric": "tracking_tip_rmse_mm",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 5.157056730879805e-06,
+          "sample_sd": 5.260864702613856e-06,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.012540111470129303,
+          "sample_sd": 0.012855253192607203,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 4,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 4,
+      "method": "III",
+      "contrast": "GR-GC",
+      "metric": "tracking_state_relative_l2",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 9.748810073729628e-06,
+          "sample_sd": 1.1777730395815987e-05,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 0.012211786551815835,
+          "sample_sd": 0.014975950179486082,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 4,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 4,
+      "method": "III",
+      "contrast": "GR-GC",
+      "metric": "integral_u_squared_seconds",
+      "seed_count": 5,
+      "metrics": {
+        "difference": {
+          "mean": 2.1980863565800035e-07,
+          "sample_sd": 3.900019535056881e-07,
+          "n": 5
+        },
+        "relative_improvement": {
+          "mean": 2.2692678195959917e-05,
+          "sample_sd": 4.026435319295677e-05,
+          "n": 5
+        }
+      },
+      "positive_seed_blocks": 4,
+      "interpretation": "positive means latter policy has smaller metric; descriptive,not significance",
+      "repetition_note": "none/oracle baseline reuses one physical response; learned comparisons vary trained model"
+    }
+  ],
+  "original_cases_independently_recomputed": 360,
+  "original_trajectories_independently_recomputed": 1200,
+  "maximum_recomputed_metric_gap": 8.881784197001252e-16,
+  "zero_baseline_repetition": [
+    {
+      "case": "zero_initial",
+      "step_divisor": 0.5,
+      "method": "I",
+      "policy": "none",
+      "saved_blocks": 5,
+      "effective_physical_responses": 1,
+      "identical": true
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 0.5,
+      "method": "I",
+      "policy": "oracle",
+      "saved_blocks": 5,
+      "effective_physical_responses": 1,
+      "identical": true
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 0.5,
+      "method": "II",
+      "policy": "none",
+      "saved_blocks": 5,
+      "effective_physical_responses": 1,
+      "identical": true
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 0.5,
+      "method": "II",
+      "policy": "oracle",
+      "saved_blocks": 5,
+      "effective_physical_responses": 1,
+      "identical": true
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 0.5,
+      "method": "III",
+      "policy": "none",
+      "saved_blocks": 5,
+      "effective_physical_responses": 1,
+      "identical": true
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 0.5,
+      "method": "III",
+      "policy": "oracle",
+      "saved_blocks": 5,
+      "effective_physical_responses": 1,
+      "identical": true
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 1,
+      "method": "I",
+      "policy": "none",
+      "saved_blocks": 5,
+      "effective_physical_responses": 1,
+      "identical": true
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 1,
+      "method": "I",
+      "policy": "oracle",
+      "saved_blocks": 5,
+      "effective_physical_responses": 1,
+      "identical": true
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 1,
+      "method": "II",
+      "policy": "none",
+      "saved_blocks": 5,
+      "effective_physical_responses": 1,
+      "identical": true
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 1,
+      "method": "II",
+      "policy": "oracle",
+      "saved_blocks": 5,
+      "effective_physical_responses": 1,
+      "identical": true
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 1,
+      "method": "III",
+      "policy": "none",
+      "saved_blocks": 5,
+      "effective_physical_responses": 1,
+      "identical": true
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 1,
+      "method": "III",
+      "policy": "oracle",
+      "saved_blocks": 5,
+      "effective_physical_responses": 1,
+      "identical": true
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 2,
+      "method": "I",
+      "policy": "none",
+      "saved_blocks": 5,
+      "effective_physical_responses": 1,
+      "identical": true
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 2,
+      "method": "I",
+      "policy": "oracle",
+      "saved_blocks": 5,
+      "effective_physical_responses": 1,
+      "identical": true
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 2,
+      "method": "II",
+      "policy": "none",
+      "saved_blocks": 5,
+      "effective_physical_responses": 1,
+      "identical": true
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 2,
+      "method": "II",
+      "policy": "oracle",
+      "saved_blocks": 5,
+      "effective_physical_responses": 1,
+      "identical": true
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 2,
+      "method": "III",
+      "policy": "none",
+      "saved_blocks": 5,
+      "effective_physical_responses": 1,
+      "identical": true
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 2,
+      "method": "III",
+      "policy": "oracle",
+      "saved_blocks": 5,
+      "effective_physical_responses": 1,
+      "identical": true
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 4,
+      "method": "I",
+      "policy": "none",
+      "saved_blocks": 5,
+      "effective_physical_responses": 1,
+      "identical": true
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 4,
+      "method": "I",
+      "policy": "oracle",
+      "saved_blocks": 5,
+      "effective_physical_responses": 1,
+      "identical": true
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 4,
+      "method": "II",
+      "policy": "none",
+      "saved_blocks": 5,
+      "effective_physical_responses": 1,
+      "identical": true
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 4,
+      "method": "II",
+      "policy": "oracle",
+      "saved_blocks": 5,
+      "effective_physical_responses": 1,
+      "identical": true
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 4,
+      "method": "III",
+      "policy": "none",
+      "saved_blocks": 5,
+      "effective_physical_responses": 1,
+      "identical": true
+    },
+    {
+      "case": "zero_initial",
+      "step_divisor": 4,
+      "method": "III",
+      "policy": "oracle",
+      "saved_blocks": 5,
+      "effective_physical_responses": 1,
+      "identical": true
+    }
+  ],
+  "scope": "Test-force projections at common saved held-out states; own-state residuals are distribution-dependent. No gain/weight selection. No general control superiority claim."
+}

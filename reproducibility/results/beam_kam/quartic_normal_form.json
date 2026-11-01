@@ -1,0 +1,42 @@
+{
+  "reference": "I0_j=(X_j^2+Y_j^2)/2 is the harmonic reference action; not an exact action of h_*.",
+  "quartic_angle_average": "-(d1^4*I1^2+4*d1^2*d2^2*I1*I2+d2^4*I2^2)/16",
+  "normal_form_scope": "Leading quartic angle average in a low-order nonresonant Birkhoff normal-form expansion; not a new theorem or global integrability claim.",
+  "quartic_action_hessian": [
+    [
+      -0.0003241987056583109,
+      -0.0013184373454526036
+    ],
+    [
+      -0.0013184373454526036,
+      -0.0013404410655761256
+    ]
+  ],
+  "quartic_action_hessian_determinant": -1.3037077754130823e-06,
+  "quartic_action_hessian_determinant_formula": "-3*d1^4*d2^4/64",
+  "quartic_action_hessian_singular_values": [
+    0.0022452827893790052,
+    0.0005806430181445685
+  ],
+  "quartic_active_divisor_min": {
+    "k1": -2,
+    "k2": 0,
+    "l1_norm": 2,
+    "quartic_support": true,
+    "abs_k_dot_nu": 2.0
+  },
+  "generic_l1_le4_divisor_min": {
+    "k1": -1,
+    "k2": 0,
+    "l1_norm": 1,
+    "quartic_support": false,
+    "abs_k_dot_nu": 1.0
+  },
+  "generic_l1_le32_divisor_min": {
+    "k1": -6,
+    "k2": 1,
+    "l1_norm": 7,
+    "quartic_support": false,
+    "abs_k_dot_nu": 0.15211750416730663
+  }
+}

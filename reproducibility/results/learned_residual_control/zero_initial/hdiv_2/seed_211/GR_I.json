@@ -1,0 +1,46 @@
+{
+  "case": "zero_initial",
+  "seed": 211,
+  "policy": "GR",
+  "method": "I",
+  "step_divisor": 2,
+  "h_tau": 0.004999906846005018,
+  "nsteps": 18256,
+  "stride": 16,
+  "status": "completed",
+  "per_trajectory": [
+    {
+      "tracking_tip_rmse_mm": 0.0008214949871836702,
+      "tail_half_tracking_tip_rmse_mm": 0.0007909540956569016,
+      "tracking_state_relative_l2": 0.0015885728022874115,
+      "integral_u_squared_seconds": 0.009684239667504108,
+      "max_abs_u": 0.05000763036112821,
+      "midpoint_residual": 2.4543626679640607e-17,
+      "max_iterations": 2,
+      "work_energy_max_abs": 3.212161439614114e-13,
+      "work_energy_relative": 1.8505486794764433e-11,
+      "saturation_fraction": 0.0,
+      "max_abs_compensation": 1.0815832728660792e-05,
+      "continuous_loop_state_l2": 0.001619309192103877,
+      "continuous_loop_tip_rmse_mm": 0.0008321961938836964
+    }
+  ],
+  "mean": {
+    "tracking_tip_rmse_mm": 0.0008214949871836702,
+    "tail_half_tracking_tip_rmse_mm": 0.0007909540956569016,
+    "tracking_state_relative_l2": 0.0015885728022874115,
+    "integral_u_squared_seconds": 0.009684239667504108,
+    "max_abs_u": 0.05000763036112821,
+    "midpoint_residual": 2.4543626679640607e-17,
+    "max_iterations": 2.0,
+    "work_energy_max_abs": 3.212161439614114e-13,
+    "work_energy_relative": 1.8505486794764433e-11,
+    "saturation_fraction": 0.0,
+    "max_abs_compensation": 1.0815832728660792e-05,
+    "continuous_loop_state_l2": 0.001619309192103877,
+    "continuous_loop_tip_rmse_mm": 0.0008321961938836964
+  },
+  "elapsed_seconds": 0.12420230000134325,
+  "protocol_sha256": "63c7429391ed7eae2ace5ac8f3a3b656fde1b502bbd42138b2746955b6fa86e6",
+  "trajectory_sha256": "5ad591828834e60f4c3cc539978d27ae90bb569a351fd78d8dde2ea32e1307dd"
+}

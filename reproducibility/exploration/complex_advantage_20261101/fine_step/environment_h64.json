@@ -1,0 +1,11 @@
+{
+  "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "numpy": "1.26.4",
+  "script_sha256": "b5100dd7dad3585da28ef90e6ee21159aba6fcc2d8a442bc18814a5e2603baf8",
+  "workers": 2,
+  "blas_threads": 1,
+  "numba_threads": 1,
+  "bytecode_writes_disabled": true,
+  "utc_started": "2026-11-01T07:32:40.621395+00:00"
+}

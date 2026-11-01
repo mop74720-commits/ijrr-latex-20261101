@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "seed_model_records_checked": 60,
+  "max_abs_gap_by_state_frequency1_frequency2_SI": [
+    0.0,
+    2.366328578300953e-15,
+    9.088527998767082e-15
+  ],
+  "analysis_seed_csv_sha256": "b66be09b95ec8df8bba9587cee1d1c32a80b55a6e8900b16a662ceb361e36c83",
+  "B_independent_seed_csv_sha256": "2517c1a7e61fdb4ca529cc826ac4366083765a8afb6c848db4ad9fd2cbeb52fe"
+}

@@ -1,0 +1,79 @@
+{
+  "date": "2026-11-01",
+  "purpose": "Exploratory search for conditions favoring complex HNNs; retain all outcomes and do not modify manuscript or established experiments.",
+  "pilot_seeds": [
+    17,
+    43,
+    91
+  ],
+  "groups": [
+    "GR",
+    "GC"
+  ],
+  "fixed_model": "Original two-mode cosine Hamiltonian, Eq36 conservative midpoint data; same 673 real parameters.",
+  "axes": {
+    "fine_step": {
+      "saved_weights": true,
+      "divisors": [
+        16,
+        32
+      ],
+      "seeds": [
+        17,
+        43,
+        91,
+        137,
+        211
+      ]
+    },
+    "sample_budget": {
+      "train_trajectory_counts": [
+        1,
+        3
+      ],
+      "updates": 10000,
+      "full12_reference": "existing 10000-update runs"
+    },
+    "optimization_budget": {
+      "train_trajectories": 12,
+      "updates": 30000
+    },
+    "signal_strength": {
+      "initial_amplitude_multiplier": 2,
+      "noise_bounds": [
+        1e-06,
+        0
+      ],
+      "angle_gate_rad": 0.22,
+      "scope": "Computational stress case of the same small-slope model; angle gate is a screening rule, not a physical validation."
+    }
+  },
+  "screening": "Use common held-out validation states and continuous gradient error to nominate at most one setting; report all pilot conditions and failures. Rollout gains must be judged against the original continuous reference at fine steps, with physical H0 baseline.",
+  "primary_confirmation": [
+    "continuous full-state relative L2",
+    "continuous tip RMSE"
+  ],
+  "secondary": [
+    "matched-teacher error",
+    "modal phase error",
+    "validation vector-field error",
+    "training cost"
+  ],
+  "candidate_rule": "At least 5 percent mean paired relative improvement and at least 4/5 directional seed wins on both primary metrics for a credible exploratory candidate; no formal significance or universal superiority claim.",
+  "confirmation": "If a promising training change is found, evaluate the frozen nominated setting on five new seeds/data sets before suggesting a paper claim. An advantage on one output only is reported as output-specific.",
+  "statistics": "Seed is the repetition unit; paired data/splits/initials within seed; never use time points as independent replicates.",
+  "source_protection": "All pre-existing results, manuscript files and production scripts are hashed in protected_manifest.json.",
+  "selection_amendment_before_pilot_results": {
+    "weight_selection": "Original fixed 2048-point validation subset, every100 updates; validation noise matches the declared training noise amplitude and is independently drawn. Full clean validation set only for reporting/nomination.",
+    "nomination_score": "Mean over pilot seeds of log(clean full-validation gradient RMS_GR / clean full-validation gradient RMS_GC), using the same per-component output scale within each pair. Compare ratios, not raw errors across different amplitudes.",
+    "eligible_nomination": "Positive mean score and GC better in at least2 of3 seeds; largest score across prespecified training settings nominates at most one setting for fresh-seed confirmation. Include baseline full12/10k reference. Fine-step-only findings remain fixed-weight diagnostics.",
+    "confirmation_seeds": [
+      307,
+      419,
+      541,
+      653,
+      809
+    ],
+    "confirmation_condition": "Chosen setting and training updates fixed before evaluating fresh-seed test trajectories; compare GR/GC and H0 on same data and small common step. Report both primary outcomes including disagreements."
+  }
+}

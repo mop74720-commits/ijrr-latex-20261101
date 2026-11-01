@@ -1,0 +1,162 @@
+[
+  {
+    "seed": 17,
+    "group": "R",
+    "states_checked": 128,
+    "field_max_absolute_gap": 5.551115123125783e-16,
+    "energy_max_absolute_gap": 8.326672684688674e-17,
+    "energy_central_difference_max_gap": 2.0868057282186214e-11
+  },
+  {
+    "seed": 17,
+    "group": "C",
+    "states_checked": 128,
+    "field_max_absolute_gap": 6.661338147750939e-16,
+    "energy_max_absolute_gap": 1.1102230246251565e-16,
+    "energy_central_difference_max_gap": 2.4923285657507677e-11
+  },
+  {
+    "seed": 17,
+    "group": "GR",
+    "states_checked": 128,
+    "field_max_absolute_gap": 2.7755575615628914e-17,
+    "energy_max_absolute_gap": 1.3877787807814457e-17,
+    "energy_central_difference_max_gap": 7.005285240779813e-12
+  },
+  {
+    "seed": 17,
+    "group": "GC",
+    "states_checked": 128,
+    "field_max_absolute_gap": 1.3877787807814457e-17,
+    "energy_max_absolute_gap": 1.3877787807814457e-17,
+    "energy_central_difference_max_gap": 6.322387058332879e-12
+  },
+  {
+    "seed": 43,
+    "group": "R",
+    "states_checked": 128,
+    "field_max_absolute_gap": 6.661338147750939e-16,
+    "energy_max_absolute_gap": 1.1102230246251565e-16,
+    "energy_central_difference_max_gap": 5.6422866379080006e-11
+  },
+  {
+    "seed": 43,
+    "group": "C",
+    "states_checked": 128,
+    "field_max_absolute_gap": 5.551115123125783e-16,
+    "energy_max_absolute_gap": 1.6653345369377348e-16,
+    "energy_central_difference_max_gap": 4.241101914104206e-11
+  },
+  {
+    "seed": 43,
+    "group": "GR",
+    "states_checked": 128,
+    "field_max_absolute_gap": 1.1102230246251565e-16,
+    "energy_max_absolute_gap": 2.7755575615628914e-17,
+    "energy_central_difference_max_gap": 3.383227725750615e-12
+  },
+  {
+    "seed": 43,
+    "group": "GC",
+    "states_checked": 128,
+    "field_max_absolute_gap": 1.1102230246251565e-16,
+    "energy_max_absolute_gap": 1.3877787807814457e-17,
+    "energy_central_difference_max_gap": 3.4461565545651496e-12
+  },
+  {
+    "seed": 91,
+    "group": "R",
+    "states_checked": 128,
+    "field_max_absolute_gap": 6.661338147750939e-16,
+    "energy_max_absolute_gap": 1.6653345369377348e-16,
+    "energy_central_difference_max_gap": 3.7746361591928235e-11
+  },
+  {
+    "seed": 91,
+    "group": "C",
+    "states_checked": 128,
+    "field_max_absolute_gap": 3.3306690738754696e-16,
+    "energy_max_absolute_gap": 2.220446049250313e-16,
+    "energy_central_difference_max_gap": 4.514268819866274e-11
+  },
+  {
+    "seed": 91,
+    "group": "GR",
+    "states_checked": 128,
+    "field_max_absolute_gap": 5.551115123125783e-17,
+    "energy_max_absolute_gap": 1.3877787807814457e-17,
+    "energy_central_difference_max_gap": 2.4904453499452472e-12
+  },
+  {
+    "seed": 91,
+    "group": "GC",
+    "states_checked": 128,
+    "field_max_absolute_gap": 2.7755575615628914e-17,
+    "energy_max_absolute_gap": 1.3877787807814457e-17,
+    "energy_central_difference_max_gap": 2.9079551266963932e-12
+  },
+  {
+    "seed": 137,
+    "group": "R",
+    "states_checked": 128,
+    "field_max_absolute_gap": 5.551115123125783e-16,
+    "energy_max_absolute_gap": 1.1102230246251565e-16,
+    "energy_central_difference_max_gap": 3.915959223554921e-11
+  },
+  {
+    "seed": 137,
+    "group": "C",
+    "states_checked": 128,
+    "field_max_absolute_gap": 3.3306690738754696e-16,
+    "energy_max_absolute_gap": 1.6653345369377348e-16,
+    "energy_central_difference_max_gap": 4.557831889684394e-11
+  },
+  {
+    "seed": 137,
+    "group": "GR",
+    "states_checked": 128,
+    "field_max_absolute_gap": 5.551115123125783e-17,
+    "energy_max_absolute_gap": 6.938893903907228e-18,
+    "energy_central_difference_max_gap": 5.957595528016668e-13
+  },
+  {
+    "seed": 137,
+    "group": "GC",
+    "states_checked": 128,
+    "field_max_absolute_gap": 2.7755575615628914e-17,
+    "energy_max_absolute_gap": 1.3877787807814457e-17,
+    "energy_central_difference_max_gap": 6.383366057960416e-13
+  },
+  {
+    "seed": 211,
+    "group": "R",
+    "states_checked": 128,
+    "field_max_absolute_gap": 6.661338147750939e-16,
+    "energy_max_absolute_gap": 1.1102230246251565e-16,
+    "energy_central_difference_max_gap": 3.9956149500142146e-11
+  },
+  {
+    "seed": 211,
+    "group": "C",
+    "states_checked": 128,
+    "field_max_absolute_gap": 5.551115123125783e-16,
+    "energy_max_absolute_gap": 1.3877787807814457e-16,
+    "energy_central_difference_max_gap": 3.948991134095081e-11
+  },
+  {
+    "seed": 211,
+    "group": "GR",
+    "states_checked": 128,
+    "field_max_absolute_gap": 2.7755575615628914e-17,
+    "energy_max_absolute_gap": 1.3877787807814457e-17,
+    "energy_central_difference_max_gap": 4.677036535838397e-12
+  },
+  {
+    "seed": 211,
+    "group": "GC",
+    "states_checked": 128,
+    "field_max_absolute_gap": 6.938893903907228e-18,
+    "energy_max_absolute_gap": 1.3877787807814457e-17,
+    "energy_central_difference_max_gap": 4.08445499644472e-12
+  }
+]

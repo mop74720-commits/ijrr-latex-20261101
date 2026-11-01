@@ -1,0 +1,5 @@
+condition,n_complete_pairs,mean_log_GR_over_GC_clean_gradient_rms,GC_wins,eligible_when_all_three_available
+traj12_updates10000_saved,3,0.2343084376763047,3,True
+traj1_updates10000,3,0.7528704073390977,3,True
+traj3_updates10000,3,0.30708817338303507,2,True
+traj12_updates30000,3,0.07355463881974905,2,True

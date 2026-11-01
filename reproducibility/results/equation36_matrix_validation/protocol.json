@@ -1,0 +1,188 @@
+{
+  "schema": 1,
+  "scope": "Declared mathematical benchmarks of Eq36; not calibrated beam mass laws",
+  "cases": [
+    {
+      "name": "scalar_m1",
+      "N": 1,
+      "M0": [
+        [
+          1.0
+        ]
+      ],
+      "K0": [
+        [
+          1.0
+        ]
+      ],
+      "alpha": 0.0,
+      "beta": 0.0
+    },
+    {
+      "name": "scalar_m2",
+      "N": 1,
+      "M0": [
+        [
+          2.0
+        ]
+      ],
+      "K0": [
+        [
+          1.0
+        ]
+      ],
+      "alpha": 0.0,
+      "beta": 0.0
+    },
+    {
+      "name": "scalar_m5",
+      "N": 1,
+      "M0": [
+        [
+          5.0
+        ]
+      ],
+      "K0": [
+        [
+          1.0
+        ]
+      ],
+      "alpha": 0.0,
+      "beta": 0.0
+    },
+    {
+      "name": "scalar_variable",
+      "N": 1,
+      "M0": [
+        [
+          2.0
+        ]
+      ],
+      "K0": [
+        [
+          1.0
+        ]
+      ],
+      "alpha": 0.3,
+      "beta": 0.1
+    },
+    {
+      "name": "coupled_constant",
+      "N": 2,
+      "M0": [
+        [
+          2.0,
+          0.3
+        ],
+        [
+          0.3,
+          1.5
+        ]
+      ],
+      "K0": [
+        [
+          1.7,
+          0.2
+        ],
+        [
+          0.2,
+          0.9
+        ]
+      ],
+      "alpha": 0.0,
+      "beta": 0.0
+    },
+    {
+      "name": "coupled_variable",
+      "N": 2,
+      "M0": [
+        [
+          2.0,
+          0.3
+        ],
+        [
+          0.3,
+          1.5
+        ]
+      ],
+      "K0": [
+        [
+          1.7,
+          0.2
+        ],
+        [
+          0.2,
+          0.9
+        ]
+      ],
+      "alpha": 0.3,
+      "beta": 0.1
+    }
+  ],
+  "initials": {
+    "1": [
+      [
+        0.7,
+        0.2
+      ],
+      [
+        -0.4,
+        0.5
+      ],
+      [
+        0.2,
+        -0.6
+      ]
+    ],
+    "2": [
+      [
+        0.7,
+        -0.3,
+        0.2,
+        0.4
+      ],
+      [
+        -0.4,
+        0.5,
+        0.3,
+        -0.2
+      ],
+      [
+        0.2,
+        0.1,
+        -0.6,
+        0.35
+      ]
+    ]
+  },
+  "h_values": [
+    0.2,
+    0.1,
+    0.05,
+    0.025,
+    0.0125
+  ],
+  "horizon": 5.0,
+  "state_order": "q components then p components; mass M is N by N; phase space and J are2N",
+  "mass": "M(q)=M0+alpha*q*q^T; scalar variable case is2+.3q^2",
+  "potential": "V=.5q^TK0q+beta/4*(q^Tq)^2",
+  "coefficients": "A=M^-1; K=K0+beta(q^Tq)I; Delta_i=-.5*p_mid^T*d_iA(q_mid)*p_mid",
+  "damping": 0.0,
+  "external_force": 0.0,
+  "matrix_order": "epsilon=h^2*K*A/4; solve(I+epsilon,rhs) on the left",
+  "primary": "Endpoint Euclidean error against expm/independent refined DOP853; step-halving order per fixed initial",
+  "geometry": "Implicit Eq36 tangent via complex-step Jacobians; canonical symplectic defect",
+  "numerical_reference": {
+    "rtol": 5e-13,
+    "atol": 5e-15,
+    "refined_rtol": 5e-14,
+    "refined_atol": 5e-16
+  },
+  "repetitions": "Three fixed deterministic initial states; not independent stochastic seeds",
+  "wrong_implementations": "Incorrect right inverse/order and elementwise mass reciprocal must disagree with independent block midpoint map",
+  "source_sha256": {
+    "code/equation36_matrix_validation.py": "b3e8291b32a865ea86eb10a35bab535c00cfd0f691e67c4a1951eeb8739fa729",
+    "manuscript/derivation_corrections.tex": "19eb06e3b1e8fb9241a1fe0a2416297bd7f289a42f0fb8ce2a7fabbe0bc89ec3",
+    "results/equation36_matrix_validation/verify_independent.py": "12725db7054d588bae881b5bc8b59de2977f19193b97ca71b0406c14ae4a1901"
+  }
+}

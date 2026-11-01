@@ -1,0 +1,49 @@
+{
+  "scope": "Conservative branch only; actual end-to-end networks, distinct from the fixed-feature baseline.",
+  "groups": [
+    "R",
+    "C",
+    "GR",
+    "GC"
+  ],
+  "seeds": [
+    17,
+    43,
+    91,
+    137,
+    211
+  ],
+  "real_architecture": [
+    4,
+    20,
+    26,
+    1
+  ],
+  "complex_architecture": [
+    2,
+    16,
+    16
+  ],
+  "complex_readout": "Real linear readout of concatenated real and imaginary channels; H+i0.",
+  "real_parameter_count_each": 673,
+  "activation": "tanh (componentwise for complex hidden values)",
+  "prior": "Fixed physical quadratic Hamiltonian; no extra fitted parameters.",
+  "decoder": "Canonical real-coordinate gradient (source eq.12 conservative case); no use of disputed frozen Wirtinger prefactors.",
+  "training_data": "Equation-(36) midpoint states/increments; entire held-out trajectories.",
+  "optimizer": "Adam, lr=.002 then x.3 at 1/2 and 3/4 of updates; gradient clipping 10.",
+  "training_steps": 2500,
+  "batch_size": 512,
+  "selection": "Minimum MSE on fixed 2048-point subset of separate validation trajectories; evaluated every 100 updates.",
+  "scaling": "Shared training-only RMS input/output scales; gradients retain chain rule in physical canonical coordinates.",
+  "max_seconds": 16.0,
+  "rollout": "Same implicit midpoint and tolerance for all neural models.",
+  "statistics": "Seed-paired contrasts; sample standard deviations are descriptive, not a population significance claim.",
+  "environment": {
+    "python": "3.12.7",
+    "torch": "2.6.0+cpu",
+    "numpy": "1.26.4",
+    "device": "cpu",
+    "torch_threads": 1,
+    "mkl_threading_layer": "SEQUENTIAL"
+  }
+}

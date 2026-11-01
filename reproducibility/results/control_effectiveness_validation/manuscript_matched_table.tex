@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering\small
+\caption{初值匹配名义参考下的补偿有效性诊断：步内中点I及等价生成函数G。杆端RMSE单位为$\mu\mathrm m$，报告五个初值块的均值$\pm$样本标准差。}
+\label{tab:matched_initial_effectiveness}
+\begin{tabular}{lrr}
+\toprule
+补偿 & $h_0$ & $h_0/2$ \\
+\midrule
+无补偿 & $4.791\pm0.436$ & $1.572\pm0.137$ \\
+精确残差 & $4.653\pm0.419$ & $1.379\pm0.085$ \\
+GR & $4.679\pm0.427$ & $1.416\pm0.104$ \\
+GC & $4.671\pm0.428$ & $1.405\pm0.101$ \\
+\bottomrule
+\end{tabular}
+\par\smallskip\begin{minipage}{\columnwidth}\footnotesize 各条名义参考与真实对象从相同测试初值出发，输入、反馈增益、预算及权重保持不变。该诊断隔离初始偏差，原公共零初态参考结果仍保留。两档步长中GR、GC相对无补偿均在5/5块改善；$h_0/2$下平均种子内相对改善为$9.85\%$、$10.52\%$。\end{minipage}
+\end{table}

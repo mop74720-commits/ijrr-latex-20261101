@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering\small\setlength{\tabcolsep}{4pt}
+\caption{共同独立测试状态上的残差投影。40条原测试轨迹各取64点；先计算逐轨迹分量RMS，再在种子内和种子间汇总。数值乘$10^6$，无量纲。}
+\label{tab:control_test_force}
+\begin{tabular}{lrrr}
+\toprule
+补偿 & 补偿后力残差 & 运动学分量 & 正交力分量 \\
+\midrule
+无补偿 & $3.877\pm1.085$ & $0.000\pm0.000$ & $0.000\pm0.000$ \\
+精确残差 & $0.000\pm0.000$ & $0.000\pm0.000$ & $0.000\pm0.000$ \\
+GR & $2.927\pm0.465$ & $3.040\pm0.554$ & $2.069\pm0.492$ \\
+GC & $2.229\pm0.683$ & $2.135\pm0.997$ & $1.458\pm0.328$ \\
+\bottomrule
+\end{tabular}
+\end{table}

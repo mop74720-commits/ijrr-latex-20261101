@@ -1,0 +1,94 @@
+{
+  "status": "passed",
+  "models": 10,
+  "independently_evaluated_points_per_model": 214593,
+  "maximum_metric_or_envelope_difference": 5.149960319306146e-19,
+  "checks": [
+    {
+      "seed": 17,
+      "group": "GR",
+      "passed": true,
+      "C0_envelope_difference": 1.6263032587282567e-19
+    },
+    {
+      "seed": 17,
+      "group": "GC",
+      "passed": true,
+      "C0_envelope_difference": 2.710505431213761e-20
+    },
+    {
+      "seed": 43,
+      "group": "GR",
+      "passed": true,
+      "C0_envelope_difference": 1.0842021724855044e-19
+    },
+    {
+      "seed": 43,
+      "group": "GC",
+      "passed": true,
+      "C0_envelope_difference": 2.168404344971009e-19
+    },
+    {
+      "seed": 91,
+      "group": "GR",
+      "passed": true,
+      "C0_envelope_difference": 0.0
+    },
+    {
+      "seed": 91,
+      "group": "GC",
+      "passed": true,
+      "C0_envelope_difference": 1.0842021724855044e-19
+    },
+    {
+      "seed": 137,
+      "group": "GR",
+      "passed": true,
+      "C0_envelope_difference": 1.0842021724855044e-19
+    },
+    {
+      "seed": 137,
+      "group": "GC",
+      "passed": true,
+      "C0_envelope_difference": 1.0842021724855044e-19
+    },
+    {
+      "seed": 211,
+      "group": "GR",
+      "passed": true,
+      "C0_envelope_difference": 1.0842021724855044e-19
+    },
+    {
+      "seed": 211,
+      "group": "GC",
+      "passed": true,
+      "C0_envelope_difference": 1.0842021724855044e-19
+    }
+  ],
+  "input_hashes": {
+    "code\\variable_mass_learning.py": "f1e1beabfad1a500203170f2abac0384fa002a7d9ddeabd6473946cd01f91ad9",
+    "code\\kam_error_bridge.py": "4eac01716696ac14c848a0355de2992a8644141c17672b28ba82df666ce31032",
+    "results\\kam_error_bridge\\pullback_audit.py": "a5b9bd8e029dd953c7b4d168f2beb0b61d9a01701248b35fd45a6e3fa88a449d",
+    "results\\kam_error_bridge\\reference_budget.json": "198ac4e241f5f9ca3abae229cd6f52aa646e5f3930722da4ba19c0e3c3928d2a",
+    "results\\variable_mass_learning\\data\\seed_17.npz": "cc2c113b9d9f4cc7ccfec13343987534f5b410ac82e15853d1ee7bac10555905",
+    "results\\variable_mass_learning\\seed_17\\GR_weights.npz": "de41220ae143ca237ab9b10b0dbc88700f50195fd3fd8680c44892b51d8d2df0",
+    "results\\variable_mass_learning\\seed_17\\GC_weights.npz": "30d7b03f76549aaf07a26757e191c1332d0ccd42d6bb1d72e3e41197c44bee16",
+    "results\\variable_mass_learning\\data\\seed_43.npz": "fa3a28825897b70521e56278f6462477218924aec6aa7ffd1532110439f22c69",
+    "results\\variable_mass_learning\\seed_43\\GR_weights.npz": "e2afd60226090861e780c39682d3012a2b05cb8f748367e7aaf4e592848a9232",
+    "results\\variable_mass_learning\\seed_43\\GC_weights.npz": "3435a46b9e1eb35512ede86c9dd4744c2e387a2104d0cbb1d7d6e16ed4d653a8",
+    "results\\variable_mass_learning\\data\\seed_91.npz": "9e25aa186abe696d789c688a6ecf4172889f0daae364726d7ddc959e3a6dc623",
+    "results\\variable_mass_learning\\seed_91\\GR_weights.npz": "df415264cc5f1a612dc26c136be975bc9307bdf798518fe8989f5a14aaf5994d",
+    "results\\variable_mass_learning\\seed_91\\GC_weights.npz": "b5653903d25d0a21596ef9a4df742defd81eb723674f20249c389a5c68381897",
+    "results\\variable_mass_learning\\data\\seed_137.npz": "7e5e75564e412725461d15ecff7d8c9f919e9a4e09edea201cfd424910b0de94",
+    "results\\variable_mass_learning\\seed_137\\GR_weights.npz": "a559c236a7e2675747cb7f3f96ca9129dac55b924043187c9eb2534c9159af72",
+    "results\\variable_mass_learning\\seed_137\\GC_weights.npz": "3a065b330cc704dcc6152da9b9ed909ff28043beeab5f8527a82ba338f56851f",
+    "results\\variable_mass_learning\\data\\seed_211.npz": "055cf4cfb9955435b419ae752a5ac0fbc1fca951d50a519d71c8221ac14df0bc",
+    "results\\variable_mass_learning\\seed_211\\GR_weights.npz": "57c4f2983f5263f55d4a4d2cb4c81ef5a3b4aee8b950f578aab780c9feedd2db",
+    "results\\variable_mass_learning\\seed_211\\GC_weights.npz": "61e36e2e83ffb1e6ded75a7e31e3893ec4a02326e43fef11ac4ac3227ce5cd87"
+  },
+  "annulus_pullback_coordinate_abs_bound": 0.22400000000000003,
+  "annulus_contained_in_new_box": true,
+  "includes_composed_potential_second_derivative_term": true,
+  "interval_certificate": false,
+  "KAM_certificate": false
+}

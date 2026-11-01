@@ -1,0 +1,38 @@
+{
+  "scope": "Preselected first test initial per seed; five trajectories, not all forty. Tolerance sensitivity is empirical, not a certified reference error bound.",
+  "rtol": 3e-13,
+  "atol": 3e-15,
+  "records": [
+    {
+      "seed": 17,
+      "trajectory_index": 0,
+      "maximum_physical_state_gap": 5.7202173553427826e-11,
+      "tip_gap_mm_max": 3.082708355523387e-10
+    },
+    {
+      "seed": 43,
+      "trajectory_index": 0,
+      "maximum_physical_state_gap": 5.872072272872231e-11,
+      "tip_gap_mm_max": 3.1974958656836243e-10
+    },
+    {
+      "seed": 91,
+      "trajectory_index": 0,
+      "maximum_physical_state_gap": 9.137746115328582e-12,
+      "tip_gap_mm_max": 4.873430517731013e-11
+    },
+    {
+      "seed": 137,
+      "trajectory_index": 0,
+      "maximum_physical_state_gap": 9.140604939616992e-11,
+      "tip_gap_mm_max": 5.014050580673515e-10
+    },
+    {
+      "seed": 211,
+      "trajectory_index": 0,
+      "maximum_physical_state_gap": 3.2518612802512337e-11,
+      "tip_gap_mm_max": 1.6474379672651595e-10
+    }
+  ],
+  "maximum_physical_state_gap": 9.140604939616992e-11
+}

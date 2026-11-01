@@ -1,0 +1,72 @@
+{
+  "condition": "traj12_updates10000_saved",
+  "seed": 91,
+  "group": "GR",
+  "train_trajectories": 12,
+  "training_rows": 3432,
+  "training_trajectory_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "training_updates": 10000,
+  "baseline_saved_weights": true,
+  "validation_selection_count": 2048,
+  "validation_reporting_count": 2284,
+  "weight_source": "results/neural_learning_10000/seed_91/GR_weights.npz",
+  "weight_source_sha256": "039463690996f6979ee5950b8ae59ce6a3d1ad5cd6aa70f1ceeb032d4e8d8635",
+  "status": "completed",
+  "real_parameter_count": 673,
+  "selected_validation_step": 9600,
+  "validation_normalized_mse": 4.1855734812944285e-10,
+  "training_seconds": 20.76108750000003,
+  "numpy_torch_field_max_difference": 2.7755575615628914e-17,
+  "validation_reporting_points": 2284,
+  "clean_label_rhs_max_gap": 5.592748486549226e-15,
+  "clean_gradient_rms": 3.6399309130809567e-06,
+  "common_scale_clean_gradient_rms": 2.0102618642622273e-05,
+  "common_reporting_output_rms": [
+    0.0993606293779463,
+    0.46644131364767666,
+    0.09943951887274627,
+    0.46698981469008277
+  ],
+  "clean_field_mse": 1.3249097052002368e-11,
+  "clean_field_relative_l2": 1.3438969159177074e-05,
+  "nonlinear_residual_relative_l2": 1.2649662611045913,
+  "nonlinear_momentum_relative_l2": 0.9150581634864716,
+  "spurious_kinematic_residual_rms": 3.5541591625836384e-06,
+  "noisy_full_validation_normalized_mse": 4.2102146989547295e-10,
+  "quadratic_baseline_field_relative_l2": 1.0623974387618784e-05,
+  "validation_nonlinear_field_l2": 0.00027503771032871306,
+  "validation_field_error_component_rmse": [
+    2.857568445415174e-06,
+    4.135020832558777e-06,
+    2.4586144874106447e-06,
+    4.656984894153769e-06
+  ],
+  "train_only_input_rms": [
+    0.09944161025516696,
+    0.07590770312999323,
+    0.0993606175401077,
+    0.07581801242221714
+  ],
+  "train_only_output_rms": [
+    0.0993606293779463,
+    0.46644131364767666,
+    0.09943951887274627,
+    0.46698981469008277
+  ],
+  "train_only_energy_scale": 0.014421598763376809,
+  "elapsed_seconds_this_evaluation": 0.008042900000873487,
+  "weights_sha256": "039463690996f6979ee5950b8ae59ce6a3d1ad5cd6aa70f1ceeb032d4e8d8635"
+}

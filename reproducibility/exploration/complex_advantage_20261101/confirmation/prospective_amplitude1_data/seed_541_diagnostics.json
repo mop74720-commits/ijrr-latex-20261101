@@ -1,0 +1,57 @@
+{
+  "train": {
+    "maximum_implicit_residual": 5.640561802355837e-17,
+    "mean_iterations_per_step": 1.992119089316988,
+    "elapsed_seconds": 0.06120269999883021,
+    "midpoint_label_consistency_max": 4.758346494604382e-15,
+    "internal_states_angle_gate_max_rad": 0.08431496071047032
+  },
+  "val": {
+    "maximum_implicit_residual": 5.605325231750058e-17,
+    "mean_iterations_per_step": 1.9916246989270854,
+    "elapsed_seconds": 0.030411200001253746,
+    "midpoint_label_consistency_max": 5.134781488891349e-15,
+    "internal_states_angle_gate_max_rad": 0.07172115887936892
+  },
+  "test_teacher": {
+    "maximum_implicit_residual": 5.613456748043699e-17,
+    "mean_iterations_per_step": 1.991593647316539,
+    "elapsed_seconds": 0.23915189999934228
+  },
+  "config": {
+    "seed": 541,
+    "amplitude_multiplier": 1.0,
+    "noise_bound": 1e-06,
+    "angle_gate_rad": 0.22,
+    "train_trajectories": 12,
+    "train_duration_s": 2.0,
+    "validation_trajectories": 4,
+    "validation_duration_s": 4.0,
+    "test_trajectories": 8,
+    "test_requested_duration_s": 16.0,
+    "requested_step_tau": 0.01,
+    "training_stride": 8,
+    "test_stride": 20,
+    "test_grid_rule": "Original 40s grid, prefix no later than 16s, rounded down to stride20",
+    "reference": {
+      "method": "DOP853",
+      "rtol": 2e-11,
+      "atol": 2e-13
+    },
+    "training_noise_seed": 10541,
+    "validation_noise_seed": 110541,
+    "source_spec_sha256": "fd18c090c9f58dac7a5813a5445b7f14c5409ec767c5cb9a4ec38dd2e883ae8c"
+  },
+  "angle_gate_max_by_split": {
+    "train": 0.08431496071047032,
+    "val": 0.07172115887936892,
+    "test_teacher": 0.0707773384085056,
+    "test_continuous_reference": 0.07077981410857005
+  },
+  "angle_gate_passed": true,
+  "angle_gate_scope": "Computational screening only; not a physical validity proof",
+  "reference_nfev": 483226,
+  "actual_test_duration_s": 15.992993212174294,
+  "elapsed_seconds": 10.092632600000798,
+  "dataset_sha256": "ed7c0d228d92059ff733ea40ba9fb90ceb576ef04c27589f7f77beac8cd21ce9"
+}

@@ -1,0 +1,29 @@
+{
+  "canonical_roundtrip_gap": 2.7755575615628914e-17,
+  "continuous_chain_rule_gap": 2.220446049250313e-16,
+  "direct_eq36_matrix_vs_midpoint_gap": 1.7763568394002505e-15,
+  "max_tangent_symplectic_defect": 2.237994126808597e-16,
+  "nonzero_delta_max": 0.21636261741478233,
+  "convergence": [
+    {
+      "h": 0.08,
+      "error": 0.05937975478518315
+    },
+    {
+      "h": 0.04,
+      "error": 0.015429415101099199,
+      "observed_order": 1.9442877623766188
+    },
+    {
+      "h": 0.02,
+      "error": 0.003883077203137693,
+      "observed_order": 1.9904110769709413
+    },
+    {
+      "h": 0.01,
+      "error": 0.000972187195020942,
+      "observed_order": 1.9978943539383676
+    }
+  ],
+  "scope": "Conservative canonical pullback coordinate test only"
+}

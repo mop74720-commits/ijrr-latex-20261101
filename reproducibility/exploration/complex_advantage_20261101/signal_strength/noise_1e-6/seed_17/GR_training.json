@@ -1,0 +1,26 @@
+{
+  "seed": 17,
+  "group": "GR",
+  "real_parameter_count": 673,
+  "training_steps": 10000,
+  "selected_validation_step": 9400,
+  "validation_normalized_mse": 6.346905766414321e-10,
+  "training_seconds": 19.84350110000014,
+  "numpy_torch_field_max_difference": 5.551115123125783e-17,
+  "clean_full_validation_scaled_gradient_rms": 2.496370021029314e-05,
+  "clean_full_validation_gradient_relative_l2": 1.1314641866803962e-05,
+  "clean_full_validation_gradient_rms": 7.138916331786074e-06,
+  "clean_full_validation_points": 2284,
+  "output_component_scale": [
+    0.1570967296903856,
+    0.806516630122394,
+    0.156767612050042,
+    0.8077100941038445
+  ],
+  "status": "completed",
+  "amplitude_multiplier": 2.0,
+  "noise_bound": 1e-06,
+  "dataset_sha256": "725dc3d45c661ec413db6548db1eeaad5a374ea354f0bd5c7f4c08622def7005",
+  "weights_sha256": "65e12aebd6c9c771fa690d7fae48c060a96aa35f74710a1c74c32899d43304e6",
+  "selection": "Unchanged train_one: noisy validation labels when noise=1e-6, independent validation noise, fixed original 2048 subset"
+}

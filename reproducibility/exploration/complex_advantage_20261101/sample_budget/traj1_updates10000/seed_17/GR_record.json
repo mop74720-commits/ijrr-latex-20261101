@@ -1,0 +1,60 @@
+{
+  "condition": "traj1_updates10000",
+  "seed": 17,
+  "group": "GR",
+  "train_trajectories": 1,
+  "training_rows": 286,
+  "training_trajectory_ids": [
+    11
+  ],
+  "training_updates": 10000,
+  "baseline_saved_weights": false,
+  "validation_selection_count": 2048,
+  "validation_reporting_count": 2284,
+  "status": "completed",
+  "real_parameter_count": 673,
+  "training_steps": 10000,
+  "selected_validation_step": 9900,
+  "validation_normalized_mse": 4.6462596721643603e-10,
+  "training_seconds": 17.922298899999078,
+  "numpy_torch_field_max_difference": 1.1102230246251565e-16,
+  "validation_reporting_points": 2284,
+  "clean_label_rhs_max_gap": 5.523359547510154e-15,
+  "clean_gradient_rms": 4.831911905795852e-06,
+  "common_scale_clean_gradient_rms": 2.38912235806479e-05,
+  "common_reporting_output_rms": [
+    0.07854905630135695,
+    0.4032594569156331,
+    0.07838624586167481,
+    0.40385916231872815
+  ],
+  "clean_field_mse": 2.3347372665371703e-11,
+  "clean_field_relative_l2": 1.5316273935459623e-05,
+  "nonlinear_residual_relative_l2": 1.9649632968605566,
+  "nonlinear_momentum_relative_l2": 1.4471136687363022,
+  "spurious_kinematic_residual_rms": 4.622647809869231e-06,
+  "noisy_full_validation_normalized_mse": 4.706583705735067e-10,
+  "quadratic_baseline_field_relative_l2": 7.794687035595322e-06,
+  "validation_nonlinear_field_l2": 0.00023504045030602516,
+  "validation_field_error_component_rmse": [
+    2.1959015367647044e-06,
+    6.157577607240067e-06,
+    2.4731140683895783e-06,
+    6.673488736625722e-06
+  ],
+  "train_only_input_rms": [
+    0.09226045199443647,
+    0.06287222288404555,
+    0.09538468953918817,
+    0.06257706031125776
+  ],
+  "train_only_output_rms": [
+    0.09538470863099588,
+    0.3849814248549216,
+    0.09225899546226378,
+    0.3867953230821771
+  ],
+  "train_only_energy_scale": 0.010486241864276553,
+  "elapsed_seconds_this_evaluation": 26.975376099999266,
+  "weights_sha256": "44e7940ffa1aaa24da358288710d22ef028c53e3c2032e0f4a0bf1bf484bb9e7"
+}

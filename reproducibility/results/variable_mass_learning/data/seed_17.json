@@ -1,0 +1,39 @@
+{
+  "seed": 17,
+  "dataset_sha256": "cc2c113b9d9f4cc7ccfec13343987534f5b410ac82e15853d1ee7bac10555905",
+  "source_initials_sha256": "f02a36438e9d23894a4f7261b652f00d5d048b427f18a4433fb602791aec6c86",
+  "diagnostics": {
+    "train": {
+      "maximum_implicit_residual": 3.800128614561693e-16,
+      "max_iterations": 8,
+      "midpoint_label_gap": 3.772329670859165e-14,
+      "mass_diagonal_min": [
+        1.0000000010552892,
+        0.16254566094279554
+      ],
+      "mass_diagonal_max": [
+        1.1783641086724508,
+        0.18709721267622806
+      ],
+      "delta_max": 0.055954644579675035
+    },
+    "val": {
+      "maximum_implicit_residual": 2.317143330508864e-16,
+      "max_iterations": 8,
+      "midpoint_label_gap": 2.31715688303602e-14,
+      "mass_diagonal_min": [
+        1.0000000000534515,
+        0.1625456634697004
+      ],
+      "mass_diagonal_max": [
+        1.1931302000706805,
+        0.17557085200232556
+      ],
+      "delta_max": 0.021761681900663788
+    }
+  },
+  "test_max_implicit_residual": 3.66162178702667e-16,
+  "elapsed_seconds": 13.669106699999247,
+  "test_seconds": 15.992993212174294,
+  "protocol_sha256": "16bb7e277e864a1b0f301d08406f5fd19f70c2a2ef261346a8fc120f70789f3b"
+}

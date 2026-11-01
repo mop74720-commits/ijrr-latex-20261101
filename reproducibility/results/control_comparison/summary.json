@@ -1,0 +1,3357 @@
+{
+  "status": "complete",
+  "cases": [
+    {
+      "mode": "open_loop",
+      "method": "I",
+      "multiplier": 4.0,
+      "metrics": {
+        "tracking_tip_rmse_mm": {
+          "mean": 1.2578049070421589,
+          "sample_sd": 0.1917061761650414,
+          "maximum_over_trajectories": 1.9834878060512067
+        },
+        "tail_half_tracking_tip_rmse_mm": {
+          "mean": 1.2567760433892559,
+          "sample_sd": 0.1929185612834954,
+          "maximum_over_trajectories": 1.9874823137754558
+        },
+        "tracking_state_relative_l2": {
+          "mean": 3.206341204865968,
+          "sample_sd": 0.3577096337072163,
+          "maximum_over_trajectories": 4.870673209996871
+        },
+        "tracking_port_rmse": {
+          "mean": 0.03087828235084889,
+          "sample_sd": 0.002994778885291949,
+          "maximum_over_trajectories": 0.04712939141682588
+        },
+        "continuous_controlled_flow_tip_rmse_mm": {
+          "mean": 0.5106858338454648,
+          "sample_sd": 0.05675588251383236,
+          "maximum_over_trajectories": 0.8215341905950302
+        },
+        "continuous_controlled_flow_state_relative_l2": {
+          "mean": 0.7797874795035161,
+          "sample_sd": 0.09588003746707352,
+          "maximum_over_trajectories": 1.2364735154451294
+        },
+        "integral_u_squared_seconds": {
+          "mean": 0.009687405885452896,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.009687405885452896
+        },
+        "max_abs_u": {
+          "mean": 0.049999879317726655,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.049999879317726655
+        },
+        "saturation_fraction": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        },
+        "max_abs_angle_rad": {
+          "mean": 0.07082476612978575,
+          "sample_sd": 0.006002912679370606,
+          "maximum_over_trajectories": 0.10956126811545105
+        },
+        "max_modal_reference_radius": {
+          "mean": 0.17518679472080337,
+          "sample_sd": 0.019117567453598192,
+          "maximum_over_trajectories": 0.27687772430425833
+        },
+        "maximum_midpoint_residual": {
+          "mean": 5.0047704018172866e-17,
+          "sample_sd": 4.873673158886767e-18,
+          "maximum_over_trajectories": 9.237402509576498e-17
+        },
+        "maximum_newton_iterations": {
+          "mean": 2.775,
+          "sample_sd": 0.10458250331675945,
+          "maximum_over_trajectories": 3.0
+        },
+        "discrete_work_balance_absolute": {
+          "mean": 3.8545264207127604e-08,
+          "sample_sd": 9.928605850010068e-09,
+          "maximum_over_trajectories": 1.4558808097281384e-07
+        },
+        "discrete_work_balance_relative": {
+          "mean": 8.346943452162118e-08,
+          "sample_sd": 1.578707734175243e-08,
+          "maximum_over_trajectories": 2.3733157760651138e-07
+        },
+        "signed_input_work": {
+          "mean": 0.00033734344322982213,
+          "sample_sd": 0.00015284419378557338,
+          "maximum_over_trajectories": 0.006313323589583196
+        },
+        "subflow_quadrature_work_balance_absolute": {
+          "mean": 6.60289697372086e-09,
+          "sample_sd": 2.5424406646026763e-09,
+          "maximum_over_trajectories": 3.082638062520959e-08
+        },
+        "subflow_quadrature_work": {
+          "mean": 0.00033734576004583304,
+          "sample_sd": 0.00015284398437433544,
+          "maximum_over_trajectories": 0.006313355174578968
+        }
+      }
+    },
+    {
+      "mode": "open_loop",
+      "method": "I",
+      "multiplier": 2.0,
+      "metrics": {
+        "tracking_tip_rmse_mm": {
+          "mean": 1.2577017282510992,
+          "sample_sd": 0.1918312735478602,
+          "maximum_over_trajectories": 1.983211300808376
+        },
+        "tail_half_tracking_tip_rmse_mm": {
+          "mean": 1.2569568885863132,
+          "sample_sd": 0.19352825307493784,
+          "maximum_over_trajectories": 1.9885007892892346
+        },
+        "tracking_state_relative_l2": {
+          "mean": 3.2061428975241215,
+          "sample_sd": 0.3577903143587836,
+          "maximum_over_trajectories": 4.870684817513809
+        },
+        "tracking_port_rmse": {
+          "mean": 0.030875477806063367,
+          "sample_sd": 0.0029886564013073694,
+          "maximum_over_trajectories": 0.04703804728176649
+        },
+        "continuous_controlled_flow_tip_rmse_mm": {
+          "mean": 0.1548834617219494,
+          "sample_sd": 0.01717985942513688,
+          "maximum_over_trajectories": 0.2496321268408697
+        },
+        "continuous_controlled_flow_state_relative_l2": {
+          "mean": 0.23645770914697115,
+          "sample_sd": 0.029075144091464496,
+          "maximum_over_trajectories": 0.3749437115095705
+        },
+        "integral_u_squared_seconds": {
+          "mean": 0.00968739709778454,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.00968739709778454
+        },
+        "max_abs_u": {
+          "mean": 0.049999989414929585,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.049999989414929585
+        },
+        "saturation_fraction": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        },
+        "max_abs_angle_rad": {
+          "mean": 0.07081497121256626,
+          "sample_sd": 0.0061521866665662376,
+          "maximum_over_trajectories": 0.11004892174199718
+        },
+        "max_modal_reference_radius": {
+          "mean": 0.17515999325411952,
+          "sample_sd": 0.01911649222496783,
+          "maximum_over_trajectories": 0.27683920751733504
+        },
+        "maximum_midpoint_residual": {
+          "mean": 6.102770741013564e-17,
+          "sample_sd": 7.951497653565918e-18,
+          "maximum_over_trajectories": 1.2211504593975797e-16
+        },
+        "maximum_newton_iterations": {
+          "mean": 2.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 2.0
+        },
+        "discrete_work_balance_absolute": {
+          "mean": 9.744358279929928e-09,
+          "sample_sd": 2.5072149685793575e-09,
+          "maximum_over_trajectories": 3.6723121883686094e-08
+        },
+        "discrete_work_balance_relative": {
+          "mean": 2.1004748316219433e-08,
+          "sample_sd": 3.976829445747764e-09,
+          "maximum_over_trajectories": 5.9485998877192125e-08
+        },
+        "signed_input_work": {
+          "mean": 0.0005280115494676506,
+          "sample_sd": 0.0008707520226675952,
+          "maximum_over_trajectories": 0.005917707984121902
+        },
+        "subflow_quadrature_work_balance_absolute": {
+          "mean": 1.673487803188897e-09,
+          "sample_sd": 6.481666019141569e-10,
+          "maximum_over_trajectories": 7.939060769901474e-09
+        },
+        "subflow_quadrature_work": {
+          "mean": 0.0005280120669427003,
+          "sample_sd": 0.000870753135693891,
+          "maximum_over_trajectories": 0.005917715669839097
+        }
+      }
+    },
+    {
+      "mode": "open_loop",
+      "method": "I",
+      "multiplier": 1.0,
+      "metrics": {
+        "tracking_tip_rmse_mm": {
+          "mean": 1.25769502026917,
+          "sample_sd": 0.19185653749945378,
+          "maximum_over_trajectories": 1.9833584746051711
+        },
+        "tail_half_tracking_tip_rmse_mm": {
+          "mean": 1.2570005509891131,
+          "sample_sd": 0.1936579091254031,
+          "maximum_over_trajectories": 1.9896473813471907
+        },
+        "tracking_state_relative_l2": {
+          "mean": 3.2060963501918494,
+          "sample_sd": 0.35781216306612595,
+          "maximum_over_trajectories": 4.8706792315229155
+        },
+        "tracking_port_rmse": {
+          "mean": 0.03087525423441175,
+          "sample_sd": 0.0029883644839434433,
+          "maximum_over_trajectories": 0.047050894866194085
+        },
+        "continuous_controlled_flow_tip_rmse_mm": {
+          "mean": 0.03924520567952784,
+          "sample_sd": 0.004355758036398233,
+          "maximum_over_trajectories": 0.06326814298596345
+        },
+        "continuous_controlled_flow_state_relative_l2": {
+          "mean": 0.059913314436369956,
+          "sample_sd": 0.007367034543333085,
+          "maximum_over_trajectories": 0.09500275002585012
+        },
+        "integral_u_squared_seconds": {
+          "mean": 0.009687394901145202,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.009687394901145202
+        },
+        "max_abs_u": {
+          "mean": 0.04999999999925842,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.04999999999925842
+        },
+        "saturation_fraction": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        },
+        "max_abs_angle_rad": {
+          "mean": 0.0708907005030876,
+          "sample_sd": 0.006136265178648928,
+          "maximum_over_trajectories": 0.1102099559700983
+        },
+        "max_modal_reference_radius": {
+          "mean": 0.17515294931931916,
+          "sample_sd": 0.01911613391863217,
+          "maximum_over_trajectories": 0.27682928390910566
+        },
+        "maximum_midpoint_residual": {
+          "mean": 5.235603820603028e-17,
+          "sample_sd": 5.8338722637994686e-18,
+          "maximum_over_trajectories": 1.0450014876865754e-16
+        },
+        "maximum_newton_iterations": {
+          "mean": 2.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 2.0
+        },
+        "discrete_work_balance_absolute": {
+          "mean": 2.4426288560384924e-09,
+          "sample_sd": 6.28190734629102e-10,
+          "maximum_over_trajectories": 9.201344769449449e-09
+        },
+        "discrete_work_balance_relative": {
+          "mean": 5.258407194528458e-09,
+          "sample_sd": 9.956371149571936e-10,
+          "maximum_over_trajectories": 1.489218797467822e-08
+        },
+        "signed_input_work": {
+          "mean": 0.00048133582852051044,
+          "sample_sd": 0.0009095048557898834,
+          "maximum_over_trajectories": 0.006420500158030062
+        },
+        "subflow_quadrature_work_balance_absolute": {
+          "mean": 4.1954374056340884e-10,
+          "sample_sd": 1.6185127449012707e-10,
+          "maximum_over_trajectories": 1.9837121494059584e-09
+        },
+        "subflow_quadrature_work": {
+          "mean": 0.00048133593609637446,
+          "sample_sd": 0.0009095051206340636,
+          "maximum_over_trajectories": 0.006420504076005468
+        }
+      }
+    },
+    {
+      "mode": "open_loop",
+      "method": "I",
+      "multiplier": 0.5,
+      "metrics": {
+        "tracking_tip_rmse_mm": {
+          "mean": 1.2576937978253553,
+          "sample_sd": 0.19186245897760354,
+          "maximum_over_trajectories": 1.9833882995608485
+        },
+        "tail_half_tracking_tip_rmse_mm": {
+          "mean": 1.257008663017783,
+          "sample_sd": 0.19368705185960344,
+          "maximum_over_trajectories": 1.9899353388726544
+        },
+        "tracking_state_relative_l2": {
+          "mean": 3.206084979664967,
+          "sample_sd": 0.3578179132923628,
+          "maximum_over_trajectories": 4.870676737280169
+        },
+        "tracking_port_rmse": {
+          "mean": 0.03087533471314432,
+          "sample_sd": 0.0029884216978225886,
+          "maximum_over_trajectories": 0.047059135898434745
+        },
+        "continuous_controlled_flow_tip_rmse_mm": {
+          "mean": 0.009822703559883876,
+          "sample_sd": 0.0010904396844771769,
+          "maximum_over_trajectories": 0.015835465691522818
+        },
+        "continuous_controlled_flow_state_relative_l2": {
+          "mean": 0.014995720867582777,
+          "sample_sd": 0.001843897578165632,
+          "maximum_over_trajectories": 0.023778267116889074
+        },
+        "integral_u_squared_seconds": {
+          "mean": 0.009687394352002724,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.009687394352002724
+        },
+        "max_abs_u": {
+          "mean": 0.049999999906189675,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.049999999906189675
+        },
+        "saturation_fraction": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        },
+        "max_abs_angle_rad": {
+          "mean": 0.07081861592026403,
+          "sample_sd": 0.006149214546887219,
+          "maximum_over_trajectories": 0.10935525312609469
+        },
+        "max_modal_reference_radius": {
+          "mean": 0.17515118184546902,
+          "sample_sd": 0.01911532801880955,
+          "maximum_over_trajectories": 0.27682678436662495
+        },
+        "maximum_midpoint_residual": {
+          "mean": 5.1706956858549316e-17,
+          "sample_sd": 5.7017478826219484e-18,
+          "maximum_over_trajectories": 1.0402919844998415e-16
+        },
+        "maximum_newton_iterations": {
+          "mean": 2.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 2.0
+        },
+        "discrete_work_balance_absolute": {
+          "mean": 6.110734425304569e-10,
+          "sample_sd": 1.5713233417304592e-10,
+          "maximum_over_trajectories": 2.301728068559994e-09
+        },
+        "discrete_work_balance_relative": {
+          "mean": 1.315089467122751e-09,
+          "sample_sd": 2.489642614526354e-10,
+          "maximum_over_trajectories": 3.7242880263491187e-09
+        },
+        "signed_input_work": {
+          "mean": 0.00046449532527336796,
+          "sample_sd": 0.0009010472863184013,
+          "maximum_over_trajectories": 0.006686934276140785
+        },
+        "subflow_quadrature_work_balance_absolute": {
+          "mean": 1.049278814117989e-10,
+          "sample_sd": 4.047062027741039e-11,
+          "maximum_over_trajectories": 4.954130959633485e-10
+        },
+        "subflow_quadrature_work": {
+          "mean": 0.0004644953513107887,
+          "sample_sd": 0.0009010473499278355,
+          "maximum_over_trajectories": 0.006686935279848752
+        }
+      }
+    },
+    {
+      "mode": "open_loop",
+      "method": "II",
+      "multiplier": 4.0,
+      "metrics": {
+        "tracking_tip_rmse_mm": {
+          "mean": 1.2582610313041294,
+          "sample_sd": 0.1911696654344104,
+          "maximum_over_trajectories": 1.9830421142778425
+        },
+        "tail_half_tracking_tip_rmse_mm": {
+          "mean": 1.257252515081754,
+          "sample_sd": 0.1923680441085755,
+          "maximum_over_trajectories": 1.9871454745107617
+        },
+        "tracking_state_relative_l2": {
+          "mean": 3.207096514810621,
+          "sample_sd": 0.35729960986082726,
+          "maximum_over_trajectories": 4.869900199467942
+        },
+        "tracking_port_rmse": {
+          "mean": 0.030883703184594862,
+          "sample_sd": 0.0029940589294812116,
+          "maximum_over_trajectories": 0.047060322670167305
+        },
+        "continuous_controlled_flow_tip_rmse_mm": {
+          "mean": 0.5108339880627906,
+          "sample_sd": 0.05671597372879756,
+          "maximum_over_trajectories": 0.8215777445633435
+        },
+        "continuous_controlled_flow_state_relative_l2": {
+          "mean": 0.7798265749635269,
+          "sample_sd": 0.09587433730173256,
+          "maximum_over_trajectories": 1.2364913567871942
+        },
+        "integral_u_squared_seconds": {
+          "mean": 0.009687405885452896,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.009687405885452896
+        },
+        "max_abs_u": {
+          "mean": 0.049999879317726655,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.049999879317726655
+        },
+        "saturation_fraction": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        },
+        "max_abs_angle_rad": {
+          "mean": 0.07083627186460871,
+          "sample_sd": 0.005999574996867442,
+          "maximum_over_trajectories": 0.10962777072595069
+        },
+        "max_modal_reference_radius": {
+          "mean": 0.17524133325432462,
+          "sample_sd": 0.019044983685826068,
+          "maximum_over_trajectories": 0.27682648286099715
+        },
+        "maximum_midpoint_residual": {
+          "mean": 4.933475638646892e-17,
+          "sample_sd": 3.452863936016785e-18,
+          "maximum_over_trajectories": 9.324138683375338e-17
+        },
+        "maximum_newton_iterations": {
+          "mean": 2.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 2.0
+        },
+        "discrete_work_balance_absolute": {
+          "mean": 0.0005682464700731069,
+          "sample_sd": 2.8595939381435608e-05,
+          "maximum_over_trajectories": 0.0008418758316318739
+        },
+        "discrete_work_balance_relative": {
+          "mean": 0.0015770536937163766,
+          "sample_sd": 0.00018763192556792748,
+          "maximum_over_trajectories": 0.002617945026831299
+        },
+        "signed_input_work": {
+          "mean": 0.0006406283474465075,
+          "sample_sd": 0.00015282466179490376,
+          "maximum_over_trajectories": 0.006616561056977284
+        },
+        "subflow_quadrature_work_balance_absolute": {
+          "mean": 6.604717358329971e-09,
+          "sample_sd": 2.5363775312541202e-09,
+          "maximum_over_trajectories": 3.0866893985237454e-08
+        },
+        "subflow_quadrature_work": {
+          "mean": 0.00036626278205646376,
+          "sample_sd": 0.00015274413435522352,
+          "maximum_over_trajectories": 0.006423756768954549
+        }
+      }
+    },
+    {
+      "mode": "open_loop",
+      "method": "II",
+      "multiplier": 2.0,
+      "metrics": {
+        "tracking_tip_rmse_mm": {
+          "mean": 1.2579193746601247,
+          "sample_sd": 0.19156453162339884,
+          "maximum_over_trajectories": 1.9829835091593826
+        },
+        "tail_half_tracking_tip_rmse_mm": {
+          "mean": 1.2571835099454873,
+          "sample_sd": 0.19325388771128793,
+          "maximum_over_trajectories": 1.9883294715110267
+        },
+        "tracking_state_relative_l2": {
+          "mean": 3.2065003133579566,
+          "sample_sd": 0.3575894958194263,
+          "maximum_over_trajectories": 4.870282121984802
+        },
+        "tracking_port_rmse": {
+          "mean": 0.030878043229040718,
+          "sample_sd": 0.002988312561333202,
+          "maximum_over_trajectories": 0.0470034928886391
+        },
+        "continuous_controlled_flow_tip_rmse_mm": {
+          "mean": 0.1549869153158805,
+          "sample_sd": 0.017156236149433835,
+          "maximum_over_trajectories": 0.24967728978348624
+        },
+        "continuous_controlled_flow_state_relative_l2": {
+          "mean": 0.2364871439696381,
+          "sample_sd": 0.02907197684389388,
+          "maximum_over_trajectories": 0.3749575860263518
+        },
+        "integral_u_squared_seconds": {
+          "mean": 0.00968739709778454,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.00968739709778454
+        },
+        "max_abs_u": {
+          "mean": 0.049999989414929585,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.049999989414929585
+        },
+        "saturation_fraction": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        },
+        "max_abs_angle_rad": {
+          "mean": 0.07081870225376469,
+          "sample_sd": 0.006142210449294188,
+          "maximum_over_trajectories": 0.11007025024892775
+        },
+        "max_modal_reference_radius": {
+          "mean": 0.17518403153784085,
+          "sample_sd": 0.019078664754158647,
+          "maximum_over_trajectories": 0.2768107200463224
+        },
+        "maximum_midpoint_residual": {
+          "mean": 6.125132410821077e-17,
+          "sample_sd": 8.348004737104829e-18,
+          "maximum_over_trajectories": 1.2159327364424932e-16
+        },
+        "maximum_newton_iterations": {
+          "mean": 2.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 2.0
+        },
+        "discrete_work_balance_absolute": {
+          "mean": 0.000283052378421081,
+          "sample_sd": 1.4708024411071574e-05,
+          "maximum_over_trajectories": 0.00042338485302408237
+        },
+        "discrete_work_balance_relative": {
+          "mean": 0.0007826361484772453,
+          "sample_sd": 8.885610070192835e-05,
+          "maximum_over_trajectories": 0.0012830159263982777
+        },
+        "signed_input_work": {
+          "mean": 0.0006795037377354418,
+          "sample_sd": 0.0008707390483021518,
+          "maximum_over_trajectories": 0.006069133582411482
+        },
+        "subflow_quadrature_work_balance_absolute": {
+          "mean": 1.673531125213467e-09,
+          "sample_sd": 6.46984478305505e-10,
+          "maximum_over_trajectories": 7.937498981008817e-09
+        },
+        "subflow_quadrature_work": {
+          "mean": 0.0005291630333609122,
+          "sample_sd": 0.0008815120445719007,
+          "maximum_over_trajectories": 0.005807343167375952
+        }
+      }
+    },
+    {
+      "mode": "open_loop",
+      "method": "II",
+      "multiplier": 1.0,
+      "metrics": {
+        "tracking_tip_rmse_mm": {
+          "mean": 1.2578015394559712,
+          "sample_sd": 0.19172348150930527,
+          "maximum_over_trajectories": 1.9832435235030663
+        },
+        "tail_half_tracking_tip_rmse_mm": {
+          "mean": 1.2571113917979888,
+          "sample_sd": 0.19352100065076436,
+          "maximum_over_trajectories": 1.9895611696424147
+        },
+        "tracking_state_relative_l2": {
+          "mean": 3.2062704468727867,
+          "sample_sd": 0.35771235796586526,
+          "maximum_over_trajectories": 4.870475467140541
+        },
+        "tracking_port_rmse": {
+          "mean": 0.03087650584033671,
+          "sample_sd": 0.0029881938413386456,
+          "maximum_over_trajectories": 0.0470336056496683
+        },
+        "continuous_controlled_flow_tip_rmse_mm": {
+          "mean": 0.039337612766638504,
+          "sample_sd": 0.004337419750087859,
+          "maximum_over_trajectories": 0.06331379810861891
+        },
+        "continuous_controlled_flow_state_relative_l2": {
+          "mean": 0.05994088343440955,
+          "sample_sd": 0.007364767479601614,
+          "maximum_over_trajectories": 0.09501713688461219
+        },
+        "integral_u_squared_seconds": {
+          "mean": 0.009687394901145202,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.009687394901145202
+        },
+        "max_abs_u": {
+          "mean": 0.04999999999925842,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.04999999999925842
+        },
+        "saturation_fraction": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        },
+        "max_abs_angle_rad": {
+          "mean": 0.07089166041660816,
+          "sample_sd": 0.006131834373236651,
+          "maximum_over_trajectories": 0.11020255068271145
+        },
+        "max_modal_reference_radius": {
+          "mean": 0.1751645891280934,
+          "sample_sd": 0.01909689469364207,
+          "maximum_over_trajectories": 0.27681456433308527
+        },
+        "maximum_midpoint_residual": {
+          "mean": 5.248012853280304e-17,
+          "sample_sd": 5.834009556890665e-18,
+          "maximum_over_trajectories": 1.0126448291014611e-16
+        },
+        "maximum_newton_iterations": {
+          "mean": 2.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 2.0
+        },
+        "discrete_work_balance_absolute": {
+          "mean": 0.00014163766111122226,
+          "sample_sd": 7.398645008280466e-06,
+          "maximum_over_trajectories": 0.00021139116968843486
+        },
+        "discrete_work_balance_relative": {
+          "mean": 0.00039134750380696615,
+          "sample_sd": 4.4926313122321654e-05,
+          "maximum_over_trajectories": 0.0006450129539057264
+        },
+        "signed_input_work": {
+          "mean": 0.0005570643098276944,
+          "sample_sd": 0.000909498389386016,
+          "maximum_over_trajectories": 0.006496170585691051
+        },
+        "subflow_quadrature_work_balance_absolute": {
+          "mean": 4.1953785873409707e-10,
+          "sample_sd": 1.6169186050552626e-10,
+          "maximum_over_trajectories": 1.9833334835572813e-09
+        },
+        "subflow_quadrature_work": {
+          "mean": 0.00047976929153343927,
+          "sample_sd": 0.0009082412978497406,
+          "maximum_over_trajectories": 0.006472681747736866
+        }
+      }
+    },
+    {
+      "mode": "open_loop",
+      "method": "II",
+      "multiplier": 0.5,
+      "metrics": {
+        "tracking_tip_rmse_mm": {
+          "mean": 1.2577465208848313,
+          "sample_sd": 0.19179600413495376,
+          "maximum_over_trajectories": 1.9833305296326302
+        },
+        "tail_half_tracking_tip_rmse_mm": {
+          "mean": 1.2570635254343152,
+          "sample_sd": 0.19361866860398616,
+          "maximum_over_trajectories": 1.9898919926772642
+        },
+        "tracking_state_relative_l2": {
+          "mean": 3.2061709600814132,
+          "sample_sd": 0.3577681429923199,
+          "maximum_over_trajectories": 4.870574281445542
+        },
+        "tracking_port_rmse": {
+          "mean": 0.030875953409618684,
+          "sample_sd": 0.0029883369539475133,
+          "maximum_over_trajectories": 0.04705048824415787
+        },
+        "continuous_controlled_flow_tip_rmse_mm": {
+          "mean": 0.009909632640292723,
+          "sample_sd": 0.0010750334803122392,
+          "maximum_over_trajectories": 0.015880366280907388
+        },
+        "continuous_controlled_flow_state_relative_l2": {
+          "mean": 0.01502219243851372,
+          "sample_sd": 0.00184207110733921,
+          "maximum_over_trajectories": 0.02379279502713966
+        },
+        "integral_u_squared_seconds": {
+          "mean": 0.009687394352002724,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.009687394352002724
+        },
+        "max_abs_u": {
+          "mean": 0.049999999906189675,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.049999999906189675
+        },
+        "saturation_fraction": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        },
+        "max_abs_angle_rad": {
+          "mean": 0.07081889814010651,
+          "sample_sd": 0.0061481843334606524,
+          "maximum_over_trajectories": 0.10935155136610278
+        },
+        "max_modal_reference_radius": {
+          "mean": 0.17515678074695865,
+          "sample_sd": 0.01910562054882132,
+          "maximum_over_trajectories": 0.2768193363000971
+        },
+        "maximum_midpoint_residual": {
+          "mean": 5.1366619020342535e-17,
+          "sample_sd": 5.1768518526781314e-18,
+          "maximum_over_trajectories": 9.568084172184577e-17
+        },
+        "maximum_newton_iterations": {
+          "mean": 2.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 2.0
+        },
+        "discrete_work_balance_absolute": {
+          "mean": 7.083552432987255e-05,
+          "sample_sd": 3.701100998520562e-06,
+          "maximum_over_trajectories": 0.00010565245023011721
+        },
+        "discrete_work_balance_relative": {
+          "mean": 0.00019568389237428776,
+          "sample_sd": 2.254635608244623e-05,
+          "maximum_over_trajectories": 0.00032299970053371353
+        },
+        "signed_input_work": {
+          "mean": 0.0005023573819533977,
+          "sample_sd": 0.0009010441071940846,
+          "maximum_over_trajectories": 0.006724766541947465
+        },
+        "subflow_quadrature_work_balance_absolute": {
+          "mean": 1.0492981010446455e-10,
+          "sample_sd": 4.044943963239396e-11,
+          "maximum_over_trajectories": 4.953636771609649e-10
+        },
+        "subflow_quadrature_work": {
+          "mean": 0.00046351490316827134,
+          "sample_sd": 0.0008996295192192645,
+          "maximum_over_trajectories": 0.006711353909159365
+        }
+      }
+    },
+    {
+      "mode": "open_loop",
+      "method": "III",
+      "multiplier": 4.0,
+      "metrics": {
+        "tracking_tip_rmse_mm": {
+          "mean": 1.2578048697106765,
+          "sample_sd": 0.19170606398812562,
+          "maximum_over_trajectories": 1.983485159135296
+        },
+        "tail_half_tracking_tip_rmse_mm": {
+          "mean": 1.2567760104356613,
+          "sample_sd": 0.19291844889818835,
+          "maximum_over_trajectories": 1.9874796693172263
+        },
+        "tracking_state_relative_l2": {
+          "mean": 3.206341089871875,
+          "sample_sd": 0.3577094606712613,
+          "maximum_over_trajectories": 4.870668610024658
+        },
+        "tracking_port_rmse": {
+          "mean": 0.03087828179425125,
+          "sample_sd": 0.0029947777689461512,
+          "maximum_over_trajectories": 0.04712939131710842
+        },
+        "continuous_controlled_flow_tip_rmse_mm": {
+          "mean": 0.5106840367445613,
+          "sample_sd": 0.056755634322503926,
+          "maximum_over_trajectories": 0.8215294470222267
+        },
+        "continuous_controlled_flow_state_relative_l2": {
+          "mean": 0.7797847473384402,
+          "sample_sd": 0.09587982467184379,
+          "maximum_over_trajectories": 1.236469640740677
+        },
+        "integral_u_squared_seconds": {
+          "mean": 0.009687405885452896,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.009687405885452896
+        },
+        "max_abs_u": {
+          "mean": 0.049999879317726655,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.049999879317726655
+        },
+        "saturation_fraction": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        },
+        "max_abs_angle_rad": {
+          "mean": 0.07082471925155318,
+          "sample_sd": 0.006002913174819835,
+          "maximum_over_trajectories": 0.10956112358189932
+        },
+        "max_modal_reference_radius": {
+          "mean": 0.1751866007664474,
+          "sample_sd": 0.01911755179520768,
+          "maximum_over_trajectories": 0.2768770656778826
+        },
+        "maximum_midpoint_residual": {
+          "mean": 4.970795910302917e-17,
+          "sample_sd": 4.72064305893932e-18,
+          "maximum_over_trajectories": 1.0755285551056204e-16
+        },
+        "maximum_newton_iterations": {
+          "mean": 2.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 2.0
+        },
+        "discrete_work_balance_absolute": {
+          "mean": 1.5161191208085307e-08,
+          "sample_sd": 4.383381284965964e-09,
+          "maximum_over_trajectories": 5.545133563086835e-08
+        },
+        "discrete_work_balance_relative": {
+          "mean": 3.309428565097535e-08,
+          "sample_sd": 6.600667168445709e-09,
+          "maximum_over_trajectories": 9.039444163018879e-08
+        },
+        "signed_input_work": {
+          "mean": 0.00033734459427101424,
+          "sample_sd": 0.0001528439902848538,
+          "maximum_over_trajectories": 0.006313344178281751
+        },
+        "subflow_quadrature_work_balance_absolute": {
+          "mean": 6.602893993200298e-09,
+          "sample_sd": 2.5424396295382293e-09,
+          "maximum_over_trajectories": 3.0826381624410315e-08
+        },
+        "subflow_quadrature_work": {
+          "mean": 0.0003373447331063904,
+          "sample_sd": 0.00015284344684495107,
+          "maximum_over_trajectories": 0.006313338968423621
+        }
+      }
+    },
+    {
+      "mode": "open_loop",
+      "method": "III",
+      "multiplier": 2.0,
+      "metrics": {
+        "tracking_tip_rmse_mm": {
+          "mean": 1.2577017192647222,
+          "sample_sd": 0.19183124519057568,
+          "maximum_over_trajectories": 1.9832106359217354
+        },
+        "tail_half_tracking_tip_rmse_mm": {
+          "mean": 1.256956880595056,
+          "sample_sd": 0.1935282248313792,
+          "maximum_over_trajectories": 1.988500134932992
+        },
+        "tracking_state_relative_l2": {
+          "mean": 3.206142868799629,
+          "sample_sd": 0.35779027059728424,
+          "maximum_over_trajectories": 4.870683656332575
+        },
+        "tracking_port_rmse": {
+          "mean": 0.030875477666901706,
+          "sample_sd": 0.002988656123482632,
+          "maximum_over_trajectories": 0.047038047511678775
+        },
+        "continuous_controlled_flow_tip_rmse_mm": {
+          "mean": 0.1548825513856343,
+          "sample_sd": 0.01717974050047951,
+          "maximum_over_trajectories": 0.24963000094289092
+        },
+        "continuous_controlled_flow_state_relative_l2": {
+          "mean": 0.23645632878073997,
+          "sample_sd": 0.02907501988168062,
+          "maximum_over_trajectories": 0.37494169486037204
+        },
+        "integral_u_squared_seconds": {
+          "mean": 0.00968739709778454,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.00968739709778454
+        },
+        "max_abs_u": {
+          "mean": 0.049999989414929585,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.049999989414929585
+        },
+        "saturation_fraction": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        },
+        "max_abs_angle_rad": {
+          "mean": 0.07081496150322406,
+          "sample_sd": 0.0061521852493679596,
+          "maximum_over_trajectories": 0.11004888540635657
+        },
+        "max_modal_reference_radius": {
+          "mean": 0.1751599441584276,
+          "sample_sd": 0.019116488345530314,
+          "maximum_over_trajectories": 0.27683904427778755
+        },
+        "maximum_midpoint_residual": {
+          "mean": 6.083390627180385e-17,
+          "sample_sd": 7.622566159671536e-18,
+          "maximum_over_trajectories": 1.1882855810441129e-16
+        },
+        "maximum_newton_iterations": {
+          "mean": 2.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 2.0
+        },
+        "discrete_work_balance_absolute": {
+          "mean": 3.813963812162431e-09,
+          "sample_sd": 1.092674150098995e-09,
+          "maximum_over_trajectories": 1.3816178295184e-08
+        },
+        "discrete_work_balance_relative": {
+          "mean": 8.305051418341263e-09,
+          "sample_sd": 1.642048367083531e-09,
+          "maximum_over_trajectories": 2.238015514364224e-08
+        },
+        "signed_input_work": {
+          "mean": 0.0005280107012208678,
+          "sample_sd": 0.0008707525841217552,
+          "maximum_over_trajectories": 0.00591770094638968
+        },
+        "subflow_quadrature_work_balance_absolute": {
+          "mean": 1.6734875774525835e-09,
+          "sample_sd": 6.481664599472121e-10,
+          "maximum_over_trajectories": 7.93906117235732e-09
+        },
+        "subflow_quadrature_work": {
+          "mean": 0.0005280105127723161,
+          "sample_sd": 0.0008707522802027166,
+          "maximum_over_trajectories": 0.0059176986957513505
+        }
+      }
+    },
+    {
+      "mode": "open_loop",
+      "method": "III",
+      "multiplier": 1.0,
+      "metrics": {
+        "tracking_tip_rmse_mm": {
+          "mean": 1.2576950180364386,
+          "sample_sd": 0.19185653036347697,
+          "maximum_over_trajectories": 1.9833583079998487
+        },
+        "tail_half_tracking_tip_rmse_mm": {
+          "mean": 1.2570005489679148,
+          "sample_sd": 0.19365790196159272,
+          "maximum_over_trajectories": 1.9896472176629043
+        },
+        "tracking_state_relative_l2": {
+          "mean": 3.2060963430157465,
+          "sample_sd": 0.35781215209526923,
+          "maximum_over_trajectories": 4.870678940520697
+        },
+        "tracking_port_rmse": {
+          "mean": 0.030875254201339623,
+          "sample_sd": 0.002988364415437785,
+          "maximum_over_trajectories": 0.04705089498866865
+        },
+        "continuous_controlled_flow_tip_rmse_mm": {
+          "mean": 0.03924496890576619,
+          "sample_sd": 0.00435572715328658,
+          "maximum_over_trajectories": 0.06326759294549651
+        },
+        "continuous_controlled_flow_state_relative_l2": {
+          "mean": 0.0599129556047842,
+          "sample_sd": 0.007367002080349122,
+          "maximum_over_trajectories": 0.09500222516817043
+        },
+        "integral_u_squared_seconds": {
+          "mean": 0.009687394901145202,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.009687394901145202
+        },
+        "max_abs_u": {
+          "mean": 0.04999999999925842,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.04999999999925842
+        },
+        "saturation_fraction": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        },
+        "max_abs_angle_rad": {
+          "mean": 0.070890697253953,
+          "sample_sd": 0.0061362646827435845,
+          "maximum_over_trajectories": 0.1102099418672457
+        },
+        "max_modal_reference_radius": {
+          "mean": 0.17515293699121443,
+          "sample_sd": 0.01911613292779376,
+          "maximum_over_trajectories": 0.2768292427638853
+        },
+        "maximum_midpoint_residual": {
+          "mean": 5.192561841388301e-17,
+          "sample_sd": 5.808283230331192e-18,
+          "maximum_over_trajectories": 1.0245710529988017e-16
+        },
+        "maximum_newton_iterations": {
+          "mean": 2.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 2.0
+        },
+        "discrete_work_balance_absolute": {
+          "mean": 9.556900011273815e-10,
+          "sample_sd": 2.736291262574715e-10,
+          "maximum_over_trajectories": 3.498019894576654e-09
+        },
+        "discrete_work_balance_relative": {
+          "mean": 2.0776144730833175e-09,
+          "sample_sd": 4.08215906166004e-10,
+          "maximum_over_trajectories": 5.661473508204182e-09
+        },
+        "signed_input_work": {
+          "mean": 0.0004813355476096908,
+          "sample_sd": 0.0009095047824034013,
+          "maximum_over_trajectories": 0.006420502257420517
+        },
+        "subflow_quadrature_work_balance_absolute": {
+          "mean": 4.1954372248975864e-10,
+          "sample_sd": 1.6185142822804326e-10,
+          "maximum_over_trajectories": 1.983710813668882e-09
+        },
+        "subflow_quadrature_work": {
+          "mean": 0.000481335586206697,
+          "sample_sd": 0.0009095047207208031,
+          "maximum_over_trajectories": 0.0064205006251251825
+        }
+      }
+    },
+    {
+      "mode": "open_loop",
+      "method": "III",
+      "multiplier": 0.5,
+      "metrics": {
+        "tracking_tip_rmse_mm": {
+          "mean": 1.2576937972675428,
+          "sample_sd": 0.19186245719128353,
+          "maximum_over_trajectories": 1.9833882578813378
+        },
+        "tail_half_tracking_tip_rmse_mm": {
+          "mean": 1.2570086625098063,
+          "sample_sd": 0.19368705006284015,
+          "maximum_over_trajectories": 1.9899352979342324
+        },
+        "tracking_state_relative_l2": {
+          "mean": 3.206084977871275,
+          "sample_sd": 0.35781791054786105,
+          "maximum_over_trajectories": 4.870676664485315
+        },
+        "tracking_port_rmse": {
+          "mean": 0.03087533470499616,
+          "sample_sd": 0.0029884216808188425,
+          "maximum_over_trajectories": 0.04705913593313543
+        },
+        "continuous_controlled_flow_tip_rmse_mm": {
+          "mean": 0.009822644185053752,
+          "sample_sd": 0.001090431939056954,
+          "maximum_over_trajectories": 0.01583532782492732
+        },
+        "continuous_controlled_flow_state_relative_l2": {
+          "mean": 0.014995630895758952,
+          "sample_sd": 0.001843889435707459,
+          "maximum_over_trajectories": 0.023778135505947543
+        },
+        "integral_u_squared_seconds": {
+          "mean": 0.009687394352002724,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.009687394352002724
+        },
+        "max_abs_u": {
+          "mean": 0.049999999906189675,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.049999999906189675
+        },
+        "saturation_fraction": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        },
+        "max_abs_angle_rad": {
+          "mean": 0.0708186151742318,
+          "sample_sd": 0.006149214481200672,
+          "maximum_over_trajectories": 0.10935524872824011
+        },
+        "max_modal_reference_radius": {
+          "mean": 0.1751511787582316,
+          "sample_sd": 0.019115327768031407,
+          "maximum_over_trajectories": 0.27682677405382394
+        },
+        "maximum_midpoint_residual": {
+          "mean": 5.130255685975051e-17,
+          "sample_sd": 5.307419424913922e-18,
+          "maximum_over_trajectories": 1.0137290312739466e-16
+        },
+        "maximum_newton_iterations": {
+          "mean": 2.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 2.0
+        },
+        "discrete_work_balance_absolute": {
+          "mean": 2.390835517681201e-10,
+          "sample_sd": 6.840567029147952e-11,
+          "maximum_over_trajectories": 8.766068045062969e-10
+        },
+        "discrete_work_balance_relative": {
+          "mean": 5.195001837893751e-10,
+          "sample_sd": 1.0181675521965635e-10,
+          "maximum_over_trajectories": 1.4183848515313836e-09
+        },
+        "signed_input_work": {
+          "mean": 0.00046449525241455263,
+          "sample_sd": 0.0009010472558180834,
+          "maximum_over_trajectories": 0.006686934772013839
+        },
+        "subflow_quadrature_work_balance_absolute": {
+          "mean": 1.0492779450757377e-10,
+          "sample_sd": 4.047054278464516e-11,
+          "maximum_over_trajectories": 4.95415444778935e-10
+        },
+        "subflow_quadrature_work": {
+          "mean": 0.0004644952649792757,
+          "sample_sd": 0.0009010472460002772,
+          "maximum_over_trajectories": 0.006686934419610966
+        }
+      }
+    },
+    {
+      "mode": "feedback",
+      "method": "I",
+      "multiplier": 4.0,
+      "metrics": {
+        "tracking_tip_rmse_mm": {
+          "mean": 0.7539063819991584,
+          "sample_sd": 0.12787543664480425,
+          "maximum_over_trajectories": 1.1831628839602497
+        },
+        "tail_half_tracking_tip_rmse_mm": {
+          "mean": 0.5339068419571413,
+          "sample_sd": 0.09162720690115733,
+          "maximum_over_trajectories": 0.8435469125155823
+        },
+        "tracking_state_relative_l2": {
+          "mean": 1.6226665917502356,
+          "sample_sd": 0.2621449492155443,
+          "maximum_over_trajectories": 2.509778752916981
+        },
+        "tracking_port_rmse": {
+          "mean": 0.013251976514913688,
+          "sample_sd": 0.0020003529824176385,
+          "maximum_over_trajectories": 0.02036982800127974
+        },
+        "continuous_controlled_flow_tip_rmse_mm": {
+          "mean": 0.016873874465975745,
+          "sample_sd": 0.0016276047594706656,
+          "maximum_over_trajectories": 0.026549138142306087
+        },
+        "continuous_controlled_flow_state_relative_l2": {
+          "mean": 0.021934199949743084,
+          "sample_sd": 0.0013312977699198297,
+          "maximum_over_trajectories": 0.03284058916895531
+        },
+        "integral_u_squared_seconds": {
+          "mean": 0.01317357573695089,
+          "sample_sd": 0.0006070126356426503,
+          "maximum_over_trajectories": 0.016984008581863202
+        },
+        "max_abs_u": {
+          "mean": 0.12273832661904922,
+          "sample_sd": 0.00984360529234084,
+          "maximum_over_trajectories": 0.1810542848398332
+        },
+        "saturation_fraction": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        },
+        "max_abs_angle_rad": {
+          "mean": 0.05263140846812918,
+          "sample_sd": 0.005937288405279451,
+          "maximum_over_trajectories": 0.09030008570307711
+        },
+        "max_modal_reference_radius": {
+          "mean": 0.15608230063609058,
+          "sample_sd": 0.015797545031264796,
+          "maximum_over_trajectories": 0.2263830096671946
+        },
+        "maximum_midpoint_residual": {
+          "mean": 4.019611791854227e-17,
+          "sample_sd": 4.2012823254354495e-18,
+          "maximum_over_trajectories": 5.334274688628682e-17
+        },
+        "maximum_newton_iterations": {
+          "mean": 3.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 3.0
+        },
+        "discrete_work_balance_absolute": {
+          "mean": 5.650918517799853e-08,
+          "sample_sd": 1.5146899268626167e-08,
+          "maximum_over_trajectories": 1.9173067819511225e-07
+        },
+        "discrete_work_balance_relative": {
+          "mean": 3.7470150401320195e-07,
+          "sample_sd": 7.825353640187815e-08,
+          "maximum_over_trajectories": 9.771372348160048e-07
+        },
+        "signed_input_work": {
+          "mean": -0.04126566933842253,
+          "sample_sd": 0.007112643529550265,
+          "maximum_over_trajectories": -0.01095068343327011
+        },
+        "subflow_quadrature_work_balance_absolute": {
+          "mean": 3.037624938227474e-09,
+          "sample_sd": 1.5150590201121412e-09,
+          "maximum_over_trajectories": 1.9267855790039423e-08
+        },
+        "subflow_quadrature_work": {
+          "mean": -0.041265726469528925,
+          "sample_sd": 0.007112658622841739,
+          "maximum_over_trajectories": -0.010950686343900033
+        }
+      }
+    },
+    {
+      "mode": "feedback",
+      "method": "I",
+      "multiplier": 2.0,
+      "metrics": {
+        "tracking_tip_rmse_mm": {
+          "mean": 0.7481313372001956,
+          "sample_sd": 0.12734648551907415,
+          "maximum_over_trajectories": 1.1726934803252185
+        },
+        "tail_half_tracking_tip_rmse_mm": {
+          "mean": 0.5253458949016165,
+          "sample_sd": 0.09059370034752877,
+          "maximum_over_trajectories": 0.82820337748458
+        },
+        "tracking_state_relative_l2": {
+          "mean": 1.6095882359518943,
+          "sample_sd": 0.2610624601517584,
+          "maximum_over_trajectories": 2.4953111899218885
+        },
+        "tracking_port_rmse": {
+          "mean": 0.013142939550279764,
+          "sample_sd": 0.0019921045139469212,
+          "maximum_over_trajectories": 0.0202542616037721
+        },
+        "continuous_controlled_flow_tip_rmse_mm": {
+          "mean": 0.008303689151023832,
+          "sample_sd": 0.000881316422731598,
+          "maximum_over_trajectories": 0.013286207335528797
+        },
+        "continuous_controlled_flow_state_relative_l2": {
+          "mean": 0.009492739493867811,
+          "sample_sd": 0.0004526648984723425,
+          "maximum_over_trajectories": 0.013485745248059627
+        },
+        "integral_u_squared_seconds": {
+          "mean": 0.013098505601523569,
+          "sample_sd": 0.0005934665913515052,
+          "maximum_over_trajectories": 0.01682005211657092
+        },
+        "max_abs_u": {
+          "mean": 0.12238119615695395,
+          "sample_sd": 0.009889540674630904,
+          "maximum_over_trajectories": 0.18038221948468663
+        },
+        "saturation_fraction": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        },
+        "max_abs_angle_rad": {
+          "mean": 0.05251962064356338,
+          "sample_sd": 0.005974285487952294,
+          "maximum_over_trajectories": 0.09030008570307711
+        },
+        "max_modal_reference_radius": {
+          "mean": 0.1556551695062178,
+          "sample_sd": 0.015785256310344113,
+          "maximum_over_trajectories": 0.22591084106656595
+        },
+        "maximum_midpoint_residual": {
+          "mean": 5.3131491575285675e-17,
+          "sample_sd": 6.557023711122024e-18,
+          "maximum_over_trajectories": 7.26415455565288e-17
+        },
+        "maximum_newton_iterations": {
+          "mean": 2.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 2.0
+        },
+        "discrete_work_balance_absolute": {
+          "mean": 1.424644923929668e-08,
+          "sample_sd": 3.823272106929891e-09,
+          "maximum_over_trajectories": 4.8149788017815e-08
+        },
+        "discrete_work_balance_relative": {
+          "mean": 9.50502051719593e-08,
+          "sample_sd": 1.9867254036602616e-08,
+          "maximum_over_trajectories": 2.4846072366816756e-07
+        },
+        "signed_input_work": {
+          "mean": -0.0413239646054052,
+          "sample_sd": 0.007117200907882734,
+          "maximum_over_trajectories": -0.010967132243999008
+        },
+        "subflow_quadrature_work_balance_absolute": {
+          "mean": 7.611842196375389e-10,
+          "sample_sd": 3.7999497886022696e-10,
+          "maximum_over_trajectories": 4.843571918544676e-09
+        },
+        "subflow_quadrature_work": {
+          "mean": -0.041323979010828106,
+          "sample_sd": 0.007117204718399404,
+          "maximum_over_trajectories": -0.010967132986106003
+        }
+      }
+    },
+    {
+      "mode": "feedback",
+      "method": "I",
+      "multiplier": 1.0,
+      "metrics": {
+        "tracking_tip_rmse_mm": {
+          "mean": 0.7453195974179099,
+          "sample_sd": 0.1270663036356219,
+          "maximum_over_trajectories": 1.1677049392509244
+        },
+        "tail_half_tracking_tip_rmse_mm": {
+          "mean": 0.521151176245413,
+          "sample_sd": 0.09005729799508554,
+          "maximum_over_trajectories": 0.820875575381377
+        },
+        "tracking_state_relative_l2": {
+          "mean": 1.6033344231700846,
+          "sample_sd": 0.2604793973802661,
+          "maximum_over_trajectories": 2.4881643304300094
+        },
+        "tracking_port_rmse": {
+          "mean": 0.013091908228319515,
+          "sample_sd": 0.001987598198324031,
+          "maximum_over_trajectories": 0.02019932418007965
+        },
+        "continuous_controlled_flow_tip_rmse_mm": {
+          "mean": 0.004313000022290252,
+          "sample_sd": 0.00046224103756235596,
+          "maximum_over_trajectories": 0.006782646092204168
+        },
+        "continuous_controlled_flow_state_relative_l2": {
+          "mean": 0.00544226613975606,
+          "sample_sd": 0.00030453899282420575,
+          "maximum_over_trajectories": 0.00790630282172936
+        },
+        "integral_u_squared_seconds": {
+          "mean": 0.013066909066273127,
+          "sample_sd": 0.0005874873882377809,
+          "maximum_over_trajectories": 0.016751740186462433
+        },
+        "max_abs_u": {
+          "mean": 0.12221128951833113,
+          "sample_sd": 0.009896544934534025,
+          "maximum_over_trajectories": 0.18007132555390912
+        },
+        "saturation_fraction": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        },
+        "max_abs_angle_rad": {
+          "mean": 0.05247961726420092,
+          "sample_sd": 0.005987013781441856,
+          "maximum_over_trajectories": 0.09030008570307711
+        },
+        "max_modal_reference_radius": {
+          "mean": 0.1554579356401286,
+          "sample_sd": 0.01576447385128257,
+          "maximum_over_trajectories": 0.22568608072576438
+        },
+        "maximum_midpoint_residual": {
+          "mean": 4.341696070047675e-17,
+          "sample_sd": 4.749035344513266e-18,
+          "maximum_over_trajectories": 5.4752209710517974e-17
+        },
+        "maximum_newton_iterations": {
+          "mean": 2.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 2.0
+        },
+        "discrete_work_balance_absolute": {
+          "mean": 3.567167493334633e-09,
+          "sample_sd": 9.577869269435009e-10,
+          "maximum_over_trajectories": 1.2035353408323957e-08
+        },
+        "discrete_work_balance_relative": {
+          "mean": 2.3866566037212283e-08,
+          "sample_sd": 4.9903739820746616e-09,
+          "maximum_over_trajectories": 6.242615795413568e-08
+        },
+        "signed_input_work": {
+          "mean": -0.04135226684688727,
+          "sample_sd": 0.0071193808646466085,
+          "maximum_over_trajectories": -0.010974661732794681
+        },
+        "subflow_quadrature_work_balance_absolute": {
+          "mean": 1.9016644240213432e-10,
+          "sample_sd": 9.490122383806602e-11,
+          "maximum_over_trajectories": 1.2108604188765248e-09
+        },
+        "subflow_quadrature_work": {
+          "mean": -0.04135227045407872,
+          "sample_sd": 0.0071193818193339515,
+          "maximum_over_trajectories": -0.010974661919456723
+        }
+      }
+    },
+    {
+      "mode": "feedback",
+      "method": "I",
+      "multiplier": 0.5,
+      "metrics": {
+        "tracking_tip_rmse_mm": {
+          "mean": 0.7439323975268868,
+          "sample_sd": 0.1269223799169594,
+          "maximum_over_trajectories": 1.1652714131927733
+        },
+        "tail_half_tracking_tip_rmse_mm": {
+          "mean": 0.5190749983923653,
+          "sample_sd": 0.08978419534547158,
+          "maximum_over_trajectories": 0.817296847733055
+        },
+        "tracking_state_relative_l2": {
+          "mean": 1.6002775995980147,
+          "sample_sd": 0.2601775653411943,
+          "maximum_over_trajectories": 2.484612443882547
+        },
+        "tracking_port_rmse": {
+          "mean": 0.013067249221639085,
+          "sample_sd": 0.001985250411661582,
+          "maximum_over_trajectories": 0.020172548758591372
+        },
+        "continuous_controlled_flow_tip_rmse_mm": {
+          "mean": 0.002217416111380695,
+          "sample_sd": 0.00023673062197231124,
+          "maximum_over_trajectories": 0.0034416386099869003
+        },
+        "continuous_controlled_flow_state_relative_l2": {
+          "mean": 0.0029829696682830095,
+          "sample_sd": 0.00018495609434352505,
+          "maximum_over_trajectories": 0.004434138084605256
+        },
+        "integral_u_squared_seconds": {
+          "mean": 0.013052538302328765,
+          "sample_sd": 0.0005846875795916316,
+          "maximum_over_trajectories": 0.016720868064785708
+        },
+        "max_abs_u": {
+          "mean": 0.12212218706628186,
+          "sample_sd": 0.00988936543651031,
+          "maximum_over_trajectories": 0.17992372749012037
+        },
+        "saturation_fraction": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        },
+        "max_abs_angle_rad": {
+          "mean": 0.05246288590332158,
+          "sample_sd": 0.005992201019429343,
+          "maximum_over_trajectories": 0.09030008570307711
+        },
+        "max_modal_reference_radius": {
+          "mean": 0.15536440974671076,
+          "sample_sd": 0.01575351238113958,
+          "maximum_over_trajectories": 0.22557610108077963
+        },
+        "maximum_midpoint_residual": {
+          "mean": 4.3081218016008825e-17,
+          "sample_sd": 5.260155609367764e-18,
+          "maximum_over_trajectories": 5.757113535898029e-17
+        },
+        "maximum_newton_iterations": {
+          "mean": 2.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 2.0
+        },
+        "discrete_work_balance_absolute": {
+          "mean": 8.918911901124177e-10,
+          "sample_sd": 2.395259559172313e-10,
+          "maximum_over_trajectories": 3.0067209555451058e-09
+        },
+        "discrete_work_balance_relative": {
+          "mean": 5.975186054869941e-09,
+          "sample_sd": 1.2495392164668745e-09,
+          "maximum_over_trajectories": 1.5631998589487438e-08
+        },
+        "signed_input_work": {
+          "mean": -0.04136621823308344,
+          "sample_sd": 0.007120446364592415,
+          "maximum_over_trajectories": -0.010978266174985913
+        },
+        "subflow_quadrature_work_balance_absolute": {
+          "mean": 4.748887824862838e-11,
+          "sample_sd": 2.370486724502973e-11,
+          "maximum_over_trajectories": 3.024985748001363e-10
+        },
+        "subflow_quadrature_work": {
+          "mean": -0.04136621913500934,
+          "sample_sd": 0.0071204466033567265,
+          "maximum_over_trajectories": -0.01097826622175102
+        }
+      }
+    },
+    {
+      "mode": "feedback",
+      "method": "II",
+      "multiplier": 4.0,
+      "metrics": {
+        "tracking_tip_rmse_mm": {
+          "mean": 0.7676371566845264,
+          "sample_sd": 0.12965074212272498,
+          "maximum_over_trajectories": 1.2073401183237231
+        },
+        "tail_half_tracking_tip_rmse_mm": {
+          "mean": 0.5541745909228984,
+          "sample_sd": 0.0945656026740855,
+          "maximum_over_trajectories": 0.878412885328904
+        },
+        "tracking_state_relative_l2": {
+          "mean": 1.652871146613076,
+          "sample_sd": 0.26568527416790233,
+          "maximum_over_trajectories": 2.552868355023867
+        },
+        "tracking_port_rmse": {
+          "mean": 0.013513101092309784,
+          "sample_sd": 0.002027725502728932,
+          "maximum_over_trajectories": 0.020688443387291675
+        },
+        "continuous_controlled_flow_tip_rmse_mm": {
+          "mean": 0.03500031327520394,
+          "sample_sd": 0.003910138598221462,
+          "maximum_over_trajectories": 0.0559840989842794
+        },
+        "continuous_controlled_flow_state_relative_l2": {
+          "mean": 0.041198189811457064,
+          "sample_sd": 0.0018123684466257797,
+          "maximum_over_trajectories": 0.05591661458843431
+        },
+        "integral_u_squared_seconds": {
+          "mean": 0.01319021070920912,
+          "sample_sd": 0.0006303629763036921,
+          "maximum_over_trajectories": 0.017138798043042556
+        },
+        "max_abs_u": {
+          "mean": 0.12325296894260043,
+          "sample_sd": 0.009974632085743063,
+          "maximum_over_trajectories": 0.1812866927079895
+        },
+        "saturation_fraction": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        },
+        "max_abs_angle_rad": {
+          "mean": 0.05291302155788217,
+          "sample_sd": 0.005939271084637398,
+          "maximum_over_trajectories": 0.09030008570307711
+        },
+        "max_modal_reference_radius": {
+          "mean": 0.15678877029415222,
+          "sample_sd": 0.01585099407349916,
+          "maximum_over_trajectories": 0.2276305176026782
+        },
+        "maximum_midpoint_residual": {
+          "mean": 4.014597356806482e-17,
+          "sample_sd": 3.5866955792809526e-18,
+          "maximum_over_trajectories": 5.377642775528102e-17
+        },
+        "maximum_newton_iterations": {
+          "mean": 2.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 2.0
+        },
+        "discrete_work_balance_absolute": {
+          "mean": 0.0024272174805016087,
+          "sample_sd": 0.00045189777177185567,
+          "maximum_over_trajectories": 0.005414621171126219
+        },
+        "discrete_work_balance_relative": {
+          "mean": 0.018875022763913094,
+          "sample_sd": 0.0016684601037121624,
+          "maximum_over_trajectories": 0.026914293872844886
+        },
+        "signed_input_work": {
+          "mean": -0.04342118913768084,
+          "sample_sd": 0.007563958367523974,
+          "maximum_over_trajectories": -0.011261270934259203
+        },
+        "subflow_quadrature_work_balance_absolute": {
+          "mean": 3.122805362985436e-09,
+          "sample_sd": 1.5563105803105934e-09,
+          "maximum_over_trajectories": 1.9620055580205076e-08
+        },
+        "subflow_quadrature_work": {
+          "mean": -0.04112623977189188,
+          "sample_sd": 0.0071008731708603855,
+          "maximum_over_trajectories": -0.010916870241947306
+        }
+      }
+    },
+    {
+      "mode": "feedback",
+      "method": "II",
+      "multiplier": 2.0,
+      "metrics": {
+        "tracking_tip_rmse_mm": {
+          "mean": 0.7548093588907582,
+          "sample_sd": 0.12822344683810538,
+          "maximum_over_trajectories": 1.184500568126521
+        },
+        "tail_half_tracking_tip_rmse_mm": {
+          "mean": 0.5352295096798655,
+          "sample_sd": 0.09203744355755214,
+          "maximum_over_trajectories": 0.8452267866314926
+        },
+        "tracking_state_relative_l2": {
+          "mean": 1.6240577460362158,
+          "sample_sd": 0.26283753557682177,
+          "maximum_over_trajectories": 2.5161334323658493
+        },
+        "tracking_port_rmse": {
+          "mean": 0.013266141892427797,
+          "sample_sd": 0.00200597584234004,
+          "maximum_over_trajectories": 0.02040327249789935
+        },
+        "continuous_controlled_flow_tip_rmse_mm": {
+          "mean": 0.017777103187928994,
+          "sample_sd": 0.001979839843609643,
+          "maximum_over_trajectories": 0.02787012208851422
+        },
+        "continuous_controlled_flow_state_relative_l2": {
+          "mean": 0.022650737309316844,
+          "sample_sd": 0.0011491679088928397,
+          "maximum_over_trajectories": 0.03241658905188743
+        },
+        "integral_u_squared_seconds": {
+          "mean": 0.013094483281969924,
+          "sample_sd": 0.0006033991721399823,
+          "maximum_over_trajectories": 0.01687177323886016
+        },
+        "max_abs_u": {
+          "mean": 0.12255817378567344,
+          "sample_sd": 0.00993965924316579,
+          "maximum_over_trajectories": 0.18043130115601602
+        },
+        "saturation_fraction": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        },
+        "max_abs_angle_rad": {
+          "mean": 0.05264585860490767,
+          "sample_sd": 0.005977318826263614,
+          "maximum_over_trajectories": 0.09030008570307711
+        },
+        "max_modal_reference_radius": {
+          "mean": 0.1560047027781112,
+          "sample_sd": 0.015812797128555735,
+          "maximum_over_trajectories": 0.22653718673046297
+        },
+        "maximum_midpoint_residual": {
+          "mean": 5.229802703705521e-17,
+          "sample_sd": 6.417454954444532e-18,
+          "maximum_over_trajectories": 6.982261990806649e-17
+        },
+        "maximum_newton_iterations": {
+          "mean": 2.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 2.0
+        },
+        "discrete_work_balance_absolute": {
+          "mean": 0.0010133734829685511,
+          "sample_sd": 0.00018791353856319082,
+          "maximum_over_trajectories": 0.0022246483522666005
+        },
+        "discrete_work_balance_relative": {
+          "mean": 0.008043367682515323,
+          "sample_sd": 0.0006933307152710303,
+          "maximum_over_trajectories": 0.011319717038566164
+        },
+        "signed_input_work": {
+          "mean": -0.042200959321859445,
+          "sample_sd": 0.007306280159158821,
+          "maximum_over_trajectories": -0.01106815308278653
+        },
+        "subflow_quadrature_work_balance_absolute": {
+          "mean": 7.709789209126277e-10,
+          "sample_sd": 3.8474145698068566e-10,
+          "maximum_over_trajectories": 4.884248866465768e-09
+        },
+        "subflow_quadrature_work": {
+          "mean": -0.041258454574992755,
+          "sample_sd": 0.007111725734513562,
+          "maximum_over_trajectories": -0.010951057834187363
+        }
+      }
+    },
+    {
+      "mode": "feedback",
+      "method": "II",
+      "multiplier": 1.0,
+      "metrics": {
+        "tracking_tip_rmse_mm": {
+          "mean": 0.7486131089968631,
+          "sample_sd": 0.1275020731378307,
+          "maximum_over_trajectories": 1.173540387140385
+        },
+        "tail_half_tracking_tip_rmse_mm": {
+          "mean": 0.526030866323555,
+          "sample_sd": 0.09077303153804334,
+          "maximum_over_trajectories": 0.8292871107509469
+        },
+        "tracking_state_relative_l2": {
+          "mean": 1.6104213266419347,
+          "sample_sd": 0.2613675179263615,
+          "maximum_over_trajectories": 2.4984060749879085
+        },
+        "tracking_port_rmse": {
+          "mean": 0.013151826675062492,
+          "sample_sd": 0.001994572287978528,
+          "maximum_over_trajectories": 0.02027149593527691
+        },
+        "continuous_controlled_flow_tip_rmse_mm": {
+          "mean": 0.009046686949362743,
+          "sample_sd": 0.000996465212677478,
+          "maximum_over_trajectories": 0.013974701499899666
+        },
+        "continuous_controlled_flow_state_relative_l2": {
+          "mean": 0.012222257427803734,
+          "sample_sd": 0.0006958339052437094,
+          "maximum_over_trajectories": 0.018673164232582782
+        },
+        "integral_u_squared_seconds": {
+          "mean": 0.013062224251313375,
+          "sample_sd": 0.0005920836837524495,
+          "maximum_over_trajectories": 0.016772062371913806
+        },
+        "max_abs_u": {
+          "mean": 0.12228605035587965,
+          "sample_sd": 0.00992088085668411,
+          "maximum_over_trajectories": 0.18008064516472802
+        },
+        "saturation_fraction": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        },
+        "max_abs_angle_rad": {
+          "mean": 0.05253915208604272,
+          "sample_sd": 0.005988838100541813,
+          "maximum_over_trajectories": 0.09030008570307711
+        },
+        "max_modal_reference_radius": {
+          "mean": 0.15562226041646582,
+          "sample_sd": 0.01579344173316918,
+          "maximum_over_trajectories": 0.22599992211549327
+        },
+        "maximum_midpoint_residual": {
+          "mean": 4.4447079819280067e-17,
+          "sample_sd": 5.11301170609119e-18,
+          "maximum_over_trajectories": 5.898059818321144e-17
+        },
+        "maximum_newton_iterations": {
+          "mean": 2.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 2.0
+        },
+        "discrete_work_balance_absolute": {
+          "mean": 0.00046176395137083207,
+          "sample_sd": 8.55337985636829e-05,
+          "maximum_over_trajectories": 0.0010045353661158746
+        },
+        "discrete_work_balance_relative": {
+          "mean": 0.003697496928803848,
+          "sample_sd": 0.00031428458346689645,
+          "maximum_over_trajectories": 0.005158672995654626
+        },
+        "signed_input_work": {
+          "mean": -0.041745708913497666,
+          "sample_sd": 0.00720574461661063,
+          "maximum_over_trajectories": -0.011012975997957555
+        },
+        "subflow_quadrature_work_balance_absolute": {
+          "mean": 1.9132960436254662e-10,
+          "sample_sd": 9.546018431193285e-11,
+          "maximum_over_trajectories": 1.2155628378862637e-09
+        },
+        "subflow_quadrature_work": {
+          "mean": -0.041320504153527615,
+          "sample_sd": 0.007116741873491787,
+          "maximum_over_trajectories": -0.010966805271979449
+        }
+      }
+    },
+    {
+      "mode": "feedback",
+      "method": "II",
+      "multiplier": 0.5,
+      "metrics": {
+        "tracking_tip_rmse_mm": {
+          "mean": 0.7455679227720253,
+          "sample_sd": 0.12713958527201147,
+          "maximum_over_trajectories": 1.1681723830443356
+        },
+        "tail_half_tracking_tip_rmse_mm": {
+          "mean": 0.5214993653400173,
+          "sample_sd": 0.09014055834269083,
+          "maximum_over_trajectories": 0.8214778434244734
+        },
+        "tracking_state_relative_l2": {
+          "mean": 1.6037851374170677,
+          "sample_sd": 0.26062171123678046,
+          "maximum_over_trajectories": 2.4896920843489143
+        },
+        "tracking_port_rmse": {
+          "mean": 0.013096803685328512,
+          "sample_sd": 0.001988746271185404,
+          "maximum_over_trajectories": 0.020208075267630052
+        },
+        "continuous_controlled_flow_tip_rmse_mm": {
+          "mean": 0.0045721337658561,
+          "sample_sd": 0.0004999903090418547,
+          "maximum_over_trajectories": 0.007005239902046708
+        },
+        "continuous_controlled_flow_state_relative_l2": {
+          "mean": 0.006366309527636585,
+          "sample_sd": 0.00038366074318250547,
+          "maximum_over_trajectories": 0.010011450883623573
+        },
+        "integral_u_squared_seconds": {
+          "mean": 0.013049568985987536,
+          "sample_sd": 0.0005868997134826289,
+          "maximum_over_trajectories": 0.016729733204441478
+        },
+        "max_abs_u": {
+          "mean": 0.122156416090205,
+          "sample_sd": 0.009902016800251877,
+          "maximum_over_trajectories": 0.1799248085724087
+        },
+        "saturation_fraction": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        },
+        "max_abs_angle_rad": {
+          "mean": 0.05249196397111888,
+          "sample_sd": 0.005993074553725414,
+          "maximum_over_trajectories": 0.09030008570307711
+        },
+        "max_modal_reference_radius": {
+          "mean": 0.15544286645073793,
+          "sample_sd": 0.015767849809323137,
+          "maximum_over_trajectories": 0.22573316409381317
+        },
+        "maximum_midpoint_residual": {
+          "mean": 4.286556342763788e-17,
+          "sample_sd": 5.341203020470513e-18,
+          "maximum_over_trajectories": 5.410168840702667e-17
+        },
+        "maximum_newton_iterations": {
+          "mean": 2.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 2.0
+        },
+        "discrete_work_balance_absolute": {
+          "mean": 0.00022019699770467645,
+          "sample_sd": 4.077271738272758e-05,
+          "maximum_over_trajectories": 0.000481654515546992
+        },
+        "discrete_work_balance_relative": {
+          "mean": 0.001770473284735522,
+          "sample_sd": 0.00014915055536966727,
+          "maximum_over_trajectories": 0.0024574859226331684
+        },
+        "signed_input_work": {
+          "mean": -0.04155220710408138,
+          "sample_sd": 0.007161684252923311,
+          "maximum_over_trajectories": -0.010994516224862774
+        },
+        "subflow_quadrature_work_balance_absolute": {
+          "mean": 4.763112238068308e-11,
+          "sample_sd": 2.377363500443597e-11,
+          "maximum_over_trajectories": 3.030870970865962e-10
+        },
+        "subflow_quadrature_work": {
+          "mean": -0.0413505779246532,
+          "sample_sd": 0.0071191510425210715,
+          "maximum_over_trajectories": -0.010974379869000869
+        }
+      }
+    },
+    {
+      "mode": "feedback",
+      "method": "III",
+      "multiplier": 4.0,
+      "metrics": {
+        "tracking_tip_rmse_mm": {
+          "mean": 0.7539065085195799,
+          "sample_sd": 0.12787540691052907,
+          "maximum_over_trajectories": 1.1831631245483933
+        },
+        "tail_half_tracking_tip_rmse_mm": {
+          "mean": 0.5339069513261833,
+          "sample_sd": 0.09162718523509521,
+          "maximum_over_trajectories": 0.8435471280034337
+        },
+        "tracking_state_relative_l2": {
+          "mean": 1.6226669066126156,
+          "sample_sd": 0.26214488666793795,
+          "maximum_over_trajectories": 2.5097798262109907
+        },
+        "tracking_port_rmse": {
+          "mean": 0.013251979597852102,
+          "sample_sd": 0.002000352547551354,
+          "maximum_over_trajectories": 0.020369827873724676
+        },
+        "continuous_controlled_flow_tip_rmse_mm": {
+          "mean": 0.016874029392957596,
+          "sample_sd": 0.0016275968981842145,
+          "maximum_over_trajectories": 0.026549336722529904
+        },
+        "continuous_controlled_flow_state_relative_l2": {
+          "mean": 0.021934536665502345,
+          "sample_sd": 0.0013313420963922942,
+          "maximum_over_trajectories": 0.032841190706882885
+        },
+        "integral_u_squared_seconds": {
+          "mean": 0.01317358028533569,
+          "sample_sd": 0.0006070135310689847,
+          "maximum_over_trajectories": 0.01698402342573621
+        },
+        "max_abs_u": {
+          "mean": 0.12273838274612077,
+          "sample_sd": 0.009843613353959935,
+          "maximum_over_trajectories": 0.18105446080675355
+        },
+        "saturation_fraction": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        },
+        "max_abs_angle_rad": {
+          "mean": 0.05263141262850126,
+          "sample_sd": 0.005937286738519662,
+          "maximum_over_trajectories": 0.09030008570307711
+        },
+        "max_modal_reference_radius": {
+          "mean": 0.15608230105946194,
+          "sample_sd": 0.01579754001232637,
+          "maximum_over_trajectories": 0.22638306289893806
+        },
+        "maximum_midpoint_residual": {
+          "mean": 3.975599959914894e-17,
+          "sample_sd": 3.563415240454094e-18,
+          "maximum_over_trajectories": 5.377642775528102e-17
+        },
+        "maximum_newton_iterations": {
+          "mean": 2.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 2.0
+        },
+        "discrete_work_balance_absolute": {
+          "mean": 2.705298579301239e-08,
+          "sample_sd": 1.0169366822796235e-08,
+          "maximum_over_trajectories": 1.5270470597392172e-07
+        },
+        "discrete_work_balance_relative": {
+          "mean": 1.8019183052421127e-07,
+          "sample_sd": 5.120156790794865e-08,
+          "maximum_over_trajectories": 7.143991807239632e-07
+        },
+        "signed_input_work": {
+          "mean": -0.04126572509879114,
+          "sample_sd": 0.007112659369641309,
+          "maximum_over_trajectories": -0.010950686003591488
+        },
+        "subflow_quadrature_work_balance_absolute": {
+          "mean": 3.0376259689730586e-09,
+          "sample_sd": 1.5150617464499431e-09,
+          "maximum_over_trajectories": 1.9267936225697557e-08
+        },
+        "subflow_quadrature_work": {
+          "mean": -0.041265725754615235,
+          "sample_sd": 0.007112658545945978,
+          "maximum_over_trajectories": -0.010950686130208833
+        }
+      }
+    },
+    {
+      "mode": "feedback",
+      "method": "III",
+      "multiplier": 2.0,
+      "metrics": {
+        "tracking_tip_rmse_mm": {
+          "mean": 0.7481313682381348,
+          "sample_sd": 0.12734647834746302,
+          "maximum_over_trajectories": 1.1726935380782562
+        },
+        "tail_half_tracking_tip_rmse_mm": {
+          "mean": 0.5253459216019072,
+          "sample_sd": 0.09059369517755192,
+          "maximum_over_trajectories": 0.8282034292710293
+        },
+        "tracking_state_relative_l2": {
+          "mean": 1.6095883131501996,
+          "sample_sd": 0.2610624449632726,
+          "maximum_over_trajectories": 2.4953114597986645
+        },
+        "tracking_port_rmse": {
+          "mean": 0.013142940307070361,
+          "sample_sd": 0.001992104407869536,
+          "maximum_over_trajectories": 0.020254261466394204
+        },
+        "continuous_controlled_flow_tip_rmse_mm": {
+          "mean": 0.00830370913629542,
+          "sample_sd": 0.0008813094019482689,
+          "maximum_over_trajectories": 0.013286234019058554
+        },
+        "continuous_controlled_flow_state_relative_l2": {
+          "mean": 0.00949276090585589,
+          "sample_sd": 0.0004526667556251316,
+          "maximum_over_trajectories": 0.013485851729805558
+        },
+        "integral_u_squared_seconds": {
+          "mean": 0.013098506704198206,
+          "sample_sd": 0.0005934668076071784,
+          "maximum_over_trajectories": 0.01682005564513608
+        },
+        "max_abs_u": {
+          "mean": 0.12238121074200874,
+          "sample_sd": 0.009889542986812817,
+          "maximum_over_trajectories": 0.18038226373962268
+        },
+        "saturation_fraction": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        },
+        "max_abs_angle_rad": {
+          "mean": 0.052519621690025706,
+          "sample_sd": 0.005974285156422377,
+          "maximum_over_trajectories": 0.09030008570307711
+        },
+        "max_modal_reference_radius": {
+          "mean": 0.1556551695900535,
+          "sample_sd": 0.015785255030390685,
+          "maximum_over_trajectories": 0.22591085452239787
+        },
+        "maximum_midpoint_residual": {
+          "mean": 5.214203533190648e-17,
+          "sample_sd": 6.9273330293373474e-18,
+          "maximum_over_trajectories": 6.849447224677174e-17
+        },
+        "maximum_newton_iterations": {
+          "mean": 2.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 2.0
+        },
+        "discrete_work_balance_absolute": {
+          "mean": 6.54682828234816e-09,
+          "sample_sd": 2.408179262914875e-09,
+          "maximum_over_trajectories": 3.6526744830178703e-08
+        },
+        "discrete_work_balance_relative": {
+          "mean": 4.3954262315066486e-08,
+          "sample_sd": 1.2084861331538167e-08,
+          "maximum_over_trajectories": 1.7187806534709594e-07
+        },
+        "signed_input_work": {
+          "mean": -0.041323978628028335,
+          "sample_sd": 0.007117204831301062,
+          "maximum_over_trajectories": -0.010967132902064554
+        },
+        "subflow_quadrature_work_balance_absolute": {
+          "mean": 7.611842851287711e-10,
+          "sample_sd": 3.799951432068018e-10,
+          "maximum_over_trajectories": 4.8435771296539976e-09
+        },
+        "subflow_quadrature_work": {
+          "mean": -0.04132397883923437,
+          "sample_sd": 0.007117204699792743,
+          "maximum_over_trajectories": -0.010967132933470744
+        }
+      }
+    },
+    {
+      "mode": "feedback",
+      "method": "III",
+      "multiplier": 1.0,
+      "metrics": {
+        "tracking_tip_rmse_mm": {
+          "mean": 0.7453196051083261,
+          "sample_sd": 0.12706630187336845,
+          "maximum_over_trajectories": 1.1677049534209145
+        },
+        "tail_half_tracking_tip_rmse_mm": {
+          "mean": 0.5211511828474622,
+          "sample_sd": 0.09005729673222147,
+          "maximum_over_trajectories": 0.8208755880953668
+        },
+        "tracking_state_relative_l2": {
+          "mean": 1.6033344422870766,
+          "sample_sd": 0.2604793936389509,
+          "maximum_over_trajectories": 2.4881643978771244
+        },
+        "tracking_port_rmse": {
+          "mean": 0.013091908415781672,
+          "sample_sd": 0.001987598172157903,
+          "maximum_over_trajectories": 0.020199324134061527
+        },
+        "continuous_controlled_flow_tip_rmse_mm": {
+          "mean": 0.004313002795363906,
+          "sample_sd": 0.0004622389548486509,
+          "maximum_over_trajectories": 0.006782650160536502
+        },
+        "continuous_controlled_flow_state_relative_l2": {
+          "mean": 0.005442263765147068,
+          "sample_sd": 0.0003045392917966356,
+          "maximum_over_trajectories": 0.007906319986853308
+        },
+        "integral_u_squared_seconds": {
+          "mean": 0.01306690933779268,
+          "sample_sd": 0.000587487441427566,
+          "maximum_over_trajectories": 0.01675174104719661
+        },
+        "max_abs_u": {
+          "mean": 0.12221129317571026,
+          "sample_sd": 0.009896545509929048,
+          "maximum_over_trajectories": 0.18007133659358454
+        },
+        "saturation_fraction": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        },
+        "max_abs_angle_rad": {
+          "mean": 0.05247961754820357,
+          "sample_sd": 0.005987013703339103,
+          "maximum_over_trajectories": 0.09030008570307711
+        },
+        "max_modal_reference_radius": {
+          "mean": 0.15545793563037127,
+          "sample_sd": 0.015764473574516363,
+          "maximum_over_trajectories": 0.22568608409639543
+        },
+        "maximum_midpoint_residual": {
+          "mean": 4.264260318009687e-17,
+          "sample_sd": 5.309458775888415e-18,
+          "maximum_over_trajectories": 5.776087073916525e-17
+        },
+        "maximum_newton_iterations": {
+          "mean": 2.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 2.0
+        },
+        "discrete_work_balance_absolute": {
+          "mean": 1.615215372476747e-09,
+          "sample_sd": 5.920141521435367e-10,
+          "maximum_over_trajectories": 8.860004431510138e-09
+        },
+        "discrete_work_balance_relative": {
+          "mean": 1.0891245891618752e-08,
+          "sample_sd": 2.9826433552341878e-09,
+          "maximum_over_trajectories": 4.180314677893829e-08
+        },
+        "signed_input_work": {
+          "mean": -0.041352270353753454,
+          "sample_sd": 0.007119381838894651,
+          "maximum_over_trajectories": -0.010974661898501058
+        },
+        "subflow_quadrature_work_balance_absolute": {
+          "mean": 1.9016643658538966e-10,
+          "sample_sd": 9.490122063139827e-11,
+          "maximum_over_trajectories": 1.2108605437766151e-09
+        },
+        "subflow_quadrature_work": {
+          "mean": -0.04135227041207138,
+          "sample_sd": 0.0071193818147728275,
+          "maximum_over_trajectories": -0.01097466190640491
+        }
+      }
+    },
+    {
+      "mode": "feedback",
+      "method": "III",
+      "multiplier": 0.5,
+      "metrics": {
+        "tracking_tip_rmse_mm": {
+          "mean": 0.743932399441185,
+          "sample_sd": 0.12692237948008986,
+          "maximum_over_trajectories": 1.1652714167038423
+        },
+        "tail_half_tracking_tip_rmse_mm": {
+          "mean": 0.5190750000342017,
+          "sample_sd": 0.08978419503338274,
+          "maximum_over_trajectories": 0.8172968508843099
+        },
+        "tracking_state_relative_l2": {
+          "mean": 1.6002776043549372,
+          "sample_sd": 0.26017756441280715,
+          "maximum_over_trajectories": 2.484612460728192
+        },
+        "tracking_port_rmse": {
+          "mean": 0.01306724926828875,
+          "sample_sd": 0.0019852504051654845,
+          "maximum_over_trajectories": 0.020172548745724432
+        },
+        "continuous_controlled_flow_tip_rmse_mm": {
+          "mean": 0.002217416556394804,
+          "sample_sd": 0.000236730079233198,
+          "maximum_over_trajectories": 0.003441639327017901
+        },
+        "continuous_controlled_flow_state_relative_l2": {
+          "mean": 0.0029829684070437094,
+          "sample_sd": 0.00018495623791189373,
+          "maximum_over_trajectories": 0.004434143978016354
+        },
+        "integral_u_squared_seconds": {
+          "mean": 0.013052538369700073,
+          "sample_sd": 0.0005846875927842602,
+          "maximum_over_trajectories": 0.016720868277379636
+        },
+        "max_abs_u": {
+          "mean": 0.12212218797540315,
+          "sample_sd": 0.00988936558241613,
+          "maximum_over_trajectories": 0.17992373024381295
+        },
+        "saturation_fraction": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        },
+        "max_abs_angle_rad": {
+          "mean": 0.052462885976068366,
+          "sample_sd": 0.005992201000451216,
+          "maximum_over_trajectories": 0.09030008570307711
+        },
+        "max_modal_reference_radius": {
+          "mean": 0.1553644097423284,
+          "sample_sd": 0.015753512311221945,
+          "maximum_over_trajectories": 0.22557610192354968
+        },
+        "maximum_midpoint_residual": {
+          "mean": 4.264476311411237e-17,
+          "sample_sd": 5.275351444403967e-18,
+          "maximum_over_trajectories": 5.2800645800044066e-17
+        },
+        "maximum_newton_iterations": {
+          "mean": 2.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 2.0
+        },
+        "discrete_work_balance_absolute": {
+          "mean": 4.0134781790850636e-10,
+          "sample_sd": 1.4664820129752631e-10,
+          "maximum_over_trajectories": 2.1810162148527823e-09
+        },
+        "discrete_work_balance_relative": {
+          "mean": 2.7121087722730764e-09,
+          "sample_sd": 7.412746088134167e-10,
+          "maximum_over_trajectories": 1.0302974681581725e-08
+        },
+        "signed_input_work": {
+          "mean": -0.04136621910937671,
+          "sample_sd": 0.0071204466072025425,
+          "maximum_over_trajectories": -0.010978266216513844
+        },
+        "subflow_quadrature_work_balance_absolute": {
+          "mean": 4.7488870930263714e-11,
+          "sample_sd": 2.3704892737348426e-11,
+          "maximum_over_trajectories": 3.0249863725018145e-10
+        },
+        "subflow_quadrature_work": {
+          "mean": -0.0413662191246185,
+          "sample_sd": 0.00712044660222854,
+          "maximum_over_trajectories": -0.010978266218501773
+        }
+      }
+    },
+    {
+      "mode": "uncontrolled",
+      "method": "uncontrolled",
+      "multiplier": 4.0,
+      "metrics": {
+        "tracking_tip_rmse_mm": {
+          "mean": 1.3313431612269961,
+          "sample_sd": 0.1723717915171694,
+          "maximum_over_trajectories": 2.2186647132720014
+        },
+        "tail_half_tracking_tip_rmse_mm": {
+          "mean": 1.3319144619905703,
+          "sample_sd": 0.17299121699834918,
+          "maximum_over_trajectories": 2.2182616537403788
+        },
+        "tracking_state_relative_l2": {
+          "mean": 3.3028436051733507,
+          "sample_sd": 0.3591078475355465,
+          "maximum_over_trajectories": 5.127350426713835
+        },
+        "tracking_port_rmse": {
+          "mean": 0.03176509896915371,
+          "sample_sd": 0.0031372798243615883,
+          "maximum_over_trajectories": 0.04794507695806879
+        },
+        "continuous_controlled_flow_tip_rmse_mm": {
+          "mean": 0.5106613797271118,
+          "sample_sd": 0.056757553771698326,
+          "maximum_over_trajectories": 0.821541908992772
+        },
+        "continuous_controlled_flow_state_relative_l2": {
+          "mean": 0.828681728686029,
+          "sample_sd": 0.09131774881896842,
+          "maximum_over_trajectories": 1.2782715113316867
+        },
+        "integral_u_squared_seconds": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        },
+        "max_abs_u": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        },
+        "saturation_fraction": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        },
+        "max_abs_angle_rad": {
+          "mean": 0.05982794737433341,
+          "sample_sd": 0.006432315019932907,
+          "maximum_over_trajectories": 0.09376851725458968
+        },
+        "max_modal_reference_radius": {
+          "mean": 0.13448863599942953,
+          "sample_sd": 0.01673747570452585,
+          "maximum_over_trajectories": 0.19923349848382374
+        },
+        "maximum_midpoint_residual": {
+          "mean": 4.3765218296740355e-17,
+          "sample_sd": 4.0570156712563255e-18,
+          "maximum_over_trajectories": 6.331740687315346e-17
+        },
+        "maximum_newton_iterations": {
+          "mean": 2.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 2.0
+        },
+        "discrete_work_balance_absolute": {
+          "mean": 4.66006155105253e-09,
+          "sample_sd": 2.0642857765937434e-09,
+          "maximum_over_trajectories": 2.2097645865915005e-08
+        },
+        "discrete_work_balance_relative": {
+          "mean": 8.219402988433998e-08,
+          "sample_sd": 2.470835885162368e-08,
+          "maximum_over_trajectories": 2.2963049031535855e-07
+        },
+        "signed_input_work": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        },
+        "subflow_quadrature_work_balance_absolute": {
+          "mean": 4.66006155105253e-09,
+          "sample_sd": 2.0642857765937434e-09,
+          "maximum_over_trajectories": 2.2097645865915005e-08
+        },
+        "subflow_quadrature_work": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        }
+      }
+    },
+    {
+      "mode": "uncontrolled",
+      "method": "uncontrolled",
+      "multiplier": 2.0,
+      "metrics": {
+        "tracking_tip_rmse_mm": {
+          "mean": 1.3312251936301263,
+          "sample_sd": 0.17231962608384196,
+          "maximum_over_trajectories": 2.21781429142619
+        },
+        "tail_half_tracking_tip_rmse_mm": {
+          "mean": 1.3320079753792222,
+          "sample_sd": 0.1732188250809806,
+          "maximum_over_trajectories": 2.2196500322974355
+        },
+        "tracking_state_relative_l2": {
+          "mean": 3.3027315092403287,
+          "sample_sd": 0.35908103633954813,
+          "maximum_over_trajectories": 5.12649996197643
+        },
+        "tracking_port_rmse": {
+          "mean": 0.03176046093584971,
+          "sample_sd": 0.0031260369855814177,
+          "maximum_over_trajectories": 0.04787077841438738
+        },
+        "continuous_controlled_flow_tip_rmse_mm": {
+          "mean": 0.15487716558319575,
+          "sample_sd": 0.017180273184851148,
+          "maximum_over_trajectories": 0.24962792806998627
+        },
+        "continuous_controlled_flow_state_relative_l2": {
+          "mean": 0.2512839458002305,
+          "sample_sd": 0.027691504848857015,
+          "maximum_over_trajectories": 0.38761753950938754
+        },
+        "integral_u_squared_seconds": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        },
+        "max_abs_u": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        },
+        "saturation_fraction": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        },
+        "max_abs_angle_rad": {
+          "mean": 0.059834954483040506,
+          "sample_sd": 0.006432798664479706,
+          "maximum_over_trajectories": 0.09355401710640146
+        },
+        "max_modal_reference_radius": {
+          "mean": 0.13448863923793125,
+          "sample_sd": 0.016737476426077365,
+          "maximum_over_trajectories": 0.1992335164746847
+        },
+        "maximum_midpoint_residual": {
+          "mean": 5.1444122535016304e-17,
+          "sample_sd": 6.622529264847681e-18,
+          "maximum_over_trajectories": 7.068998164605489e-17
+        },
+        "maximum_newton_iterations": {
+          "mean": 2.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 2.0
+        },
+        "discrete_work_balance_absolute": {
+          "mean": 1.178368145334646e-09,
+          "sample_sd": 5.221728589505026e-10,
+          "maximum_over_trajectories": 5.586012138958374e-09
+        },
+        "discrete_work_balance_relative": {
+          "mean": 2.0783641493855483e-08,
+          "sample_sd": 6.2501716516847095e-09,
+          "maximum_over_trajectories": 5.804775378155162e-08
+        },
+        "signed_input_work": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        },
+        "subflow_quadrature_work_balance_absolute": {
+          "mean": 1.178368145334646e-09,
+          "sample_sd": 5.221728589505026e-10,
+          "maximum_over_trajectories": 5.586012138958374e-09
+        },
+        "subflow_quadrature_work": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        }
+      }
+    },
+    {
+      "mode": "uncontrolled",
+      "method": "uncontrolled",
+      "multiplier": 1.0,
+      "metrics": {
+        "tracking_tip_rmse_mm": {
+          "mean": 1.3312101528196805,
+          "sample_sd": 0.17228187783510213,
+          "maximum_over_trajectories": 2.217792070753474
+        },
+        "tail_half_tracking_tip_rmse_mm": {
+          "mean": 1.3320202679200253,
+          "sample_sd": 0.17322008324891167,
+          "maximum_over_trajectories": 2.2203405272058987
+        },
+        "tracking_state_relative_l2": {
+          "mean": 3.3027043379688346,
+          "sample_sd": 0.3590728081254945,
+          "maximum_over_trajectories": 5.126316284234016
+        },
+        "tracking_port_rmse": {
+          "mean": 0.03175959510563023,
+          "sample_sd": 0.003124520394336594,
+          "maximum_over_trajectories": 0.04787996573251268
+        },
+        "continuous_controlled_flow_tip_rmse_mm": {
+          "mean": 0.03924368550151254,
+          "sample_sd": 0.004355920825105575,
+          "maximum_over_trajectories": 0.06326684089780663
+        },
+        "continuous_controlled_flow_state_relative_l2": {
+          "mean": 0.06366996302032682,
+          "sample_sd": 0.007016446771401766,
+          "maximum_over_trajectories": 0.09821401219385219
+        },
+        "integral_u_squared_seconds": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        },
+        "max_abs_u": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        },
+        "saturation_fraction": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        },
+        "max_abs_angle_rad": {
+          "mean": 0.059841297117899095,
+          "sample_sd": 0.006439734575521443,
+          "maximum_over_trajectories": 0.09352241983995166
+        },
+        "max_modal_reference_radius": {
+          "mean": 0.13448864235692218,
+          "sample_sd": 0.01673747705152687,
+          "maximum_over_trajectories": 0.19923354562084097
+        },
+        "maximum_midpoint_residual": {
+          "mean": 4.5837484402198e-17,
+          "sample_sd": 5.362918597594379e-18,
+          "maximum_over_trajectories": 6.288372600415926e-17
+        },
+        "maximum_newton_iterations": {
+          "mean": 2.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 2.0
+        },
+        "discrete_work_balance_absolute": {
+          "mean": 2.955882900425311e-10,
+          "sample_sd": 1.3095472235908156e-10,
+          "maximum_over_trajectories": 1.400274687868297e-09
+        },
+        "discrete_work_balance_relative": {
+          "mean": 5.2138058658009295e-09,
+          "sample_sd": 1.5670320375700518e-09,
+          "maximum_over_trajectories": 1.4551132057345437e-08
+        },
+        "signed_input_work": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        },
+        "subflow_quadrature_work_balance_absolute": {
+          "mean": 2.955882900425311e-10,
+          "sample_sd": 1.3095472235908156e-10,
+          "maximum_over_trajectories": 1.400274687868297e-09
+        },
+        "subflow_quadrature_work": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        }
+      }
+    },
+    {
+      "mode": "uncontrolled",
+      "method": "uncontrolled",
+      "multiplier": 0.5,
+      "metrics": {
+        "tracking_tip_rmse_mm": {
+          "mean": 1.3312087004751223,
+          "sample_sd": 0.1722740055136878,
+          "maximum_over_trajectories": 2.217803578613317
+        },
+        "tail_half_tracking_tip_rmse_mm": {
+          "mean": 1.332024327493633,
+          "sample_sd": 0.173221524416171,
+          "maximum_over_trajectories": 2.2205338760190836
+        },
+        "tracking_state_relative_l2": {
+          "mean": 3.302697948486238,
+          "sample_sd": 0.35907115739606565,
+          "maximum_over_trajectories": 5.126272687910442
+        },
+        "tracking_port_rmse": {
+          "mean": 0.03175957454297595,
+          "sample_sd": 0.0031243515522652245,
+          "maximum_over_trajectories": 0.0478867402811776
+        },
+        "continuous_controlled_flow_tip_rmse_mm": {
+          "mean": 0.009822327767682658,
+          "sample_sd": 0.0010904845889752191,
+          "maximum_over_trajectories": 0.015835128126705393
+        },
+        "continuous_controlled_flow_state_relative_l2": {
+          "mean": 0.015935973572191477,
+          "sample_sd": 0.001756148777610394,
+          "maximum_over_trajectories": 0.02458201448691985
+        },
+        "integral_u_squared_seconds": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        },
+        "max_abs_u": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        },
+        "saturation_fraction": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        },
+        "max_abs_angle_rad": {
+          "mean": 0.05983679937059929,
+          "sample_sd": 0.006459181516921759,
+          "maximum_over_trajectories": 0.09372158707420672
+        },
+        "max_modal_reference_radius": {
+          "mean": 0.13448864256323423,
+          "sample_sd": 0.01673747734328453,
+          "maximum_over_trajectories": 0.19923354875630148
+        },
+        "maximum_midpoint_residual": {
+          "mean": 4.4918284247837636e-17,
+          "sample_sd": 4.447205630088498e-18,
+          "maximum_over_trajectories": 6.1257422745431e-17
+        },
+        "maximum_newton_iterations": {
+          "mean": 2.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 2.0
+        },
+        "discrete_work_balance_absolute": {
+          "mean": 7.395082684234777e-11,
+          "sample_sd": 3.2771452288538755e-11,
+          "maximum_over_trajectories": 3.505557649718938e-10
+        },
+        "discrete_work_balance_relative": {
+          "mean": 1.3043598633944382e-09,
+          "sample_sd": 3.9236234633912557e-10,
+          "maximum_over_trajectories": 3.6428447030883914e-09
+        },
+        "signed_input_work": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        },
+        "subflow_quadrature_work_balance_absolute": {
+          "mean": 7.395082684234777e-11,
+          "sample_sd": 3.2771452288538755e-11,
+          "maximum_over_trajectories": 3.505557649718938e-10
+        },
+        "subflow_quadrature_work": {
+          "mean": 0.0,
+          "sample_sd": 0.0,
+          "maximum_over_trajectories": 0.0
+        }
+      }
+    }
+  ],
+  "open_loop_orders": [
+    {
+      "method": "I",
+      "fine_multiplier": 2.0,
+      "tip_observed_order": 1.7212529369761205,
+      "state_observed_order": 1.7214988123486965
+    },
+    {
+      "method": "I",
+      "fine_multiplier": 1.0,
+      "tip_observed_order": 1.9805947774151385,
+      "state_observed_order": 1.980633626758985
+    },
+    {
+      "method": "I",
+      "fine_multiplier": 0.5,
+      "tip_observed_order": 1.9983243548422767,
+      "state_observed_order": 1.9983257699024413
+    },
+    {
+      "method": "II",
+      "fine_multiplier": 2.0,
+      "tip_observed_order": 1.7207080952531828,
+      "state_observed_order": 1.7213915625974359
+    },
+    {
+      "method": "II",
+      "fine_multiplier": 1.0,
+      "tip_observed_order": 1.978165107589642,
+      "state_observed_order": 1.9801495050212705
+    },
+    {
+      "method": "II",
+      "fine_multiplier": 0.5,
+      "tip_observed_order": 1.9890059278027328,
+      "state_observed_order": 1.9964449623528935
+    },
+    {
+      "method": "III",
+      "fine_multiplier": 2.0,
+      "tip_observed_order": 1.721256339677232,
+      "state_observed_order": 1.7215021795529086
+    },
+    {
+      "method": "III",
+      "fine_multiplier": 1.0,
+      "tip_observed_order": 1.9805950019472227,
+      "state_observed_order": 1.9806338453167103
+    },
+    {
+      "method": "III",
+      "fine_multiplier": 0.5,
+      "tip_observed_order": 1.9983243713801055,
+      "state_observed_order": 1.9983257852727774
+    }
+  ],
+  "paired_differences": [
+    {
+      "multiplier": 4.0,
+      "metric": "tracking_tip_rmse_mm",
+      "contrast": "uncontrolled-I",
+      "mean": 0.577436779227838,
+      "sample_sd": 0.05673675726197274,
+      "positive_seed_count": 5
+    },
+    {
+      "multiplier": 4.0,
+      "metric": "tracking_tip_rmse_mm",
+      "contrast": "uncontrolled-II",
+      "mean": 0.5637060045424699,
+      "sample_sd": 0.05515177022279128,
+      "positive_seed_count": 5
+    },
+    {
+      "multiplier": 4.0,
+      "metric": "tracking_tip_rmse_mm",
+      "contrast": "uncontrolled-III",
+      "mean": 0.5774366527074163,
+      "sample_sd": 0.056736765168820105,
+      "positive_seed_count": 5
+    },
+    {
+      "multiplier": 4.0,
+      "metric": "tracking_tip_rmse_mm",
+      "contrast": "I-II",
+      "mean": -0.013730774685368074,
+      "sample_sd": 0.00185710096897584,
+      "positive_seed_count": 0
+    },
+    {
+      "multiplier": 4.0,
+      "metric": "tracking_tip_rmse_mm",
+      "contrast": "I-III",
+      "mean": -1.2652042165051113e-07,
+      "sample_sd": 5.690249744351497e-08,
+      "positive_seed_count": 0
+    },
+    {
+      "multiplier": 4.0,
+      "metric": "tracking_tip_rmse_mm",
+      "contrast": "II-III",
+      "mean": 0.013730648164946424,
+      "sample_sd": 0.0018571214498366705,
+      "positive_seed_count": 5
+    },
+    {
+      "multiplier": 4.0,
+      "metric": "tail_half_tracking_tip_rmse_mm",
+      "contrast": "uncontrolled-I",
+      "mean": 0.7980076200334291,
+      "sample_sd": 0.08643804532109187,
+      "positive_seed_count": 5
+    },
+    {
+      "multiplier": 4.0,
+      "metric": "tail_half_tracking_tip_rmse_mm",
+      "contrast": "uncontrolled-II",
+      "mean": 0.7777398710676722,
+      "sample_sd": 0.0836170821165526,
+      "positive_seed_count": 5
+    },
+    {
+      "multiplier": 4.0,
+      "metric": "tail_half_tracking_tip_rmse_mm",
+      "contrast": "uncontrolled-III",
+      "mean": 0.7980075106643872,
+      "sample_sd": 0.08643805935965793,
+      "positive_seed_count": 5
+    },
+    {
+      "multiplier": 4.0,
+      "metric": "tail_half_tracking_tip_rmse_mm",
+      "contrast": "I-II",
+      "mean": -0.020267748965756994,
+      "sample_sd": 0.0029888125419996288,
+      "positive_seed_count": 0
+    },
+    {
+      "multiplier": 4.0,
+      "metric": "tail_half_tracking_tip_rmse_mm",
+      "contrast": "I-III",
+      "mean": -1.0936904181191309e-07,
+      "sample_sd": 3.96781526743188e-08,
+      "positive_seed_count": 0
+    },
+    {
+      "multiplier": 4.0,
+      "metric": "tail_half_tracking_tip_rmse_mm",
+      "contrast": "II-III",
+      "mean": 0.02026763959671518,
+      "sample_sd": 0.0029888307501043892,
+      "positive_seed_count": 5
+    },
+    {
+      "multiplier": 4.0,
+      "metric": "integral_u_squared_seconds",
+      "contrast": "uncontrolled-I",
+      "mean": -0.01317357573695089,
+      "sample_sd": 0.0006070126356426503,
+      "positive_seed_count": 0
+    },
+    {
+      "multiplier": 4.0,
+      "metric": "integral_u_squared_seconds",
+      "contrast": "uncontrolled-II",
+      "mean": -0.01319021070920912,
+      "sample_sd": 0.0006303629763036921,
+      "positive_seed_count": 0
+    },
+    {
+      "multiplier": 4.0,
+      "metric": "integral_u_squared_seconds",
+      "contrast": "uncontrolled-III",
+      "mean": -0.01317358028533569,
+      "sample_sd": 0.0006070135310689847,
+      "positive_seed_count": 0
+    },
+    {
+      "multiplier": 4.0,
+      "metric": "integral_u_squared_seconds",
+      "contrast": "I-II",
+      "mean": -1.6634972258227145e-05,
+      "sample_sd": 2.4749026411164108e-05,
+      "positive_seed_count": 1
+    },
+    {
+      "multiplier": 4.0,
+      "metric": "integral_u_squared_seconds",
+      "contrast": "I-III",
+      "mean": -4.548384799005212e-09,
+      "sample_sd": 1.0820046600010673e-09,
+      "positive_seed_count": 0
+    },
+    {
+      "multiplier": 4.0,
+      "metric": "integral_u_squared_seconds",
+      "contrast": "II-III",
+      "mean": 1.663042387342814e-05,
+      "sample_sd": 2.4747991881782206e-05,
+      "positive_seed_count": 4
+    },
+    {
+      "multiplier": 2.0,
+      "metric": "tracking_tip_rmse_mm",
+      "contrast": "uncontrolled-I",
+      "mean": 0.5830938564299305,
+      "sample_sd": 0.05697326475302161,
+      "positive_seed_count": 5
+    },
+    {
+      "multiplier": 2.0,
+      "metric": "tracking_tip_rmse_mm",
+      "contrast": "uncontrolled-II",
+      "mean": 0.5764158347393679,
+      "sample_sd": 0.056188156669295365,
+      "positive_seed_count": 5
+    },
+    {
+      "multiplier": 2.0,
+      "metric": "tracking_tip_rmse_mm",
+      "contrast": "uncontrolled-III",
+      "mean": 0.5830938253919913,
+      "sample_sd": 0.05697326666195731,
+      "positive_seed_count": 5
+    },
+    {
+      "multiplier": 2.0,
+      "metric": "tracking_tip_rmse_mm",
+      "contrast": "I-II",
+      "mean": -0.006678021690562597,
+      "sample_sd": 0.0009164657001371187,
+      "positive_seed_count": 0
+    },
+    {
+      "multiplier": 2.0,
+      "metric": "tracking_tip_rmse_mm",
+      "contrast": "I-III",
+      "mean": -3.103793917436093e-08,
+      "sample_sd": 1.4105104721906274e-08,
+      "positive_seed_count": 0
+    },
+    {
+      "multiplier": 2.0,
+      "metric": "tracking_tip_rmse_mm",
+      "contrast": "II-III",
+      "mean": 0.006677990652623422,
+      "sample_sd": 0.0009164706191092186,
+      "positive_seed_count": 5
+    },
+    {
+      "multiplier": 2.0,
+      "metric": "tail_half_tracking_tip_rmse_mm",
+      "contrast": "uncontrolled-I",
+      "mean": 0.8066620804776055,
+      "sample_sd": 0.08742071824989246,
+      "positive_seed_count": 5
+    },
+    {
+      "multiplier": 2.0,
+      "metric": "tail_half_tracking_tip_rmse_mm",
+      "contrast": "uncontrolled-II",
+      "mean": 0.7967784656993565,
+      "sample_sd": 0.08602537045544978,
+      "positive_seed_count": 5
+    },
+    {
+      "multiplier": 2.0,
+      "metric": "tail_half_tracking_tip_rmse_mm",
+      "contrast": "uncontrolled-III",
+      "mean": 0.8066620537773147,
+      "sample_sd": 0.08742072160144222,
+      "positive_seed_count": 5
+    },
+    {
+      "multiplier": 2.0,
+      "metric": "tail_half_tracking_tip_rmse_mm",
+      "contrast": "I-II",
+      "mean": -0.009883614778248905,
+      "sample_sd": 0.0014695025287532974,
+      "positive_seed_count": 0
+    },
+    {
+      "multiplier": 2.0,
+      "metric": "tail_half_tracking_tip_rmse_mm",
+      "contrast": "I-III",
+      "mean": -2.6700290667314162e-08,
+      "sample_sd": 9.731092912725382e-09,
+      "positive_seed_count": 0
+    },
+    {
+      "multiplier": 2.0,
+      "metric": "tail_half_tracking_tip_rmse_mm",
+      "contrast": "II-III",
+      "mean": 0.00988358807795824,
+      "sample_sd": 0.001469506850941442,
+      "positive_seed_count": 5
+    },
+    {
+      "multiplier": 2.0,
+      "metric": "integral_u_squared_seconds",
+      "contrast": "uncontrolled-I",
+      "mean": -0.013098505601523569,
+      "sample_sd": 0.0005934665913515052,
+      "positive_seed_count": 0
+    },
+    {
+      "multiplier": 2.0,
+      "metric": "integral_u_squared_seconds",
+      "contrast": "uncontrolled-II",
+      "mean": -0.013094483281969924,
+      "sample_sd": 0.0006033991721399823,
+      "positive_seed_count": 0
+    },
+    {
+      "multiplier": 2.0,
+      "metric": "integral_u_squared_seconds",
+      "contrast": "uncontrolled-III",
+      "mean": -0.013098506704198206,
+      "sample_sd": 0.0005934668076071784,
+      "positive_seed_count": 0
+    },
+    {
+      "multiplier": 2.0,
+      "metric": "integral_u_squared_seconds",
+      "contrast": "I-II",
+      "mean": 4.0223195536447095e-06,
+      "sample_sd": 1.0345635622838524e-05,
+      "positive_seed_count": 3
+    },
+    {
+      "multiplier": 2.0,
+      "metric": "integral_u_squared_seconds",
+      "contrast": "I-III",
+      "mean": -1.102674636668799e-09,
+      "sample_sd": 2.591879193702954e-10,
+      "positive_seed_count": 0
+    },
+    {
+      "multiplier": 2.0,
+      "metric": "integral_u_squared_seconds",
+      "contrast": "II-III",
+      "mean": -4.0234222282813785e-06,
+      "sample_sd": 1.0345390714843534e-05,
+      "positive_seed_count": 2
+    },
+    {
+      "multiplier": 1.0,
+      "metric": "tracking_tip_rmse_mm",
+      "contrast": "uncontrolled-I",
+      "mean": 0.5858905554017706,
+      "sample_sd": 0.057190675591612616,
+      "positive_seed_count": 5
+    },
+    {
+      "multiplier": 1.0,
+      "metric": "tracking_tip_rmse_mm",
+      "contrast": "uncontrolled-II",
+      "mean": 0.5825970438228174,
+      "sample_sd": 0.05680053346743729,
+      "positive_seed_count": 5
+    },
+    {
+      "multiplier": 1.0,
+      "metric": "tracking_tip_rmse_mm",
+      "contrast": "uncontrolled-III",
+      "mean": 0.5858905477113544,
+      "sample_sd": 0.05719067605874159,
+      "positive_seed_count": 5
+    },
+    {
+      "multiplier": 1.0,
+      "metric": "tracking_tip_rmse_mm",
+      "contrast": "I-II",
+      "mean": -0.003293511578953279,
+      "sample_sd": 0.0004552191534702284,
+      "positive_seed_count": 0
+    },
+    {
+      "multiplier": 1.0,
+      "metric": "tracking_tip_rmse_mm",
+      "contrast": "I-III",
+      "mean": -7.690416259364951e-09,
+      "sample_sd": 3.504116905884361e-09,
+      "positive_seed_count": 0
+    },
+    {
+      "multiplier": 1.0,
+      "metric": "tracking_tip_rmse_mm",
+      "contrast": "II-III",
+      "mean": 0.0032935038885370193,
+      "sample_sd": 0.0004552203609412007,
+      "positive_seed_count": 5
+    },
+    {
+      "multiplier": 1.0,
+      "metric": "tail_half_tracking_tip_rmse_mm",
+      "contrast": "uncontrolled-I",
+      "mean": 0.8108690916746122,
+      "sample_sd": 0.08793784749242652,
+      "positive_seed_count": 5
+    },
+    {
+      "multiplier": 1.0,
+      "metric": "tail_half_tracking_tip_rmse_mm",
+      "contrast": "uncontrolled-II",
+      "mean": 0.8059894015964701,
+      "sample_sd": 0.08724516656794722,
+      "positive_seed_count": 5
+    },
+    {
+      "multiplier": 1.0,
+      "metric": "tail_half_tracking_tip_rmse_mm",
+      "contrast": "uncontrolled-III",
+      "mean": 0.810869085072563,
+      "sample_sd": 0.08793784830689262,
+      "positive_seed_count": 5
+    },
+    {
+      "multiplier": 1.0,
+      "metric": "tail_half_tracking_tip_rmse_mm",
+      "contrast": "I-II",
+      "mean": -0.0048796900781421185,
+      "sample_sd": 0.0007287094237049235,
+      "positive_seed_count": 0
+    },
+    {
+      "multiplier": 1.0,
+      "metric": "tail_half_tracking_tip_rmse_mm",
+      "contrast": "I-III",
+      "mean": -6.60204925173602e-09,
+      "sample_sd": 2.404251976668169e-09,
+      "positive_seed_count": 0
+    },
+    {
+      "multiplier": 1.0,
+      "metric": "tail_half_tracking_tip_rmse_mm",
+      "contrast": "II-III",
+      "mean": 0.004879683476092867,
+      "sample_sd": 0.0007287104776510389,
+      "positive_seed_count": 5
+    },
+    {
+      "multiplier": 1.0,
+      "metric": "integral_u_squared_seconds",
+      "contrast": "uncontrolled-I",
+      "mean": -0.013066909066273127,
+      "sample_sd": 0.0005874873882377809,
+      "positive_seed_count": 0
+    },
+    {
+      "multiplier": 1.0,
+      "metric": "integral_u_squared_seconds",
+      "contrast": "uncontrolled-II",
+      "mean": -0.013062224251313375,
+      "sample_sd": 0.0005920836837524495,
+      "positive_seed_count": 0
+    },
+    {
+      "multiplier": 1.0,
+      "metric": "integral_u_squared_seconds",
+      "contrast": "uncontrolled-III",
+      "mean": -0.01306690933779268,
+      "sample_sd": 0.000587487441427566,
+      "positive_seed_count": 0
+    },
+    {
+      "multiplier": 1.0,
+      "metric": "integral_u_squared_seconds",
+      "contrast": "I-II",
+      "mean": 4.684814959754133e-06,
+      "sample_sd": 4.746930580801788e-06,
+      "positive_seed_count": 4
+    },
+    {
+      "multiplier": 1.0,
+      "metric": "integral_u_squared_seconds",
+      "contrast": "I-III",
+      "mean": -2.71519552327848e-10,
+      "sample_sd": 6.348365620765978e-11,
+      "positive_seed_count": 0
+    },
+    {
+      "multiplier": 1.0,
+      "metric": "integral_u_squared_seconds",
+      "contrast": "II-III",
+      "mean": -4.685086479306461e-06,
+      "sample_sd": 4.746871113359453e-06,
+      "positive_seed_count": 1
+    },
+    {
+      "multiplier": 0.5,
+      "metric": "tracking_tip_rmse_mm",
+      "contrast": "uncontrolled-I",
+      "mean": 0.5872763029482356,
+      "sample_sd": 0.05731324767142785,
+      "positive_seed_count": 5
+    },
+    {
+      "multiplier": 0.5,
+      "metric": "tracking_tip_rmse_mm",
+      "contrast": "uncontrolled-II",
+      "mean": 0.585640777703097,
+      "sample_sd": 0.057118769523051664,
+      "positive_seed_count": 5
+    },
+    {
+      "multiplier": 0.5,
+      "metric": "tracking_tip_rmse_mm",
+      "contrast": "uncontrolled-III",
+      "mean": 0.5872763010339375,
+      "sample_sd": 0.05731324778729533,
+      "positive_seed_count": 5
+    },
+    {
+      "multiplier": 0.5,
+      "metric": "tracking_tip_rmse_mm",
+      "contrast": "I-II",
+      "mean": -0.001635525245138525,
+      "sample_sd": 0.00022685943283365075,
+      "positive_seed_count": 0
+    },
+    {
+      "multiplier": 0.5,
+      "metric": "tracking_tip_rmse_mm",
+      "contrast": "I-III",
+      "mean": -1.9142982310427216e-09,
+      "sample_sd": 8.728231200166242e-10,
+      "positive_seed_count": 0
+    },
+    {
+      "multiplier": 0.5,
+      "metric": "tracking_tip_rmse_mm",
+      "contrast": "II-III",
+      "mean": 0.0016355233308402938,
+      "sample_sd": 0.00022685973210310388,
+      "positive_seed_count": 5
+    },
+    {
+      "multiplier": 0.5,
+      "metric": "tail_half_tracking_tip_rmse_mm",
+      "contrast": "uncontrolled-I",
+      "mean": 0.8129493291012679,
+      "sample_sd": 0.08820484506072919,
+      "positive_seed_count": 5
+    },
+    {
+      "multiplier": 0.5,
+      "metric": "tail_half_tracking_tip_rmse_mm",
+      "contrast": "uncontrolled-II",
+      "mean": 0.8105249621536157,
+      "sample_sd": 0.08785977742771568,
+      "positive_seed_count": 5
+    },
+    {
+      "multiplier": 0.5,
+      "metric": "tail_half_tracking_tip_rmse_mm",
+      "contrast": "uncontrolled-III",
+      "mean": 0.8129493274594314,
+      "sample_sd": 0.08820484526173052,
+      "positive_seed_count": 5
+    },
+    {
+      "multiplier": 0.5,
+      "metric": "tail_half_tracking_tip_rmse_mm",
+      "contrast": "I-II",
+      "mean": -0.002424366947651968,
+      "sample_sd": 0.00036286952374623696,
+      "positive_seed_count": 0
+    },
+    {
+      "multiplier": 0.5,
+      "metric": "tail_half_tracking_tip_rmse_mm",
+      "contrast": "I-III",
+      "mean": -1.6418364667813989e-09,
+      "sample_sd": 5.971992291924873e-10,
+      "positive_seed_count": 0
+    },
+    {
+      "multiplier": 0.5,
+      "metric": "tail_half_tracking_tip_rmse_mm",
+      "contrast": "II-III",
+      "mean": 0.0024243653058155013,
+      "sample_sd": 0.00036286978404281937,
+      "positive_seed_count": 5
+    },
+    {
+      "multiplier": 0.5,
+      "metric": "integral_u_squared_seconds",
+      "contrast": "uncontrolled-I",
+      "mean": -0.013052538302328765,
+      "sample_sd": 0.0005846875795916316,
+      "positive_seed_count": 0
+    },
+    {
+      "multiplier": 0.5,
+      "metric": "integral_u_squared_seconds",
+      "contrast": "uncontrolled-II",
+      "mean": -0.013049568985987536,
+      "sample_sd": 0.0005868997134826289,
+      "positive_seed_count": 0
+    },
+    {
+      "multiplier": 0.5,
+      "metric": "integral_u_squared_seconds",
+      "contrast": "uncontrolled-III",
+      "mean": -0.013052538369700073,
+      "sample_sd": 0.0005846875927842602,
+      "positive_seed_count": 0
+    },
+    {
+      "multiplier": 0.5,
+      "metric": "integral_u_squared_seconds",
+      "contrast": "I-II",
+      "mean": 2.9693163412301825e-06,
+      "sample_sd": 2.275337129336757e-06,
+      "positive_seed_count": 5
+    },
+    {
+      "multiplier": 0.5,
+      "metric": "integral_u_squared_seconds",
+      "contrast": "I-III",
+      "mean": -6.737130749112641e-11,
+      "sample_sd": 1.571254198262781e-11,
+      "positive_seed_count": 0
+    },
+    {
+      "multiplier": 0.5,
+      "metric": "integral_u_squared_seconds",
+      "contrast": "II-III",
+      "mean": -2.9693837125376737e-06,
+      "sample_sd": 2.275322486679361e-06,
+      "positive_seed_count": 0
+    }
+  ],
+  "scope": "Simulation-only scalar-input physical controller comparison; seed blocks are initial-condition repeats, no learned controller.",
+  "script_sha256": "aaa9b613f67052cd9de49a8567251b7cb63ff5f617fa68dd4d748efd17e7ff5c"
+}

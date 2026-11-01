@@ -1,0 +1,96 @@
+{
+  "seed": 211,
+  "group": "GR",
+  "weights_sha256": "0d3141edd9a4a61bbfc09f9b571aef22ebe46e4961dfe1597c4eb130df790bd3",
+  "box_halfwidth": 0.25,
+  "gradient_p": 6,
+  "discrete_mean_energy_shift": 2.049625016295722e-05,
+  "endpoint_grid": {
+    "n_points": 83521,
+    "gradient_lp6_normalized": 0.00011434263730179345,
+    "gradient_lp6_lebesgue": 7.203134781851214e-05,
+    "gradient_rms": 3.637060095849422e-05,
+    "gradient_component_abs_max": [
+      0.0001926788472218302,
+      0.0003222349048766285,
+      0.00012074414669188315,
+      0.00014852053250785278
+    ],
+    "energy_abs_max_shifted": 2.8686100312342603e-05,
+    "energy_rms_shifted": 4.073102271268634e-06
+  },
+  "composite_midpoint_grid": {
+    "n_points": 65536,
+    "gradient_lp6_normalized": 9.901844858100289e-05,
+    "gradient_lp6_lebesgue": 6.237771384756934e-05,
+    "gradient_rms": 3.0925673974000917e-05,
+    "gradient_component_abs_max": [
+      0.00015532944484861764,
+      0.00027534017749837993,
+      0.00010422186723875464,
+      0.00012719256536498664
+    ],
+    "energy_abs_max_shifted": 2.2561417140444077e-05,
+    "energy_rms_shifted": 3.184207690236926e-06
+  },
+  "independent_sobol": {
+    "n_points": 65536,
+    "gradient_lp6_normalized": 0.0001002326955054433,
+    "gradient_lp6_lebesgue": 6.314264147750564e-05,
+    "gradient_rms": 3.116127452146648e-05,
+    "gradient_component_abs_max": [
+      0.00016573945451976414,
+      0.0003007657837001676,
+      0.00010407258426275579,
+      0.00014436375007718607
+    ],
+    "energy_abs_max_shifted": 2.663733264436203e-05,
+    "energy_rms_shifted": 3.2364814368579167e-06
+  },
+  "hessian_component_abs_bound": [
+    [
+      0.11221594261181295,
+      0.12604521590396398,
+      0.1137629471333257,
+      0.08935681857242057
+    ],
+    [
+      0.126045215903964,
+      0.19441541912022298,
+      0.1576752504103936,
+      0.10342734568660827
+    ],
+    [
+      0.1137629471333257,
+      0.15767525041039357,
+      0.16520072841123154,
+      0.09323073964657685
+    ],
+    [
+      0.08935681857242057,
+      0.10342734568660827,
+      0.09323073964657685,
+      0.08034834075380975
+    ]
+  ],
+  "exact_mean_minus_discrete_mean_real_arithmetic_bound": 2.246827925199696e-05,
+  "gradient_component_domain_real_arithmetic_bound": [
+    0.00708925578818313,
+    0.009409160391145205,
+    0.008399957671715752,
+    0.005872946230311219
+  ],
+  "gradient_Lp6_normalized_domain_real_arithmetic_bound": 0.010327311506392059,
+  "zero_exact_mean_energy_domain_real_arithmetic_C0_bound": 0.00029317302244902,
+  "physical_plus_learning_C0_bookkeeping_bound": 0.0002991619451328117,
+  "bound_status": "Reproducible conservative envelope from real-arithmetic inequalities; not an outward-rounded interval certificate",
+  "KAM_threshold_epsilon_star": null,
+  "KAM_passed": null,
+  "required_next": "Establish the specified KAM theorem norm, chart and threshold constants. A C0 bookkeeping bound alone is insufficient.",
+  "verification": {
+    "gradient_central_difference_max_gap": 2.3842694718513233e-13,
+    "probe_points": 32,
+    "hessian_bound_probe_passed": true,
+    "scope": "Sanity check of implementation, not a proof by sampling"
+  }
+}

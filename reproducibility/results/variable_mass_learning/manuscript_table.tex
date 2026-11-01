@@ -1,0 +1,17 @@
+\begin{table*}[t]
+\centering\small
+\caption{变质量正则坐标检验的五项种子内配对差（预测步长$h_0/4$，杆端RMSE差，单位$\mu\mathrm m$）。}
+\label{tab:variable_mass_paired}
+\begin{tabular}{lrr}
+\toprule
+配对差 & 对同步长教师 & 对连续参考 \\
+\midrule
+$R-GR$ & $847.52\pm191.45$ & $843.41\pm191.9$ \\
+$C-GC$ & $861.01\pm281.76$ & $856.68\pm281.5$ \\
+$R-C$ & $-13.308\pm134.04$ & $-13.269\pm133.71$ \\
+$GR-GC$ & $0.18377\pm0.066796$ & $-0.0001783\pm0.30789$ \\
+$(GR-GC)-(R-C)$ & $13.492\pm134.01$ & $13.268\pm133.7$ \\
+\bottomrule
+\end{tabular}
+\par\smallskip\begin{minipage}{0.96\textwidth}\footnotesize 每个种子内先平均8条独立测试轨迹的时间域RMSE，再构造五项配对差；表列5个种子的均值$\pm$样本标准差。正值表示前组误差较大。误差在原物理模态坐标中评价；该实验为同一梁的非线性正则坐标检验。\end{minipage}
+\end{table*}

@@ -1,0 +1,171 @@
+{
+  "frozen_utc": "2026-11-01T07:37:46.978888+00:00",
+  "chosen": {
+    "name": "traj1_updates10000",
+    "train_trajectories": 1,
+    "updates": 10000,
+    "amplitude_multiplier": 1.0,
+    "noise_bound": 1e-06,
+    "gc_over_gr": [
+      0.5366051487022399,
+      0.39280326902096263,
+      0.7183100701084913
+    ],
+    "mean_log_gr_over_gc": 0.6292643589359522,
+    "gc_wins": 3,
+    "eligible": true
+  },
+  "candidates": [
+    {
+      "name": "traj12_updates10000_saved",
+      "train_trajectories": 12,
+      "updates": 10000,
+      "amplitude_multiplier": 1.0,
+      "noise_bound": 1e-06,
+      "gc_over_gr": [
+        0.9623070909401447,
+        0.5335186643899308,
+        1.2006355276538143
+      ],
+      "mean_log_gr_over_gc": 0.16127728632632168,
+      "gc_wins": 2,
+      "eligible": true
+    },
+    {
+      "name": "traj1_updates10000",
+      "train_trajectories": 1,
+      "updates": 10000,
+      "amplitude_multiplier": 1.0,
+      "noise_bound": 1e-06,
+      "gc_over_gr": [
+        0.5366051487022399,
+        0.39280326902096263,
+        0.7183100701084913
+      ],
+      "mean_log_gr_over_gc": 0.6292643589359522,
+      "gc_wins": 3,
+      "eligible": true
+    },
+    {
+      "name": "traj3_updates10000",
+      "train_trajectories": 3,
+      "updates": 10000,
+      "amplitude_multiplier": 1.0,
+      "noise_bound": 1e-06,
+      "gc_over_gr": [
+        0.6988582906768612,
+        0.4997882047415441,
+        1.601900634407652
+      ],
+      "mean_log_gr_over_gc": 0.1935624429549073,
+      "gc_wins": 2,
+      "eligible": true
+    },
+    {
+      "name": "traj12_updates30000",
+      "train_trajectories": 12,
+      "updates": 30000,
+      "amplitude_multiplier": 1.0,
+      "noise_bound": 1e-06,
+      "gc_over_gr": [
+        0.8924752282609437,
+        0.7487406464839675,
+        1.737955896423316
+      ],
+      "mean_log_gr_over_gc": -0.04986350250041114,
+      "gc_wins": 2,
+      "eligible": false
+    },
+    {
+      "name": "amplitude2_noise_1e-6",
+      "train_trajectories": 12,
+      "updates": 10000,
+      "amplitude_multiplier": 2.0,
+      "noise_bound": 1e-06,
+      "gc_over_gr": [
+        0.9323473035931678,
+        0.5278754115580484,
+        1.0457160979422944
+      ],
+      "mean_log_gr_over_gc": 0.22141432150898244,
+      "gc_wins": 2,
+      "eligible": true
+    },
+    {
+      "name": "amplitude2_noise_0",
+      "train_trajectories": 12,
+      "updates": 10000,
+      "amplitude_multiplier": 2.0,
+      "noise_bound": 0.0,
+      "gc_over_gr": [
+        0.9348153069719172,
+        0.5244062136574557,
+        1.0422095342150994
+      ],
+      "mean_log_gr_over_gc": 0.2238506561083854,
+      "gc_wins": 2,
+      "eligible": true
+    }
+  ],
+  "pilot_evidence_sha256": {
+    "sample_budget\\traj12_updates10000_saved\\seed_17\\GR_record.json": "106d248c0e8801539b3d16cdbb18e4de9b01c339e1511bc26fcc2db57e9c1d68",
+    "sample_budget\\traj12_updates10000_saved\\seed_17\\GC_record.json": "1ddb043a7de4d04ef0dc4500d03dd7019795dd94a33e8c7d1320f6d12d380de9",
+    "sample_budget\\traj12_updates10000_saved\\seed_43\\GR_record.json": "7a6efe04afbe8a46238e0ce673c366206fb2dab7b1f901ff8f2d107d7b529b24",
+    "sample_budget\\traj12_updates10000_saved\\seed_43\\GC_record.json": "0822852aa89eace83041fa1b0d68e1d9c7a5c5039280335f9e178ef211f70efc",
+    "sample_budget\\traj12_updates10000_saved\\seed_91\\GR_record.json": "80a92814b19aac9dffa7914462cc50a4c5b5b14ad5e7075a770bccc5c04f715c",
+    "sample_budget\\traj12_updates10000_saved\\seed_91\\GC_record.json": "23810af1ab81029b5e3a0c7b62cd76eda01fbaa29227c34d7a224bd4d394210d",
+    "sample_budget\\traj1_updates10000\\seed_17\\GR_record.json": "73cd1c0e376ed9b337827cbb33bbfba732789ca6bafb968dc871b7621da71f81",
+    "sample_budget\\traj1_updates10000\\seed_17\\GC_record.json": "45d6598bff16e295fd208900ff5dac6f3e805af88e79f99cd3235e7d29380871",
+    "sample_budget\\traj1_updates10000\\seed_43\\GR_record.json": "3fec8e3eec281db0a91bb0252b135c6c4d76631cc38e14a24a92860c5e8417cb",
+    "sample_budget\\traj1_updates10000\\seed_43\\GC_record.json": "19516097d997e5d7a6d4e34568d2d2fde532c7a1f3b7ade0958e6f74b5d94c57",
+    "sample_budget\\traj1_updates10000\\seed_91\\GR_record.json": "acf410de68537e11c3874b1716087b9c04eac518e38bda329046bb55f624a376",
+    "sample_budget\\traj1_updates10000\\seed_91\\GC_record.json": "c9154df79ebcfa0b0a3be8f583c51ba69c673c8908bc25830998a0a8a6979bb5",
+    "sample_budget\\traj3_updates10000\\seed_17\\GR_record.json": "d3041202ef4278b979a75877d263bbb86cfb6f574bd0d44311e216be185d23b3",
+    "sample_budget\\traj3_updates10000\\seed_17\\GC_record.json": "9259eda511e64c36cb101d71970754e0cfba6c071cfa7c1b567d6a76b97c3425",
+    "sample_budget\\traj3_updates10000\\seed_43\\GR_record.json": "3c09d538a6b598db95630312b28d337dfac9f9fb4962d95093eb6aa7ebf4170e",
+    "sample_budget\\traj3_updates10000\\seed_43\\GC_record.json": "24352327c601c40f8d48e14bcc1f664869777ceb2b7193a963568f693e207f05",
+    "sample_budget\\traj3_updates10000\\seed_91\\GR_record.json": "cefca1d45648d6e6ae8bc9bb5c0080d6e4ace49c1a899231397418fb1a517e8a",
+    "sample_budget\\traj3_updates10000\\seed_91\\GC_record.json": "4a8ac4f8ac968d4830dcf363eb6c9741bb25d81da1daba6a57203bad073e4ebd",
+    "sample_budget\\traj12_updates30000\\seed_17\\GR_record.json": "b80ff1ebe6a1601ed68ea7bfcb681d804f09b22ef2901f38c7b8660f7c4675ec",
+    "sample_budget\\traj12_updates30000\\seed_17\\GC_record.json": "234b9d4c54c8fb2477687faa9c4b8c618cae550c801ca79961b9f421454e1ed9",
+    "sample_budget\\traj12_updates30000\\seed_43\\GR_record.json": "d60d3b5baadb88613e7c0e682c902a9e0cad197cb8263da79342ab9dc70ad59c",
+    "sample_budget\\traj12_updates30000\\seed_43\\GC_record.json": "b2c3357fcfd3cf0b4a2f51efcabc9ccb9987c100ef7f97065123d1fa3d5b382e",
+    "sample_budget\\traj12_updates30000\\seed_91\\GR_record.json": "2ec18322849a62da26b569ec8158b87be25583c735b36b31190c37f35b932fbb",
+    "sample_budget\\traj12_updates30000\\seed_91\\GC_record.json": "8dbb23bbd89006a14c31e8419ae5d113739c07b2654bb79f0820acb54fe04fc2",
+    "signal_strength\\noise_1e-6\\seed_17\\GR_training.json": "32c318654dde7b4ca79a331926e07bc354a42ea3bb4fb3556cda98b45d160f17",
+    "signal_strength\\noise_1e-6\\seed_17\\GC_training.json": "f483d4b974e2d0500608218dbf5a4aa05d50c438e169049bc7566586cf6fcef4",
+    "signal_strength\\noise_1e-6\\seed_43\\GR_training.json": "9d9c51a6e184d3135685beaca8660d10fc577e4dc0d2c37fae7ce27d471c47d2",
+    "signal_strength\\noise_1e-6\\seed_43\\GC_training.json": "a69b46bd952ba97eabdadb285d16c71283ac477726f4bfa493e809691875bbc1",
+    "signal_strength\\noise_1e-6\\seed_91\\GR_training.json": "24f7ca06399ce5142df13f559f9838fe1be70c71b7ac0cd731d55d79806fba20",
+    "signal_strength\\noise_1e-6\\seed_91\\GC_training.json": "d435f9259103a5671cb30c7900743f9d906b39e7ec1ec2cf4b13dbbb8a46a069",
+    "signal_strength\\noise_0\\seed_17\\GR_training.json": "b5a143ea7905b9c5e59d5653eb5ccef5fed37eebecc0ba8147b968f8c93634c0",
+    "signal_strength\\noise_0\\seed_17\\GC_training.json": "bb0c409d0379d5fadc57da6a8148abbc178bb0d1c9928a2c0d3261744e11c377",
+    "signal_strength\\noise_0\\seed_43\\GR_training.json": "69c87cb75a336d18e1472449ab25aad496cb300daf0679837c4b0ec2cf2f5da4",
+    "signal_strength\\noise_0\\seed_43\\GC_training.json": "b270445a86a1519cc288b610bc031feecae801b1b5536e42640945086efe358f",
+    "signal_strength\\noise_0\\seed_91\\GR_training.json": "13d195d25ef888553938f180c592ce797cadc388571545e6a3756f35d70b41b6",
+    "signal_strength\\noise_0\\seed_91\\GC_training.json": "40dc899b675fe32d6b81b85b2354f177848a307da1886be40ea71b0239fb79ba"
+  },
+  "confirmation_seeds": [
+    307,
+    419,
+    541,
+    653,
+    809
+  ],
+  "execution_inputs_sha256": {
+    "confirmation.py": "3374f07509638acf47f4c4c8a68d563495226f4ca1f0272f1622c354551f6b3a",
+    "signal_strength.py": "7ec68c6e36f642a001cc09aad779f2f9bcb9e4ab0464775f386a03caf9ce6a6d",
+    "sample_budget.py": "661a94bbc807c35c963646a5e79824351870b7f10165268b324bafd0b4aee19f",
+    "protocol.json": "899add97a2b5df07c4eddc5a07bf4f8e5a1905ff2ff6e5450f09bd088e6e37d2",
+    "confirmation_numerical_amendment.json": "a3c0d6a31ffa9b52e1e71b8e9c377c947fc9ab27787595180dcb0f23c509b03b"
+  },
+  "primary": "h0/64 continuous tip RMSE and full-state relative L2, each seed averages8trajectories",
+  "numerical_check": "Repeat h0/32; report direction changes and refinement shifts",
+  "rule": "Mean paired improvement>=5% and GC lower in>=4/5seeds on BOTH primary outcomes",
+  "no_test_based_selection": true,
+  "protected": {
+    "files_checked": 453,
+    "all_unchanged": true,
+    "manifest_sha256": "0b1cf2432f9b654ba5b359ab035d5abfff2698152515475014e8678dcef6089c"
+  }
+}

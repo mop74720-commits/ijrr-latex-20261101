@@ -1,0 +1,57 @@
+{
+  "train": {
+    "maximum_implicit_residual": 9.952975943416931e-17,
+    "mean_iterations_per_step": 2.1051882661996495,
+    "elapsed_seconds": 3.219927200001621,
+    "midpoint_label_consistency_max": 9.7907792984131e-15,
+    "internal_states_angle_gate_max_rad": 0.14523831033338536
+  },
+  "val": {
+    "maximum_implicit_residual": 1.1384122811097797e-16,
+    "mean_iterations_per_step": 2.195149989051894,
+    "elapsed_seconds": 0.03501390000019455,
+    "midpoint_label_consistency_max": 1.0241807402167069e-14,
+    "internal_states_angle_gate_max_rad": 0.12969313217771317
+  },
+  "test_teacher": {
+    "maximum_implicit_residual": 1.1622647289044608e-16,
+    "mean_iterations_per_step": 2.1171481380065718,
+    "elapsed_seconds": 0.25939459999972314
+  },
+  "config": {
+    "seed": 17,
+    "amplitude_multiplier": 2.0,
+    "noise_bound": 1e-06,
+    "angle_gate_rad": 0.22,
+    "train_trajectories": 12,
+    "train_duration_s": 2.0,
+    "validation_trajectories": 4,
+    "validation_duration_s": 4.0,
+    "test_trajectories": 8,
+    "test_requested_duration_s": 16.0,
+    "requested_step_tau": 0.01,
+    "training_stride": 8,
+    "test_stride": 20,
+    "test_grid_rule": "Original 40s grid, prefix no later than 16s, rounded down to stride20",
+    "reference": {
+      "method": "DOP853",
+      "rtol": 2e-11,
+      "atol": 2e-13
+    },
+    "training_noise_seed": 10017,
+    "validation_noise_seed": 110017,
+    "source_spec_sha256": "fd18c090c9f58dac7a5813a5445b7f14c5409ec767c5cb9a4ec38dd2e883ae8c"
+  },
+  "angle_gate_max_by_split": {
+    "train": 0.14523831033338536,
+    "val": 0.12969313217771317,
+    "test_teacher": 0.1689160215285414,
+    "test_continuous_reference": 0.16890812938137006
+  },
+  "angle_gate_passed": true,
+  "angle_gate_scope": "Computational screening only; not a physical validity proof",
+  "reference_nfev": 486421,
+  "actual_test_duration_s": 15.992993212174294,
+  "elapsed_seconds": 13.995673400000669,
+  "dataset_sha256": "725dc3d45c661ec413db6548db1eeaad5a374ea354f0bd5c7f4c08622def7005"
+}

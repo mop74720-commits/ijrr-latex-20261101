@@ -1,0 +1,236 @@
+{
+  "run_count": 4,
+  "completed": 4,
+  "models": {
+    "R": {
+      "tip_rmse_mm_mean": {
+        "mean": 1.3508890823034982,
+        "sample_sd": null
+      },
+      "state_relative_l2_mean": {
+        "mean": 1.319532294804631,
+        "sample_sd": null
+      },
+      "training_seconds": {
+        "mean": 3.5633778000001257,
+        "sample_sd": null
+      },
+      "max_phase_error_rad": {
+        "mean": 72.70494812498032,
+        "sample_sd": null
+      },
+      "max_own_energy_drift_relative": {
+        "mean": 0.00010617826064043008,
+        "sample_sd": null
+      }
+    },
+    "C": {
+      "tip_rmse_mm_mean": {
+        "mean": 1.555330676006502,
+        "sample_sd": null
+      },
+      "state_relative_l2_mean": {
+        "mean": 1.4407011195330268,
+        "sample_sd": null
+      },
+      "training_seconds": {
+        "mean": 6.34545210000033,
+        "sample_sd": null
+      },
+      "max_phase_error_rad": {
+        "mean": 55.67351736038768,
+        "sample_sd": null
+      },
+      "max_own_energy_drift_relative": {
+        "mean": 0.00011393373804534883,
+        "sample_sd": null
+      }
+    },
+    "GR": {
+      "tip_rmse_mm_mean": {
+        "mean": 0.06643554093366155,
+        "sample_sd": null
+      },
+      "state_relative_l2_mean": {
+        "mean": 0.1282417239845038,
+        "sample_sd": null
+      },
+      "training_seconds": {
+        "mean": 4.390430800000104,
+        "sample_sd": null
+      },
+      "max_phase_error_rad": {
+        "mean": 0.35231189015462405,
+        "sample_sd": null
+      },
+      "max_own_energy_drift_relative": {
+        "mean": 9.665023666223634e-08,
+        "sample_sd": null
+      }
+    },
+    "GC": {
+      "tip_rmse_mm_mean": {
+        "mean": 0.06689755081286237,
+        "sample_sd": null
+      },
+      "state_relative_l2_mean": {
+        "mean": 0.12922980139097864,
+        "sample_sd": null
+      },
+      "training_seconds": {
+        "mean": 7.765154200000325,
+        "sample_sd": null
+      },
+      "max_phase_error_rad": {
+        "mean": 0.3561886155562206,
+        "sample_sd": null
+      },
+      "max_own_energy_drift_relative": {
+        "mean": 2.2682595083559326e-08,
+        "sample_sd": null
+      }
+    }
+  },
+  "paired_contrasts": [
+    {
+      "metric": "state_relative_l2_mean",
+      "contrast": "R-GR",
+      "n": 1,
+      "mean": 1.1912905708201273,
+      "sample_sd": null
+    },
+    {
+      "metric": "state_relative_l2_mean",
+      "contrast": "C-GC",
+      "n": 1,
+      "mean": 1.311471318142048,
+      "sample_sd": null
+    },
+    {
+      "metric": "state_relative_l2_mean",
+      "contrast": "R-C",
+      "n": 1,
+      "mean": -0.12116882472839574,
+      "sample_sd": null
+    },
+    {
+      "metric": "state_relative_l2_mean",
+      "contrast": "GR-GC",
+      "n": 1,
+      "mean": -0.0009880774064748299,
+      "sample_sd": null
+    },
+    {
+      "metric": "state_relative_l2_mean",
+      "contrast": "(GR-GC)-(R-C)",
+      "n": 1,
+      "mean": 0.12018074732192091,
+      "sample_sd": null
+    },
+    {
+      "metric": "teacher_state_relative_l2_mean",
+      "contrast": "R-GR",
+      "n": 1,
+      "mean": 1.3182648733437206,
+      "sample_sd": null
+    },
+    {
+      "metric": "teacher_state_relative_l2_mean",
+      "contrast": "C-GC",
+      "n": 1,
+      "mean": 1.4355243191516034,
+      "sample_sd": null
+    },
+    {
+      "metric": "teacher_state_relative_l2_mean",
+      "contrast": "R-C",
+      "n": 1,
+      "mean": -0.11698093619162142,
+      "sample_sd": null
+    },
+    {
+      "metric": "teacher_state_relative_l2_mean",
+      "contrast": "GR-GC",
+      "n": 1,
+      "mean": 0.0002785096162613547,
+      "sample_sd": null
+    },
+    {
+      "metric": "teacher_state_relative_l2_mean",
+      "contrast": "(GR-GC)-(R-C)",
+      "n": 1,
+      "mean": 0.11725944580788278,
+      "sample_sd": null
+    },
+    {
+      "metric": "tip_rmse_mm_mean",
+      "contrast": "R-GR",
+      "n": 1,
+      "mean": 1.2844535413698366,
+      "sample_sd": null
+    },
+    {
+      "metric": "tip_rmse_mm_mean",
+      "contrast": "C-GC",
+      "n": 1,
+      "mean": 1.4884331251936396,
+      "sample_sd": null
+    },
+    {
+      "metric": "tip_rmse_mm_mean",
+      "contrast": "R-C",
+      "n": 1,
+      "mean": -0.20444159370300374,
+      "sample_sd": null
+    },
+    {
+      "metric": "tip_rmse_mm_mean",
+      "contrast": "GR-GC",
+      "n": 1,
+      "mean": -0.0004620098792008226,
+      "sample_sd": null
+    },
+    {
+      "metric": "tip_rmse_mm_mean",
+      "contrast": "(GR-GC)-(R-C)",
+      "n": 1,
+      "mean": 0.20397958382380293,
+      "sample_sd": null
+    },
+    {
+      "metric": "training_seconds",
+      "contrast": "R-GR",
+      "n": 1,
+      "mean": -0.8270529999999781,
+      "sample_sd": null
+    },
+    {
+      "metric": "training_seconds",
+      "contrast": "C-GC",
+      "n": 1,
+      "mean": -1.419702099999995,
+      "sample_sd": null
+    },
+    {
+      "metric": "training_seconds",
+      "contrast": "R-C",
+      "n": 1,
+      "mean": -2.782074300000204,
+      "sample_sd": null
+    },
+    {
+      "metric": "training_seconds",
+      "contrast": "GR-GC",
+      "n": 1,
+      "mean": -3.374723400000221,
+      "sample_sd": null
+    },
+    {
+      "metric": "training_seconds",
+      "contrast": "(GR-GC)-(R-C)",
+      "n": 1,
+      "mean": -0.5926491000000169,
+      "sample_sd": null
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "scope": "Conditional B0 pressure test within the original constant-dipole/full-cosine-of-approximate-slope model. No manuscript or GitHub writes.",
+  "fields_T": [
+    0.03,
+    0.06,
+    0.12
+  ],
+  "seeds": [
+    17,
+    43,
+    91,
+    137,
+    211
+  ],
+  "models": [
+    "H0",
+    "H4",
+    "GR",
+    "GC",
+    "Teacher"
+  ],
+  "train_trajectories": 12,
+  "validation_trajectories": 4,
+  "test_trajectories": 8,
+  "durations_seconds": {
+    "training": 2.0,
+    "validation": 4.0,
+    "evaluation": 64.0,
+    "short_prefix": 16.0
+  },
+  "Eq36": "Constant mass conservative midpoint; regenerate each non-baseline field with its reconstructed nu,d,omega0,E0.",
+  "pairing": "Same original full-FE displacement and velocity, mass projection to field-specific2mode basis; report projection defect.",
+  "sample_count": "Exactly original per-trajectory counts,286train/571val; project original stride8 midpoint time fractions onto new integration grid. Baseline copied unchanged.",
+  "noise": "Same paired canonical uniform[-1e-6,1e-6] array per seed/split across fields; not same SI noise; report equivalent physical and baseline-coordinate RMS.",
+  "architecture": "Existing GR/GC each673 real parameters; identical10k Adam updates,batch512,original checkpoint subset2048 every100updates.",
+  "baseline": "Re-use original10 selected weights and data after exact coefficient/noise/initial checks. Baseline float coefficients anchored to original spec after FE reconstruction roundoff checks.",
+  "H4": "H0-(d.X)^4/24 with exact physical Taylor coefficient; no fitted parameters.",
+  "evaluation": "Continuous DOP853 batch32dim,rtol1e-11 atol1e-13; common physical sampling dt=.005s,0..64s. H0 exact flow.",
+  "numerical_refinement": "Preselected first test trajectory per seed/field/method,rtol5e-13 atol5e-15; retain state/frequency sensitivity.",
+  "geometry": "All train/val/test initials must pass finite-FE all-space conservative energy slope screen<.15 before any fit. Supplied-state exact spatial slope/curvature checks also reported. Not outward interval or physical calibration.",
+  "physical_limitation": "theta approximately slope omits geometric terms of the same quartic order as retained magnetic residual; constant-dipole field admissibility and full nonlinear/high-mode physical accuracy are not established.",
+  "primary": [
+    "64s continuous complete canonical state relativeL2",
+    "64s mode1 absolute frequency error",
+    "64s mode2 absolute frequency error"
+  ],
+  "secondary": [
+    "16s state",
+    "tipRMSE",
+    "half-window frequency stability",
+    "mode radii",
+    "nonlinear/linear force ratio",
+    "H4 truncation error",
+    "noiseSNR",
+    "training cost"
+  ],
+  "exploratory_rule": "For each prescribed comparison,all3primary metrics need>=4/5 directional seed wins and mean paired relative improvement>=5%; not significance or population claim. Numerical uncertainty must be smaller than paired gains.",
+  "comparisons": [
+    "GR/H0",
+    "GC/H0",
+    "GR/H4",
+    "GC/H4",
+    "GC/GR"
+  ],
+  "statistics": "Per trajectory then mean8withinseed then seed mean/sampleSD; no timepoint pseudoreplication.",
+  "input_sha256": {
+    "code/train_neural_hnn.py": "3dadee3db2a884eb93e1b8ca75fa4f0496890095dbd82ac9880e9b7e2acf92e5",
+    "code/neural_physics_refinement.py": "0eea7c635d7ace0073170e48a2eab69db6a77129f46e08e59d3f6b872e271221",
+    "results/learning/inputs/reference_model_spec.json": "fd18c090c9f58dac7a5813a5445b7f14c5409ec767c5cb9a4ec38dd2e883ae8c",
+    "exploration/ab_state_frequency_20261101/experiment_b.py": "bc63bf5fc8a58324f8985cc3926083344757ae23fc3bc7be13f5dd598cacf823",
+    "exploration/ab_state_frequency_20261101/experiment_a.py": "39013f587ab2024548387f4feaf433c8c8778a041a7489365056743a30bc366c",
+    "exploration/ab_state_frequency_20261101/physical_design/build_models.py": "d365801763fd4240f161e602c191f215cb8d7d34d9c82863e1c54f9034d2caa2",
+    "exploration/ab_state_frequency_20261101/physical_design/final_protocol.json": "68da246af5e8b1529494274069362129a71cd897d3a956e4914d3748b8a545c4",
+    "exploration/ab_state_frequency_20261101/physical_design/final_design.json": "fe59b1664239841de42ea744186ac0495e8a1f3081d25bbd9c6d2063bb75f30a",
+    "exploration/ab_state_frequency_20261101/physical_design/B030mT.npz": "2884dca5900d3f325f9b2fb9ca1fcf0d89568ab9f65ed3bb2cf6c979374f031a",
+    "exploration/ab_state_frequency_20261101/physical_design/B060mT.npz": "a1f5f31b59fb6c24b8b22198eb9ee1bfff1692e0097e40c38ce9074503e9b666",
+    "exploration/ab_state_frequency_20261101/physical_design/B120mT.npz": "f769961402285dcac73b39200644b013f6459983f3e7cf4e80179da59865b7a3",
+    "results/learning/data/seed_17.npz": "f02a36438e9d23894a4f7261b652f00d5d048b427f18a4433fb602791aec6c86",
+    "results/neural_learning_10000/seed_17/GR_weights.npz": "c1dad775b3d9f6eb9e79d074f2fdae16b97031b4e5cfcb82cbdaa7fb64648822",
+    "results/neural_learning_10000/seed_17/GC_weights.npz": "3741547f85a25bd7ba8845dc16c8da783ea85dd8bfcb4ffbe6333e6b45cf84de",
+    "results/learning/data/seed_43.npz": "4283c88184af6ea1e39c96572b6d1891adfd23f339a813f329d6d82cdbd8e40a",
+    "results/neural_learning_10000/seed_43/GR_weights.npz": "c4f3f3c1df9c8462d84ff03a07841e3a39e3bb42458fba36721627fda26b35b5",
+    "results/neural_learning_10000/seed_43/GC_weights.npz": "8791a66a5a26f132c4b92ed6176498353d0bdc85b07b9e3c3af522a605a8c107",
+    "results/learning/data/seed_91.npz": "d00061656bcf5ac2d77dfcd983de1bf211e2dd8bea899a32488dac34cce4864f",
+    "results/neural_learning_10000/seed_91/GR_weights.npz": "039463690996f6979ee5950b8ae59ce6a3d1ad5cd6aa70f1ceeb032d4e8d8635",
+    "results/neural_learning_10000/seed_91/GC_weights.npz": "85cfb42e8a196ce52dd8bc13b588b738b9bce0cc618df483999d39a99e7bc578",
+    "results/learning/data/seed_137.npz": "e40c692789963e6b75de6e8e1bdac288505b589275baa80e8145178992b737cf",
+    "results/neural_learning_10000/seed_137/GR_weights.npz": "a68f8c67cd99a9f054751ec88e0776f00c5d84baef5a410b08df0c1407ad71fc",
+    "results/neural_learning_10000/seed_137/GC_weights.npz": "dbf6baafd07b5c93ed8f6ee5182bfc1f31f20be890e59fd66e21f711ab4c19fe",
+    "results/learning/data/seed_211.npz": "e183c94bae91648c4d9d4695d0cc199b710cbba83b91897f83f3517c3fd853c2",
+    "results/neural_learning_10000/seed_211/GR_weights.npz": "0d3141edd9a4a61bbfc09f9b571aef22ebe46e4961dfe1597c4eb130df790bd3",
+    "results/neural_learning_10000/seed_211/GC_weights.npz": "8ba2ff42d19683c54d36a8af03bf2110a3ddc0ecc76910be4cf40270f01016ed"
+  }
+}

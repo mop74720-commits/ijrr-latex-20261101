@@ -1,0 +1,65 @@
+{
+  "status": "pass",
+  "raw_trajectory_records_recomputed": 320,
+  "maximum_primary_metric_gap": 4.336808689942018e-19,
+  "protected_files_verified": 453,
+  "shared_GR_GC_times_and_references_exactly_equal": true,
+  "source_execution_snapshot_unchanged": true,
+  "directional_counts": {
+    "16": {
+      "continuous_tip_rmse_mm": {
+        "GC_direction_wins": 4,
+        "GR_minus_GC_each_seed": {
+          "17": -1.9520600061609535e-05,
+          "43": 0.00019861847990854185,
+          "91": 2.1890938886326915e-05,
+          "137": 0.00014703442828984628,
+          "211": 0.0004104685704613022
+        }
+      },
+      "continuous_state_relative_l2": {
+        "GC_direction_wins": 2,
+        "GR_minus_GC_each_seed": {
+          "17": -0.00033081306796235374,
+          "43": 0.00027984040395475805,
+          "91": -0.00021543196163270785,
+          "137": -6.823668477104407e-05,
+          "211": 0.0008126690187683388
+        }
+      }
+    },
+    "32": {
+      "continuous_tip_rmse_mm": {
+        "GC_direction_wins": 5,
+        "GR_minus_GC_each_seed": {
+          "17": 6.585909001603611e-05,
+          "43": 0.00016555511871458635,
+          "91": 0.0001167816948312876,
+          "137": 0.00019100575412373628,
+          "211": 0.0003314580833132653
+        }
+      },
+      "continuous_state_relative_l2": {
+        "GC_direction_wins": 2,
+        "GR_minus_GC_each_seed": {
+          "17": -0.00016353015340555004,
+          "43": 0.00025156443353040246,
+          "91": -3.8099522427837036e-05,
+          "137": -4.495991184638032e-06,
+          "211": 0.0007071853822312373
+        }
+      }
+    }
+  },
+  "continuous_H0_model_bias": {
+    "continuous_tip_rmse_mm": {
+      "mean": 0.0016471991101589278,
+      "sample_sd": 0.00047117086673841837
+    },
+    "continuous_state_relative_l2": {
+      "mean": 0.0014425035588155693,
+      "sample_sd": 0.0002689315536256088
+    }
+  },
+  "scope": "Read-only independent recomputation. No model training or trajectory integration was repeated."
+}

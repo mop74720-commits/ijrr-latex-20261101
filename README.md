@@ -29,8 +29,14 @@ xelatex -interaction=nonstopmode -halt-on-error main.tex
 
 在 LaTeX 编辑器中将 `main.tex` 设为主文档，编译器选择 XeLaTeX。
 
+## 代码、数据、权重与新增 A/B 实验
+
+已补充 [复现材料总入口](reproducibility/README.md)：原训练/实验脚本、20份主训练权重、5份训练/验证/测试数据，以及A/B新增代码、权重、统计与图表。较大的完整轨迹归档位于同仓库 [Release](https://github.com/mop74720-commits/ijrr-latex-20261101/releases/tag/research-artifacts-20261101)，逐文件SHA-256见发布清单。
+
+[真实强场梁高保真验证仍未完成](reproducibility/VALIDATION_STATUS.md)。此次上传没有修改论文，也没有把已有模态/网格敏感性检查写成强场高保真验证。
+
 ## 文件范围
 
-此仓库包含当前主稿实际依赖的 LaTeX 源码、书目、模板、图表和 PDF。历史预览、编译缓存、训练数据、模型权重和参考文献原文不在本仓库中。
+仓库根目录包含当前主稿实际依赖的 LaTeX 源码、书目、模板、图表和 PDF；`reproducibility/` 及 Release 提供科研复现材料。历史稿件预览、编译缓存和参考文献原文不在本次发布范围内。
 
 为使工程独立编译，仅调整了主文件中一处公式依赖路径；正文、数学内容、图表和所附 PDF 保持本地当前版本。逐文件校验值见 `source_manifest.json`。

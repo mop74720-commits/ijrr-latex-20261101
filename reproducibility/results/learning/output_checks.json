@@ -1,0 +1,7 @@
+{
+  "models_checked": 20,
+  "all_prediction_values_finite": true,
+  "shared_data_hashes_match": true,
+  "independent_analytic_gradient_vs_rollout_gradient_max_gap": 3.3306690738754696e-16,
+  "points_per_model": 20
+}

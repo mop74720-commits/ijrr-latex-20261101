@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "force_state_sets_checked": 140,
+  "force_gradient_method": "Complex-step differentiation of exported scalar energy; no import of analysis code",
+  "maximum_force_metric_gap": 4.838319957352344e-16,
+  "trajectory_metrics_checked": 2160,
+  "matched_trajectories_checked": 960,
+  "maximum_trajectory_metric_gap": 0.0,
+  "original_input_hashes_unchanged": true,
+  "original_input_count": 773,
+  "limitations": "Archive and energy differentiation audit; no claim of independent physical calibration or KAM/control stability proof."
+}

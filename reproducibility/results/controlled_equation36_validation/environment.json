@@ -1,0 +1,7 @@
+{
+  "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]",
+  "numpy": "1.26.4",
+  "utc": "2026-11-01T11:32:36.963699+00:00",
+  "source_sha256": "e0991dc6c75598caff181dac3f2606287525a9e35632bb7edd6b7c2f21baac31",
+  "protocol_sha256": "eb385b8298a964fbc3846143321f8831b0b6cda5ab7b3bf4d7bd40d3ee02e37f"
+}

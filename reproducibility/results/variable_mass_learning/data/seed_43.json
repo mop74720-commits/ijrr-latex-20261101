@@ -1,0 +1,39 @@
+{
+  "seed": 43,
+  "dataset_sha256": "fa3a28825897b70521e56278f6462477218924aec6aa7ffd1532110439f22c69",
+  "source_initials_sha256": "4283c88184af6ea1e39c96572b6d1891adfd23f339a813f329d6d82cdbd8e40a",
+  "diagnostics": {
+    "train": {
+      "maximum_implicit_residual": 3.5805776746333784e-16,
+      "max_iterations": 8,
+      "midpoint_label_gap": 3.567979245389097e-14,
+      "mass_diagonal_min": [
+        1.0000000000642153,
+        0.16254566303903806
+      ],
+      "mass_diagonal_max": [
+        1.218272360091447,
+        0.18531089407502158
+      ],
+      "delta_max": 0.050008476739690784
+    },
+    "val": {
+      "maximum_implicit_residual": 3.6073777970845045e-16,
+      "max_iterations": 8,
+      "midpoint_label_gap": 3.5617342408755803e-14,
+      "mass_diagonal_min": [
+        1.0000000447289707,
+        0.16254566382412128
+      ],
+      "mass_diagonal_max": [
+        1.230508987571902,
+        0.18545638241264933
+      ],
+      "delta_max": 0.05048504902159283
+    }
+  },
+  "test_max_implicit_residual": 3.819644253666432e-16,
+  "elapsed_seconds": 10.641397999999754,
+  "test_seconds": 15.992993212174294,
+  "protocol_sha256": "16bb7e277e864a1b0f301d08406f5fd19f70c2a2ef261346a8fc120f70789f3b"
+}

@@ -1,0 +1,260 @@
+[
+  {
+    "case": "scalar_m1",
+    "initial_index": 0,
+    "initial": [
+      0.7,
+      0.2
+    ],
+    "terminal": [
+      0.0067786748916305595,
+      0.7279794293568421
+    ],
+    "refinement_gap": 0.0
+  },
+  {
+    "case": "scalar_m1",
+    "initial_index": 1,
+    "initial": [
+      -0.4,
+      0.5
+    ],
+    "terminal": [
+      -0.5929270115168597,
+      -0.2417386171336421
+    ],
+    "refinement_gap": 0.0
+  },
+  {
+    "case": "scalar_m1",
+    "initial_index": 2,
+    "initial": [
+      0.2,
+      -0.6
+    ],
+    "terminal": [
+      0.6320870018905281,
+      0.02158754365469176
+    ],
+    "refinement_gap": 0.0
+  },
+  {
+    "case": "scalar_m2",
+    "initial_index": 0,
+    "initial": [
+      0.7,
+      0.2
+    ],
+    "terminal": [
+      -0.7006642888542208,
+      0.19529236710332074
+    ],
+    "refinement_gap": 0.0
+  },
+  {
+    "case": "scalar_m2",
+    "initial_index": 1,
+    "initial": [
+      -0.4,
+      0.5
+    ],
+    "terminal": [
+      0.23365672060638593,
+      -0.6788291934138797
+    ],
+    "refinement_gap": 0.0
+  },
+  {
+    "case": "scalar_m2",
+    "initial_index": 2,
+    "initial": [
+      0.2,
+      -0.6
+    ],
+    "terminal": [
+      -0.021835095440340957,
+      0.6626058083160925
+    ],
+    "refinement_gap": 0.0
+  },
+  {
+    "case": "scalar_m5",
+    "initial_index": 0,
+    "initial": [
+      0.7,
+      0.2
+    ],
+    "terminal": [
+      -0.3617220319448767,
+      -1.3549117528563797
+    ],
+    "refinement_gap": 0.0
+  },
+  {
+    "case": "scalar_m5",
+    "initial_index": 1,
+    "initial": [
+      -0.4,
+      0.5
+    ],
+    "terminal": [
+      0.4228316045207161,
+      0.3950533775228149
+    ],
+    "refinement_gap": 0.0
+  },
+  {
+    "case": "scalar_m5",
+    "initial_index": 2,
+    "initial": [
+      0.2,
+      -0.6
+    ],
+    "terminal": [
+      -0.33456152001685274,
+      0.018518817998600723
+    ],
+    "refinement_gap": 0.0
+  },
+  {
+    "case": "scalar_variable",
+    "initial_index": 0,
+    "initial": [
+      0.7,
+      0.2
+    ],
+    "terminal": [
+      -0.6981205223544187,
+      0.21424424051655666
+    ],
+    "refinement_gap": 1.8707257964933888e-14
+  },
+  {
+    "case": "scalar_variable",
+    "initial_index": 1,
+    "initial": [
+      -0.4,
+      0.5
+    ],
+    "terminal": [
+      0.23634571459505682,
+      -0.6771112444032275
+    ],
+    "refinement_gap": 1.2184697695261093e-14
+  },
+  {
+    "case": "scalar_variable",
+    "initial_index": 2,
+    "initial": [
+      0.2,
+      -0.6
+    ],
+    "terminal": [
+      -0.022474374320446272,
+      0.661086810889564
+    ],
+    "refinement_gap": 7.844419558367122e-15
+  },
+  {
+    "case": "coupled_constant",
+    "initial_index": 0,
+    "initial": [
+      0.7,
+      -0.3,
+      0.2,
+      0.4
+    ],
+    "terminal": [
+      -0.1380440685060129,
+      -0.059791557734318296,
+      1.1669094701264413,
+      -0.3962855435209435
+    ],
+    "refinement_gap": 0.0
+  },
+  {
+    "case": "coupled_constant",
+    "initial_index": 1,
+    "initial": [
+      -0.4,
+      0.5,
+      0.3,
+      -0.2
+    ],
+    "terminal": [
+      -0.1394132649469801,
+      -0.18543421811236363,
+      -0.6443767416626598,
+      0.47080469805928415
+    ],
+    "refinement_gap": 0.0
+  },
+  {
+    "case": "coupled_constant",
+    "initial_index": 2,
+    "initial": [
+      0.2,
+      0.1,
+      -0.6,
+      0.35
+    ],
+    "terminal": [
+      0.3551012247962394,
+      -0.36541987036058077,
+      0.4026141224120357,
+      -0.16323517688783304
+    ],
+    "refinement_gap": 0.0
+  },
+  {
+    "case": "coupled_variable",
+    "initial_index": 0,
+    "initial": [
+      0.7,
+      -0.3,
+      0.2,
+      0.4
+    ],
+    "terminal": [
+      -0.1648401643705224,
+      -0.05359098088088164,
+      1.197885233063616,
+      -0.3503993012026004
+    ],
+    "refinement_gap": 2.4424906541753444e-14
+  },
+  {
+    "case": "coupled_variable",
+    "initial_index": 1,
+    "initial": [
+      -0.4,
+      0.5,
+      0.3,
+      -0.2
+    ],
+    "terminal": [
+      -0.12292953171854118,
+      -0.20851957254509457,
+      -0.6387667587667696,
+      0.4778992468553194
+    ],
+    "refinement_gap": 1.0880185641326534e-14
+  },
+  {
+    "case": "coupled_variable",
+    "initial_index": 2,
+    "initial": [
+      0.2,
+      0.1,
+      -0.6,
+      0.35
+    ],
+    "terminal": [
+      0.3531928765398587,
+      -0.353723434525091,
+      0.4231302977921348,
+      -0.16496043962041243
+    ],
+    "refinement_gap": 1.3378187446733136e-14
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "script_sha256": "3b7392760e7ca195fad82d02811cad3a34906f371dc1f733632fd286c3ceb868",
+  "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]",
+  "numpy": "1.26.4",
+  "scipy": "1.13.1",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "interpretation": "Control gains, input bound, initial blocks and all four steps fixed before the accepted run."
+}

@@ -1,0 +1,71 @@
+{
+  "condition": "traj12_updates30000",
+  "seed": 17,
+  "group": "GR",
+  "train_trajectories": 12,
+  "training_rows": 3432,
+  "training_trajectory_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "training_updates": 30000,
+  "baseline_saved_weights": false,
+  "validation_selection_count": 2048,
+  "validation_reporting_count": 2284,
+  "status": "completed",
+  "real_parameter_count": 673,
+  "training_steps": 30000,
+  "selected_validation_step": 29700,
+  "validation_normalized_mse": 4.8661694607672216e-11,
+  "training_seconds": 58.457301700000244,
+  "numpy_torch_field_max_difference": 6.938893903907228e-18,
+  "validation_reporting_points": 2284,
+  "clean_label_rhs_max_gap": 5.523359547510154e-15,
+  "clean_gradient_rms": 7.2340430163315e-07,
+  "common_scale_clean_gradient_rms": 4.660882912309459e-06,
+  "common_reporting_output_rms": [
+    0.07854905630135695,
+    0.4032594569156331,
+    0.07838624586167481,
+    0.40385916231872815
+  ],
+  "clean_field_mse": 5.233137836213454e-13,
+  "clean_field_relative_l2": 2.2930588690188993e-06,
+  "nonlinear_residual_relative_l2": 0.29418228833914506,
+  "nonlinear_momentum_relative_l2": 0.25083553035575945,
+  "spurious_kinematic_residual_rms": 5.34519094415117e-07,
+  "noisy_full_validation_normalized_mse": 4.839842604481302e-11,
+  "quadratic_baseline_field_relative_l2": 7.794687035595322e-06,
+  "validation_nonlinear_field_l2": 0.00023504045030602516,
+  "validation_field_error_component_rmse": [
+    2.5510002342723276e-07,
+    7.115794423487985e-07,
+    6.387658897111991e-07,
+    1.0553728951895805e-06
+  ],
+  "train_only_input_rms": [
+    0.07838736542188587,
+    0.06564589363179676,
+    0.07854906670834916,
+    0.06554807767406588
+  ],
+  "train_only_output_rms": [
+    0.07854905630135695,
+    0.4032594569156331,
+    0.07838624586167481,
+    0.40385916231872815
+  ],
+  "train_only_energy_scale": 0.010376450678595694,
+  "elapsed_seconds_this_evaluation": 58.47018709999975,
+  "weights_sha256": "1b5b55c8b0f48d273ac8db75b2ed6a42ea4a91c0d35a3afd093236204888b3ec"
+}

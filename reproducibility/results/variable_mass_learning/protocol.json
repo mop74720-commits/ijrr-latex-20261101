@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "scope": "Canonical coordinate benchmark of the same conservative two-mode beam; not a calibrated constitutive variable-mass law.",
+  "transform": "X_j=q_j+q_j^3, Y_j=p_j/(1+3q_j^2); alpha=1 fixed before generation",
+  "inverse_mass": "diag(nu_j/(1+3q_j^2)^2)",
+  "delta": "-.5*p_mid^2*d(M^-1)/dq at midpoint",
+  "labels": "New Eq36 implicit midpoint trajectories; midpoint state to adjacent increment/h plus uniform noise1e-6",
+  "prior": "Pullback known kinetic+linear elastic energy .5sum nu*(p^2/fprime^2+f^2)",
+  "state_order": [
+    "q1",
+    "q2",
+    "p1",
+    "p2"
+  ],
+  "evaluation_coordinates": "Original physical modal canonical X,Y for full state and tip",
+  "seeds": [
+    17,
+    43,
+    91,
+    137,
+    211
+  ],
+  "groups": [
+    "R",
+    "C",
+    "GR",
+    "GC"
+  ],
+  "real_parameters": 673,
+  "updates": 10000,
+  "batch_size": 512,
+  "optimizer": "Original Adam protocol .002, x.3 at budget half and three quarters; clip10",
+  "checkpoint": "Original fixed seed+3000 validation subset2048 every100updates; independent noisy labels",
+  "durations_s": {
+    "train": 2.0,
+    "validation": 4.0,
+    "test_prefix": 16.0
+  },
+  "train_trajectories": 12,
+  "validation_trajectories": 4,
+  "test_trajectories": 8,
+  "initial_conditions": "All corresponding original seed train/val/test initial conditions, transformed to this chart; no outcome selection",
+  "step_tau": "Original test teacher h0 approx.01; train/val endpoint-aligned approx.01",
+  "training_stride": 8,
+  "test_stride": 20,
+  "prediction_divisors": [
+    1,
+    4
+  ],
+  "primary": "All five paired contrasts for continuous and matching-step teacher tip/state errors; no superiority threshold selection",
+  "source_sha256": {
+    "results\\learning\\inputs\\reference_model_spec.json": "fd18c090c9f58dac7a5813a5445b7f14c5409ec767c5cb9a4ec38dd2e883ae8c",
+    "code\\train_neural_hnn.py": "3dadee3db2a884eb93e1b8ca75fa4f0496890095dbd82ac9880e9b7e2acf92e5",
+    "code\\neural_physics_refinement.py": "0eea7c635d7ace0073170e48a2eab69db6a77129f46e08e59d3f6b872e271221",
+    "code\\variable_mass_learning.py": "f1e1beabfad1a500203170f2abac0384fa002a7d9ddeabd6473946cd01f91ad9"
+  }
+}

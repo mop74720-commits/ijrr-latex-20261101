@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "seed_outcome_values_checked": 240,
+  "comparisons_checked": 60,
+  "maximum_mean_gap": 1.734723475976807e-18,
+  "raw_archive_trajectory_records_checked": 640,
+  "raw_archive_metric_maximum_abs_gap": {
+    "state_relative_l2": 1.5612511283791264e-17,
+    "frequency_error_si_1": 1.761927192686641e-13,
+    "frequency_error_si_2": 1.0709327305166716e-12
+  },
+  "sign_test": "Independent enumeration of 2^n outcomes",
+  "bootstrap": "Independent Python enumeration of 3125 seed tuples",
+  "holm": "Independent ordered closed-form reconstruction per 15-test family",
+  "no_holm_rejections": true
+}

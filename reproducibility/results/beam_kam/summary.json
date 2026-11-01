@@ -1,0 +1,1390 @@
+{
+  "protocol": {
+    "model": "Exactly the conservative two-mode learning beam h_*; no damping, contact, or time-dependent field.",
+    "energy": ".5 sum nu_j*(X_j^2+Y_j^2)+1-cos(d.X)-.5*(d.X)^2",
+    "nu": [
+      1.0,
+      6.152117504167307
+    ],
+    "d": [
+      0.2256707726832809,
+      0.3217988056102902
+    ],
+    "omega0_rad_s": 11.417287282852458,
+    "spec_file": "results/learning/inputs/reference_model_spec.json",
+    "spec_sha256": "fd18c090c9f58dac7a5813a5445b7f14c5409ec767c5cb9a4ec38dd2e883ae8c",
+    "learning_teacher_file": "results/learning/data/seed_17.npz",
+    "learning_teacher_sha256": "f02a36438e9d23894a4f7261b652f00d5d048b427f18a4433fb602791aec6c86",
+    "base_step_tau": 0.009999813692010036,
+    "base_steps": 102400,
+    "duration_tau": 1023.9809220618276,
+    "duration_s": 89.68688416903876,
+    "sample_step_tau": 0.03999925476804014,
+    "samples_per_trajectory": 25601,
+    "continuous_method": "DOP853 with uniform dense-output samples",
+    "rtol": 1e-12,
+    "atol": 1e-14,
+    "stable_trigonometric_evaluation": "For |theta|<0.1, the sine/cosine remainders are evaluated by their Taylor series through degrees 11/12, with absolute remainders at most 0.1^13/13! and 0.1^14/14!; otherwise direct trigonometric evaluation is used. This evaluates the same explicit model below floating-point cancellation error.",
+    "tight_rtol": 4e-14,
+    "tight_atol": 2e-16,
+    "phases_rad": [
+      0.37,
+      1.13
+    ],
+    "base_radii": [
+      [
+        0.05,
+        0.05
+      ],
+      [
+        0.12,
+        0.1
+      ],
+      [
+        0.2,
+        0.16
+      ]
+    ],
+    "reference_action_difference_steps": [
+      0.0012,
+      0.001
+    ],
+    "frequency_estimator": "Smooth exp[-1/(s(1-s))] weighted mean of increments arg(conj(z_k) z_{k+1}), z_j=X_j-iY_j.",
+    "windows": "full, first half, second half, central half; downsample by 2 and 4",
+    "frequency_empirical_resolution": "max(1e-10, 10*maximum observed window, sampling, and tolerance changes), in tau^-1; diagnostic threshold, not a rigorous enclosure",
+    "action_warning": "I0=r^2/2 labels an initial harmonic reference chart; not exact nonlinear actions. Numerical Jacobian d omega/d I0 is a chart response, not certified KAM twist.",
+    "midpoint_steps": [
+      0.009999813692010036,
+      0.004999906846005018,
+      0.002499953423002509,
+      0.0012499767115012545,
+      0.0006249883557506272,
+      0.0003124941778753136
+    ],
+    "claim_boundary": "Finite-time frequencies and leading quartic nondegeneracy only; no invariant-torus certification, infinite-order Diophantine test, L2-to-KAM implication, or exact shadow Hamiltonian.",
+    "script_sha256": "6d7ff8375bc4ca3e2877eb81cfce328a31080610ed58ef033d6ac24df7f8617d",
+    "environment": {
+      "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]",
+      "numpy": "1.26.4",
+      "scipy": "1.13.1",
+      "platform": "Windows-11-10.0.26100-SP0"
+    }
+  },
+  "normal_form": {
+    "reference": "I0_j=(X_j^2+Y_j^2)/2 is the harmonic reference action; not an exact action of h_*.",
+    "quartic_angle_average": "-(d1^4*I1^2+4*d1^2*d2^2*I1*I2+d2^4*I2^2)/16",
+    "normal_form_scope": "Leading quartic angle average in a low-order nonresonant Birkhoff normal-form expansion; not a new theorem or global integrability claim.",
+    "quartic_action_hessian": [
+      [
+        -0.0003241987056583109,
+        -0.0013184373454526036
+      ],
+      [
+        -0.0013184373454526036,
+        -0.0013404410655761256
+      ]
+    ],
+    "quartic_action_hessian_determinant": -1.3037077754130823e-06,
+    "quartic_action_hessian_determinant_formula": "-3*d1^4*d2^4/64",
+    "quartic_action_hessian_singular_values": [
+      0.0022452827893790052,
+      0.0005806430181445685
+    ],
+    "quartic_active_divisor_min": {
+      "k1": -2,
+      "k2": 0,
+      "l1_norm": 2,
+      "quartic_support": true,
+      "abs_k_dot_nu": 2.0
+    },
+    "generic_l1_le4_divisor_min": {
+      "k1": -1,
+      "k2": 0,
+      "l1_norm": 1,
+      "quartic_support": false,
+      "abs_k_dot_nu": 1.0
+    },
+    "generic_l1_le32_divisor_min": {
+      "k1": -6,
+      "k2": 1,
+      "l1_norm": 7,
+      "quartic_support": false,
+      "abs_k_dot_nu": 0.15211750416730663
+    }
+  },
+  "base_cases": [
+    {
+      "frequency_tau": [
+        0.9999979467527726,
+        6.152114180645117
+      ],
+      "window_frequencies_tau": {
+        "full": [
+          0.9999979467527726,
+          6.152114180645117
+        ],
+        "first_half": [
+          0.9999979467527725,
+          6.152114180645115
+        ],
+        "second_half": [
+          0.9999979467527729,
+          6.152114180645116
+        ],
+        "central_half": [
+          0.9999979467527726,
+          6.152114180645116
+        ]
+      },
+      "max_window_change_tau": [
+        2.220446049250313e-16,
+        1.7763568394002505e-15
+      ],
+      "downsampled_frequencies_tau": {
+        "2": [
+          0.9999979467527725,
+          6.152114180645116
+        ],
+        "4": [
+          0.9999979467527726,
+          6.152114180645116
+        ]
+      },
+      "max_downsampling_change_tau": [
+        1.1102230246251565e-16,
+        8.881784197001252e-16
+      ],
+      "min_modal_phase_radius": [
+        0.04999992758352203,
+        0.04999997962865874
+      ],
+      "max_modal_phase_radius": [
+        0.05000004919607172,
+        0.050000059202248204
+      ],
+      "tag": "base0",
+      "actions0": [
+        0.0012500000000000002,
+        0.0012500000000000002
+      ],
+      "initial_radii": [
+        0.05,
+        0.05
+      ],
+      "initial_phases": [
+        0.37,
+        1.13
+      ],
+      "rtol": 1e-12,
+      "atol": 1e-14,
+      "max_relative_energy_drift": 1.0322041015972375e-10,
+      "max_abs_tip_angle_rad": 0.027371643813282037,
+      "nfev": 465965,
+      "integration_seconds": 12.35435900000084,
+      "raw_file": "results/beam_kam/raw/continuous_base0.npz",
+      "raw_sha256": "2c3b118b1efc4bb12280613d7465a8ce4b44660fc1e606055caa291505bb29f4"
+    },
+    {
+      "frequency_tau": [
+        0.9999910745378162,
+        6.15210131097191
+      ],
+      "window_frequencies_tau": {
+        "full": [
+          0.9999910745378162,
+          6.15210131097191
+        ],
+        "first_half": [
+          0.9999910745378161,
+          6.152101310971909
+        ],
+        "second_half": [
+          0.9999910745378164,
+          6.152101310971909
+        ],
+        "central_half": [
+          0.9999910745378161,
+          6.15210131097191
+        ]
+      },
+      "max_window_change_tau": [
+        2.220446049250313e-16,
+        8.881784197001252e-16
+      ],
+      "downsampled_frequencies_tau": {
+        "2": [
+          0.9999910745378164,
+          6.15210131097191
+        ],
+        "4": [
+          0.9999910745378161,
+          6.15210131097191
+        ]
+      },
+      "max_downsampling_change_tau": [
+        2.220446049250313e-16,
+        0.0
+      ],
+      "min_modal_phase_radius": [
+        0.1199993116350007,
+        0.09999974378055633
+      ],
+      "max_modal_phase_radius": [
+        0.12000051214973141,
+        0.10000062310542777
+      ],
+      "tag": "base1",
+      "actions0": [
+        0.0072,
+        0.005000000000000001
+      ],
+      "initial_radii": [
+        0.12,
+        0.1
+      ],
+      "initial_phases": [
+        0.37,
+        1.13
+      ],
+      "rtol": 1e-12,
+      "atol": 1e-14,
+      "max_relative_energy_drift": 8.586971131176416e-11,
+      "max_abs_tip_angle_rad": 0.05925707994623303,
+      "nfev": 471821,
+      "integration_seconds": 12.3077916000002,
+      "raw_file": "results/beam_kam/raw/continuous_base1.npz",
+      "raw_sha256": "8f4e4f6c2688b57273a1c2413262fb97c4639f18558fd917f7ac4870126046e7"
+    },
+    {
+      "frequency_tau": [
+        0.9999766466462399,
+        6.152073990361341
+      ],
+      "window_frequencies_tau": {
+        "full": [
+          0.9999766466462399,
+          6.152073990361341
+        ],
+        "first_half": [
+          0.9999766466462394,
+          6.152073990361338
+        ],
+        "second_half": [
+          0.9999766466462404,
+          6.15207399036134
+        ],
+        "central_half": [
+          0.9999766466462398,
+          6.152073990361339
+        ]
+      },
+      "max_window_change_tau": [
+        5.551115123125783e-16,
+        2.6645352591003757e-15
+      ],
+      "downsampled_frequencies_tau": {
+        "2": [
+          0.9999766466462398,
+          6.152073990361338
+        ],
+        "4": [
+          0.9999766466462399,
+          6.152073990361339
+        ]
+      },
+      "max_downsampling_change_tau": [
+        1.1102230246251565e-16,
+        2.6645352591003757e-15
+      ],
+      "min_modal_phase_radius": [
+        0.19999706184182875,
+        0.1599988341579979
+      ],
+      "max_modal_phase_radius": [
+        0.20000223267158307,
+        0.1600027235155555
+      ],
+      "tag": "base2",
+      "actions0": [
+        0.020000000000000004,
+        0.0128
+      ],
+      "initial_radii": [
+        0.2,
+        0.16
+      ],
+      "initial_phases": [
+        0.37,
+        1.13
+      ],
+      "rtol": 1e-12,
+      "atol": 1e-14,
+      "max_relative_energy_drift": 7.987418076922067e-11,
+      "max_abs_tip_angle_rad": 0.09661823108605883,
+      "nfev": 474401,
+      "integration_seconds": 12.895117399999435,
+      "raw_file": "results/beam_kam/raw/continuous_base2.npz",
+      "raw_sha256": "d958b8709a9d6216addf42ceb7c2b3229a07dd7fb6d3841e893324f6eecf0391"
+    }
+  ],
+  "continuous_difference_cases": [
+    {
+      "frequency_tau": [
+        0.9999914634714152,
+        6.152102892796864
+      ],
+      "window_frequencies_tau": {
+        "full": [
+          0.9999914634714152,
+          6.152102892796864
+        ],
+        "first_half": [
+          0.9999914634714152,
+          6.1521028927968615
+        ],
+        "second_half": [
+          0.9999914634714152,
+          6.152102892796862
+        ],
+        "central_half": [
+          0.9999914634714152,
+          6.152102892796862
+        ]
+      },
+      "max_window_change_tau": [
+        0.0,
+        2.6645352591003757e-15
+      ],
+      "downsampled_frequencies_tau": {
+        "2": [
+          0.999991463471415,
+          6.152102892796862
+        ],
+        "4": [
+          0.999991463471415,
+          6.152102892796862
+        ]
+      },
+      "max_downsampling_change_tau": [
+        2.220446049250313e-16,
+        1.7763568394002505e-15
+      ],
+      "min_modal_phase_radius": [
+        0.10954388143376456,
+        0.09999979641394573
+      ],
+      "max_modal_phase_radius": [
+        0.10954495896720597,
+        0.10000054143372507
+      ],
+      "tag": "grad0_level1_minus",
+      "actions0": [
+        0.006,
+        0.005000000000000001
+      ],
+      "initial_radii": [
+        0.10954451150103323,
+        0.1
+      ],
+      "initial_phases": [
+        0.37,
+        1.13
+      ],
+      "rtol": 1e-12,
+      "atol": 1e-14,
+      "max_relative_energy_drift": 8.86452130452285e-11,
+      "max_abs_tip_angle_rad": 0.056897262110194795,
+      "nfev": 471821,
+      "integration_seconds": 10.258823299998767,
+      "raw_file": "results/beam_kam/raw/continuous_grad0_level1_minus.npz",
+      "raw_sha256": "cd59f0c8fe87a055d29af812e4b3900bc88518b7456d36e3f662a5278a5b836f"
+    },
+    {
+      "frequency_tau": [
+        0.999990685607307,
+        6.152099729168195
+      ],
+      "window_frequencies_tau": {
+        "full": [
+          0.999990685607307,
+          6.152099729168195
+        ],
+        "first_half": [
+          0.9999906856073066,
+          6.152099729168193
+        ],
+        "second_half": [
+          0.999990685607307,
+          6.152099729168193
+        ],
+        "central_half": [
+          0.9999906856073068,
+          6.152099729168192
+        ]
+      },
+      "max_window_change_tau": [
+        3.3306690738754696e-16,
+        2.6645352591003757e-15
+      ],
+      "downsampled_frequencies_tau": {
+        "2": [
+          0.999990685607307,
+          6.152099729168193
+        ],
+        "4": [
+          0.999990685607307,
+          6.152099729168193
+        ]
+      },
+      "max_downsampling_change_tau": [
+        0.0,
+        1.7763568394002505e-15
+      ],
+      "min_modal_phase_radius": [
+        0.12961406904793385,
+        0.099999687059275
+      ],
+      "max_modal_phase_radius": [
+        0.12961539091231483,
+        0.10000070525438136
+      ],
+      "tag": "grad0_level1_plus",
+      "actions0": [
+        0.0084,
+        0.005000000000000001
+      ],
+      "initial_radii": [
+        0.1296148139681572,
+        0.1
+      ],
+      "initial_phases": [
+        0.37,
+        1.13
+      ],
+      "rtol": 1e-12,
+      "atol": 1e-14,
+      "max_relative_energy_drift": 8.318333401020076e-11,
+      "max_abs_tip_angle_rad": 0.061427136483296924,
+      "nfev": 471821,
+      "integration_seconds": 11.146003400001064,
+      "raw_file": "results/beam_kam/raw/continuous_grad0_level1_plus.npz",
+      "raw_sha256": "d94c74f616bf10162bb540fb97d72e8bad127f7b7c71bdf2922c07e0fa60e91e"
+    },
+    {
+      "frequency_tau": [
+        0.9999923927356457,
+        6.152102651092898
+      ],
+      "window_frequencies_tau": {
+        "full": [
+          0.9999923927356457,
+          6.152102651092898
+        ],
+        "first_half": [
+          0.9999923927356456,
+          6.152102651092896
+        ],
+        "second_half": [
+          0.9999923927356457,
+          6.152102651092898
+        ],
+        "central_half": [
+          0.9999923927356456,
+          6.152102651092897
+        ]
+      },
+      "max_window_change_tau": [
+        1.1102230246251565e-16,
+        1.7763568394002505e-15
+      ],
+      "downsampled_frequencies_tau": {
+        "2": [
+          0.9999923927356456,
+          6.152102651092897
+        ],
+        "4": [
+          0.9999923927356457,
+          6.152102651092896
+        ]
+      },
+      "max_downsampling_change_tau": [
+        1.1102230246251565e-16,
+        1.7763568394002505e-15
+      ],
+      "min_modal_phase_radius": [
+        0.11999944702742876,
+        0.08944247381146121
+      ],
+      "max_modal_phase_radius": [
+        0.12000043607351005,
+        0.0894432532755757
+      ],
+      "tag": "grad1_level1_minus",
+      "actions0": [
+        0.0072,
+        0.004000000000000001
+      ],
+      "initial_radii": [
+        0.12,
+        0.0894427190999916
+      ],
+      "initial_phases": [
+        0.37,
+        1.13
+      ],
+      "rtol": 1e-12,
+      "atol": 1e-14,
+      "max_relative_energy_drift": 8.313089814884292e-11,
+      "max_abs_tip_angle_rad": 0.05585985361336378,
+      "nfev": 471065,
+      "integration_seconds": 10.586246399998345,
+      "raw_file": "results/beam_kam/raw/continuous_grad1_level1_minus.npz",
+      "raw_sha256": "4df3a6848cb7e3bc7c312ae6348c46cda8365e09ca0bbbe4c6e30abc7c6530de"
+    },
+    {
+      "frequency_tau": [
+        0.9999897563697816,
+        6.152099970873234
+      ],
+      "window_frequencies_tau": {
+        "full": [
+          0.9999897563697816,
+          6.152099970873234
+        ],
+        "first_half": [
+          0.9999897563697814,
+          6.152099970873231
+        ],
+        "second_half": [
+          0.9999897563697816,
+          6.152099970873232
+        ],
+        "central_half": [
+          0.9999897563697814,
+          6.152099970873231
+        ]
+      },
+      "max_window_change_tau": [
+        2.220446049250313e-16,
+        2.6645352591003757e-15
+      ],
+      "downsampled_frequencies_tau": {
+        "2": [
+          0.9999897563697814,
+          6.152099970873232
+        ],
+        "4": [
+          0.9999897563697816,
+          6.152099970873232
+        ]
+      },
+      "max_downsampling_change_tau": [
+        2.220446049250313e-16,
+        1.7763568394002505e-15
+      ],
+      "min_modal_phase_radius": [
+        0.11999917176471189,
+        0.10954424388528589
+      ],
+      "max_modal_phase_radius": [
+        0.12000058819556035,
+        0.10954522325959198
+      ],
+      "tag": "grad1_level1_plus",
+      "actions0": [
+        0.0072,
+        0.006000000000000001
+      ],
+      "initial_radii": [
+        0.12,
+        0.10954451150103323
+      ],
+      "initial_phases": [
+        0.37,
+        1.13
+      ],
+      "rtol": 1e-12,
+      "atol": 1e-14,
+      "max_relative_energy_drift": 8.74247621553442e-11,
+      "max_abs_tip_angle_rad": 0.062328443513471346,
+      "nfev": 472397,
+      "integration_seconds": 10.92817819999982,
+      "raw_file": "results/beam_kam/raw/continuous_grad1_level1_plus.npz",
+      "raw_sha256": "b7a80f87b2673570cfd90910b832cd93509c9d69640b7f170c4daf2b5c59fea2"
+    },
+    {
+      "frequency_tau": [
+        0.9999912690042291,
+        6.1521021018817335
+      ],
+      "window_frequencies_tau": {
+        "full": [
+          0.9999912690042291,
+          6.1521021018817335
+        ],
+        "first_half": [
+          0.999991269004229,
+          6.152102101881733
+        ],
+        "second_half": [
+          0.9999912690042291,
+          6.152102101881733
+        ],
+        "central_half": [
+          0.999991269004229,
+          6.152102101881733
+        ]
+      },
+      "max_window_change_tau": [
+        1.1102230246251565e-16,
+        8.881784197001252e-16
+      ],
+      "downsampled_frequencies_tau": {
+        "2": [
+          0.999991269004229,
+          6.152102101881733
+        ],
+        "4": [
+          0.9999912690042291,
+          6.152102101881733
+        ]
+      },
+      "max_downsampling_change_tau": [
+        1.1102230246251565e-16,
+        8.881784197001252e-16
+      ],
+      "min_modal_phase_radius": [
+        0.1148905934351432,
+        0.09999977061679013
+      ],
+      "max_modal_phase_radius": [
+        0.11489173273285146,
+        0.10000058222450892
+      ],
+      "tag": "grad0_level2_minus",
+      "actions0": [
+        0.0066,
+        0.005000000000000001
+      ],
+      "initial_radii": [
+        0.11489125293076058,
+        0.1
+      ],
+      "initial_phases": [
+        0.37,
+        1.13
+      ],
+      "rtol": 1e-12,
+      "atol": 1e-14,
+      "max_relative_energy_drift": 8.722663165385094e-11,
+      "max_abs_tip_angle_rad": 0.05810403084678559,
+      "nfev": 471821,
+      "integration_seconds": 9.858743000000686,
+      "raw_file": "results/beam_kam/raw/continuous_grad0_level2_minus.npz",
+      "raw_sha256": "e1534ddc4bdf191e0152a8bc5a6b9ef99146e673926df1657ac2075cc780d5b5"
+    },
+    {
+      "frequency_tau": [
+        0.9999908800721758,
+        6.152100520067396
+      ],
+      "window_frequencies_tau": {
+        "full": [
+          0.9999908800721758,
+          6.152100520067396
+        ],
+        "first_half": [
+          0.9999908800721757,
+          6.152100520067394
+        ],
+        "second_half": [
+          0.9999908800721761,
+          6.152100520067396
+        ],
+        "central_half": [
+          0.9999908800721757,
+          6.152100520067396
+        ]
+      },
+      "max_window_change_tau": [
+        2.220446049250313e-16,
+        1.7763568394002505e-15
+      ],
+      "downsampled_frequencies_tau": {
+        "2": [
+          0.9999908800721758,
+          6.152100520067395
+        ],
+        "4": [
+          0.9999908800721757,
+          6.152100520067395
+        ]
+      },
+      "max_downsampling_change_tau": [
+        1.1102230246251565e-16,
+        8.881784197001252e-16
+      ],
+      "min_modal_phase_radius": [
+        0.12489924316247783,
+        0.09999971592265017
+      ],
+      "max_modal_phase_radius": [
+        0.12490050449397358,
+        0.1000006641075297
+      ],
+      "tag": "grad0_level2_plus",
+      "actions0": [
+        0.0078,
+        0.005000000000000001
+      ],
+      "initial_radii": [
+        0.12489995996796796,
+        0.1
+      ],
+      "initial_phases": [
+        0.37,
+        1.13
+      ],
+      "rtol": 1e-12,
+      "atol": 1e-14,
+      "max_relative_energy_drift": 8.453828323852908e-11,
+      "max_abs_tip_angle_rad": 0.06036300048543521,
+      "nfev": 471821,
+      "integration_seconds": 9.8920369999978,
+      "raw_file": "results/beam_kam/raw/continuous_grad0_level2_plus.npz",
+      "raw_sha256": "aec0b74eabd0685fcc8d8197d161448043526d769bac9994df7ddb0b9f4d73e3"
+    },
+    {
+      "frequency_tau": [
+        0.9999917336330074,
+        6.152101981029614
+      ],
+      "window_frequencies_tau": {
+        "full": [
+          0.9999917336330074,
+          6.152101981029614
+        ],
+        "first_half": [
+          0.9999917336330072,
+          6.152101981029613
+        ],
+        "second_half": [
+          0.9999917336330074,
+          6.152101981029612
+        ],
+        "central_half": [
+          0.9999917336330074,
+          6.152101981029613
+        ]
+      },
+      "max_window_change_tau": [
+        2.220446049250313e-16,
+        1.7763568394002505e-15
+      ],
+      "downsampled_frequencies_tau": {
+        "2": [
+          0.9999917336330072,
+          6.152101981029613
+        ],
+        "4": [
+          0.9999917336330074,
+          6.152101981029613
+        ]
+      },
+      "max_downsampling_change_tau": [
+        2.220446049250313e-16,
+        8.881784197001252e-16
+      ],
+      "min_modal_phase_radius": [
+        0.1199993799481498,
+        0.09486807913338519
+      ],
+      "max_modal_phase_radius": [
+        0.12000047415256011,
+        0.09486890851426004
+      ],
+      "tag": "grad1_level2_minus",
+      "actions0": [
+        0.0072,
+        0.0045000000000000005
+      ],
+      "initial_radii": [
+        0.12,
+        0.09486832980505139
+      ],
+      "initial_phases": [
+        0.37,
+        1.13
+      ],
+      "rtol": 1e-12,
+      "atol": 1e-14,
+      "max_relative_energy_drift": 8.466243018095814e-11,
+      "max_abs_tip_angle_rad": 0.05760575421681888,
+      "nfev": 471473,
+      "integration_seconds": 10.043546699998842,
+      "raw_file": "results/beam_kam/raw/continuous_grad1_level2_minus.npz",
+      "raw_sha256": "cfa44bd73fb499e2c95811cf8ca216659883c3a8681399fdf53fe663d9387ec9"
+    },
+    {
+      "frequency_tau": [
+        0.9999904154500739,
+        6.152100640919786
+      ],
+      "window_frequencies_tau": {
+        "full": [
+          0.9999904154500739,
+          6.152100640919786
+        ],
+        "first_half": [
+          0.9999904154500736,
+          6.152100640919783
+        ],
+        "second_half": [
+          0.9999904154500742,
+          6.152100640919783
+        ],
+        "central_half": [
+          0.9999904154500738,
+          6.152100640919783
+        ]
+      },
+      "max_window_change_tau": [
+        3.3306690738754696e-16,
+        2.6645352591003757e-15
+      ],
+      "downsampled_frequencies_tau": {
+        "2": [
+          0.9999904154500738,
+          6.152100640919783
+        ],
+        "4": [
+          0.9999904154500738,
+          6.152100640919784
+        ]
+      },
+      "max_downsampling_change_tau": [
+        1.1102230246251565e-16,
+        2.6645352591003757e-15
+      ],
+      "min_modal_phase_radius": [
+        0.1199992422084617,
+        0.10488062293770486
+      ],
+      "max_modal_phase_radius": [
+        0.12000055014433346,
+        0.10488155225402057
+      ],
+      "tag": "grad1_level2_plus",
+      "actions0": [
+        0.0072,
+        0.005500000000000001
+      ],
+      "initial_radii": [
+        0.12,
+        0.10488088481701517
+      ],
+      "initial_phases": [
+        0.37,
+        1.13
+      ],
+      "rtol": 1e-12,
+      "atol": 1e-14,
+      "max_relative_energy_drift": 8.6427449614673e-11,
+      "max_abs_tip_angle_rad": 0.06082771439202679,
+      "nfev": 472133,
+      "integration_seconds": 10.598971499999607,
+      "raw_file": "results/beam_kam/raw/continuous_grad1_level2_plus.npz",
+      "raw_sha256": "34d648b108ed0a71bc3d2080951f51d2bcd8f2ea1686bfbc23a99b9e2fb433f1"
+    }
+  ],
+  "tight_center_case": {
+    "frequency_tau": [
+      0.9999910745378159,
+      6.152101310972598
+    ],
+    "window_frequencies_tau": {
+      "full": [
+        0.9999910745378159,
+        6.152101310972598
+      ],
+      "first_half": [
+        0.9999910745378159,
+        6.152101310972598
+      ],
+      "second_half": [
+        0.9999910745378159,
+        6.152101310972598
+      ],
+      "central_half": [
+        0.9999910745378159,
+        6.152101310972597
+      ]
+    },
+    "max_window_change_tau": [
+      0.0,
+      8.881784197001252e-16
+    ],
+    "downsampled_frequencies_tau": {
+      "2": [
+        0.9999910745378158,
+        6.152101310972598
+      ],
+      "4": [
+        0.9999910745378159,
+        6.152101310972598
+      ]
+    },
+    "max_downsampling_change_tau": [
+      1.1102230246251565e-16,
+      0.0
+    ],
+    "min_modal_phase_radius": [
+      0.11999931163500059,
+      0.09999974378408294
+    ],
+    "max_modal_phase_radius": [
+      0.12000051214973277,
+      0.10000062310870657
+    ],
+    "tag": "center_tight",
+    "actions0": [
+      0.0072,
+      0.005000000000000001
+    ],
+    "initial_radii": [
+      0.12,
+      0.1
+    ],
+    "initial_phases": [
+      0.37,
+      1.13
+    ],
+    "rtol": 4e-14,
+    "atol": 2e-16,
+    "max_relative_energy_drift": 2.611556744232606e-12,
+    "max_abs_tip_angle_rad": 0.05925707994709867,
+    "nfev": 673577,
+    "integration_seconds": 14.626121899997088,
+    "raw_file": "results/beam_kam/raw/continuous_center_tight.npz",
+    "raw_sha256": "bc2e6984e2333ac06b126cdbf96431dbfc11d4d6806c5343359bed58c34a5fca"
+  },
+  "center_tolerance_frequency_change_tau": [
+    3.3306690738754696e-16,
+    6.883382752675971e-13
+  ],
+  "maximum_window_frequency_change_tau": 2.6645352591003757e-15,
+  "maximum_downsampling_frequency_change_tau": 2.6645352591003757e-15,
+  "empirical_frequency_resolution_tau": 1e-10,
+  "reference_action_chart_frequency_gradient": {
+    "coordinate": "Derivative of measured modal phase frequency with respect to initial I0_j=r_j^2/2 at fixed initial phases; not exact nonlinear actions.",
+    "center_actions0": [
+      0.0072,
+      0.005000000000000001
+    ],
+    "central_difference_full_steps": [
+      [
+        -0.00032411004509865415,
+        -0.001318182932030787
+      ],
+      [
+        -0.0013181786121900056,
+        -0.0013401098319931748
+      ]
+    ],
+    "central_difference_half_steps": [
+      [
+        -0.0003241100443585055,
+        -0.0013181829334740769
+      ],
+      [
+        -0.0013181786144104517,
+        -0.0013401098284404611
+      ]
+    ],
+    "max_gradient_change_on_halving": 3.552713678800501e-12,
+    "half_step_gradient_determinant": -1.303257496845257e-06,
+    "half_step_gradient_singular_values": [
+      0.0022447898163130433,
+      0.000580569943508472
+    ],
+    "leading_quartic_hessian_max_difference": 3.312371356645194e-07,
+    "empirical_frequency_resolution_tau": 1e-10,
+    "empirical_derivative_resolution_from_frequency": [
+      1.6666666666666668e-07,
+      2e-07
+    ],
+    "threshold_warning": "Empirical resolution is not an interval bound; determinant is not a certified Kolmogorov nondegeneracy bound."
+  },
+  "midpoint_cases": [
+    {
+      "frequency_tau": [
+        0.999982748151485,
+        6.150162099896843
+      ],
+      "window_frequencies_tau": {
+        "full": [
+          0.999982748151485,
+          6.150162099896843
+        ],
+        "first_half": [
+          0.9999827481514897,
+          6.150162099896844
+        ],
+        "second_half": [
+          0.9999827481514901,
+          6.150162099896847
+        ],
+        "central_half": [
+          0.9999827481514946,
+          6.150162099896848
+        ]
+      },
+      "max_window_change_tau": [
+        9.547918011776346e-15,
+        5.329070518200751e-15
+      ],
+      "downsampled_frequencies_tau": {
+        "2": [
+          0.9999827481514941,
+          6.150162099896849
+        ],
+        "4": [
+          0.9999827481514908,
+          6.150162099896845
+        ]
+      },
+      "max_downsampling_change_tau": [
+        9.103828801926284e-15,
+        6.217248937900877e-15
+      ],
+      "min_modal_phase_radius": [
+        0.11999931243101691,
+        0.09999974398862804
+      ],
+      "max_modal_phase_radius": [
+        0.12000051200480208,
+        0.10000062298558089
+      ],
+      "h_tau": 0.009999813692010036,
+      "nsteps": 102400,
+      "max_midpoint_residual": 8.673617379884035e-18,
+      "max_relative_energy_drift": 4.019439545392809e-09,
+      "runtime_seconds": 0.045891600002505584,
+      "raw_file": "results/beam_kam/raw/midpoint_level0.npz",
+      "raw_sha256": "eb57abf8f06cdd690a607e689cf2ec9ce6cb042974a7158bd52f4c66473d1eb3"
+    },
+    {
+      "frequency_tau": [
+        0.9999889929189383,
+        6.1516163018440615
+      ],
+      "window_frequencies_tau": {
+        "full": [
+          0.9999889929189383,
+          6.1516163018440615
+        ],
+        "first_half": [
+          0.9999889929189353,
+          6.151616301844051
+        ],
+        "second_half": [
+          0.9999889929189336,
+          6.1516163018440455
+        ],
+        "central_half": [
+          0.9999889929189315,
+          6.151616301844093
+        ]
+      },
+      "max_window_change_tau": [
+        6.772360450213455e-15,
+        3.108624468950438e-14
+      ],
+      "downsampled_frequencies_tau": {
+        "2": [
+          0.9999889929189346,
+          6.1516163018440615
+        ],
+        "4": [
+          0.9999889929189318,
+          6.151616301844058
+        ]
+      },
+      "max_downsampling_change_tau": [
+        6.439293542825908e-15,
+        3.552713678800501e-15
+      ],
+      "min_modal_phase_radius": [
+        0.119999311829487,
+        0.09999974383510671
+      ],
+      "max_modal_phase_radius": [
+        0.12000051211480199,
+        0.1000006232710577
+      ],
+      "h_tau": 0.004999906846005018,
+      "nsteps": 204800,
+      "max_midpoint_residual": 8.239936510889834e-18,
+      "max_relative_energy_drift": 1.005452088417365e-09,
+      "runtime_seconds": 0.047587999997631414,
+      "raw_file": "results/beam_kam/raw/midpoint_level1.npz",
+      "raw_sha256": "9e2f4b939c6f0e6e9b2915fe6ad925bcf688a03e765de35fe4341fc0948010db"
+    },
+    {
+      "frequency_tau": [
+        0.9999905541317057,
+        6.151980045784808
+      ],
+      "window_frequencies_tau": {
+        "full": [
+          0.9999905541317057,
+          6.151980045784808
+        ],
+        "first_half": [
+          0.9999905541317011,
+          6.151980045784831
+        ],
+        "second_half": [
+          0.9999905541317022,
+          6.15198004578482
+        ],
+        "central_half": [
+          0.9999905541317055,
+          6.151980045784829
+        ]
+      },
+      "max_window_change_tau": [
+        4.551914400963142e-15,
+        2.3092638912203256e-14
+      ],
+      "downsampled_frequencies_tau": {
+        "2": [
+          0.9999905541317005,
+          6.151980045784837
+        ],
+        "4": [
+          0.9999905541317051,
+          6.151980045784838
+        ]
+      },
+      "max_downsampling_change_tau": [
+        5.218048215738236e-15,
+        3.019806626980426e-14
+      ],
+      "min_modal_phase_radius": [
+        0.11999931167925906,
+        0.0999997437971668
+      ],
+      "max_modal_phase_radius": [
+        0.12000051213970997,
+        0.10000062322687363
+      ],
+      "h_tau": 0.002499953423002509,
+      "nsteps": 409600,
+      "max_midpoint_residual": 7.37257477290143e-18,
+      "max_relative_energy_drift": 2.513704252014324e-10,
+      "runtime_seconds": 0.05735280000226339,
+      "raw_file": "results/beam_kam/raw/midpoint_level2.npz",
+      "raw_sha256": "94c814491899cd7b83f4146443bcb525c08bc5eb30089365221b02bb785750d6"
+    },
+    {
+      "frequency_tau": [
+        0.9999909444361906,
+        6.1520709938689055
+      ],
+      "window_frequencies_tau": {
+        "full": [
+          0.9999909444361906,
+          6.1520709938689055
+        ],
+        "first_half": [
+          0.999990944436198,
+          6.152070993868917
+        ],
+        "second_half": [
+          0.9999909444362007,
+          6.152070993868941
+        ],
+        "central_half": [
+          0.9999909444361941,
+          6.152070993868936
+        ]
+      },
+      "max_window_change_tau": [
+        1.0103029524088925e-14,
+        3.552713678800501e-14
+      ],
+      "downsampled_frequencies_tau": {
+        "2": [
+          0.999990944436202,
+          6.1520709938689375
+        ],
+        "4": [
+          0.9999909444361993,
+          6.152070993868925
+        ]
+      },
+      "max_downsampling_change_tau": [
+        1.1324274851176597e-14,
+        3.197442310920451e-14
+      ],
+      "min_modal_phase_radius": [
+        0.11999931164267486,
+        0.09999974378767627
+      ],
+      "max_modal_phase_radius": [
+        0.1200005121461311,
+        0.10000062319805068
+      ],
+      "h_tau": 0.0012499767115012545,
+      "nsteps": 819200,
+      "max_midpoint_residual": 7.15573433840433e-18,
+      "max_relative_energy_drift": 6.284571377321117e-11,
+      "runtime_seconds": 0.07768850000138627,
+      "raw_file": "results/beam_kam/raw/midpoint_level3.npz",
+      "raw_sha256": "4d807a8a2d853ad5831cec59cea19d63fc519089aa49d4ccd2da7eb2ba7b0afc"
+    },
+    {
+      "frequency_tau": [
+        0.9999910420124067,
+        6.152093731646253
+      ],
+      "window_frequencies_tau": {
+        "full": [
+          0.9999910420124067,
+          6.152093731646253
+        ],
+        "first_half": [
+          0.9999910420124061,
+          6.1520937316462865
+        ],
+        "second_half": [
+          0.999991042012404,
+          6.152093731646279
+        ],
+        "central_half": [
+          0.999991042012411,
+          6.1520937316462385
+        ]
+      },
+      "max_window_change_tau": [
+        4.218847493575595e-15,
+        3.375077994860476e-14
+      ],
+      "downsampled_frequencies_tau": {
+        "2": [
+          0.9999910420124095,
+          6.152093731646282
+        ],
+        "4": [
+          0.9999910420124072,
+          6.152093731646293
+        ]
+      },
+      "max_downsampling_change_tau": [
+        2.7755575615628914e-15,
+        3.9968028886505635e-14
+      ],
+      "min_modal_phase_radius": [
+        0.11999931163833034,
+        0.09999974378503958
+      ],
+      "max_modal_phase_radius": [
+        0.12000051214894825,
+        0.10000062321114463
+      ],
+      "h_tau": 0.0006249883557506272,
+      "nsteps": 1638400,
+      "max_midpoint_residual": 7.101524229780054e-18,
+      "max_relative_energy_drift": 1.5775542919962665e-11,
+      "runtime_seconds": 0.11672900000121444,
+      "raw_file": "results/beam_kam/raw/midpoint_level4.npz",
+      "raw_sha256": "27912fe8d334eb3ecdf757ecb2a99967cb60d4f85a75b1633ee83495be691ad7"
+    },
+    {
+      "frequency_tau": [
+        0.9999910664064585,
+        6.152099416137927
+      ],
+      "window_frequencies_tau": {
+        "full": [
+          0.9999910664064585,
+          6.152099416137927
+        ],
+        "first_half": [
+          0.9999910664064638,
+          6.152099416137876
+        ],
+        "second_half": [
+          0.9999910664064519,
+          6.152099416137901
+        ],
+        "central_half": [
+          0.9999910664064642,
+          6.152099416137888
+        ]
+      },
+      "max_window_change_tau": [
+        6.661338147750939e-15,
+        5.1514348342607263e-14
+      ],
+      "downsampled_frequencies_tau": {
+        "2": [
+          0.9999910664064613,
+          6.152099416137875
+        ],
+        "4": [
+          0.9999910664064607,
+          6.15209941613788
+        ]
+      },
+      "max_downsampling_change_tau": [
+        2.7755575615628914e-15,
+        5.240252676230739e-14
+      ],
+      "min_modal_phase_radius": [
+        0.11999931163583318,
+        0.0999997437843798
+      ],
+      "max_modal_phase_radius": [
+        0.1200005121496313,
+        0.10000062313939163
+      ],
+      "h_tau": 0.0003124941778753136,
+      "nsteps": 3276800,
+      "max_midpoint_residual": 6.993104012531504e-18,
+      "max_relative_energy_drift": 3.943383050558551e-12,
+      "runtime_seconds": 0.19560659999842755,
+      "raw_file": "results/beam_kam/raw/midpoint_level5.npz",
+      "raw_sha256": "de05f567a2b7626322acf28a88d6db157ddbaa5be02acf586c027563d02272b1"
+    }
+  ],
+  "midpoint_frequency_observed_orders": [
+    [
+      1.9999845479604543,
+      1.999386039233218
+    ],
+    [
+      1.9999961436477003,
+      1.9998464590528147
+    ],
+    [
+      1.9999989138398218,
+      1.999961633618956
+    ],
+    [
+      1.9999998633451643,
+      1.9999905005836895
+    ],
+    [
+      1.9999990544966273,
+      1.9999980448074623
+    ]
+  ],
+  "fft_bin_width_tau": 0.006135797791222099,
+  "finite_divisor_scan_at_center_l1_le32": {
+    "k1": -6,
+    "k2": 1,
+    "abs_k_dot_omega": 0.15215486374501275
+  }
+}

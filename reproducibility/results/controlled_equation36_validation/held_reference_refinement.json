@@ -1,0 +1,335 @@
+{
+  "records": [
+    {
+      "seed": 17,
+      "policy": "none",
+      "h_multiplier": 4.0,
+      "maximum_substep_refinement_gap": 9.992007221626409e-16
+    },
+    {
+      "seed": 17,
+      "policy": "none",
+      "h_multiplier": 2.0,
+      "maximum_substep_refinement_gap": 2.7478019859472624e-15
+    },
+    {
+      "seed": 17,
+      "policy": "none",
+      "h_multiplier": 1.0,
+      "maximum_substep_refinement_gap": 2.1649348980190553e-15
+    },
+    {
+      "seed": 17,
+      "policy": "none",
+      "h_multiplier": 0.5,
+      "maximum_substep_refinement_gap": 1.923808334858279e-15
+    },
+    {
+      "seed": 17,
+      "policy": "none",
+      "h_multiplier": 0.25,
+      "maximum_substep_refinement_gap": 2.67841304690819e-15
+    },
+    {
+      "seed": 17,
+      "policy": "GR",
+      "h_multiplier": 4.0,
+      "maximum_substep_refinement_gap": 7.91033905045424e-16
+    },
+    {
+      "seed": 17,
+      "policy": "GR",
+      "h_multiplier": 2.0,
+      "maximum_substep_refinement_gap": 1.3149203947904198e-15
+    },
+    {
+      "seed": 17,
+      "policy": "GR",
+      "h_multiplier": 1.0,
+      "maximum_substep_refinement_gap": 3.910066714851723e-15
+    },
+    {
+      "seed": 17,
+      "policy": "GR",
+      "h_multiplier": 0.5,
+      "maximum_substep_refinement_gap": 1.85268467234323e-15
+    },
+    {
+      "seed": 17,
+      "policy": "GR",
+      "h_multiplier": 0.25,
+      "maximum_substep_refinement_gap": 3.219646771412954e-15
+    },
+    {
+      "seed": 43,
+      "policy": "GR",
+      "h_multiplier": 4.0,
+      "maximum_substep_refinement_gap": 1.033895191682177e-15
+    },
+    {
+      "seed": 43,
+      "policy": "GR",
+      "h_multiplier": 2.0,
+      "maximum_substep_refinement_gap": 1.5404344466674047e-15
+    },
+    {
+      "seed": 43,
+      "policy": "GR",
+      "h_multiplier": 1.0,
+      "maximum_substep_refinement_gap": 2.6645352591003757e-15
+    },
+    {
+      "seed": 43,
+      "policy": "GR",
+      "h_multiplier": 0.5,
+      "maximum_substep_refinement_gap": 2.6836172173361206e-15
+    },
+    {
+      "seed": 43,
+      "policy": "GR",
+      "h_multiplier": 0.25,
+      "maximum_substep_refinement_gap": 1.7763568394002505e-15
+    },
+    {
+      "seed": 91,
+      "policy": "GR",
+      "h_multiplier": 4.0,
+      "maximum_substep_refinement_gap": 9.332812300755222e-16
+    },
+    {
+      "seed": 91,
+      "policy": "GR",
+      "h_multiplier": 2.0,
+      "maximum_substep_refinement_gap": 8.049116928532385e-16
+    },
+    {
+      "seed": 91,
+      "policy": "GR",
+      "h_multiplier": 1.0,
+      "maximum_substep_refinement_gap": 1.6583956430338276e-15
+    },
+    {
+      "seed": 91,
+      "policy": "GR",
+      "h_multiplier": 0.5,
+      "maximum_substep_refinement_gap": 2.581268532253489e-15
+    },
+    {
+      "seed": 91,
+      "policy": "GR",
+      "h_multiplier": 0.25,
+      "maximum_substep_refinement_gap": 3.04790914729125e-15
+    },
+    {
+      "seed": 137,
+      "policy": "GR",
+      "h_multiplier": 4.0,
+      "maximum_substep_refinement_gap": 1.3374717999781183e-15
+    },
+    {
+      "seed": 137,
+      "policy": "GR",
+      "h_multiplier": 2.0,
+      "maximum_substep_refinement_gap": 8.708311849403572e-16
+    },
+    {
+      "seed": 137,
+      "policy": "GR",
+      "h_multiplier": 1.0,
+      "maximum_substep_refinement_gap": 3.2578106878844437e-15
+    },
+    {
+      "seed": 137,
+      "policy": "GR",
+      "h_multiplier": 0.5,
+      "maximum_substep_refinement_gap": 1.9637069748057456e-15
+    },
+    {
+      "seed": 137,
+      "policy": "GR",
+      "h_multiplier": 0.25,
+      "maximum_substep_refinement_gap": 4.218847493575595e-15
+    },
+    {
+      "seed": 211,
+      "policy": "GR",
+      "h_multiplier": 4.0,
+      "maximum_substep_refinement_gap": 5.759281940243e-16
+    },
+    {
+      "seed": 211,
+      "policy": "GR",
+      "h_multiplier": 2.0,
+      "maximum_substep_refinement_gap": 1.096345236817342e-15
+    },
+    {
+      "seed": 211,
+      "policy": "GR",
+      "h_multiplier": 1.0,
+      "maximum_substep_refinement_gap": 3.569627232691275e-15
+    },
+    {
+      "seed": 211,
+      "policy": "GR",
+      "h_multiplier": 0.5,
+      "maximum_substep_refinement_gap": 2.4216739724636227e-15
+    },
+    {
+      "seed": 211,
+      "policy": "GR",
+      "h_multiplier": 0.25,
+      "maximum_substep_refinement_gap": 2.060851489460447e-15
+    },
+    {
+      "seed": 17,
+      "policy": "GC",
+      "h_multiplier": 4.0,
+      "maximum_substep_refinement_gap": 9.506284648352903e-16
+    },
+    {
+      "seed": 17,
+      "policy": "GC",
+      "h_multiplier": 2.0,
+      "maximum_substep_refinement_gap": 9.723125082850004e-16
+    },
+    {
+      "seed": 17,
+      "policy": "GC",
+      "h_multiplier": 1.0,
+      "maximum_substep_refinement_gap": 2.0122792321330962e-15
+    },
+    {
+      "seed": 17,
+      "policy": "GC",
+      "h_multiplier": 0.5,
+      "maximum_substep_refinement_gap": 4.5102810375396984e-15
+    },
+    {
+      "seed": 17,
+      "policy": "GC",
+      "h_multiplier": 0.25,
+      "maximum_substep_refinement_gap": 4.0245584642661925e-15
+    },
+    {
+      "seed": 43,
+      "policy": "GC",
+      "h_multiplier": 4.0,
+      "maximum_substep_refinement_gap": 7.216449660063518e-16
+    },
+    {
+      "seed": 43,
+      "policy": "GC",
+      "h_multiplier": 2.0,
+      "maximum_substep_refinement_gap": 8.881784197001252e-16
+    },
+    {
+      "seed": 43,
+      "policy": "GC",
+      "h_multiplier": 1.0,
+      "maximum_substep_refinement_gap": 2.095545958979983e-15
+    },
+    {
+      "seed": 43,
+      "policy": "GC",
+      "h_multiplier": 0.5,
+      "maximum_substep_refinement_gap": 1.4155343563970746e-15
+    },
+    {
+      "seed": 43,
+      "policy": "GC",
+      "h_multiplier": 0.25,
+      "maximum_substep_refinement_gap": 9.381384558082573e-15
+    },
+    {
+      "seed": 91,
+      "policy": "GC",
+      "h_multiplier": 4.0,
+      "maximum_substep_refinement_gap": 6.522560269672795e-16
+    },
+    {
+      "seed": 91,
+      "policy": "GC",
+      "h_multiplier": 2.0,
+      "maximum_substep_refinement_gap": 1.3504822260479443e-15
+    },
+    {
+      "seed": 91,
+      "policy": "GC",
+      "h_multiplier": 1.0,
+      "maximum_substep_refinement_gap": 3.1866870253693946e-15
+    },
+    {
+      "seed": 91,
+      "policy": "GC",
+      "h_multiplier": 0.5,
+      "maximum_substep_refinement_gap": 2.400857290751901e-15
+    },
+    {
+      "seed": 91,
+      "policy": "GC",
+      "h_multiplier": 0.25,
+      "maximum_substep_refinement_gap": 4.040170975549984e-15
+    },
+    {
+      "seed": 137,
+      "policy": "GC",
+      "h_multiplier": 4.0,
+      "maximum_substep_refinement_gap": 8.673617379884035e-16
+    },
+    {
+      "seed": 137,
+      "policy": "GC",
+      "h_multiplier": 2.0,
+      "maximum_substep_refinement_gap": 1.6167622796103842e-15
+    },
+    {
+      "seed": 137,
+      "policy": "GC",
+      "h_multiplier": 1.0,
+      "maximum_substep_refinement_gap": 2.4702462297909733e-15
+    },
+    {
+      "seed": 137,
+      "policy": "GC",
+      "h_multiplier": 0.5,
+      "maximum_substep_refinement_gap": 1.880440247958859e-15
+    },
+    {
+      "seed": 137,
+      "policy": "GC",
+      "h_multiplier": 0.25,
+      "maximum_substep_refinement_gap": 5.689893001203927e-15
+    },
+    {
+      "seed": 211,
+      "policy": "GC",
+      "h_multiplier": 4.0,
+      "maximum_substep_refinement_gap": 1.547373340571312e-15
+    },
+    {
+      "seed": 211,
+      "policy": "GC",
+      "h_multiplier": 2.0,
+      "maximum_substep_refinement_gap": 8.083811398051921e-16
+    },
+    {
+      "seed": 211,
+      "policy": "GC",
+      "h_multiplier": 1.0,
+      "maximum_substep_refinement_gap": 2.1788126858268697e-15
+    },
+    {
+      "seed": 211,
+      "policy": "GC",
+      "h_multiplier": 0.5,
+      "maximum_substep_refinement_gap": 2.5396351688300456e-15
+    },
+    {
+      "seed": 211,
+      "policy": "GC",
+      "h_multiplier": 0.25,
+      "maximum_substep_refinement_gap": 4.6629367034256575e-15
+    }
+  ],
+  "maximum_gap": 9.381384558082573e-15
+}

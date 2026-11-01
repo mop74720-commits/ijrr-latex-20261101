@@ -1,0 +1,134 @@
+{
+  "files": [
+    {
+      "file": "A0p2_h0p025.npz",
+      "bytes": 493909,
+      "sha256": "0dbf96d732b4c8ddf3c179bc4a8ac608862e832fcdfb982e3d0c2b6423990fbb"
+    },
+    {
+      "file": "A0p2_h0p050.npz",
+      "bytes": 252874,
+      "sha256": "0f91a561034048b317a951c712466fba2e24fc8fc007a64d19211c9ff5f3613e"
+    },
+    {
+      "file": "A0p2_h0p100.npz",
+      "bytes": 129425,
+      "sha256": "720eebfb20929120b139a4c8ef6abbb3ebcaa776e6642a5c945f4d93c23a734f"
+    },
+    {
+      "file": "A0p4_h0p025.npz",
+      "bytes": 498909,
+      "sha256": "e8dd07e6dbf116ce63043618d7facf9db131c67f7be6504252ce269982057b99"
+    },
+    {
+      "file": "A0p4_h0p050.npz",
+      "bytes": 256109,
+      "sha256": "ed868d2d4e0d967c558fd06d9d75122e455236fa9e8396fed0dd83e01103e70b"
+    },
+    {
+      "file": "A0p4_h0p100.npz",
+      "bytes": 131160,
+      "sha256": "58ec68c6284c38b401f596cbd47d7dd5839c0d9985928fa534cdda84fd7c5aca"
+    },
+    {
+      "file": "A0p6_h0p025.npz",
+      "bytes": 502421,
+      "sha256": "b94ad83f40e0c700b2bb151df493f0f1703463b4b22ade93646434f0d9c85951"
+    },
+    {
+      "file": "A0p6_h0p050.npz",
+      "bytes": 258798,
+      "sha256": "a52bb239b2526b6f90922d2befa2af89da8391abca22d27c4ecdb3c5c943c39d"
+    },
+    {
+      "file": "A0p6_h0p100.npz",
+      "bytes": 130892,
+      "sha256": "82c846d44bc130c612037deef650db032c0e6dff63d7ed0bef091fab4878b8d9"
+    },
+    {
+      "file": "A0p8_h0p025.npz",
+      "bytes": 507240,
+      "sha256": "5244b1232deb397406d640b9063376d6589bd19c911771ec6214047b596b4daa"
+    },
+    {
+      "file": "A0p8_h0p050.npz",
+      "bytes": 260080,
+      "sha256": "5b16638047b02aebe04c1fe67a43856b861ca4ea6fd2f242c3654f40a1df02f1"
+    },
+    {
+      "file": "A0p8_h0p100.npz",
+      "bytes": 132972,
+      "sha256": "0748ad6b5b5c69a1ebdae213deaffd3e4bfec835552c972f3f6ef6a09fa8050d"
+    },
+    {
+      "file": "A1p0_h0p025.npz",
+      "bytes": 507594,
+      "sha256": "5d4498576a1b31532428f38ddee66ef3dc8239c6087f4c4c65ddb60c17a108a5"
+    },
+    {
+      "file": "A1p0_h0p050.npz",
+      "bytes": 257994,
+      "sha256": "d10a702a4ad8d130a1c9923ed7d4fc77ca2780938ae7bfd2db6622928051ff51"
+    },
+    {
+      "file": "A1p0_h0p100.npz",
+      "bytes": 133245,
+      "sha256": "90f3bf8b92eb804c9c80f47d1f1de6842a04c710ff06b0901062bee9a38c096c"
+    },
+    {
+      "file": "A1p2_h0p025.npz",
+      "bytes": 511221,
+      "sha256": "13e2e027dbac456acc10a2a058316094b6d8d7124baf3a1cb55e7530dbb02772"
+    },
+    {
+      "file": "A1p2_h0p050.npz",
+      "bytes": 261972,
+      "sha256": "ea496bdb02b3470f1db315cc68a7a6dcb5169a406038276651327ace7a9f9a56"
+    },
+    {
+      "file": "A1p2_h0p100.npz",
+      "bytes": 133287,
+      "sha256": "bc55e660809321ae47a67b87dce0c651adda6f241481a522a88a3dc4b4466418"
+    },
+    {
+      "file": "case_metrics.csv",
+      "bytes": 9990,
+      "sha256": "2e4743c92c2e483b11425c16d9cf28575c182b9187abc4a66031a2959051441a"
+    },
+    {
+      "file": "continuous_references.csv",
+      "bytes": 1407,
+      "sha256": "10a7114215c1cf81574daa1be60c6df3493c4de356857f6345ecd4605c5adb9e"
+    },
+    {
+      "file": "protocol.json",
+      "bytes": 1292,
+      "sha256": "ddf8df17ce4f347b3130e9e56257dc67d55c5314836e7982eca512b203baf7cc"
+    },
+    {
+      "file": "README.md",
+      "bytes": 556,
+      "sha256": "6215c75288f485381ac1ca8748823c455a96c4865c37a26367d31c62d475b6bd"
+    },
+    {
+      "file": "results.json",
+      "bytes": 50930,
+      "sha256": "2b95143a6e599f5e5e74a20ccdb79033b27018773952e015373e7119b1f48483"
+    },
+    {
+      "file": "step_sensitivity.csv",
+      "bytes": 971,
+      "sha256": "bcb78c75d4b692f4bd7a624bff967e94063fb2a0cabcd40d3e8e7fa4666969fd"
+    },
+    {
+      "file": "../../code/kam_diagnostics.py",
+      "bytes": 17840,
+      "sha256": "9c56a0bba2fda09214bd694ef6b22a033cea2c6a6a6fb69518e96250e4fa514a"
+    }
+  ],
+  "verification": {
+    "all_npz_reopened": true,
+    "maximum_recomputed_energy_difference": 0,
+    "maximum_recomputed_metric_difference": 0
+  }
+}

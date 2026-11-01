@@ -1,0 +1,6 @@
+{
+  "timing": "Before any controlled rollout; first residual/Jacobian checks only had been run",
+  "added": "Independent original-generating-gradient G, mathematically equal to I",
+  "old_protocol_sha256": "baedbdeecb54227e52d262f77849c72d504eee14a5a6ac0f75515c067902c711",
+  "new_protocol_sha256": "63c7429391ed7eae2ace5ac8f3a3b656fde1b502bbd42138b2746955b6fa86e6"
+}

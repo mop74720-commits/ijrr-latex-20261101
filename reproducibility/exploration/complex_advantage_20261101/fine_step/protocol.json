@@ -1,0 +1,204 @@
+{
+  "date": "2026-11-01",
+  "purpose": "Fixed-weight fine-step exploration; retain all outcomes.",
+  "seeds": [
+    17,
+    43,
+    91,
+    137,
+    211
+  ],
+  "groups": [
+    "H0",
+    "GR",
+    "GC",
+    "Teacher"
+  ],
+  "divisors": [
+    16,
+    32
+  ],
+  "training": "None",
+  "weights": "All saved 10000-update GR/GC weights; no seed or output selection.",
+  "grid": "Exactly the original 914 saved times, all eight held-out initials per seed, endpoint 15.992993212174294 seconds.",
+  "solver": "Original low-level float64 preconditioned implicit midpoint, fastmath=False, original stopping tolerance and iteration cap.",
+  "maximum_midpoint_residual": 2e-14,
+  "comparators": "Same-grid nonlinear midpoint teacher at each step, quadratic H0 Cayley trajectory and exact continuous H0, original DOP853 nonlinear reference.",
+  "reuse_whitelist": [
+    "load_seed",
+    "weights_for",
+    "neural_field",
+    "neural_rollout",
+    "teacher_rollout",
+    "linear_states",
+    "cayley_preconditioner",
+    "original_numpy_field",
+    "metrics_per_trajectory",
+    "target_energy"
+  ],
+  "forbidden_calls": [
+    "plan",
+    "run_experiment",
+    "summarize",
+    "verify_fields"
+  ],
+  "statistics": "Time RMSE per trajectory, mean of eight within seed, mean and sample SD over five seeds; seed-paired GR-GC and H0-network contrasts.",
+  "refinement_check": "Compare h16-to-h32 trajectory changes and metric changes with same-step GR-GC differences. h8-to-h16 retained as previous-level context.",
+  "work_limit": "Run h16 for all seeds first; estimate h32 cost from measured h16 runtime before launching h32.",
+  "threads": "At most two neural tasks; each process BLAS and Numba threads fixed to one.",
+  "claim_limits": "Existing-data exploratory comparison only. One-output advantage, mixed seed signs, and incomplete time convergence cannot establish general complex superiority.",
+  "inputs": [
+    {
+      "path": "code/neural_physics_refinement.py",
+      "sha256": "0eea7c635d7ace0073170e48a2eab69db6a77129f46e08e59d3f6b872e271221"
+    },
+    {
+      "path": "code/train_neural_hnn.py",
+      "sha256": "3dadee3db2a884eb93e1b8ca75fa4f0496890095dbd82ac9880e9b7e2acf92e5"
+    },
+    {
+      "path": "results/neural_learning_10000/protocol.json",
+      "sha256": "b966a82f3666cdda6e0f3b738ad6b80e17a647aca0375dd3fcad229abfb689fa"
+    },
+    {
+      "path": "results/learning/data/seed_17.npz",
+      "sha256": "f02a36438e9d23894a4f7261b652f00d5d048b427f18a4433fb602791aec6c86"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_17/GR_weights.npz",
+      "sha256": "c1dad775b3d9f6eb9e79d074f2fdae16b97031b4e5cfcb82cbdaa7fb64648822"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_17/GR_rollout.npz",
+      "sha256": "7b4f0d6ca3934b6446a2eb8bcce8a4af448cf0de7e394656e8abe131ee67ba0f"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_17/GC_weights.npz",
+      "sha256": "3741547f85a25bd7ba8845dc16c8da783ea85dd8bfcb4ffbe6333e6b45cf84de"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_17/GC_rollout.npz",
+      "sha256": "3d75e3268f7c0cc7f15c299293966db561015f8a650b62ba7be6eee1f4708592"
+    },
+    {
+      "path": "results/neural_physics_refinement/seed_17/h8_trajectories.npz",
+      "sha256": "55e89a085d5c793c13fcc282b5620df0eeaa59e70be39a3f93a61009946a4a87"
+    },
+    {
+      "path": "results/neural_physics_refinement/seed_17/h8_records.json",
+      "sha256": "9ae63329f5d5ab7b1d86e665250b3ccb29563da8d6fc4d47453eb42686049ff3"
+    },
+    {
+      "path": "results/learning/data/seed_43.npz",
+      "sha256": "4283c88184af6ea1e39c96572b6d1891adfd23f339a813f329d6d82cdbd8e40a"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_43/GR_weights.npz",
+      "sha256": "c4f3f3c1df9c8462d84ff03a07841e3a39e3bb42458fba36721627fda26b35b5"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_43/GR_rollout.npz",
+      "sha256": "0ad73d8872f7231c7b02d5ffa746ab549b015952347b0af59c83ce005ceac6e2"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_43/GC_weights.npz",
+      "sha256": "8791a66a5a26f132c4b92ed6176498353d0bdc85b07b9e3c3af522a605a8c107"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_43/GC_rollout.npz",
+      "sha256": "30bc796bc7a8c6b32fd14877fd04868e4c0eb52d3f53a0c246f486c4e25a5126"
+    },
+    {
+      "path": "results/neural_physics_refinement/seed_43/h8_trajectories.npz",
+      "sha256": "1c9c995d1538f9768c80006386bb05b26cca820ae9b846d189ddb595b1130167"
+    },
+    {
+      "path": "results/neural_physics_refinement/seed_43/h8_records.json",
+      "sha256": "b4572ba99d43f234167c4e22827413356ae5a01b2bb7c9bedba659f12c2da7e1"
+    },
+    {
+      "path": "results/learning/data/seed_91.npz",
+      "sha256": "d00061656bcf5ac2d77dfcd983de1bf211e2dd8bea899a32488dac34cce4864f"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_91/GR_weights.npz",
+      "sha256": "039463690996f6979ee5950b8ae59ce6a3d1ad5cd6aa70f1ceeb032d4e8d8635"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_91/GR_rollout.npz",
+      "sha256": "4fb3078b01895bb2d477fcebd01fd10f71fccc39f00c4989d2f09e4b3c88baef"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_91/GC_weights.npz",
+      "sha256": "85cfb42e8a196ce52dd8bc13b588b738b9bce0cc618df483999d39a99e7bc578"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_91/GC_rollout.npz",
+      "sha256": "c040869a8422bdfb35186b98a90ff3758c8b7a7327a1a74913629f3b5af2f1e6"
+    },
+    {
+      "path": "results/neural_physics_refinement/seed_91/h8_trajectories.npz",
+      "sha256": "7afbca7abbcc0962f3155a067f0cd46c90cf5b68761e8a834ba9fe4dbdbf00bf"
+    },
+    {
+      "path": "results/neural_physics_refinement/seed_91/h8_records.json",
+      "sha256": "2e7b559eddcbc5ea14bc2d34ebfc21c121cd22e3326a2771f229814d2c44562a"
+    },
+    {
+      "path": "results/learning/data/seed_137.npz",
+      "sha256": "e40c692789963e6b75de6e8e1bdac288505b589275baa80e8145178992b737cf"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_137/GR_weights.npz",
+      "sha256": "a68f8c67cd99a9f054751ec88e0776f00c5d84baef5a410b08df0c1407ad71fc"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_137/GR_rollout.npz",
+      "sha256": "6d864222c96723739103c81dcc263af8b0b7b31b8e7d96ef5cb5c6a1f280ead2"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_137/GC_weights.npz",
+      "sha256": "dbf6baafd07b5c93ed8f6ee5182bfc1f31f20be890e59fd66e21f711ab4c19fe"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_137/GC_rollout.npz",
+      "sha256": "97816f0b53184d762f7f5336e1ca9cfce94aaae3570cbb63a0e59c6d5b5d2177"
+    },
+    {
+      "path": "results/neural_physics_refinement/seed_137/h8_trajectories.npz",
+      "sha256": "e1b5dbf921b655fe84150bc58510c8f5e487c90348f1da78bce4cb7d78a92947"
+    },
+    {
+      "path": "results/neural_physics_refinement/seed_137/h8_records.json",
+      "sha256": "637012ff7a5bbbf6581de2eda8b9d87a6643f8c0336d5e3c8d9ce65b71671bfa"
+    },
+    {
+      "path": "results/learning/data/seed_211.npz",
+      "sha256": "e183c94bae91648c4d9d4695d0cc199b710cbba83b91897f83f3517c3fd853c2"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_211/GR_weights.npz",
+      "sha256": "0d3141edd9a4a61bbfc09f9b571aef22ebe46e4961dfe1597c4eb130df790bd3"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_211/GR_rollout.npz",
+      "sha256": "5353de47723c62baffb814de87f02c60a0242c0e674b7c471a3da63a94caa29b"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_211/GC_weights.npz",
+      "sha256": "8ba2ff42d19683c54d36a8af03bf2110a3ddc0ecc76910be4cf40270f01016ed"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_211/GC_rollout.npz",
+      "sha256": "55bcaba48c80359e7a0ba5b4d3fda60d648d71980c82a996dcad352b0988354c"
+    },
+    {
+      "path": "results/neural_physics_refinement/seed_211/h8_trajectories.npz",
+      "sha256": "5b30aec797a3225724962503835fdb3431800eeb90046e133cbba6f988e37cdf"
+    },
+    {
+      "path": "results/neural_physics_refinement/seed_211/h8_records.json",
+      "sha256": "73c281cc9c43b319a7f7092bc64491c96cbd82f12c35aa222b1ab5d97ae2cd3b"
+    }
+  ]
+}

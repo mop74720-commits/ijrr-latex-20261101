@@ -1,0 +1,12 @@
+{
+  "scope": "Existing local environment observed for publication verification; no software was installed. Original training versions are in the archived protocols.",
+  "python": "3.12.7",
+  "libraries": {
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "torch": "2.6.0+cpu",
+    "numba": "0.60.0",
+    "matplotlib": "3.9.2",
+    "threadpoolctl": "3.5.0"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "train": {
+    "maximum_implicit_residual": 5.594483210025203e-17,
+    "mean_iterations_per_step": 1.998978400467017,
+    "elapsed_seconds": 0.03049970000029134,
+    "midpoint_label_consistency_max": 5.162537064506978e-15
+  },
+  "val": {
+    "maximum_implicit_residual": 5.843849709696869e-17,
+    "mean_iterations_per_step": 1.9935953580030656,
+    "elapsed_seconds": 0.020095500000024913,
+    "midpoint_label_consistency_max": 5.10702591327572e-15
+  },
+  "test_teacher": {
+    "maximum_implicit_residual": 5.442694905877232e-17,
+    "mean_iterations_per_step": 1.991646595139041,
+    "elapsed_seconds": 0.43260259999988193
+  },
+  "test_reference": {
+    "method": "DOP853",
+    "rtol": 2e-11,
+    "atol": 2e-13,
+    "elapsed_seconds": 16.377782199999274
+  }
+}

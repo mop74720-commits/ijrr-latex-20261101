@@ -1,0 +1,85 @@
+{
+  "cases": [
+    {
+      "case": "scalar_m1",
+      "N": 1,
+      "n_fixed_initials": 3,
+      "finest_h": 0.0125,
+      "maximum_endpoint_error": 4.7395437922904926e-05,
+      "minimum_observed_order": 1.9998985648522487,
+      "maximum_symplectic_defect": 0.0,
+      "minimum_mass_eigenvalue": 1.0,
+      "maximum_mass_condition": 1.0,
+      "maximum_delta": 0.0
+    },
+    {
+      "case": "scalar_m2",
+      "N": 1,
+      "n_fixed_initials": 3,
+      "finest_h": 0.0125,
+      "maximum_endpoint_error": 2.302826054000796e-05,
+      "minimum_observed_order": 1.9999515945820483,
+      "maximum_symplectic_defect": 1.1102230246251565e-16,
+      "minimum_mass_eigenvalue": 2.0,
+      "maximum_mass_condition": 1.0,
+      "maximum_delta": 0.0
+    },
+    {
+      "case": "scalar_m5",
+      "N": 1,
+      "n_fixed_initials": 3,
+      "finest_h": 0.0125,
+      "maximum_endpoint_error": 5.884946024781227e-06,
+      "minimum_observed_order": 1.9999688983639965,
+      "maximum_symplectic_defect": 1.1102230246251565e-16,
+      "minimum_mass_eigenvalue": 5.0,
+      "maximum_mass_condition": 1.0,
+      "maximum_delta": 0.0
+    },
+    {
+      "case": "scalar_variable",
+      "N": 1,
+      "n_fixed_initials": 3,
+      "finest_h": 0.0125,
+      "maximum_endpoint_error": 2.3978197663379825e-05,
+      "minimum_observed_order": 1.999952943922903,
+      "maximum_symplectic_defect": 2.220446049250313e-16,
+      "minimum_mass_eigenvalue": 2.000000294699189,
+      "maximum_mass_condition": 1.0,
+      "maximum_delta": 0.021063999230443945
+    },
+    {
+      "case": "coupled_constant",
+      "N": 2,
+      "n_fixed_initials": 3,
+      "finest_h": 0.0125,
+      "maximum_endpoint_error": 4.172017493486634e-05,
+      "minimum_observed_order": 1.9998783091498658,
+      "maximum_symplectic_defect": 1.1256375684273067e-16,
+      "minimum_mass_eigenvalue": 1.3594875162046671,
+      "maximum_mass_condition": 1.574499550956586,
+      "maximum_delta": 0.0
+    },
+    {
+      "case": "coupled_variable",
+      "N": 2,
+      "n_fixed_initials": 3,
+      "finest_h": 0.0125,
+      "maximum_endpoint_error": 4.16419904890925e-05,
+      "minimum_observed_order": 1.9998732900300746,
+      "maximum_symplectic_defect": 2.2413113824169427e-16,
+      "minimum_mass_eigenvalue": 1.3594875345885529,
+      "maximum_mass_condition": 1.6079170996946899,
+      "maximum_delta": 0.04416360940003955
+    }
+  ],
+  "all_step_symplectic_defect_max": 4.579669976578771e-16,
+  "all_step_implicit_residual_max": 1.965094753586527e-14,
+  "all_step_independent_gap_max": 6.5503158452884236e-15,
+  "wrong_matrix_regression": {
+    "commutator_norm": 0.19798989873223333,
+    "correct_momentum_gap": 5.551115123125783e-17,
+    "wrong_right_inverse_gap": 0.0004543527733364139,
+    "wrong_elementwise_reciprocal_gap": 0.10487353243475622
+  }
+}

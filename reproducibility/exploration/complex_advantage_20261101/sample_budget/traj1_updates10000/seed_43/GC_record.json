@@ -1,0 +1,60 @@
+{
+  "condition": "traj1_updates10000",
+  "seed": 43,
+  "group": "GC",
+  "train_trajectories": 1,
+  "training_rows": 286,
+  "training_trajectory_ids": [
+    6
+  ],
+  "training_updates": 10000,
+  "baseline_saved_weights": false,
+  "validation_selection_count": 2048,
+  "validation_reporting_count": 2284,
+  "status": "completed",
+  "real_parameter_count": 673,
+  "training_steps": 10000,
+  "selected_validation_step": 9800,
+  "validation_normalized_mse": 1.255368240795576e-10,
+  "training_seconds": 28.64014049999969,
+  "numpy_torch_field_max_difference": 2.7755575615628914e-17,
+  "validation_reporting_points": 2284,
+  "clean_label_rhs_max_gap": 5.551115123125783e-15,
+  "clean_gradient_rms": 2.4693416091627848e-06,
+  "common_scale_clean_gradient_rms": 1.3110485397673371e-05,
+  "common_reporting_output_rms": [
+    0.09013683180795413,
+    0.4724278623866872,
+    0.09052929713060638,
+    0.47180264450669984
+  ],
+  "clean_field_mse": 6.097647982742651e-12,
+  "clean_field_relative_l2": 8.207707674049212e-06,
+  "nonlinear_residual_relative_l2": 1.2299850011832116,
+  "nonlinear_momentum_relative_l2": 0.8636855570207739,
+  "spurious_kinematic_residual_rms": 2.4863866169887553e-06,
+  "noisy_full_validation_normalized_mse": 1.2621558381479596e-10,
+  "quadratic_baseline_field_relative_l2": 6.673014440138395e-06,
+  "validation_nonlinear_field_l2": 0.00019189312010480666,
+  "validation_field_error_component_rmse": [
+    1.2189670391501384e-06,
+    3.298235312343793e-06,
+    1.849209886048101e-06,
+    2.9337310562126446e-06
+  ],
+  "train_only_input_rms": [
+    0.11230107567143037,
+    0.09810503068394547,
+    0.11086160406406524,
+    0.09832958803949404
+  ],
+  "train_only_output_rms": [
+    0.1108616051930986,
+    0.6049351489438458,
+    0.11229738632104756,
+    0.6035479668339987
+  ],
+  "train_only_energy_scale": 0.02284801545456357,
+  "elapsed_seconds_this_evaluation": 28.650896300001477,
+  "weights_sha256": "07640fbf17b2c19376adccbf44be16e6098a01b626548be3923858580a8d6e00"
+}

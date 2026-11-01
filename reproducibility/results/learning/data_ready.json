@@ -1,0 +1,36 @@
+{
+  "seeds": [
+    17,
+    43,
+    91,
+    137,
+    211
+  ],
+  "files": [
+    {
+      "seed": 17,
+      "path": "E:/1030/IJRR_1025_20261030/results/learning/data/seed_17.npz",
+      "sha256": "f02a36438e9d23894a4f7261b652f00d5d048b427f18a4433fb602791aec6c86"
+    },
+    {
+      "seed": 43,
+      "path": "E:/1030/IJRR_1025_20261030/results/learning/data/seed_43.npz",
+      "sha256": "4283c88184af6ea1e39c96572b6d1891adfd23f339a813f329d6d82cdbd8e40a"
+    },
+    {
+      "seed": 91,
+      "path": "E:/1030/IJRR_1025_20261030/results/learning/data/seed_91.npz",
+      "sha256": "d00061656bcf5ac2d77dfcd983de1bf211e2dd8bea899a32488dac34cce4864f"
+    },
+    {
+      "seed": 137,
+      "path": "E:/1030/IJRR_1025_20261030/results/learning/data/seed_137.npz",
+      "sha256": "e40c692789963e6b75de6e8e1bdac288505b589275baa80e8145178992b737cf"
+    },
+    {
+      "seed": 211,
+      "path": "E:/1030/IJRR_1025_20261030/results/learning/data/seed_211.npz",
+      "sha256": "e183c94bae91648c4d9d4695d0cc199b710cbba83b91897f83f3517c3fd853c2"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "utc_started": "2026-11-01T07:40:13.263481+00:00",
+  "entrypoint": "unchanged confirmation.evaluate_seed(seed,32)",
+  "seeds": [
+    307,
+    419,
+    541,
+    653,
+    809
+  ],
+  "workers": 2,
+  "wait_limit_seconds": 1200,
+  "confirmation_script_sha256": "3374f07509638acf47f4c4c8a68d563495226f4ca1f0272f1622c354551f6b3a",
+  "nomination_sha256": "a19f79238b431ef42e40023dca92207a7abbceb965ff7cc419a65d5315dfbb8a",
+  "no_training": true
+}

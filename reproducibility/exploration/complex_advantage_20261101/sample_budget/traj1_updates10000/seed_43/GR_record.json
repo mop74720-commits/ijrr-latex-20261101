@@ -1,0 +1,60 @@
+{
+  "condition": "traj1_updates10000",
+  "seed": 43,
+  "group": "GR",
+  "train_trajectories": 1,
+  "training_rows": 286,
+  "training_trajectory_ids": [
+    6
+  ],
+  "training_updates": 10000,
+  "baseline_saved_weights": false,
+  "validation_selection_count": 2048,
+  "validation_reporting_count": 2284,
+  "status": "completed",
+  "real_parameter_count": 673,
+  "training_steps": 10000,
+  "selected_validation_step": 9700,
+  "validation_normalized_mse": 7.376964669657788e-10,
+  "training_seconds": 18.57385509999949,
+  "numpy_torch_field_max_difference": 2.7755575615628914e-17,
+  "validation_reporting_points": 2284,
+  "clean_label_rhs_max_gap": 5.551115123125783e-15,
+  "clean_gradient_rms": 5.4104509775418974e-06,
+  "common_scale_clean_gradient_rms": 3.3376721711991934e-05,
+  "common_reporting_output_rms": [
+    0.09013683180795413,
+    0.4724278623866872,
+    0.09052929713060638,
+    0.47180264450669984
+  ],
+  "clean_field_mse": 2.927297978038408e-11,
+  "clean_field_relative_l2": 1.798349804808649e-05,
+  "nonlinear_residual_relative_l2": 2.6949586591503794,
+  "nonlinear_momentum_relative_l2": 2.2052178033279195,
+  "spurious_kinematic_residual_rms": 4.398305429712621e-06,
+  "noisy_full_validation_normalized_mse": 7.391388433415325e-10,
+  "quadratic_baseline_field_relative_l2": 6.673014440138395e-06,
+  "validation_nonlinear_field_l2": 0.00019189312010480666,
+  "validation_field_error_component_rmse": [
+    3.7004733300987196e-06,
+    4.9996678328819e-06,
+    4.429969575996661e-06,
+    7.666622944383954e-06
+  ],
+  "train_only_input_rms": [
+    0.11230107567143037,
+    0.09810503068394547,
+    0.11086160406406524,
+    0.09832958803949404
+  ],
+  "train_only_output_rms": [
+    0.1108616051930986,
+    0.6049351489438458,
+    0.11229738632104756,
+    0.6035479668339987
+  ],
+  "train_only_energy_scale": 0.02284801545456357,
+  "elapsed_seconds_this_evaluation": 18.585850299999947,
+  "weights_sha256": "54d31bfc6b7d6df4e968f9ff1d501231d0a31e09f49a2b4d2a3a28ec2b503877"
+}

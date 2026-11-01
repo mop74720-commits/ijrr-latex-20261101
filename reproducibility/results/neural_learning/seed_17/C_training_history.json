@@ -1,0 +1,106 @@
+[
+  {
+    "step": 0,
+    "validation_normalized_mse": 1.3334449785067668
+  },
+  {
+    "step": 100,
+    "validation_normalized_mse": 0.5841253803144726
+  },
+  {
+    "step": 200,
+    "validation_normalized_mse": 0.051760404599742404
+  },
+  {
+    "step": 300,
+    "validation_normalized_mse": 0.011190217870004099
+  },
+  {
+    "step": 400,
+    "validation_normalized_mse": 0.00901617715494543
+  },
+  {
+    "step": 500,
+    "validation_normalized_mse": 0.006991274878187222
+  },
+  {
+    "step": 600,
+    "validation_normalized_mse": 0.005657964710160725
+  },
+  {
+    "step": 700,
+    "validation_normalized_mse": 0.004466192788679023
+  },
+  {
+    "step": 800,
+    "validation_normalized_mse": 0.0038724026946879413
+  },
+  {
+    "step": 900,
+    "validation_normalized_mse": 0.003333694175274963
+  },
+  {
+    "step": 1000,
+    "validation_normalized_mse": 0.002975711086887995
+  },
+  {
+    "step": 1100,
+    "validation_normalized_mse": 0.0027032831587513136
+  },
+  {
+    "step": 1200,
+    "validation_normalized_mse": 0.002415322153977899
+  },
+  {
+    "step": 1300,
+    "validation_normalized_mse": 0.0022473135963403837
+  },
+  {
+    "step": 1400,
+    "validation_normalized_mse": 0.00217534858828511
+  },
+  {
+    "step": 1500,
+    "validation_normalized_mse": 0.002096261457944214
+  },
+  {
+    "step": 1600,
+    "validation_normalized_mse": 0.0020394603458794634
+  },
+  {
+    "step": 1700,
+    "validation_normalized_mse": 0.0019607130516932883
+  },
+  {
+    "step": 1800,
+    "validation_normalized_mse": 0.0019321261265544244
+  },
+  {
+    "step": 1900,
+    "validation_normalized_mse": 0.0018437540872216168
+  },
+  {
+    "step": 2000,
+    "validation_normalized_mse": 0.0018265327614528856
+  },
+  {
+    "step": 2100,
+    "validation_normalized_mse": 0.0018171590301012707
+  },
+  {
+    "step": 2200,
+    "validation_normalized_mse": 0.0018014671096376273
+  },
+  {
+    "step": 2300,
+    "validation_normalized_mse": 0.001778259131434685
+  },
+  {
+    "step": 2400,
+    "validation_normalized_mse": 0.001757668445787289
+  },
+  {
+    "step": 2500,
+    "validation_normalized_mse": 0.0017363291482613155
+  }
+]

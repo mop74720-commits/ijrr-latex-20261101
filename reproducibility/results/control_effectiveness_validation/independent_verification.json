@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "original_cases_checked": 360,
+  "original_trajectories_checked": 1200,
+  "common_probe_points": 2560,
+  "own_closed_loop_state_sets": 120,
+  "matched_cases_checked": 120,
+  "original_inputs_unchanged": true,
+  "maximum_original_metric_gap": 8.881784197001252e-16,
+  "caveat": "Metrics independently recomputed from archived trajectories; matched simulations reuse original validated step implementation,not an independent integrator proof."
+}

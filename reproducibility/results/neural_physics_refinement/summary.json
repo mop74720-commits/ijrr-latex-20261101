@@ -1,0 +1,1031 @@
+{
+  "status": "complete",
+  "seed_count": 5,
+  "trajectories_per_seed": 8,
+  "output_times": 914,
+  "analysis_script_sha256": "0eea7c635d7ace0073170e48a2eab69db6a77129f46e08e59d3f6b872e271221",
+  "statistic": "Time RMSE within each trajectory, then eight-trajectory mean within seed; five-seed mean and sample SD.",
+  "all_models": [
+    {
+      "group": "H0",
+      "step_divisor": 1,
+      "n_seeds": 5,
+      "continuous_tip_rmse_mm": {
+        "mean": 0.07746583940722043,
+        "sample_sd": 0.008552330253996208
+      },
+      "matched_teacher_tip_rmse_mm": {
+        "mean": 0.0016454509155202572,
+        "sample_sd": 0.0004705618572695422
+      },
+      "continuous_state_relative_l2": {
+        "mean": 0.12588548008365016,
+        "sample_sd": 0.014053805315680474
+      },
+      "matched_teacher_state_relative_l2": {
+        "mean": 0.001440815442367057,
+        "sample_sd": 0.0002686588481256673
+      },
+      "target_energy_drift_relative": {
+        "mean": 1.3685539293425376e-05,
+        "sample_sd": 3.974243777859813e-06
+      },
+      "own_energy_drift_relative": {
+        "mean": 4.495374054971927e-16,
+        "sample_sd": 3.811287518974675e-17
+      }
+    },
+    {
+      "group": "R",
+      "step_divisor": 1,
+      "n_seeds": 5,
+      "continuous_tip_rmse_mm": {
+        "mean": 0.8718033152576427,
+        "sample_sd": 0.20720060785610248
+      },
+      "matched_teacher_tip_rmse_mm": {
+        "mean": 0.8692294890899891,
+        "sample_sd": 0.2113372321179899
+      },
+      "continuous_state_relative_l2": {
+        "mean": 0.8509492889921105,
+        "sample_sd": 0.11159478005747257
+      },
+      "matched_teacher_state_relative_l2": {
+        "mean": 0.8492742014023769,
+        "sample_sd": 0.12494151042795687
+      },
+      "target_energy_drift_relative": {
+        "mean": 0.004993108868789375,
+        "sample_sd": 0.0009293495497647895
+      },
+      "own_energy_drift_relative": {
+        "mean": 1.1811462928077801e-05,
+        "sample_sd": 1.8651997215284697e-06
+      }
+    },
+    {
+      "group": "C",
+      "step_divisor": 1,
+      "n_seeds": 5,
+      "continuous_tip_rmse_mm": {
+        "mean": 0.8793562278565636,
+        "sample_sd": 0.32998262477874274
+      },
+      "matched_teacher_tip_rmse_mm": {
+        "mean": 0.878712396921675,
+        "sample_sd": 0.33248088769076206
+      },
+      "continuous_state_relative_l2": {
+        "mean": 0.8081607431609369,
+        "sample_sd": 0.20393617154189264
+      },
+      "matched_teacher_state_relative_l2": {
+        "mean": 0.8093447451242163,
+        "sample_sd": 0.21410711310884972
+      },
+      "target_energy_drift_relative": {
+        "mean": 0.004342904234355234,
+        "sample_sd": 0.0008676553891296612
+      },
+      "own_energy_drift_relative": {
+        "mean": 1.1426504444902579e-05,
+        "sample_sd": 1.0225815514458754e-06
+      }
+    },
+    {
+      "group": "GR",
+      "step_divisor": 1,
+      "n_seeds": 5,
+      "continuous_tip_rmse_mm": {
+        "mean": 0.07826272279068987,
+        "sample_sd": 0.008898874500504944
+      },
+      "matched_teacher_tip_rmse_mm": {
+        "mean": 0.0005853984412842583,
+        "sample_sd": 0.00023903387692201714
+      },
+      "continuous_state_relative_l2": {
+        "mean": 0.12710698172828142,
+        "sample_sd": 0.01440283817070276
+      },
+      "matched_teacher_state_relative_l2": {
+        "mean": 0.0006317889562935832,
+        "sample_sd": 0.0002680918294345955
+      },
+      "target_energy_drift_relative": {
+        "mean": 1.8105202135363888e-05,
+        "sample_sd": 3.657383271483556e-06
+      },
+      "own_energy_drift_relative": {
+        "mean": 1.7260048335306415e-08,
+        "sample_sd": 3.905833038916288e-09
+      }
+    },
+    {
+      "group": "GC",
+      "step_divisor": 1,
+      "n_seeds": 5,
+      "continuous_tip_rmse_mm": {
+        "mean": 0.07829766820780157,
+        "sample_sd": 0.008669916736559225
+      },
+      "matched_teacher_tip_rmse_mm": {
+        "mean": 0.0004076447219224175,
+        "sample_sd": 0.00022507824759241256
+      },
+      "continuous_state_relative_l2": {
+        "mean": 0.1271652715073448,
+        "sample_sd": 0.01396275555700263
+      },
+      "matched_teacher_state_relative_l2": {
+        "mean": 0.0004599947904526407,
+        "sample_sd": 0.0002888123131739104
+      },
+      "target_energy_drift_relative": {
+        "mean": 1.1960749999460004e-05,
+        "sample_sd": 3.4420658311401423e-06
+      },
+      "own_energy_drift_relative": {
+        "mean": 9.295966637025868e-09,
+        "sample_sd": 4.693997675224661e-09
+      }
+    },
+    {
+      "group": "H0",
+      "step_divisor": 2,
+      "n_seeds": 5,
+      "continuous_tip_rmse_mm": {
+        "mean": 0.018836454120234866,
+        "sample_sd": 0.0020482660905459245
+      },
+      "matched_teacher_tip_rmse_mm": {
+        "mean": 0.001646768414744182,
+        "sample_sd": 0.0004710139340674442
+      },
+      "continuous_state_relative_l2": {
+        "mean": 0.030685249190896373,
+        "sample_sd": 0.0035645953442337815
+      },
+      "matched_teacher_state_relative_l2": {
+        "mean": 0.001442080538966822,
+        "sample_sd": 0.00026886336983124396
+      },
+      "target_energy_drift_relative": {
+        "mean": 1.3684645509008108e-05,
+        "sample_sd": 3.971105734669998e-06
+      },
+      "own_energy_drift_relative": {
+        "mean": 4.2627006090081472e-16,
+        "sample_sd": 2.4083109027521737e-17
+      }
+    },
+    {
+      "group": "R",
+      "step_divisor": 2,
+      "n_seeds": 5,
+      "continuous_tip_rmse_mm": {
+        "mean": 0.8704699691507802,
+        "sample_sd": 0.21007245393820229
+      },
+      "matched_teacher_tip_rmse_mm": {
+        "mean": 0.8700049819625303,
+        "sample_sd": 0.21100212398650103
+      },
+      "continuous_state_relative_l2": {
+        "mean": 0.850702279036158,
+        "sample_sd": 0.12159327116918638
+      },
+      "matched_teacher_state_relative_l2": {
+        "mean": 0.8505327615471463,
+        "sample_sd": 0.12418190980723914
+      },
+      "target_energy_drift_relative": {
+        "mean": 0.005000272422737075,
+        "sample_sd": 0.000941258773885934
+      },
+      "own_energy_drift_relative": {
+        "mean": 2.966292758614237e-06,
+        "sample_sd": 4.6087807726699246e-07
+      }
+    },
+    {
+      "group": "C",
+      "step_divisor": 2,
+      "n_seeds": 5,
+      "continuous_tip_rmse_mm": {
+        "mean": 0.8795774630978144,
+        "sample_sd": 0.3320178013137989
+      },
+      "matched_teacher_tip_rmse_mm": {
+        "mean": 0.8795558072068044,
+        "sample_sd": 0.33240737571021406
+      },
+      "continuous_state_relative_l2": {
+        "mean": 0.8097759447391251,
+        "sample_sd": 0.21242094473045703
+      },
+      "matched_teacher_state_relative_l2": {
+        "mean": 0.8106573011834332,
+        "sample_sd": 0.21391513040331572
+      },
+      "target_energy_drift_relative": {
+        "mean": 0.004331561681928712,
+        "sample_sd": 0.0008545977198274212
+      },
+      "own_energy_drift_relative": {
+        "mean": 2.8548632275000854e-06,
+        "sample_sd": 2.2946931012020246e-07
+      }
+    },
+    {
+      "group": "GR",
+      "step_divisor": 2,
+      "n_seeds": 5,
+      "continuous_tip_rmse_mm": {
+        "mean": 0.01959600646804046,
+        "sample_sd": 0.002395865797364096
+      },
+      "matched_teacher_tip_rmse_mm": {
+        "mean": 0.000585899713014409,
+        "sample_sd": 0.00023940165741652222
+      },
+      "continuous_state_relative_l2": {
+        "mean": 0.0319091736194826,
+        "sample_sd": 0.003923460235003981
+      },
+      "matched_teacher_state_relative_l2": {
+        "mean": 0.0006321790753236617,
+        "sample_sd": 0.0002681579192081201
+      },
+      "target_energy_drift_relative": {
+        "mean": 1.831305957073663e-05,
+        "sample_sd": 3.729263034829819e-06
+      },
+      "own_energy_drift_relative": {
+        "mean": 4.342248954277836e-09,
+        "sample_sd": 9.603090511108559e-10
+      }
+    },
+    {
+      "group": "GC",
+      "step_divisor": 2,
+      "n_seeds": 5,
+      "continuous_tip_rmse_mm": {
+        "mean": 0.019627973135641033,
+        "sample_sd": 0.0021569799242355547
+      },
+      "matched_teacher_tip_rmse_mm": {
+        "mean": 0.00040807720310119376,
+        "sample_sd": 0.0002254134250512198
+      },
+      "continuous_state_relative_l2": {
+        "mean": 0.03196714247752973,
+        "sample_sd": 0.0034722179735024567
+      },
+      "matched_teacher_state_relative_l2": {
+        "mean": 0.00046037705606731245,
+        "sample_sd": 0.00028911028496617487
+      },
+      "target_energy_drift_relative": {
+        "mean": 1.2071326385804231e-05,
+        "sample_sd": 3.4006758760821013e-06
+      },
+      "own_energy_drift_relative": {
+        "mean": 2.3758426477033785e-09,
+        "sample_sd": 1.2165572432965816e-09
+      }
+    },
+    {
+      "group": "H0",
+      "step_divisor": 4,
+      "n_seeds": 5,
+      "continuous_tip_rmse_mm": {
+        "mean": 0.004349947585063667,
+        "sample_sd": 0.0004423046001316027
+      },
+      "matched_teacher_tip_rmse_mm": {
+        "mean": 0.001647091710942366,
+        "sample_sd": 0.0004711314395910271
+      },
+      "continuous_state_relative_l2": {
+        "mean": 0.006834444688181056,
+        "sample_sd": 0.000927272386875781
+      },
+      "matched_teacher_state_relative_l2": {
+        "mean": 0.0014423971743639566,
+        "sample_sd": 0.0002689145416353525
+      },
+      "target_energy_drift_relative": {
+        "mean": 1.3693735904744195e-05,
+        "sample_sd": 3.964502104929807e-06
+      },
+      "own_energy_drift_relative": {
+        "mean": 4.28602664219895e-16,
+        "sample_sd": 2.837476420487352e-17
+      }
+    },
+    {
+      "group": "R",
+      "step_divisor": 4,
+      "n_seeds": 5,
+      "continuous_tip_rmse_mm": {
+        "mean": 0.8703137893099685,
+        "sample_sd": 0.2106873139914453
+      },
+      "matched_teacher_tip_rmse_mm": {
+        "mean": 0.8701993773772528,
+        "sample_sd": 0.21091558937662325
+      },
+      "continuous_state_relative_l2": {
+        "mean": 0.8509102788136553,
+        "sample_sd": 0.12334256023313085
+      },
+      "matched_teacher_state_relative_l2": {
+        "mean": 0.8508479471058543,
+        "sample_sd": 0.12398837281003866
+      },
+      "target_energy_drift_relative": {
+        "mean": 0.004993530631212608,
+        "sample_sd": 0.0009576001237257667
+      },
+      "own_energy_drift_relative": {
+        "mean": 7.38562759623575e-07,
+        "sample_sd": 1.1846594438634248e-07
+      }
+    },
+    {
+      "group": "C",
+      "step_divisor": 4,
+      "n_seeds": 5,
+      "continuous_tip_rmse_mm": {
+        "mean": 0.8797594000360462,
+        "sample_sd": 0.3323073959530256
+      },
+      "matched_teacher_tip_rmse_mm": {
+        "mean": 0.8797659810879577,
+        "sample_sd": 0.33238926509406597
+      },
+      "continuous_state_relative_l2": {
+        "mean": 0.8107296052351234,
+        "sample_sd": 0.21354384595356876
+      },
+      "matched_teacher_state_relative_l2": {
+        "mean": 0.8109828751045924,
+        "sample_sd": 0.21386713770675966
+      },
+      "target_energy_drift_relative": {
+        "mean": 0.004334675940151342,
+        "sample_sd": 0.0008663325222078298
+      },
+      "own_energy_drift_relative": {
+        "mean": 7.125075094410682e-07,
+        "sample_sd": 5.7091684594340465e-08
+      }
+    },
+    {
+      "group": "GR",
+      "step_divisor": 4,
+      "n_seeds": 5,
+      "continuous_tip_rmse_mm": {
+        "mean": 0.004890888482400813,
+        "sample_sd": 0.0007771276794361541
+      },
+      "matched_teacher_tip_rmse_mm": {
+        "mean": 0.0005860252770867536,
+        "sample_sd": 0.0002395023301425815
+      },
+      "continuous_state_relative_l2": {
+        "mean": 0.008010858706900516,
+        "sample_sd": 0.001310368131189683
+      },
+      "matched_teacher_state_relative_l2": {
+        "mean": 0.0006322768263657031,
+        "sample_sd": 0.0002681744486965099
+      },
+      "target_energy_drift_relative": {
+        "mean": 1.8304847705569653e-05,
+        "sample_sd": 3.7411688223259337e-06
+      },
+      "own_energy_drift_relative": {
+        "mean": 1.088698133990529e-09,
+        "sample_sd": 2.3968927637417747e-10
+      }
+    },
+    {
+      "group": "GC",
+      "step_divisor": 4,
+      "n_seeds": 5,
+      "continuous_tip_rmse_mm": {
+        "mean": 0.004908192972274397,
+        "sample_sd": 0.0005220667329888888
+      },
+      "matched_teacher_tip_rmse_mm": {
+        "mean": 0.0004081852604316225,
+        "sample_sd": 0.00022550378931900832
+      },
+      "continuous_state_relative_l2": {
+        "mean": 0.008065342413499304,
+        "sample_sd": 0.0008412036064496032
+      },
+      "matched_teacher_state_relative_l2": {
+        "mean": 0.0004604727014579305,
+        "sample_sd": 0.00028918490680292556
+      },
+      "target_energy_drift_relative": {
+        "mean": 1.2080088326153869e-05,
+        "sample_sd": 3.3858142508079607e-06
+      },
+      "own_energy_drift_relative": {
+        "mean": 5.952128872268508e-10,
+        "sample_sd": 3.0218390988637225e-10
+      }
+    },
+    {
+      "group": "H0",
+      "step_divisor": 8,
+      "n_seeds": 5,
+      "continuous_tip_rmse_mm": {
+        "mean": 0.001562678683512635,
+        "sample_sd": 0.00034216027457300636
+      },
+      "matched_teacher_tip_rmse_mm": {
+        "mean": 0.0016471720561729408,
+        "sample_sd": 0.00047116099894425
+      },
+      "continuous_state_relative_l2": {
+        "mean": 0.0013530918988150181,
+        "sample_sd": 0.00010085269921423755
+      },
+      "matched_teacher_state_relative_l2": {
+        "mean": 0.0014424763559746407,
+        "sample_sd": 0.00026892733726314175
+      },
+      "target_energy_drift_relative": {
+        "mean": 1.369765649973454e-05,
+        "sample_sd": 3.965204388047748e-06
+      },
+      "own_energy_drift_relative": {
+        "mean": 4.3287392995641603e-16,
+        "sample_sd": 1.0165943719939058e-17
+      }
+    },
+    {
+      "group": "R",
+      "step_divisor": 8,
+      "n_seeds": 5,
+      "continuous_tip_rmse_mm": {
+        "mean": 0.8702766029066866,
+        "sample_sd": 0.2108369489479653
+      },
+      "matched_teacher_tip_rmse_mm": {
+        "mean": 0.8702480013183689,
+        "sample_sd": 0.2108937910059022
+      },
+      "continuous_state_relative_l2": {
+        "mean": 0.8509437315770318,
+        "sample_sd": 0.12377823900321609
+      },
+      "matched_teacher_state_relative_l2": {
+        "mean": 0.8509267711806267,
+        "sample_sd": 0.12393976303616282
+      },
+      "target_energy_drift_relative": {
+        "mean": 0.004994042061653237,
+        "sample_sd": 0.0009575728776380721
+      },
+      "own_energy_drift_relative": {
+        "mean": 1.8444838298259045e-07,
+        "sample_sd": 2.981061550050349e-08
+      }
+    },
+    {
+      "group": "C",
+      "step_divisor": 8,
+      "n_seeds": 5,
+      "continuous_tip_rmse_mm": {
+        "mean": 0.8798160010134071,
+        "sample_sd": 0.3323653277551423
+      },
+      "matched_teacher_tip_rmse_mm": {
+        "mean": 0.8798184919311393,
+        "sample_sd": 0.33238475748470064
+      },
+      "continuous_state_relative_l2": {
+        "mean": 0.8109987428778755,
+        "sample_sd": 0.213777110893192
+      },
+      "matched_teacher_state_relative_l2": {
+        "mean": 0.8110641033305871,
+        "sample_sd": 0.21385513368608378
+      },
+      "target_energy_drift_relative": {
+        "mean": 0.004336169963442394,
+        "sample_sd": 0.0008688946813711258
+      },
+      "own_energy_drift_relative": {
+        "mean": 1.780746522508679e-07,
+        "sample_sd": 1.448637243704662e-08
+      }
+    },
+    {
+      "group": "GR",
+      "step_divisor": 8,
+      "n_seeds": 5,
+      "continuous_tip_rmse_mm": {
+        "mean": 0.0013351620986705407,
+        "sample_sd": 0.0003420676787393632
+      },
+      "matched_teacher_tip_rmse_mm": {
+        "mean": 0.0005860566617257781,
+        "sample_sd": 0.00023952797960757576
+      },
+      "continuous_state_relative_l2": {
+        "mean": 0.0020746354950873062,
+        "sample_sd": 0.0006629333853289136
+      },
+      "matched_teacher_state_relative_l2": {
+        "mean": 0.0006323012734193469,
+        "sample_sd": 0.000268178581044134
+      },
+      "target_energy_drift_relative": {
+        "mean": 1.8300486397005874e-05,
+        "sample_sd": 3.7458123847323348e-06
+      },
+      "own_energy_drift_relative": {
+        "mean": 2.7761324056441697e-10,
+        "sample_sd": 6.169360500712355e-11
+      }
+    },
+    {
+      "group": "GC",
+      "step_divisor": 8,
+      "n_seeds": 5,
+      "continuous_tip_rmse_mm": {
+        "mean": 0.0012865150693060702,
+        "sample_sd": 0.00012884732672622246
+      },
+      "matched_teacher_tip_rmse_mm": {
+        "mean": 0.0004082122378945988,
+        "sample_sd": 0.00022552674957138308
+      },
+      "continuous_state_relative_l2": {
+        "mean": 0.0021037906646359196,
+        "sample_sd": 0.00020209679842068902
+      },
+      "matched_teacher_state_relative_l2": {
+        "mean": 0.0004604966170019864,
+        "sample_sd": 0.0002892035713363087
+      },
+      "target_energy_drift_relative": {
+        "mean": 1.2077697551916419e-05,
+        "sample_sd": 3.386360499004876e-06
+      },
+      "own_energy_drift_relative": {
+        "mean": 1.540213005263852e-10,
+        "sample_sd": 7.136804444124459e-11
+      }
+    }
+  ],
+  "paired_H0_minus_network": [
+    {
+      "step_divisor": 1,
+      "contrast": "H0-R",
+      "n_seeds": 5,
+      "continuous_tip_rmse_mm": {
+        "mean": -0.794337475850422,
+        "sample_sd": 0.2131464163412233,
+        "positive_seed_count": 0
+      },
+      "matched_teacher_tip_rmse_mm": {
+        "mean": -0.8675840381744686,
+        "sample_sd": 0.21121217687709665,
+        "positive_seed_count": 0
+      },
+      "continuous_state_relative_l2": {
+        "mean": -0.7250638089084604,
+        "sample_sd": 0.11882968914343951,
+        "positive_seed_count": 0
+      },
+      "matched_teacher_state_relative_l2": {
+        "mean": -0.8478333859600097,
+        "sample_sd": 0.12511211908164638,
+        "positive_seed_count": 0
+      }
+    },
+    {
+      "step_divisor": 1,
+      "contrast": "H0-C",
+      "n_seeds": 5,
+      "continuous_tip_rmse_mm": {
+        "mean": -0.8018903884493433,
+        "sample_sd": 0.3359604855958197,
+        "positive_seed_count": 0
+      },
+      "matched_teacher_tip_rmse_mm": {
+        "mean": -0.8770669460061548,
+        "sample_sd": 0.33238770014735597,
+        "positive_seed_count": 0
+      },
+      "continuous_state_relative_l2": {
+        "mean": -0.6822752630772867,
+        "sample_sd": 0.2137477079608592,
+        "positive_seed_count": 0
+      },
+      "matched_teacher_state_relative_l2": {
+        "mean": -0.8079039296818491,
+        "sample_sd": 0.21415168914308746,
+        "positive_seed_count": 0
+      }
+    },
+    {
+      "step_divisor": 1,
+      "contrast": "H0-GR",
+      "n_seeds": 5,
+      "continuous_tip_rmse_mm": {
+        "mean": -0.0007968833834694295,
+        "sample_sd": 0.0003749593655935768,
+        "positive_seed_count": 0
+      },
+      "matched_teacher_tip_rmse_mm": {
+        "mean": 0.0010600524742359991,
+        "sample_sd": 0.0004412434382930253,
+        "positive_seed_count": 5
+      },
+      "continuous_state_relative_l2": {
+        "mean": -0.0012215016446312428,
+        "sample_sd": 0.0005878221400939992,
+        "positive_seed_count": 0
+      },
+      "matched_teacher_state_relative_l2": {
+        "mean": 0.0008090264860734738,
+        "sample_sd": 0.0003561451329722587,
+        "positive_seed_count": 5
+      }
+    },
+    {
+      "step_divisor": 1,
+      "contrast": "H0-GC",
+      "n_seeds": 5,
+      "continuous_tip_rmse_mm": {
+        "mean": -0.0008318288005811164,
+        "sample_sd": 0.00020791844614068301,
+        "positive_seed_count": 0
+      },
+      "matched_teacher_tip_rmse_mm": {
+        "mean": 0.0012378061935978397,
+        "sample_sd": 0.000418491594830849,
+        "positive_seed_count": 5
+      },
+      "continuous_state_relative_l2": {
+        "mean": -0.0012797914236946345,
+        "sample_sd": 0.0001922061917907297,
+        "positive_seed_count": 0
+      },
+      "matched_teacher_state_relative_l2": {
+        "mean": 0.0009808206519144164,
+        "sample_sd": 0.00036667687629097427,
+        "positive_seed_count": 5
+      }
+    },
+    {
+      "step_divisor": 2,
+      "contrast": "H0-R",
+      "n_seeds": 5,
+      "continuous_tip_rmse_mm": {
+        "mean": -0.8516335150305455,
+        "sample_sd": 0.21156617940646255,
+        "positive_seed_count": 0
+      },
+      "matched_teacher_tip_rmse_mm": {
+        "mean": -0.868358213547786,
+        "sample_sd": 0.21087644192084212,
+        "positive_seed_count": 0
+      },
+      "continuous_state_relative_l2": {
+        "mean": -0.8200170298452616,
+        "sample_sd": 0.12306991263101054,
+        "positive_seed_count": 0
+      },
+      "matched_teacher_state_relative_l2": {
+        "mean": -0.8490906810081796,
+        "sample_sd": 0.12435334436195951,
+        "positive_seed_count": 0
+      }
+    },
+    {
+      "step_divisor": 2,
+      "contrast": "H0-C",
+      "n_seeds": 5,
+      "continuous_tip_rmse_mm": {
+        "mean": -0.8607410089775793,
+        "sample_sd": 0.3335176072773902,
+        "positive_seed_count": 0
+      },
+      "matched_teacher_tip_rmse_mm": {
+        "mean": -0.8779090387920601,
+        "sample_sd": 0.3323132845106872,
+        "positive_seed_count": 0
+      },
+      "continuous_state_relative_l2": {
+        "mean": -0.7790906955482286,
+        "sample_sd": 0.2147432604433791,
+        "positive_seed_count": 0
+      },
+      "matched_teacher_state_relative_l2": {
+        "mean": -0.8092152206444663,
+        "sample_sd": 0.2139592417868943,
+        "positive_seed_count": 0
+      }
+    },
+    {
+      "step_divisor": 2,
+      "contrast": "H0-GR",
+      "n_seeds": 5,
+      "continuous_tip_rmse_mm": {
+        "mean": -0.00075955234780559,
+        "sample_sd": 0.00037223105954331217,
+        "positive_seed_count": 0
+      },
+      "matched_teacher_tip_rmse_mm": {
+        "mean": 0.0010608687017297732,
+        "sample_sd": 0.0004415734847326685,
+        "positive_seed_count": 5
+      },
+      "continuous_state_relative_l2": {
+        "mean": -0.0012239244285862309,
+        "sample_sd": 0.0005931897202579072,
+        "positive_seed_count": 0
+      },
+      "matched_teacher_state_relative_l2": {
+        "mean": 0.0008099014636431607,
+        "sample_sd": 0.0003562561155678683,
+        "positive_seed_count": 5
+      }
+    },
+    {
+      "step_divisor": 2,
+      "contrast": "H0-GC",
+      "n_seeds": 5,
+      "continuous_tip_rmse_mm": {
+        "mean": -0.0007915190154061655,
+        "sample_sd": 0.0001890090648581107,
+        "positive_seed_count": 0
+      },
+      "matched_teacher_tip_rmse_mm": {
+        "mean": 0.0012386912116429884,
+        "sample_sd": 0.00041876358436144313,
+        "positive_seed_count": 5
+      },
+      "continuous_state_relative_l2": {
+        "mean": -0.001281893286633353,
+        "sample_sd": 0.00019051016953242433,
+        "positive_seed_count": 0
+      },
+      "matched_teacher_state_relative_l2": {
+        "mean": 0.0009817034828995097,
+        "sample_sd": 0.00036698268025455583,
+        "positive_seed_count": 5
+      }
+    },
+    {
+      "step_divisor": 4,
+      "contrast": "H0-R",
+      "n_seeds": 5,
+      "continuous_tip_rmse_mm": {
+        "mean": -0.8659638417249049,
+        "sample_sd": 0.21101401503629535,
+        "positive_seed_count": 0
+      },
+      "matched_teacher_tip_rmse_mm": {
+        "mean": -0.8685522856663104,
+        "sample_sd": 0.21078975475729056,
+        "positive_seed_count": 0
+      },
+      "continuous_state_relative_l2": {
+        "mean": -0.8440758341254743,
+        "sample_sd": 0.12358807242335398,
+        "positive_seed_count": 0
+      },
+      "matched_teacher_state_relative_l2": {
+        "mean": -0.8494055499314903,
+        "sample_sd": 0.12416001244040667,
+        "positive_seed_count": 0
+      }
+    },
+    {
+      "step_divisor": 4,
+      "contrast": "H0-C",
+      "n_seeds": 5,
+      "continuous_tip_rmse_mm": {
+        "mean": -0.8754094524509825,
+        "sample_sd": 0.33263272211296835,
+        "positive_seed_count": 0
+      },
+      "matched_teacher_tip_rmse_mm": {
+        "mean": -0.8781188893770153,
+        "sample_sd": 0.3322949502324272,
+        "positive_seed_count": 0
+      },
+      "continuous_state_relative_l2": {
+        "mean": -0.8038951605469424,
+        "sample_sd": 0.21406271145699868,
+        "positive_seed_count": 0
+      },
+      "matched_teacher_state_relative_l2": {
+        "mean": -0.8095404779302283,
+        "sample_sd": 0.21391113362562952,
+        "positive_seed_count": 0
+      }
+    },
+    {
+      "step_divisor": 4,
+      "contrast": "H0-GR",
+      "n_seeds": 5,
+      "continuous_tip_rmse_mm": {
+        "mean": -0.0005409408973371463,
+        "sample_sd": 0.0003588765048649073,
+        "positive_seed_count": 0
+      },
+      "matched_teacher_tip_rmse_mm": {
+        "mean": 0.0010610664338556123,
+        "sample_sd": 0.0004416521214195346,
+        "positive_seed_count": 5
+      },
+      "continuous_state_relative_l2": {
+        "mean": -0.001176414018719461,
+        "sample_sd": 0.0005932837071993776,
+        "positive_seed_count": 0
+      },
+      "matched_teacher_state_relative_l2": {
+        "mean": 0.0008101203479982539,
+        "sample_sd": 0.00035628421323014026,
+        "positive_seed_count": 5
+      }
+    },
+    {
+      "step_divisor": 4,
+      "contrast": "H0-GC",
+      "n_seeds": 5,
+      "continuous_tip_rmse_mm": {
+        "mean": -0.0005582453872107305,
+        "sample_sd": 9.313633809546003e-05,
+        "positive_seed_count": 0
+      },
+      "matched_teacher_tip_rmse_mm": {
+        "mean": 0.0012389064505107434,
+        "sample_sd": 0.00041882589803625533,
+        "positive_seed_count": 5
+      },
+      "continuous_state_relative_l2": {
+        "mean": -0.001230897725318248,
+        "sample_sd": 0.00017132072691362042,
+        "positive_seed_count": 0
+      },
+      "matched_teacher_state_relative_l2": {
+        "mean": 0.0009819244729060265,
+        "sample_sd": 0.0003670593277469342,
+        "positive_seed_count": 5
+      }
+    },
+    {
+      "step_divisor": 8,
+      "contrast": "H0-R",
+      "n_seeds": 5,
+      "continuous_tip_rmse_mm": {
+        "mean": -0.8687139242231741,
+        "sample_sd": 0.21073797689583945,
+        "positive_seed_count": 0
+      },
+      "matched_teacher_tip_rmse_mm": {
+        "mean": -0.868600829262196,
+        "sample_sd": 0.21076791856306276,
+        "positive_seed_count": 0
+      },
+      "continuous_state_relative_l2": {
+        "mean": -0.8495906396782168,
+        "sample_sd": 0.12377025868148274,
+        "positive_seed_count": 0
+      },
+      "matched_teacher_state_relative_l2": {
+        "mean": -0.8494842948246519,
+        "sample_sd": 0.12411145383970446,
+        "positive_seed_count": 0
+      }
+    },
+    {
+      "step_divisor": 8,
+      "contrast": "H0-C",
+      "n_seeds": 5,
+      "continuous_tip_rmse_mm": {
+        "mean": -0.8782533223298945,
+        "sample_sd": 0.33228138159577997,
+        "positive_seed_count": 0
+      },
+      "matched_teacher_tip_rmse_mm": {
+        "mean": -0.8781713198749662,
+        "sample_sd": 0.3322903869212404,
+        "positive_seed_count": 0
+      },
+      "continuous_state_relative_l2": {
+        "mean": -0.8096456509790606,
+        "sample_sd": 0.21377870458111736,
+        "positive_seed_count": 0
+      },
+      "matched_teacher_state_relative_l2": {
+        "mean": -0.8096216269746124,
+        "sample_sd": 0.2138991007721231,
+        "positive_seed_count": 0
+      }
+    },
+    {
+      "step_divisor": 8,
+      "contrast": "H0-GR",
+      "n_seeds": 5,
+      "continuous_tip_rmse_mm": {
+        "mean": 0.0002275165848420945,
+        "sample_sd": 0.00044527875730818406,
+        "positive_seed_count": 4
+      },
+      "matched_teacher_tip_rmse_mm": {
+        "mean": 0.0010611153944471627,
+        "sample_sd": 0.0004416714989156359,
+        "positive_seed_count": 5
+      },
+      "continuous_state_relative_l2": {
+        "mean": -0.0007215435962722883,
+        "sample_sd": 0.0006278673261045039,
+        "positive_seed_count": 0
+      },
+      "matched_teacher_state_relative_l2": {
+        "mean": 0.0008101750825552937,
+        "sample_sd": 0.0003562912542533915,
+        "positive_seed_count": 5
+      }
+    },
+    {
+      "step_divisor": 8,
+      "contrast": "H0-GC",
+      "n_seeds": 5,
+      "continuous_tip_rmse_mm": {
+        "mean": 0.0002761636142065649,
+        "sample_sd": 0.00027550908659945196,
+        "positive_seed_count": 4
+      },
+      "matched_teacher_tip_rmse_mm": {
+        "mean": 0.0012389598182783418,
+        "sample_sd": 0.0004188410927417981,
+        "positive_seed_count": 5
+      },
+      "continuous_state_relative_l2": {
+        "mean": -0.0007506987658209012,
+        "sample_sd": 0.00011277794754528762,
+        "positive_seed_count": 0
+      },
+      "matched_teacher_state_relative_l2": {
+        "mean": 0.0009819797389726541,
+        "sample_sd": 0.00036707850414745074,
+        "positive_seed_count": 5
+      }
+    }
+  ],
+  "force_ratios": [
+    {
+      "seed": 17,
+      "sample_count": 3432,
+      "nonlinear_to_linear_force_L2": 9.30564391135794e-06,
+      "max_abs_training_angle_rad": 0.07239706708927045
+    },
+    {
+      "seed": 43,
+      "sample_count": 3432,
+      "nonlinear_to_linear_force_L2": 1.4419486386320892e-05,
+      "max_abs_training_angle_rad": 0.08958171111565891
+    },
+    {
+      "seed": 91,
+      "sample_count": 3432,
+      "nonlinear_to_linear_force_L2": 1.310705844227899e-05,
+      "max_abs_training_angle_rad": 0.08164925180618272
+    },
+    {
+      "seed": 137,
+      "sample_count": 3432,
+      "nonlinear_to_linear_force_L2": 1.296756343266311e-05,
+      "max_abs_training_angle_rad": 0.08209328068029818
+    },
+    {
+      "seed": 211,
+      "sample_count": 3432,
+      "nonlinear_to_linear_force_L2": 1.673551154653693e-05,
+      "max_abs_training_angle_rad": 0.09379118036981912
+    }
+  ],
+  "force_ratio_mean": 1.3307052743831573e-05,
+  "force_ratio_sample_sd": 2.699924153029074e-06,
+  "maximum_network_implicit_residual": 1.7191109646930158e-15,
+  "maximum_teacher_implicit_residual": 6.055269133331542e-17,
+  "maximum_original_h_network_state_gap": 2.899983413129359e-10,
+  "maximum_original_h_teacher_state_gap": 0,
+  "claim_limits": "All 20 saved models and all seeds included. No retraining. Reduced discretization error need not improve every learned model; lower teacher error does not establish unique physical-potential recovery or general complex-network superiority."
+}

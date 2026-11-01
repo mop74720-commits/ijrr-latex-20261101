@@ -1,0 +1,72 @@
+{
+  "model": "Clamped-free small-slope Euler-Bernoulli Hermite beam with full tip magnetic cosine",
+  "parameters_SI": {
+    "length_m": 0.08,
+    "radius_m": 0.0006,
+    "young_modulus_Pa": 5000000.0,
+    "density_kg_m3": 1100.0,
+    "dipole_A_m2": 2e-05,
+    "bias_field_T": 0.03,
+    "transverse_field_amplitude_T": 0.006,
+    "gravity_m_s2": 0.0,
+    "field_gradient_T_m": 0.0,
+    "damping_ratio_first": 0.025,
+    "drive_frequency_ratio": 0.85,
+    "ramp_time_s": 0.25,
+    "duration_s": 8.0,
+    "output_samples": 2001,
+    "area_m2": 1.1309733552923253e-06,
+    "second_moment_m4": 1.0178760197630926e-13,
+    "bending_rigidity_N_m2": 5.089380098815463e-07,
+    "line_mass_kg_m": 0.0012440706908215578,
+    "drag_mass_factor_s_inv": 0.5555852368222173,
+    "drive_angular_frequency_rad_s": 9.444949025977692,
+    "rayleigh_drag_coefficient_N_s_m2": 0.0006911873093836746
+  },
+  "elements": 32,
+  "modes": 2,
+  "matrix_source": "Python consistent-mass Hermite FE",
+  "source_path": "E:\\\u56de\u5199\\\u91cd\u5199\u5de5\u4f5c\u533a\\beam_validation\\run_beam_validation.py",
+  "source_sha256": "da1cd69ea2b8d5e6d2f5c835e85c25c7d4d9c33db99dd722f8ca8d63c5d611dd",
+  "state_order": [
+    "X1",
+    "X2",
+    "Y1",
+    "Y2"
+  ],
+  "omega_rad_s": [
+    11.417287282852458,
+    70.24049294294339
+  ],
+  "omega0_rad_s": 11.417287282852458,
+  "nu": [
+    1.0,
+    6.152117504167307
+  ],
+  "energy_scale_J": 6.000000000000001e-07,
+  "modal_scale": [
+    6.784419538998941e-05,
+    2.7352711532382803e-05
+  ],
+  "tip_map_m": [
+    0.013506053757608575,
+    0.005470926469222188
+  ],
+  "slope_map_d": [
+    0.2256707726832809,
+    0.3217988056102902
+  ],
+  "dimensionless_drag_gamma": 0.04866175502622648,
+  "time_definition": "tau=omega0*t_SI",
+  "canonical_scaling": "a_j=sqrt(E0/(omega0*omega_j))*X_j; p_j=sqrt(E0*omega_j/omega0)*Y_j",
+  "hamiltonian": "h=0.5 sum nu_j*(X_j^2+Y_j^2)+1-cos(d.X)-0.5*(d.X)^2",
+  "input_potential": "-u(tau)*sin(d.X), u=B_y/B0",
+  "port_decoder": "X'=h_Y; Y'=-h_X-gamma*diag(1/nu)*h_Y+u*d*cos(d.X)",
+  "scope": [
+    "Same SI material parameters and consistent mass as original beam validation",
+    "Static bias field is included in the eigenvectors and eigenfrequencies",
+    "No axial restraint or quartic stretch energy is introduced",
+    "Small-slope mechanical approximation; full cosine of approximate tip slope retained",
+    "No physical, clinical, or spaceflight calibration is claimed"
+  ]
+}

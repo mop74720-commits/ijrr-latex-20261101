@@ -1,0 +1,128 @@
+{
+  "status": "diagnostics_completed; general_Birkhoff_preservation_claim_fails",
+  "source_equation_changed": false,
+  "test_scope": "Scalar specializations of equation (36); not a calibrated four-field robotic model.",
+  "chosen_test_parameters": {
+    "linear": {
+      "m": 1.0,
+      "k": 1.0,
+      "c": [
+        0.0,
+        0.2
+      ]
+    },
+    "variable_mass": {
+      "M(q)": "1+0.3*q^2",
+      "K(q)": "1+0.4*q^2",
+      "c": [
+        0.0,
+        0.2
+      ]
+    }
+  },
+  "interpretation": "Coefficients evaluated at midpoint as in (35); Delta=-0.5*p_mid^2*d(M^-1)/dq. No original equation edited.",
+  "counterexample": {
+    "damping": 0.2,
+    "h": 0.1,
+    "map_determinant": 0.980246913580247,
+    "required_determinant": 0.9801986733067553,
+    "canonical_defect_relative": 0.01975308641975304,
+    "continuous_birkhoff_defect_relative": 4.921479165953535e-05,
+    "exact_flow_birkhoff_defect_relative": 1.1145513959121702e-16
+  },
+  "trajectory_checks": {
+    "conservative": {
+      "max_step_residual": 1.8041124150158794e-16,
+      "max_discrete_power_balance_residual": 2.220446049250313e-16,
+      "max_energy_change": 3.441691376337985e-14
+    },
+    "damped": {
+      "max_step_residual": 1.942890293094024e-16,
+      "max_discrete_power_balance_residual": 1.8388068845354155e-16,
+      "max_energy_change": 0.4999999989863027
+    }
+  },
+  "nonlinear_checks": [
+    {
+      "case": "variable_mass_conservative",
+      "h": 0.4,
+      "max_step_residual": 1.3322676295501878e-15,
+      "reference_refinement_change": 5.084366919766698e-13
+    },
+    {
+      "case": "variable_mass_conservative",
+      "h": 0.2,
+      "max_step_residual": 1.4099832412739488e-14,
+      "reference_refinement_change": 5.084366919766698e-13
+    },
+    {
+      "case": "variable_mass_conservative",
+      "h": 0.1,
+      "max_step_residual": 3.3306690738754696e-16,
+      "reference_refinement_change": 5.084366919766698e-13
+    },
+    {
+      "case": "variable_mass_conservative",
+      "h": 0.05,
+      "max_step_residual": 3.3306690738754696e-16,
+      "reference_refinement_change": 5.084366919766698e-13
+    },
+    {
+      "case": "variable_mass_conservative",
+      "h": 0.025,
+      "max_step_residual": 2.220446049250313e-16,
+      "reference_refinement_change": 5.084366919766698e-13
+    },
+    {
+      "case": "variable_mass_conservative",
+      "h": 0.1,
+      "canonical_defect_relative": 0.0
+    },
+    {
+      "case": "variable_mass_damped",
+      "h": 0.4,
+      "max_step_residual": 1.459943277382081e-14,
+      "reference_refinement_change": 1.800370755670695e-13
+    },
+    {
+      "case": "variable_mass_damped",
+      "h": 0.2,
+      "max_step_residual": 1.7486012637846216e-14,
+      "reference_refinement_change": 1.800370755670695e-13
+    },
+    {
+      "case": "variable_mass_damped",
+      "h": 0.1,
+      "max_step_residual": 4.440892098500626e-16,
+      "reference_refinement_change": 1.800370755670695e-13
+    },
+    {
+      "case": "variable_mass_damped",
+      "h": 0.05,
+      "max_step_residual": 2.220446049250313e-16,
+      "reference_refinement_change": 1.800370755670695e-13
+    },
+    {
+      "case": "variable_mass_damped",
+      "h": 0.025,
+      "max_step_residual": 2.220446049250313e-16,
+      "reference_refinement_change": 1.800370755670695e-13
+    },
+    {
+      "case": "variable_mass_damped",
+      "h": 0.1,
+      "canonical_defect_relative": 0.01718426171221432
+    }
+  ],
+  "reference": "Feng and Qin, Chapter 15, printed p.630 / PDF p.647, explicitly distinguishes midpoint from K(z,t)-symplectic schemes.",
+  "claim_limits": [
+    "Second-order observations apply to these smooth midpoint specializations, not every unspecified coefficient dependence.",
+    "Discrete work balance does not imply preservation of the continuous Birkhoff two-form.",
+    "No CHNN/RHNN training or KAM certificate has been produced."
+  ],
+  "environment": {
+    "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26100-SP0",
+    "numpy": "1.26.4"
+  }
+}

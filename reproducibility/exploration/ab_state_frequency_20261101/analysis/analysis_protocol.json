@@ -1,0 +1,51 @@
+{
+  "scope": "A/B analysis bundle only. No manuscript/GitHub edits; no experiment or checkpoint selection.",
+  "primary_families": [
+    "A continuous63.989489818s",
+    "B30mT continuous64s",
+    "B60mT continuous64s",
+    "B120mT continuous64s"
+  ],
+  "repetition_unit": "Five paired seeds; average8trajectory metrics withinseed first. Do not pool A/B30mT repeated baselines or timepoints.",
+  "contrasts": [
+    [
+      "GR",
+      "H0"
+    ],
+    [
+      "GC",
+      "H0"
+    ],
+    [
+      "GR",
+      "H4"
+    ],
+    [
+      "GC",
+      "H4"
+    ],
+    [
+      "GC",
+      "GR"
+    ]
+  ],
+  "primary_metrics": [
+    "state_relative_l2",
+    "frequency_error_si_1",
+    "frequency_error_si_2"
+  ],
+  "family_size": 15,
+  "inference": "Exact paired two-sided sign test, zeros excluded from sign count; no symmetry or normality assumption. Holm within each15test family at alpha.05.",
+  "minimum_raw_p_n5": 0.0625,
+  "bootstrap": "Enumerate5^5=3125 ordered seed resamples with replacement, paired withincontrast; percentile2.5/97.5 of means and mean paired relative improvements. Empiricalseed intervals, n5 highly unstable; not physical uncertainty or numerical certificate.",
+  "effect_sizes": "Mean/median paired absolute reduction and perseed relative improvement, directional wins, sign balance.",
+  "plot_uncertainty": "95% enumerated seed-bootstrap intervals; all5 seed points shown. Tables also include sampleSD(ddof1).",
+  "units": "Full state relativeL2 within each declared canonical chart; frequency absolute error multiplied by the actual omega0 to physical rad/s. Across-field improvements are computed withinfield pairs.",
+  "A_h32_h64": "Descriptive sensitivity only; no extra p-values or pooled hypotheses. A/B horizons kept explicitly separate.",
+  "B_evidence_gate": "Require all15 level-seed evaluations completed and baseline groups/8trajectories/64s windows present; never generate B conclusions from incomplete results.",
+  "figures": [
+    "01_models_log_errors",
+    "02_B_paired_relative_improvement",
+    "03_A_step_sensitivity"
+  ]
+}

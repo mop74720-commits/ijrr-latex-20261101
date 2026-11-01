@@ -1,0 +1,18 @@
+{
+  "reason": "All-held-out open-loop state error is dominated by free modal midpoint phase error; its observed order near two does not establish second order of the Lie post-kick scheme.",
+  "diagnostic": "Zero initial state under the same smooth input, matching the already existing common target trajectory. Include all three methods at all four originally fixed steps; retain every original result.",
+  "reference": "Same existing DOP853 target in common_reference.npz; no new model or gain selection.",
+  "statistics": "One deterministic zero-initial input-response diagnostic; no seed SD or extra independent repetitions.",
+  "steps": [
+    4.0,
+    2.0,
+    1.0,
+    0.5
+  ],
+  "primary_metrics": [
+    "time_state_relative_l2",
+    "tip_rmse_mm"
+  ],
+  "planned_before_execution": true,
+  "original_protocol_sha256": "d8712ab94502d280027b7393e954458bcd64623f739734f5ad4fe6e43032956c"
+}

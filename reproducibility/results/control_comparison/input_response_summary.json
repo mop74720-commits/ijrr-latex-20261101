@@ -1,0 +1,147 @@
+{
+  "amendment": {
+    "reason": "All-held-out open-loop state error is dominated by free modal midpoint phase error; its observed order near two does not establish second order of the Lie post-kick scheme.",
+    "diagnostic": "Zero initial state under the same smooth input, matching the already existing common target trajectory. Include all three methods at all four originally fixed steps; retain every original result.",
+    "reference": "Same existing DOP853 target in common_reference.npz; no new model or gain selection.",
+    "statistics": "One deterministic zero-initial input-response diagnostic; no seed SD or extra independent repetitions.",
+    "steps": [
+      4.0,
+      2.0,
+      1.0,
+      0.5
+    ],
+    "primary_metrics": [
+      "time_state_relative_l2",
+      "tip_rmse_mm"
+    ],
+    "planned_before_execution": true,
+    "original_protocol_sha256": "d8712ab94502d280027b7393e954458bcd64623f739734f5ad4fe6e43032956c"
+  },
+  "rows": [
+    {
+      "method": "I",
+      "multiplier": 4.0,
+      "h_tau": 0.03999925476804014,
+      "time_state_relative_l2": 0.005021517329190575,
+      "tip_rmse_mm": 0.0024348623545228944,
+      "max_midpoint_residual": 2.0599841277224584e-17,
+      "state_observed_order": null,
+      "tip_observed_order": null
+    },
+    {
+      "method": "II",
+      "multiplier": 4.0,
+      "h_tau": 0.03999925476804014,
+      "time_state_relative_l2": 0.023587308577791,
+      "tip_rmse_mm": 0.011022295359059056,
+      "max_midpoint_residual": 2.1467203015212988e-17,
+      "state_observed_order": null,
+      "tip_observed_order": null
+    },
+    {
+      "method": "III",
+      "multiplier": 4.0,
+      "h_tau": 0.03999925476804014,
+      "time_state_relative_l2": 0.005021420281933157,
+      "tip_rmse_mm": 0.0024348152368964203,
+      "max_midpoint_residual": 2.2171934427328566e-17,
+      "state_observed_order": null,
+      "tip_observed_order": null
+    },
+    {
+      "method": "I",
+      "multiplier": 2.0,
+      "h_tau": 0.01999962738402007,
+      "time_state_relative_l2": 0.0012556720047598583,
+      "tip_rmse_mm": 0.0006087163338574365,
+      "max_midpoint_residual": 2.8080836267374565e-17,
+      "state_observed_order": 1.9996636969499408,
+      "tip_observed_order": 1.9999982337659081
+    },
+    {
+      "method": "II",
+      "multiplier": 2.0,
+      "h_tau": 0.01999962738402007,
+      "time_state_relative_l2": 0.010972847955903442,
+      "tip_rmse_mm": 0.005091114600017538,
+      "max_midpoint_residual": 3.198396408832238e-17,
+      "state_observed_order": 1.104072790028749,
+      "tip_observed_order": 1.1143712461248179
+    },
+    {
+      "method": "III",
+      "multiplier": 2.0,
+      "h_tau": 0.01999962738402007,
+      "time_state_relative_l2": 0.0012556477588786079,
+      "tip_rmse_mm": 0.0006087045603041982,
+      "max_midpoint_residual": 2.835188681049594e-17,
+      "state_observed_order": 1.9996636721445098,
+      "tip_observed_order": 1.9999982198585902
+    },
+    {
+      "method": "I",
+      "multiplier": 1.0,
+      "h_tau": 0.009999813692010036,
+      "time_state_relative_l2": 0.00031391577823686374,
+      "tip_rmse_mm": 0.00015217090453440796,
+      "max_midpoint_residual": 2.5505856107721492e-17,
+      "state_observed_order": 2.0000102162181133,
+      "tip_observed_order": 2.000077540345973
+    },
+    {
+      "method": "II",
+      "multiplier": 1.0,
+      "h_tau": 0.009999813692010036,
+      "time_state_relative_l2": 0.005298306599244619,
+      "tip_rmse_mm": 0.002448522863398299,
+      "max_midpoint_residual": 2.3567844724403653e-17,
+      "state_observed_order": 1.0503347834376715,
+      "tip_observed_order": 1.0560698732963918
+    },
+    {
+      "method": "III",
+      "multiplier": 1.0,
+      "h_tau": 0.009999813692010036,
+      "time_state_relative_l2": 0.0003139097178074417,
+      "tip_rmse_mm": 0.0001521679616275362,
+      "max_midpoint_residual": 2.3960868011929648e-17,
+      "state_observed_order": 2.000010211631563,
+      "tip_observed_order": 2.000077537281315
+    },
+    {
+      "method": "I",
+      "multiplier": 0.5,
+      "h_tau": 0.004999906846005018,
+      "time_state_relative_l2": 7.847838420715641e-05,
+      "tip_rmse_mm": 3.804210126832229e-05,
+      "max_midpoint_residual": 2.485533480423019e-17,
+      "state_observed_order": 2.0000103011072348,
+      "tip_observed_order": 2.0000236969727356
+    },
+    {
+      "method": "II",
+      "multiplier": 0.5,
+      "h_tau": 0.004999906846005018,
+      "time_state_relative_l2": 0.002604526763740417,
+      "tip_rmse_mm": 0.0012011384877252378,
+      "max_midpoint_residual": 2.5153490401663703e-17,
+      "state_observed_order": 1.0245100690484676,
+      "tip_observed_order": 1.0275091683438742
+    },
+    {
+      "method": "III",
+      "multiplier": 0.5,
+      "h_tau": 0.004999906846005018,
+      "time_state_relative_l2": 7.847686918024061e-05,
+      "tip_rmse_mm": 3.804136558001655e-05,
+      "max_midpoint_residual": 2.4638494369733088e-17,
+      "state_observed_order": 2.000010299827332,
+      "tip_observed_order": 2.0000236959742765
+    }
+  ],
+  "independent_tighter_target_max_state_gap": 7.507512406884631e-13,
+  "numeric_archive_sha256": "6af317b5f25436ffc3ae0b19c1631c7cba83f7b9ee4b647f9450ccc952dd02ad",
+  "recomputed_existing_archive_matches": true,
+  "execution_script_sha256": "aaa9b613f67052cd9de49a8567251b7cb63ff5f617fa68dd4d748efd17e7ff5c",
+  "statistic": "One deterministic response per method/step; no seed SD."
+}

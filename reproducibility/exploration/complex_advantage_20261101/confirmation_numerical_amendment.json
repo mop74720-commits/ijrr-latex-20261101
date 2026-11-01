@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-01",
+  "timing": "Before nomination and before any fresh-seed training or prediction evaluation; only amplitude1 prospective data generation has started.",
+  "reason": "Saved-weight h16/h32 results show continuous error metrics still move materially with integration step. Fresh confirmation requires a finer numerical check.",
+  "primary_divisor": 64,
+  "robustness_divisor": 32,
+  "nomination_unchanged": "Full clean validation gradient error; all six prespecified training settings included; no test-based selection.",
+  "decision_unchanged": "Both continuous tip RMSE and full-state relative L2 must have mean paired improvement >=5% and GC wins >=4/5 fresh seeds.",
+  "reporting": "Retain both step levels and report direction changes. Do not call h64 exact or fully converged solely because it is finer. Do not add h128 in this bounded exploration.",
+  "manuscript": "No edits to the paper or established results."
+}

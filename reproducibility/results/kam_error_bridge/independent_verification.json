@@ -1,0 +1,114 @@
+{
+  "status": "passed",
+  "models": 10,
+  "independently_evaluated_points_per_model": 214593,
+  "maximum_metric_difference": 6.369687763352339e-19,
+  "checks": [
+    {
+      "seed": 17,
+      "group": "GR",
+      "gradient_norm_and_energy_max_passed": true,
+      "hessian_path_sum_max_gap": 1.6653345369377348e-16,
+      "uniform_envelope_gap": 8.131516293641283e-20
+    },
+    {
+      "seed": 17,
+      "group": "GC",
+      "gradient_norm_and_energy_max_passed": true,
+      "hessian_path_sum_max_gap": 1.1102230246251565e-16,
+      "uniform_envelope_gap": 8.131516293641283e-20
+    },
+    {
+      "seed": 43,
+      "group": "GR",
+      "gradient_norm_and_energy_max_passed": true,
+      "hessian_path_sum_max_gap": 3.3306690738754696e-16,
+      "uniform_envelope_gap": 1.0842021724855044e-19
+    },
+    {
+      "seed": 43,
+      "group": "GC",
+      "gradient_norm_and_energy_max_passed": true,
+      "hessian_path_sum_max_gap": 3.0531133177191805e-16,
+      "uniform_envelope_gap": 1.6263032587282567e-19
+    },
+    {
+      "seed": 91,
+      "group": "GR",
+      "gradient_norm_and_energy_max_passed": true,
+      "hessian_path_sum_max_gap": 2.7755575615628914e-16,
+      "uniform_envelope_gap": 2.168404344971009e-19
+    },
+    {
+      "seed": 91,
+      "group": "GC",
+      "gradient_norm_and_energy_max_passed": true,
+      "hessian_path_sum_max_gap": 1.6653345369377348e-16,
+      "uniform_envelope_gap": 0.0
+    },
+    {
+      "seed": 137,
+      "group": "GR",
+      "gradient_norm_and_energy_max_passed": true,
+      "hessian_path_sum_max_gap": 1.5265566588595902e-16,
+      "uniform_envelope_gap": 2.710505431213761e-20
+    },
+    {
+      "seed": 137,
+      "group": "GC",
+      "gradient_norm_and_energy_max_passed": true,
+      "hessian_path_sum_max_gap": 4.718447854656915e-16,
+      "uniform_envelope_gap": 5.421010862427522e-20
+    },
+    {
+      "seed": 211,
+      "group": "GR",
+      "gradient_norm_and_energy_max_passed": true,
+      "hessian_path_sum_max_gap": 1.249000902703301e-16,
+      "uniform_envelope_gap": 1.0842021724855044e-19
+    },
+    {
+      "seed": 211,
+      "group": "GC",
+      "gradient_norm_and_energy_max_passed": true,
+      "hessian_path_sum_max_gap": 2.498001805406602e-16,
+      "uniform_envelope_gap": 2.710505431213761e-20
+    }
+  ],
+  "finite_resonance_corner_check_passed": true,
+  "mean_quadrature_quadratic_equality_passed": true,
+  "source_inputs_unchanged": true,
+  "audited_input_hashes": {
+    "results\\learning\\inputs\\reference_model_spec.json": "fd18c090c9f58dac7a5813a5445b7f14c5409ec767c5cb9a4ec38dd2e883ae8c",
+    "results\\learning\\data\\seed_17.npz": "f02a36438e9d23894a4f7261b652f00d5d048b427f18a4433fb602791aec6c86",
+    "results\\neural_learning_10000\\seed_17\\GR_weights.npz": "c1dad775b3d9f6eb9e79d074f2fdae16b97031b4e5cfcb82cbdaa7fb64648822",
+    "results\\neural_learning_10000\\seed_17\\GC_weights.npz": "3741547f85a25bd7ba8845dc16c8da783ea85dd8bfcb4ffbe6333e6b45cf84de",
+    "results\\learning\\data\\seed_43.npz": "4283c88184af6ea1e39c96572b6d1891adfd23f339a813f329d6d82cdbd8e40a",
+    "results\\neural_learning_10000\\seed_43\\GR_weights.npz": "c4f3f3c1df9c8462d84ff03a07841e3a39e3bb42458fba36721627fda26b35b5",
+    "results\\neural_learning_10000\\seed_43\\GC_weights.npz": "8791a66a5a26f132c4b92ed6176498353d0bdc85b07b9e3c3af522a605a8c107",
+    "results\\learning\\data\\seed_91.npz": "d00061656bcf5ac2d77dfcd983de1bf211e2dd8bea899a32488dac34cce4864f",
+    "results\\neural_learning_10000\\seed_91\\GR_weights.npz": "039463690996f6979ee5950b8ae59ce6a3d1ad5cd6aa70f1ceeb032d4e8d8635",
+    "results\\neural_learning_10000\\seed_91\\GC_weights.npz": "85cfb42e8a196ce52dd8bc13b588b738b9bce0cc618df483999d39a99e7bc578",
+    "results\\learning\\data\\seed_137.npz": "e40c692789963e6b75de6e8e1bdac288505b589275baa80e8145178992b737cf",
+    "results\\neural_learning_10000\\seed_137\\GR_weights.npz": "a68f8c67cd99a9f054751ec88e0776f00c5d84baef5a410b08df0c1407ad71fc",
+    "results\\neural_learning_10000\\seed_137\\GC_weights.npz": "dbf6baafd07b5c93ed8f6ee5182bfc1f31f20be890e59fd66e21f711ab4c19fe",
+    "results\\learning\\data\\seed_211.npz": "e183c94bae91648c4d9d4695d0cc199b710cbba83b91897f83f3517c3fd853c2",
+    "results\\neural_learning_10000\\seed_211\\GR_weights.npz": "0d3141edd9a4a61bbfc09f9b571aef22ebe46e4961dfe1597c4eb130df790bd3",
+    "results\\neural_learning_10000\\seed_211\\GC_weights.npz": "8ba2ff42d19683c54d36a8af03bf2110a3ddc0ecc76910be4cf40270f01016ed",
+    "results\\kam_error_bridge\\protocol.json": "63d35529cf6b55498dc3e2c476ca5db56f24b3b7b7a825edc01353bdd55acafc",
+    "results\\kam_error_bridge\\summary.json": "431c9a9d15dd3477c273ee63a7729e6df4d6339d694516f1a10e1244a4e1d3ab",
+    "results\\kam_error_bridge\\reference_budget.json": "198ac4e241f5f9ca3abae229cd6f52aa646e5f3930722da4ba19c0e3c3928d2a",
+    "results\\kam_error_bridge\\seed_17_GR.json": "fd17c55db0437a68a54366d589333f8614db3de6faa576cf0fe66a78b7142b8c",
+    "results\\kam_error_bridge\\seed_17_GC.json": "97e16c6cad0d47103c4b4d59a1bc77cdb3e571de6b1e88867ed5a48c86d5e214",
+    "results\\kam_error_bridge\\seed_43_GR.json": "66642f83359cc35f7ab2397d4f7ff40e4d91b8e9d4148ede941a68a9ed68ea32",
+    "results\\kam_error_bridge\\seed_43_GC.json": "c638d2b5f8c9583ad2b33f31e13cf3f39a3ad8ac094871d979c5309f7a762599",
+    "results\\kam_error_bridge\\seed_91_GR.json": "8d47f61c2211e6768283db19e92e22300f01ef9ee48c7dfbc5837bd2ebc13002",
+    "results\\kam_error_bridge\\seed_91_GC.json": "5a8eae4deb3fad820642693a1e07cd39352a7c33751f62dfb20b3bc47a8d5e90",
+    "results\\kam_error_bridge\\seed_137_GR.json": "3d7dba9b4146922eff8941dbd30dfaadf409d1a6b78bbf056941a39847e1c401",
+    "results\\kam_error_bridge\\seed_137_GC.json": "edb990ca3c6370e3d37ad17692c7419331e1dbde5129c47b9031f1ea91862c6e",
+    "results\\kam_error_bridge\\seed_211_GR.json": "e58703c5968f2be126d11a36af4df180b383b715c6e3ec67ae1fb4419cd8df87",
+    "results\\kam_error_bridge\\seed_211_GC.json": "c26b33c03d61d8aeef9e124b01bd1d16c0e3d3b3099de9cc402c15bfd5386f9a"
+  },
+  "interval_certified": false,
+  "KAM_certificate": false
+}

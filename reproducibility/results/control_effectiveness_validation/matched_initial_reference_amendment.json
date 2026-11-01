@@ -1,0 +1,26 @@
+{
+  "before_matched_reference_computation": true,
+  "reason": "Isolate nominal-model mismatch from the original large initial tracking error;retain all old results.",
+  "selected_initials": "All40 original held-out initial states; each nominal reference starts from its matching plant initial.",
+  "nominal_reference": "H0 plus same u_ref; DOP853 rtol2e-12 atol2e-14; first trajectory of each seed independently refined to rtol5e-14 atol1e-16.",
+  "plant": "Unchanged H*",
+  "policies": [
+    "none",
+    "oracle",
+    "GR",
+    "GC"
+  ],
+  "methods": [
+    "I",
+    "II",
+    "III"
+  ],
+  "step_divisors": [
+    1,
+    2
+  ],
+  "feedback": "Original kp1,kd.5,total budget .2,weights unchanged",
+  "status": "Mechanism-isolation diagnostic,not fresh-seed confirmation;never replaces original common-zero-reference results",
+  "primary": "Paired same-seed tracking tip/state versus none and oracle,all cases retained",
+  "source_sha256": "0db83d79e8370a1f0a89ebc1b86d68351e340133d6cdda9a1c0741cdb86e0252"
+}

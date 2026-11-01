@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "trajectories_checked": 1200,
+  "maximum_metric_gap": 3.552713678800501e-15,
+  "input_hashes_verified": true,
+  "protocol_sha256": "63c7429391ed7eae2ace5ac8f3a3b656fde1b502bbd42138b2746955b6fa86e6"
+}

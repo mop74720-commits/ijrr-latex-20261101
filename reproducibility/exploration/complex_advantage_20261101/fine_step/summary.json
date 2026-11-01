@@ -1,0 +1,1373 @@
+{
+  "status": "complete",
+  "completed_seed_model_step_blocks": 40,
+  "failures": [],
+  "all_models": [
+    {
+      "divisor": 16,
+      "group": "H0",
+      "n_seeds": 5,
+      "metrics": {
+        "continuous_tip_rmse_mm": {
+          "mean": 0.001511623502607792,
+          "sample_sd": 0.0004606364210929528
+        },
+        "matched_teacher_tip_rmse_mm": {
+          "mean": 0.001647192111196613,
+          "sample_sd": 0.0004711683986234803
+        },
+        "continuous_state_relative_l2": {
+          "mean": 0.0011014627994442106,
+          "sample_sd": 0.00025161463113991463
+        },
+        "matched_teacher_state_relative_l2": {
+          "mean": 0.0014424961528523871,
+          "sample_sd": 0.0002689305363292613
+        },
+        "target_energy_drift_relative": {
+          "mean": 1.369856676896597e-05,
+          "sample_sd": 3.9654640219588364e-06
+        },
+        "own_energy_drift_relative": {
+          "mean": 4.518314090705142e-16,
+          "sample_sd": 2.652668275985198e-17
+        },
+        "continuous_modal_phase_rmse_rad": {
+          "mean": 0.001200938063780236,
+          "sample_sd": 0.00026193028801894925
+        }
+      }
+    },
+    {
+      "divisor": 16,
+      "group": "GR",
+      "n_seeds": 5,
+      "metrics": {
+        "continuous_tip_rmse_mm": {
+          "mean": 0.0006720620046777517,
+          "sample_sd": 0.00020944421576452578
+        },
+        "matched_teacher_tip_rmse_mm": {
+          "mean": 0.0005860645071471054,
+          "sample_sd": 0.0002395344208917917
+        },
+        "continuous_state_relative_l2": {
+          "mean": 0.0008175650986642959,
+          "sample_sd": 0.0003924163954485953
+        },
+        "matched_teacher_state_relative_l2": {
+          "mean": 0.0006323073856983179,
+          "sample_sd": 0.0002681796140855881
+        },
+        "target_energy_drift_relative": {
+          "mean": 1.8299478633412505e-05,
+          "sample_sd": 3.746951666684936e-06
+        },
+        "own_energy_drift_relative": {
+          "mean": 7.536310353924407e-11,
+          "sample_sd": 1.6581957308124673e-11
+        },
+        "continuous_modal_phase_rmse_rad": {
+          "mean": 0.0008774478030360689,
+          "sample_sd": 0.00038655615661226274
+        }
+      }
+    },
+    {
+      "divisor": 16,
+      "group": "GC",
+      "n_seeds": 5,
+      "metrics": {
+        "continuous_tip_rmse_mm": {
+          "mean": 0.0005203636411808701,
+          "sample_sd": 0.00017741948136375404
+        },
+        "matched_teacher_tip_rmse_mm": {
+          "mean": 0.00040821897949601,
+          "sample_sd": 0.00022553251195339447
+        },
+        "continuous_state_relative_l2": {
+          "mean": 0.0007219595569928977,
+          "sample_sd": 0.000208255956169678
+        },
+        "matched_teacher_state_relative_l2": {
+          "mean": 0.000460502596150508,
+          "sample_sd": 0.00028920823803481115
+        },
+        "target_energy_drift_relative": {
+          "mean": 1.2077024488679859e-05,
+          "sample_sd": 3.3869143962014183e-06
+        },
+        "own_energy_drift_relative": {
+          "mean": 4.536451914946871e-11,
+          "sample_sd": 1.4611651251642455e-11
+        },
+        "continuous_modal_phase_rmse_rad": {
+          "mean": 0.0008158932919122678,
+          "sample_sd": 0.00026598094964136015
+        }
+      }
+    },
+    {
+      "divisor": 16,
+      "group": "Teacher",
+      "n_seeds": 5,
+      "metrics": {
+        "continuous_tip_rmse_mm": {
+          "mean": 0.00030706874833633926,
+          "sample_sd": 3.409631632200001e-05
+        },
+        "matched_teacher_tip_rmse_mm": {
+          "mean": 0.0,
+          "sample_sd": 0.0
+        },
+        "continuous_state_relative_l2": {
+          "mean": 0.0004982285721938749,
+          "sample_sd": 5.490493764246195e-05
+        },
+        "matched_teacher_state_relative_l2": {
+          "mean": 0.0,
+          "sample_sd": 0.0
+        },
+        "target_energy_drift_relative": {
+          "mean": 3.242934744551729e-11,
+          "sample_sd": 3.416006464800619e-12
+        },
+        "own_energy_drift_relative": {
+          "mean": 3.242934744551729e-11,
+          "sample_sd": 3.416006464800619e-12
+        },
+        "continuous_modal_phase_rmse_rad": {
+          "mean": 0.0005651567808902316,
+          "sample_sd": 1.3142719442625895e-09
+        }
+      }
+    },
+    {
+      "divisor": 32,
+      "group": "H0",
+      "n_seeds": 5,
+      "metrics": {
+        "continuous_tip_rmse_mm": {
+          "mean": 0.0016063618005344134,
+          "sample_sd": 0.00047030828287648456
+        },
+        "matched_teacher_tip_rmse_mm": {
+          "mean": 0.0016471971230428524,
+          "sample_sd": 0.00047117024916440317
+        },
+        "continuous_state_relative_l2": {
+          "mean": 0.0013393340437740603,
+          "sample_sd": 0.00027352374653559687
+        },
+        "matched_teacher_state_relative_l2": {
+          "mean": 0.0014425011021169344,
+          "sample_sd": 0.0002689313361251807
+        },
+        "target_energy_drift_relative": {
+          "mean": 1.369878337538553e-05,
+          "sample_sd": 3.96552819533436e-06
+        },
+        "own_energy_drift_relative": {
+          "mean": 4.3361297501094793e-16,
+          "sample_sd": 3.324774184992673e-17
+        },
+        "continuous_modal_phase_rmse_rad": {
+          "mean": 0.0014964821649113389,
+          "sample_sd": 0.00030624534145734175
+        }
+      }
+    },
+    {
+      "divisor": 32,
+      "group": "GR",
+      "n_seeds": 5,
+      "metrics": {
+        "continuous_tip_rmse_mm": {
+          "mean": 0.0005929673909029192,
+          "sample_sd": 0.00022587487442173005
+        },
+        "matched_teacher_tip_rmse_mm": {
+          "mean": 0.0005860664684216149,
+          "sample_sd": 0.0002395360329869085
+        },
+        "continuous_state_relative_l2": {
+          "mean": 0.0006494265063446894,
+          "sample_sd": 0.0002980530369224104
+        },
+        "matched_teacher_state_relative_l2": {
+          "mean": 0.0006323089137846758,
+          "sample_sd": 0.0002681798723467429
+        },
+        "target_energy_drift_relative": {
+          "mean": 1.8299243276747467e-05,
+          "sample_sd": 3.7472291182329885e-06
+        },
+        "own_energy_drift_relative": {
+          "mean": 6.982953410955252e-11,
+          "sample_sd": 6.573831019059553e-12
+        },
+        "continuous_modal_phase_rmse_rad": {
+          "mean": 0.0007173733888982139,
+          "sample_sd": 0.000281816167905415
+        }
+      }
+    },
+    {
+      "divisor": 32,
+      "group": "GC",
+      "n_seeds": 5,
+      "metrics": {
+        "continuous_tip_rmse_mm": {
+          "mean": 0.00041883544270313695,
+          "sample_sd": 0.00021931272066608648
+        },
+        "matched_teacher_tip_rmse_mm": {
+          "mean": 0.0004082206646964233,
+          "sample_sd": 0.00022553395391295412
+        },
+        "continuous_state_relative_l2": {
+          "mean": 0.0004989016765959665,
+          "sample_sd": 0.0002797546906126231
+        },
+        "matched_teacher_state_relative_l2": {
+          "mean": 0.00046050409094081524,
+          "sample_sd": 0.000289209404735273
+        },
+        "target_energy_drift_relative": {
+          "mean": 1.2076843069273866e-05,
+          "sample_sd": 3.3870701128401454e-06
+        },
+        "own_energy_drift_relative": {
+          "mean": 6.38997116426193e-11,
+          "sample_sd": 6.531441494365783e-12
+        },
+        "continuous_modal_phase_rmse_rad": {
+          "mean": 0.0005622178618702795,
+          "sample_sd": 0.0003447176959086601
+        }
+      }
+    },
+    {
+      "divisor": 32,
+      "group": "Teacher",
+      "n_seeds": 5,
+      "metrics": {
+        "continuous_tip_rmse_mm": {
+          "mean": 7.676688210886374e-05,
+          "sample_sd": 8.524058479471318e-06
+        },
+        "matched_teacher_tip_rmse_mm": {
+          "mean": 0.0,
+          "sample_sd": 0.0
+        },
+        "continuous_state_relative_l2": {
+          "mean": 0.00012455663847117017,
+          "sample_sd": 1.3726183514511291e-05
+        },
+        "matched_teacher_state_relative_l2": {
+          "mean": 0.0,
+          "sample_sd": 0.0
+        },
+        "target_energy_drift_relative": {
+          "mean": 6.243979836793878e-11,
+          "sample_sd": 7.384823901492428e-12
+        },
+        "own_energy_drift_relative": {
+          "mean": 6.243979836793878e-11,
+          "sample_sd": 7.384823901492428e-12
+        },
+        "continuous_modal_phase_rmse_rad": {
+          "mean": 0.00014128860640359912,
+          "sample_sd": 3.198650079598861e-10
+        }
+      }
+    }
+  ],
+  "paired": [
+    {
+      "divisor": 16,
+      "contrast": "GR-GC",
+      "metric": "continuous_tip_rmse_mm",
+      "n_seeds": 5,
+      "mean_difference": 0.00015169836349688154,
+      "sample_sd_difference": 0.00016981693863847696,
+      "positive_direction_seed_count": 4,
+      "mean_relative_improvement_fraction": 0.1985059710405879
+    },
+    {
+      "divisor": 16,
+      "contrast": "GR-GC",
+      "metric": "matched_teacher_tip_rmse_mm",
+      "n_seeds": 5,
+      "mean_difference": 0.0001778455276510955,
+      "sample_sd_difference": 6.495880370393046e-05,
+      "positive_direction_seed_count": 5,
+      "mean_relative_improvement_fraction": 0.3220104975930117
+    },
+    {
+      "divisor": 16,
+      "contrast": "GR-GC",
+      "metric": "continuous_state_relative_l2",
+      "n_seeds": 5,
+      "mean_difference": 9.560554167139824e-05,
+      "sample_sd_difference": 0.0004619372113545773,
+      "positive_direction_seed_count": 2,
+      "mean_relative_improvement_fraction": -0.056101137334769895
+    },
+    {
+      "divisor": 16,
+      "contrast": "GR-GC",
+      "metric": "matched_teacher_state_relative_l2",
+      "n_seeds": 5,
+      "mean_difference": 0.00017180478954780993,
+      "sample_sd_difference": 0.0002719935185740542,
+      "positive_direction_seed_count": 4,
+      "mean_relative_improvement_fraction": 0.25105730144030514
+    },
+    {
+      "divisor": 16,
+      "contrast": "GR-GC",
+      "metric": "continuous_modal_phase_rmse_rad",
+      "n_seeds": 5,
+      "mean_difference": 6.155451112380107e-05,
+      "sample_sd_difference": 0.0005413122540072721,
+      "positive_direction_seed_count": 2,
+      "mean_relative_improvement_fraction": -0.14762408417317174
+    },
+    {
+      "divisor": 16,
+      "contrast": "H0-GR",
+      "metric": "continuous_tip_rmse_mm",
+      "n_seeds": 5,
+      "mean_difference": 0.0008395614979300404,
+      "sample_sd_difference": 0.00043166904465227296,
+      "positive_direction_seed_count": 5,
+      "mean_relative_improvement_fraction": 0.5293231949366084
+    },
+    {
+      "divisor": 16,
+      "contrast": "H0-GR",
+      "metric": "matched_teacher_tip_rmse_mm",
+      "n_seeds": 5,
+      "mean_difference": 0.0010611276040495075,
+      "sample_sd_difference": 0.00044167632507176763,
+      "positive_direction_seed_count": 5,
+      "mean_relative_improvement_fraction": 0.6314789979140026
+    },
+    {
+      "divisor": 16,
+      "contrast": "H0-GR",
+      "metric": "continuous_state_relative_l2",
+      "n_seeds": 5,
+      "mean_difference": 0.00028389770077991475,
+      "sample_sd_difference": 0.0004795839235461762,
+      "positive_direction_seed_count": 4,
+      "mean_relative_improvement_fraction": 0.2196645330981089
+    },
+    {
+      "divisor": 16,
+      "contrast": "H0-GR",
+      "metric": "matched_teacher_state_relative_l2",
+      "n_seeds": 5,
+      "mean_difference": 0.0008101887671540692,
+      "sample_sd_difference": 0.0003562930153969026,
+      "positive_direction_seed_count": 5,
+      "mean_relative_improvement_fraction": 0.5535521528347584
+    },
+    {
+      "divisor": 16,
+      "contrast": "H0-GR",
+      "metric": "continuous_modal_phase_rmse_rad",
+      "n_seeds": 5,
+      "mean_difference": 0.000323490260744167,
+      "sample_sd_difference": 0.0004612727682691521,
+      "positive_direction_seed_count": 4,
+      "mean_relative_improvement_fraction": 0.2386185985912852
+    },
+    {
+      "divisor": 16,
+      "contrast": "H0-GC",
+      "metric": "continuous_tip_rmse_mm",
+      "n_seeds": 5,
+      "mean_difference": 0.000991259861426922,
+      "sample_sd_difference": 0.0004005191064911972,
+      "positive_direction_seed_count": 5,
+      "mean_relative_improvement_fraction": 0.6424341027209022
+    },
+    {
+      "divisor": 16,
+      "contrast": "H0-GC",
+      "metric": "matched_teacher_tip_rmse_mm",
+      "n_seeds": 5,
+      "mean_difference": 0.001238973131700603,
+      "sample_sd_difference": 0.00041884486707936374,
+      "positive_direction_seed_count": 5,
+      "mean_relative_improvement_fraction": 0.7493577387467245
+    },
+    {
+      "divisor": 16,
+      "contrast": "H0-GC",
+      "metric": "continuous_state_relative_l2",
+      "n_seeds": 5,
+      "mean_difference": 0.00037950324245131304,
+      "sample_sd_difference": 0.00033061077537743013,
+      "positive_direction_seed_count": 4,
+      "mean_relative_improvement_fraction": 0.3135256115736883
+    },
+    {
+      "divisor": 16,
+      "contrast": "H0-GC",
+      "metric": "matched_teacher_state_relative_l2",
+      "n_seeds": 5,
+      "mean_difference": 0.000981993556701879,
+      "sample_sd_difference": 0.0003670832991461034,
+      "positive_direction_seed_count": 5,
+      "mean_relative_improvement_fraction": 0.6748544273329189
+    },
+    {
+      "divisor": 16,
+      "contrast": "H0-GC",
+      "metric": "continuous_modal_phase_rmse_rad",
+      "n_seeds": 5,
+      "mean_difference": 0.00038504477186796806,
+      "sample_sd_difference": 0.0003587347306739439,
+      "positive_direction_seed_count": 4,
+      "mean_relative_improvement_fraction": 0.2980949642064109
+    },
+    {
+      "divisor": 32,
+      "contrast": "GR-GC",
+      "metric": "continuous_tip_rmse_mm",
+      "n_seeds": 5,
+      "mean_difference": 0.0001741319481997823,
+      "sample_sd_difference": 0.00010015221353124383,
+      "positive_direction_seed_count": 5,
+      "mean_relative_improvement_fraction": 0.30313226372863267
+    },
+    {
+      "divisor": 32,
+      "contrast": "GR-GC",
+      "metric": "matched_teacher_tip_rmse_mm",
+      "n_seeds": 5,
+      "mean_difference": 0.00017784580372519156,
+      "sample_sd_difference": 6.495858711786657e-05,
+      "positive_direction_seed_count": 5,
+      "mean_relative_improvement_fraction": 0.3220101033066355
+    },
+    {
+      "divisor": 32,
+      "contrast": "GR-GC",
+      "metric": "continuous_state_relative_l2",
+      "n_seeds": 5,
+      "mean_difference": 0.00015052482974872293,
+      "sample_sd_difference": 0.0003458038120898205,
+      "positive_direction_seed_count": 2,
+      "mean_relative_improvement_fraction": 0.14650604727884456
+    },
+    {
+      "divisor": 32,
+      "contrast": "GR-GC",
+      "metric": "matched_teacher_state_relative_l2",
+      "n_seeds": 5,
+      "mean_difference": 0.00017180482284386052,
+      "sample_sd_difference": 0.0002719931928786735,
+      "positive_direction_seed_count": 4,
+      "mean_relative_improvement_fraction": 0.2510572807433717
+    },
+    {
+      "divisor": 32,
+      "contrast": "GR-GC",
+      "metric": "continuous_modal_phase_rmse_rad",
+      "n_seeds": 5,
+      "mean_difference": 0.00015515552702793437,
+      "sample_sd_difference": 0.000379986097848859,
+      "positive_direction_seed_count": 2,
+      "mean_relative_improvement_fraction": 0.14204644820886453
+    },
+    {
+      "divisor": 32,
+      "contrast": "H0-GR",
+      "metric": "continuous_tip_rmse_mm",
+      "n_seeds": 5,
+      "mean_difference": 0.001013394409631494,
+      "sample_sd_difference": 0.0004292502801745052,
+      "positive_direction_seed_count": 5,
+      "mean_relative_improvement_fraction": 0.6168844665968491
+    },
+    {
+      "divisor": 32,
+      "contrast": "H0-GR",
+      "metric": "matched_teacher_tip_rmse_mm",
+      "n_seeds": 5,
+      "mean_difference": 0.0010611306546212376,
+      "sample_sd_difference": 0.00044167753051665504,
+      "positive_direction_seed_count": 5,
+      "mean_relative_improvement_fraction": 0.6314789611918281
+    },
+    {
+      "divisor": 32,
+      "contrast": "H0-GR",
+      "metric": "continuous_state_relative_l2",
+      "n_seeds": 5,
+      "mean_difference": 0.000689907537429371,
+      "sample_sd_difference": 0.0003664346637777684,
+      "positive_direction_seed_count": 5,
+      "mean_relative_improvement_fraction": 0.5067358549376432
+    },
+    {
+      "divisor": 32,
+      "contrast": "H0-GR",
+      "metric": "matched_teacher_state_relative_l2",
+      "n_seeds": 5,
+      "mean_difference": 0.0008101921883322587,
+      "sample_sd_difference": 0.00035629345576376596,
+      "positive_direction_seed_count": 5,
+      "mean_relative_improvement_fraction": 0.5535526427416921
+    },
+    {
+      "divisor": 32,
+      "contrast": "H0-GR",
+      "metric": "continuous_modal_phase_rmse_rad",
+      "n_seeds": 5,
+      "mean_difference": 0.0007791087760131249,
+      "sample_sd_difference": 0.00040459614327275625,
+      "positive_direction_seed_count": 5,
+      "mean_relative_improvement_fraction": 0.5055025238822388
+    },
+    {
+      "divisor": 32,
+      "contrast": "H0-GC",
+      "metric": "continuous_tip_rmse_mm",
+      "n_seeds": 5,
+      "mean_difference": 0.0011875263578312765,
+      "sample_sd_difference": 0.000416733281796101,
+      "positive_direction_seed_count": 5,
+      "mean_relative_improvement_fraction": 0.7350496577988288
+    },
+    {
+      "divisor": 32,
+      "contrast": "H0-GC",
+      "metric": "matched_teacher_tip_rmse_mm",
+      "n_seeds": 5,
+      "mean_difference": 0.001238976458346429,
+      "sample_sd_difference": 0.00041884580920141285,
+      "positive_direction_seed_count": 5,
+      "mean_relative_improvement_fraction": 0.7493575625761602
+    },
+    {
+      "divisor": 32,
+      "contrast": "H0-GC",
+      "metric": "continuous_state_relative_l2",
+      "n_seeds": 5,
+      "mean_difference": 0.0008404323671780939,
+      "sample_sd_difference": 0.0003751489450612086,
+      "positive_direction_seed_count": 5,
+      "mean_relative_improvement_fraction": 0.6158957747620569
+    },
+    {
+      "divisor": 32,
+      "contrast": "H0-GC",
+      "metric": "matched_teacher_state_relative_l2",
+      "n_seeds": 5,
+      "mean_difference": 0.0009819970111761191,
+      "sample_sd_difference": 0.00036708449797579563,
+      "positive_direction_seed_count": 5,
+      "mean_relative_improvement_fraction": 0.6748545150974162
+    },
+    {
+      "divisor": 32,
+      "contrast": "H0-GC",
+      "metric": "continuous_modal_phase_rmse_rad",
+      "n_seeds": 5,
+      "mean_difference": 0.0009342643030410593,
+      "sample_sd_difference": 0.0004300569184641482,
+      "positive_direction_seed_count": 5,
+      "mean_relative_improvement_fraction": 0.6174246403695199
+    }
+  ],
+  "refinement_comparisons": [
+    {
+      "seed": 17,
+      "coarse_divisor": 8,
+      "fine_divisor": 16,
+      "group": "H0",
+      "metric": "continuous_tip_rmse_mm",
+      "trajectory_change": 0.0007877435039680999,
+      "same_step_GR_GC_trajectory_distance": 0.0003262361544716342,
+      "trajectory_change_below_GR_GC_distance": false,
+      "metric_change": 0.0001761218200882575,
+      "same_step_abs_GR_GC_metric_difference": 1.9520600061609535e-05,
+      "metric_change_below_GR_GC_difference": false
+    },
+    {
+      "seed": 17,
+      "coarse_divisor": 8,
+      "fine_divisor": 16,
+      "group": "H0",
+      "metric": "continuous_state_relative_l2",
+      "trajectory_change": 0.001518878169268809,
+      "same_step_GR_GC_trajectory_distance": 0.0005613087557509043,
+      "trajectory_change_below_GR_GC_distance": false,
+      "metric_change": 0.0006533621408407695,
+      "same_step_abs_GR_GC_metric_difference": 0.00033081306796235374,
+      "metric_change_below_GR_GC_difference": false
+    },
+    {
+      "seed": 17,
+      "coarse_divisor": 8,
+      "fine_divisor": 16,
+      "group": "GR",
+      "metric": "continuous_tip_rmse_mm",
+      "trajectory_change": 0.0007877375170332057,
+      "same_step_GR_GC_trajectory_distance": 0.0003262361544716342,
+      "trajectory_change_below_GR_GC_distance": false,
+      "metric_change": 0.0004920924562000986,
+      "same_step_abs_GR_GC_metric_difference": 1.9520600061609535e-05,
+      "metric_change_below_GR_GC_difference": false
+    },
+    {
+      "seed": 17,
+      "coarse_divisor": 8,
+      "fine_divisor": 16,
+      "group": "GR",
+      "metric": "continuous_state_relative_l2",
+      "trajectory_change": 0.0015188678566934075,
+      "same_step_GR_GC_trajectory_distance": 0.0005613087557509043,
+      "trajectory_change_below_GR_GC_distance": false,
+      "metric_change": 0.001205886969081715,
+      "same_step_abs_GR_GC_metric_difference": 0.00033081306796235374,
+      "metric_change_below_GR_GC_difference": false
+    },
+    {
+      "seed": 17,
+      "coarse_divisor": 8,
+      "fine_divisor": 16,
+      "group": "GC",
+      "metric": "continuous_tip_rmse_mm",
+      "trajectory_change": 0.0007877371842804109,
+      "same_step_GR_GC_trajectory_distance": 0.0003262361544716342,
+      "trajectory_change_below_GR_GC_distance": false,
+      "metric_change": 0.0006278482695080319,
+      "same_step_abs_GR_GC_metric_difference": 1.9520600061609535e-05,
+      "metric_change_below_GR_GC_difference": false
+    },
+    {
+      "seed": 17,
+      "coarse_divisor": 8,
+      "fine_divisor": 16,
+      "group": "GC",
+      "metric": "continuous_state_relative_l2",
+      "trajectory_change": 0.001518867474041577,
+      "same_step_GR_GC_trajectory_distance": 0.0005613087557509043,
+      "trajectory_change_below_GR_GC_distance": false,
+      "metric_change": 0.0013773852342419512,
+      "same_step_abs_GR_GC_metric_difference": 0.00033081306796235374,
+      "metric_change_below_GR_GC_difference": false
+    },
+    {
+      "seed": 17,
+      "coarse_divisor": 16,
+      "fine_divisor": 32,
+      "group": "H0",
+      "metric": "continuous_tip_rmse_mm",
+      "trajectory_change": 0.00019693766713587736,
+      "same_step_GR_GC_trajectory_distance": 0.0003262367594565269,
+      "trajectory_change_below_GR_GC_distance": true,
+      "metric_change": 6.480952387595204e-05,
+      "same_step_abs_GR_GC_metric_difference": 6.585909001603611e-05,
+      "metric_change_below_GR_GC_difference": true
+    },
+    {
+      "seed": 17,
+      "coarse_divisor": 16,
+      "fine_divisor": 32,
+      "group": "H0",
+      "metric": "continuous_state_relative_l2",
+      "trajectory_change": 0.0003797228535133727,
+      "same_step_GR_GC_trajectory_distance": 0.0005613095676583151,
+      "trajectory_change_below_GR_GC_distance": true,
+      "metric_change": 0.00016494570807512512,
+      "same_step_abs_GR_GC_metric_difference": 0.00016353015340555004,
+      "metric_change_below_GR_GC_difference": false
+    },
+    {
+      "seed": 17,
+      "coarse_divisor": 16,
+      "fine_divisor": 32,
+      "group": "GR",
+      "metric": "continuous_tip_rmse_mm",
+      "trajectory_change": 0.000196936171241584,
+      "same_step_GR_GC_trajectory_distance": 0.0003262367594565269,
+      "trajectory_change_below_GR_GC_distance": true,
+      "metric_change": 2.5549036737729865e-05,
+      "same_step_abs_GR_GC_metric_difference": 6.585909001603611e-05,
+      "metric_change_below_GR_GC_difference": true
+    },
+    {
+      "seed": 17,
+      "coarse_divisor": 16,
+      "fine_divisor": 32,
+      "group": "GR",
+      "metric": "continuous_state_relative_l2",
+      "trajectory_change": 0.0003797202754146787,
+      "same_step_GR_GC_trajectory_distance": 0.0005613095676583151,
+      "trajectory_change_below_GR_GC_distance": true,
+      "metric_change": 0.00010932921369467873,
+      "same_step_abs_GR_GC_metric_difference": 0.00016353015340555004,
+      "metric_change_below_GR_GC_difference": true
+    },
+    {
+      "seed": 17,
+      "coarse_divisor": 16,
+      "fine_divisor": 32,
+      "group": "GC",
+      "metric": "continuous_tip_rmse_mm",
+      "trajectory_change": 0.00019693608899747707,
+      "same_step_GR_GC_trajectory_distance": 0.0003262367594565269,
+      "trajectory_change_below_GR_GC_distance": true,
+      "metric_change": 0.00011092872681537551,
+      "same_step_abs_GR_GC_metric_difference": 6.585909001603611e-05,
+      "metric_change_below_GR_GC_difference": false
+    },
+    {
+      "seed": 17,
+      "coarse_divisor": 16,
+      "fine_divisor": 32,
+      "group": "GC",
+      "metric": "continuous_state_relative_l2",
+      "trajectory_change": 0.00037972017968994625,
+      "same_step_GR_GC_trajectory_distance": 0.0005613095676583151,
+      "trajectory_change_below_GR_GC_distance": true,
+      "metric_change": 0.00027661212825148243,
+      "same_step_abs_GR_GC_metric_difference": 0.00016353015340555004,
+      "metric_change_below_GR_GC_difference": false
+    },
+    {
+      "seed": 43,
+      "coarse_divisor": 8,
+      "fine_divisor": 16,
+      "group": "H0",
+      "metric": "continuous_tip_rmse_mm",
+      "trajectory_change": 0.0010089501626360836,
+      "same_step_GR_GC_trajectory_distance": 0.00026951276746776904,
+      "trajectory_change_below_GR_GC_distance": false,
+      "metric_change": 7.39191144873883e-05,
+      "same_step_abs_GR_GC_metric_difference": 0.00019861847990854185,
+      "metric_change_below_GR_GC_difference": true
+    },
+    {
+      "seed": 43,
+      "coarse_divisor": 8,
+      "fine_divisor": 16,
+      "group": "H0",
+      "metric": "continuous_state_relative_l2",
+      "trajectory_change": 0.0014360670522895595,
+      "same_step_GR_GC_trajectory_distance": 0.00031461850910039646,
+      "trajectory_change_below_GR_GC_distance": false,
+      "metric_change": 0.00010504432026208041,
+      "same_step_abs_GR_GC_metric_difference": 0.00027984040395475805,
+      "metric_change_below_GR_GC_difference": true
+    },
+    {
+      "seed": 43,
+      "coarse_divisor": 8,
+      "fine_divisor": 16,
+      "group": "GR",
+      "metric": "continuous_tip_rmse_mm",
+      "trajectory_change": 0.0010089273955231444,
+      "same_step_GR_GC_trajectory_distance": 0.00026951276746776904,
+      "trajectory_change_below_GR_GC_distance": false,
+      "metric_change": 0.0009120033486126511,
+      "same_step_abs_GR_GC_metric_difference": 0.00019861847990854185,
+      "metric_change_below_GR_GC_difference": false
+    },
+    {
+      "seed": 43,
+      "coarse_divisor": 8,
+      "fine_divisor": 16,
+      "group": "GR",
+      "metric": "continuous_state_relative_l2",
+      "trajectory_change": 0.0014360381034618148,
+      "same_step_GR_GC_trajectory_distance": 0.00031461850910039646,
+      "trajectory_change_below_GR_GC_distance": false,
+      "metric_change": 0.0013991774263803552,
+      "same_step_abs_GR_GC_metric_difference": 0.00027984040395475805,
+      "metric_change_below_GR_GC_difference": false
+    },
+    {
+      "seed": 43,
+      "coarse_divisor": 8,
+      "fine_divisor": 16,
+      "group": "GC",
+      "metric": "continuous_tip_rmse_mm",
+      "trajectory_change": 0.0010089281419146108,
+      "same_step_GR_GC_trajectory_distance": 0.00026951276746776904,
+      "trajectory_change_below_GR_GC_distance": false,
+      "metric_change": 0.0009160358530591741,
+      "same_step_abs_GR_GC_metric_difference": 0.00019861847990854185,
+      "metric_change_below_GR_GC_difference": false
+    },
+    {
+      "seed": 43,
+      "coarse_divisor": 8,
+      "fine_divisor": 16,
+      "group": "GC",
+      "metric": "continuous_state_relative_l2",
+      "trajectory_change": 0.0014360397334530596,
+      "same_step_GR_GC_trajectory_distance": 0.00031461850910039646,
+      "trajectory_change_below_GR_GC_distance": false,
+      "metric_change": 0.0014030760480440827,
+      "same_step_abs_GR_GC_metric_difference": 0.00027984040395475805,
+      "metric_change_below_GR_GC_difference": false
+    },
+    {
+      "seed": 43,
+      "coarse_divisor": 16,
+      "fine_divisor": 32,
+      "group": "H0",
+      "metric": "continuous_tip_rmse_mm",
+      "trajectory_change": 0.00025223975123404163,
+      "same_step_GR_GC_trajectory_distance": 0.0002695129768203451,
+      "trajectory_change_below_GR_GC_distance": true,
+      "metric_change": 0.00011400815223984971,
+      "same_step_abs_GR_GC_metric_difference": 0.00016555511871458635,
+      "metric_change_below_GR_GC_difference": true
+    },
+    {
+      "seed": 43,
+      "coarse_divisor": 16,
+      "fine_divisor": 32,
+      "group": "H0",
+      "metric": "continuous_state_relative_l2",
+      "trajectory_change": 0.0003590198937338178,
+      "same_step_GR_GC_trajectory_distance": 0.00031461876772085067,
+      "trajectory_change_below_GR_GC_distance": false,
+      "metric_change": 0.0002706821700447339,
+      "same_step_abs_GR_GC_metric_difference": 0.00025156443353040246,
+      "metric_change_below_GR_GC_difference": false
+    },
+    {
+      "seed": 43,
+      "coarse_divisor": 16,
+      "fine_divisor": 32,
+      "group": "GR",
+      "metric": "continuous_tip_rmse_mm",
+      "trajectory_change": 0.0002522340630910431,
+      "same_step_GR_GC_trajectory_distance": 0.0002695129768203451,
+      "trajectory_change_below_GR_GC_distance": true,
+      "metric_change": 0.00018189324394155524,
+      "same_step_abs_GR_GC_metric_difference": 0.00016555511871458635,
+      "metric_change_below_GR_GC_difference": false
+    },
+    {
+      "seed": 43,
+      "coarse_divisor": 16,
+      "fine_divisor": 32,
+      "group": "GR",
+      "metric": "continuous_state_relative_l2",
+      "trajectory_change": 0.0003590126563991857,
+      "same_step_GR_GC_trajectory_distance": 0.00031461876772085067,
+      "trajectory_change_below_GR_GC_distance": false,
+      "metric_change": 0.0003006787991345556,
+      "same_step_abs_GR_GC_metric_difference": 0.00025156443353040246,
+      "metric_change_below_GR_GC_difference": false
+    },
+    {
+      "seed": 43,
+      "coarse_divisor": 16,
+      "fine_divisor": 32,
+      "group": "GC",
+      "metric": "continuous_tip_rmse_mm",
+      "trajectory_change": 0.00025223425034017665,
+      "same_step_GR_GC_trajectory_distance": 0.0002695129768203451,
+      "trajectory_change_below_GR_GC_distance": true,
+      "metric_change": 0.00014882988274759974,
+      "same_step_abs_GR_GC_metric_difference": 0.00016555511871458635,
+      "metric_change_below_GR_GC_difference": true
+    },
+    {
+      "seed": 43,
+      "coarse_divisor": 16,
+      "fine_divisor": 32,
+      "group": "GC",
+      "metric": "continuous_state_relative_l2",
+      "trajectory_change": 0.00035901306407102934,
+      "same_step_GR_GC_trajectory_distance": 0.00031461876772085067,
+      "trajectory_change_below_GR_GC_distance": false,
+      "metric_change": 0.0002724028287102,
+      "same_step_abs_GR_GC_metric_difference": 0.00025156443353040246,
+      "metric_change_below_GR_GC_difference": false
+    },
+    {
+      "seed": 91,
+      "coarse_divisor": 8,
+      "fine_divisor": 16,
+      "group": "H0",
+      "metric": "continuous_tip_rmse_mm",
+      "trajectory_change": 0.0008350021831493741,
+      "same_step_GR_GC_trajectory_distance": 0.00034004860438283633,
+      "trajectory_change_below_GR_GC_distance": false,
+      "metric_change": 1.674784697796249e-05,
+      "same_step_abs_GR_GC_metric_difference": 2.1890938886326915e-05,
+      "metric_change_below_GR_GC_difference": true
+    },
+    {
+      "seed": 91,
+      "coarse_divisor": 8,
+      "fine_divisor": 16,
+      "group": "H0",
+      "metric": "continuous_state_relative_l2",
+      "trajectory_change": 0.0013178357225557488,
+      "same_step_GR_GC_trajectory_distance": 0.0004856363189972648,
+      "trajectory_change_below_GR_GC_distance": false,
+      "metric_change": 0.00015280232830421634,
+      "same_step_abs_GR_GC_metric_difference": 0.00021543196163270785,
+      "metric_change_below_GR_GC_difference": true
+    },
+    {
+      "seed": 91,
+      "coarse_divisor": 8,
+      "fine_divisor": 16,
+      "group": "GR",
+      "metric": "continuous_tip_rmse_mm",
+      "trajectory_change": 0.0008349972622162267,
+      "same_step_GR_GC_trajectory_distance": 0.00034004860438283633,
+      "trajectory_change_below_GR_GC_distance": false,
+      "metric_change": 0.000514950407857939,
+      "same_step_abs_GR_GC_metric_difference": 2.1890938886326915e-05,
+      "metric_change_below_GR_GC_difference": false
+    },
+    {
+      "seed": 91,
+      "coarse_divisor": 8,
+      "fine_divisor": 16,
+      "group": "GR",
+      "metric": "continuous_state_relative_l2",
+      "trajectory_change": 0.0013178259435448088,
+      "same_step_GR_GC_trajectory_distance": 0.0004856363189972648,
+      "trajectory_change_below_GR_GC_distance": false,
+      "metric_change": 0.001036634807581439,
+      "same_step_abs_GR_GC_metric_difference": 0.00021543196163270785,
+      "metric_change_below_GR_GC_difference": false
+    },
+    {
+      "seed": 91,
+      "coarse_divisor": 8,
+      "fine_divisor": 16,
+      "group": "GC",
+      "metric": "continuous_tip_rmse_mm",
+      "trajectory_change": 0.0008349990449708483,
+      "same_step_GR_GC_trajectory_distance": 0.00034004860438283633,
+      "trajectory_change_below_GR_GC_distance": false,
+      "metric_change": 0.0007194563338542732,
+      "same_step_abs_GR_GC_metric_difference": 2.1890938886326915e-05,
+      "metric_change_below_GR_GC_difference": false
+    },
+    {
+      "seed": 91,
+      "coarse_divisor": 8,
+      "fine_divisor": 16,
+      "group": "GC",
+      "metric": "continuous_state_relative_l2",
+      "trajectory_change": 0.0013178291094829747,
+      "same_step_GR_GC_trajectory_distance": 0.0004856363189972648,
+      "trajectory_change_below_GR_GC_distance": false,
+      "metric_change": 0.001256945145115126,
+      "same_step_abs_GR_GC_metric_difference": 0.00021543196163270785,
+      "metric_change_below_GR_GC_difference": false
+    },
+    {
+      "seed": 91,
+      "coarse_divisor": 16,
+      "fine_divisor": 32,
+      "group": "H0",
+      "metric": "continuous_tip_rmse_mm",
+      "trajectory_change": 0.00020875198206651098,
+      "same_step_GR_GC_trajectory_distance": 0.0003400493111490776,
+      "trajectory_change_below_GR_GC_distance": true,
+      "metric_change": 8.195293440292802e-05,
+      "same_step_abs_GR_GC_metric_difference": 0.0001167816948312876,
+      "metric_change_below_GR_GC_difference": true
+    },
+    {
+      "seed": 91,
+      "coarse_divisor": 16,
+      "fine_divisor": 32,
+      "group": "H0",
+      "metric": "continuous_state_relative_l2",
+      "trajectory_change": 0.00032946180352380773,
+      "same_step_GR_GC_trajectory_distance": 0.0004856371606992727,
+      "trajectory_change_below_GR_GC_distance": true,
+      "metric_change": 0.0001966312738872879,
+      "same_step_abs_GR_GC_metric_difference": 3.8099522427837036e-05,
+      "metric_change_below_GR_GC_difference": false
+    },
+    {
+      "seed": 91,
+      "coarse_divisor": 16,
+      "fine_divisor": 32,
+      "group": "GR",
+      "metric": "continuous_tip_rmse_mm",
+      "trajectory_change": 0.00020875075380437315,
+      "same_step_GR_GC_trajectory_distance": 0.0003400493111490776,
+      "trajectory_change_below_GR_GC_distance": true,
+      "metric_change": 1.3110889896878397e-07,
+      "same_step_abs_GR_GC_metric_difference": 0.0001167816948312876,
+      "metric_change_below_GR_GC_difference": true
+    },
+    {
+      "seed": 91,
+      "coarse_divisor": 16,
+      "fine_divisor": 32,
+      "group": "GR",
+      "metric": "continuous_state_relative_l2",
+      "trajectory_change": 0.00032945935900658156,
+      "same_step_GR_GC_trajectory_distance": 0.0004856371606992727,
+      "trajectory_change_below_GR_GC_distance": true,
+      "metric_change": 2.0037467337550153e-05,
+      "same_step_abs_GR_GC_metric_difference": 3.8099522427837036e-05,
+      "metric_change_below_GR_GC_difference": true
+    },
+    {
+      "seed": 91,
+      "coarse_divisor": 16,
+      "fine_divisor": 32,
+      "group": "GC",
+      "metric": "continuous_tip_rmse_mm",
+      "trajectory_change": 0.00020875120013982888,
+      "same_step_GR_GC_trajectory_distance": 0.0003400493111490776,
+      "trajectory_change_below_GR_GC_distance": true,
+      "metric_change": 9.47596470459919e-05,
+      "same_step_abs_GR_GC_metric_difference": 0.0001167816948312876,
+      "metric_change_below_GR_GC_difference": true
+    },
+    {
+      "seed": 91,
+      "coarse_divisor": 16,
+      "fine_divisor": 32,
+      "group": "GC",
+      "metric": "continuous_state_relative_l2",
+      "trajectory_change": 0.00032946015028750814,
+      "same_step_GR_GC_trajectory_distance": 0.0004856371606992727,
+      "trajectory_change_below_GR_GC_distance": true,
+      "metric_change": 0.00019736990654242097,
+      "same_step_abs_GR_GC_metric_difference": 3.8099522427837036e-05,
+      "metric_change_below_GR_GC_difference": false
+    },
+    {
+      "seed": 137,
+      "coarse_divisor": 8,
+      "fine_divisor": 16,
+      "group": "H0",
+      "metric": "continuous_tip_rmse_mm",
+      "trajectory_change": 0.0009770605603621361,
+      "same_step_GR_GC_trajectory_distance": 0.0003626540272457475,
+      "trajectory_change_below_GR_GC_distance": false,
+      "metric_change": 4.2446741241967565e-05,
+      "same_step_abs_GR_GC_metric_difference": 0.00014703442828984628,
+      "metric_change_below_GR_GC_difference": true
+    },
+    {
+      "seed": 137,
+      "coarse_divisor": 8,
+      "fine_divisor": 16,
+      "group": "H0",
+      "metric": "continuous_state_relative_l2",
+      "trajectory_change": 0.0014408201505445794,
+      "same_step_GR_GC_trajectory_distance": 0.0004228656717142228,
+      "trajectory_change_below_GR_GC_distance": false,
+      "metric_change": 6.949403230836109e-06,
+      "same_step_abs_GR_GC_metric_difference": 6.823668477104407e-05,
+      "metric_change_below_GR_GC_difference": true
+    },
+    {
+      "seed": 137,
+      "coarse_divisor": 8,
+      "fine_divisor": 16,
+      "group": "GR",
+      "metric": "continuous_tip_rmse_mm",
+      "trajectory_change": 0.000977049778232624,
+      "same_step_GR_GC_trajectory_distance": 0.0003626540272457475,
+      "trajectory_change_below_GR_GC_distance": false,
+      "metric_change": 0.0004305573292627792,
+      "same_step_abs_GR_GC_metric_difference": 0.00014703442828984628,
+      "metric_change_below_GR_GC_difference": false
+    },
+    {
+      "seed": 137,
+      "coarse_divisor": 8,
+      "fine_divisor": 16,
+      "group": "GR",
+      "metric": "continuous_state_relative_l2",
+      "trajectory_change": 0.0014408077329430766,
+      "same_step_GR_GC_trajectory_distance": 0.0004228656717142228,
+      "trajectory_change_below_GR_GC_distance": false,
+      "metric_change": 0.000893878197923145,
+      "same_step_abs_GR_GC_metric_difference": 6.823668477104407e-05,
+      "metric_change_below_GR_GC_difference": false
+    },
+    {
+      "seed": 137,
+      "coarse_divisor": 8,
+      "fine_divisor": 16,
+      "group": "GC",
+      "metric": "continuous_tip_rmse_mm",
+      "trajectory_change": 0.0009770519478797973,
+      "same_step_GR_GC_trajectory_distance": 0.0003626540272457475,
+      "trajectory_change_below_GR_GC_distance": false,
+      "metric_change": 0.0006194117937734009,
+      "same_step_abs_GR_GC_metric_difference": 0.00014703442828984628,
+      "metric_change_below_GR_GC_difference": false
+    },
+    {
+      "seed": 137,
+      "coarse_divisor": 8,
+      "fine_divisor": 16,
+      "group": "GC",
+      "metric": "continuous_state_relative_l2",
+      "trajectory_change": 0.0014408110781060552,
+      "same_step_GR_GC_trajectory_distance": 0.0004228656717142228,
+      "trajectory_change_below_GR_GC_distance": false,
+      "metric_change": 0.0011313726087180869,
+      "same_step_abs_GR_GC_metric_difference": 6.823668477104407e-05,
+      "metric_change_below_GR_GC_difference": false
+    },
+    {
+      "seed": 137,
+      "coarse_divisor": 16,
+      "fine_divisor": 32,
+      "group": "H0",
+      "metric": "continuous_tip_rmse_mm",
+      "trajectory_change": 0.0002442678790236535,
+      "same_step_GR_GC_trajectory_distance": 0.00036265489186961556,
+      "trajectory_change_below_GR_GC_distance": true,
+      "metric_change": 0.00010105125784170698,
+      "same_step_abs_GR_GC_metric_difference": 0.00019100575412373628,
+      "metric_change_below_GR_GC_difference": true
+    },
+    {
+      "seed": 137,
+      "coarse_divisor": 16,
+      "fine_divisor": 32,
+      "group": "H0",
+      "metric": "continuous_state_relative_l2",
+      "trajectory_change": 0.0003602081786818461,
+      "same_step_GR_GC_trajectory_distance": 0.00042286556424236444,
+      "trajectory_change_below_GR_GC_distance": true,
+      "metric_change": 0.0002469413194675341,
+      "same_step_abs_GR_GC_metric_difference": 4.495991184637923e-06,
+      "metric_change_below_GR_GC_difference": false
+    },
+    {
+      "seed": 137,
+      "coarse_divisor": 16,
+      "fine_divisor": 32,
+      "group": "GR",
+      "metric": "continuous_tip_rmse_mm",
+      "trajectory_change": 0.00024426518335154783,
+      "same_step_GR_GC_trajectory_distance": 0.00036265489186961556,
+      "trajectory_change_below_GR_GC_distance": true,
+      "metric_change": 1.6089120209694793e-05,
+      "same_step_abs_GR_GC_metric_difference": 0.00019100575412373628,
+      "metric_change_below_GR_GC_difference": true
+    },
+    {
+      "seed": 137,
+      "coarse_divisor": 16,
+      "fine_divisor": 32,
+      "group": "GR",
+      "metric": "continuous_state_relative_l2",
+      "trajectory_change": 0.00036020507427136407,
+      "same_step_GR_GC_trajectory_distance": 0.00042286556424236444,
+      "trajectory_change_below_GR_GC_distance": true,
+      "metric_change": 8.785709869948933e-06,
+      "same_step_abs_GR_GC_metric_difference": 4.495991184637923e-06,
+      "metric_change_below_GR_GC_difference": false
+    },
+    {
+      "seed": 137,
+      "coarse_divisor": 16,
+      "fine_divisor": 32,
+      "group": "GC",
+      "metric": "continuous_tip_rmse_mm",
+      "trajectory_change": 0.000244265726000495,
+      "same_step_GR_GC_trajectory_distance": 0.00036265489186961556,
+      "trajectory_change_below_GR_GC_distance": true,
+      "metric_change": 2.7882205624195095e-05,
+      "same_step_abs_GR_GC_metric_difference": 0.00019100575412373628,
+      "metric_change_below_GR_GC_difference": true
+    },
+    {
+      "seed": 137,
+      "coarse_divisor": 16,
+      "fine_divisor": 32,
+      "group": "GC",
+      "metric": "continuous_state_relative_l2",
+      "trajectory_change": 0.0003602059105838998,
+      "same_step_GR_GC_trajectory_distance": 0.00042286556424236444,
+      "trajectory_change_below_GR_GC_distance": true,
+      "metric_change": 7.252640345635508e-05,
+      "same_step_abs_GR_GC_metric_difference": 4.495991184637923e-06,
+      "metric_change_below_GR_GC_difference": false
+    },
+    {
+      "seed": 211,
+      "coarse_divisor": 8,
+      "fine_divisor": 16,
+      "group": "H0",
+      "metric": "continuous_tip_rmse_mm",
+      "trajectory_change": 0.0009973176699535197,
+      "same_step_GR_GC_trajectory_distance": 0.00043334216528348874,
+      "trajectory_change_below_GR_GC_distance": false,
+      "metric_change": 0.00017877209318735063,
+      "same_step_abs_GR_GC_metric_difference": 0.0004104685704613022,
+      "metric_change_below_GR_GC_difference": true
+    },
+    {
+      "seed": 211,
+      "coarse_divisor": 8,
+      "fine_divisor": 16,
+      "group": "H0",
+      "metric": "continuous_state_relative_l2",
+      "trajectory_change": 0.0017598725924185153,
+      "same_step_GR_GC_trajectory_distance": 0.0008236935259014141,
+      "trajectory_change_below_GR_GC_distance": false,
+      "metric_change": 0.0005500759447402948,
+      "same_step_abs_GR_GC_metric_difference": 0.0008126690187683388,
+      "metric_change_below_GR_GC_difference": true
+    },
+    {
+      "seed": 211,
+      "coarse_divisor": 8,
+      "fine_divisor": 16,
+      "group": "GR",
+      "metric": "continuous_tip_rmse_mm",
+      "trajectory_change": 0.0009973074219072914,
+      "same_step_GR_GC_trajectory_distance": 0.00043334216528348874,
+      "trajectory_change_below_GR_GC_distance": false,
+      "metric_change": 0.0009658969280304763,
+      "same_step_abs_GR_GC_metric_difference": 0.0004104685704613022,
+      "metric_change_below_GR_GC_difference": false
+    },
+    {
+      "seed": 211,
+      "coarse_divisor": 8,
+      "fine_divisor": 16,
+      "group": "GR",
+      "metric": "continuous_state_relative_l2",
+      "trajectory_change": 0.001759855704418308,
+      "same_step_GR_GC_trajectory_distance": 0.0008236935259014141,
+      "trajectory_change_below_GR_GC_distance": false,
+      "metric_change": 0.0017497745811483971,
+      "same_step_abs_GR_GC_metric_difference": 0.0008126690187683388,
+      "metric_change_below_GR_GC_difference": false
+    },
+    {
+      "seed": 211,
+      "coarse_divisor": 8,
+      "fine_divisor": 16,
+      "group": "GC",
+      "metric": "continuous_tip_rmse_mm",
+      "trajectory_change": 0.0009973067899019302,
+      "same_step_GR_GC_trajectory_distance": 0.00043334216528348874,
+      "trajectory_change_below_GR_GC_distance": false,
+      "metric_change": 0.0009480048904311198,
+      "same_step_abs_GR_GC_metric_difference": 0.0004104685704613022,
+      "metric_change_below_GR_GC_difference": false
+    },
+    {
+      "seed": 211,
+      "coarse_divisor": 8,
+      "fine_divisor": 16,
+      "group": "GC",
+      "metric": "continuous_state_relative_l2",
+      "trajectory_change": 0.001759856897159844,
+      "same_step_GR_GC_trajectory_distance": 0.0008236935259014141,
+      "trajectory_change_below_GR_GC_distance": false,
+      "metric_change": 0.0017403765020958606,
+      "same_step_abs_GR_GC_metric_difference": 0.0008126690187683388,
+      "metric_change_below_GR_GC_difference": false
+    },
+    {
+      "seed": 211,
+      "coarse_divisor": 16,
+      "fine_divisor": 32,
+      "group": "H0",
+      "metric": "continuous_tip_rmse_mm",
+      "trajectory_change": 0.00024933143886023536,
+      "same_step_GR_GC_trajectory_distance": 0.0004333417439332947,
+      "trajectory_change_below_GR_GC_distance": true,
+      "metric_change": 0.00011186962127266971,
+      "same_step_abs_GR_GC_metric_difference": 0.0003314580833132653,
+      "metric_change_below_GR_GC_difference": true
+    },
+    {
+      "seed": 211,
+      "coarse_divisor": 16,
+      "fine_divisor": 32,
+      "group": "H0",
+      "metric": "continuous_state_relative_l2",
+      "trajectory_change": 0.00043997198476254586,
+      "same_step_GR_GC_trajectory_distance": 0.0008236932236587796,
+      "trajectory_change_below_GR_GC_distance": true,
+      "metric_change": 0.0003101557501745673,
+      "same_step_abs_GR_GC_metric_difference": 0.0007071853822312373,
+      "metric_change_below_GR_GC_difference": true
+    },
+    {
+      "seed": 211,
+      "coarse_divisor": 16,
+      "fine_divisor": 32,
+      "group": "GR",
+      "metric": "continuous_tip_rmse_mm",
+      "trajectory_change": 0.0002493288756161942,
+      "same_step_GR_GC_trajectory_distance": 0.0004333417439332947,
+      "trajectory_change_below_GR_GC_distance": true,
+      "metric_change": 0.00020425101730354078,
+      "same_step_abs_GR_GC_metric_difference": 0.0003314580833132653,
+      "metric_change_below_GR_GC_difference": true
+    },
+    {
+      "seed": 211,
+      "coarse_divisor": 16,
+      "fine_divisor": 32,
+      "group": "GR",
+      "metric": "continuous_state_relative_l2",
+      "trajectory_change": 0.0004399677627891995,
+      "same_step_GR_GC_trajectory_distance": 0.0008236932236587796,
+      "trajectory_change_below_GR_GC_distance": true,
+      "metric_change": 0.0004018617715612989,
+      "same_step_abs_GR_GC_metric_difference": 0.0007071853822312373,
+      "metric_change_below_GR_GC_difference": true
+    },
+    {
+      "seed": 211,
+      "coarse_divisor": 16,
+      "fine_divisor": 32,
+      "group": "GC",
+      "metric": "continuous_tip_rmse_mm",
+      "trajectory_change": 0.00024932871894478873,
+      "same_step_GR_GC_trajectory_distance": 0.0004333417439332947,
+      "trajectory_change_below_GR_GC_distance": true,
+      "metric_change": 0.0001252405301555039,
+      "same_step_abs_GR_GC_metric_difference": 0.0003314580833132653,
+      "metric_change_below_GR_GC_difference": true
+    },
+    {
+      "seed": 211,
+      "coarse_divisor": 16,
+      "fine_divisor": 32,
+      "group": "GC",
+      "metric": "continuous_state_relative_l2",
+      "trajectory_change": 0.00043996806089632596,
+      "same_step_GR_GC_trajectory_distance": 0.0008236932236587796,
+      "trajectory_change_below_GR_GC_distance": true,
+      "metric_change": 0.00029637813502419736,
+      "same_step_abs_GR_GC_metric_difference": 0.0007071853822312373,
+      "metric_change_below_GR_GC_difference": true
+    }
+  ],
+  "maximum_implicit_residual": 6.21590893177832e-17,
+  "interpretation": "Positive GR-GC means lower GC error. Seed direction counts and full-state/tip metrics must be reported together; one-output wins do not establish general superiority."
+}

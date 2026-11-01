@@ -1,0 +1,829 @@
+{
+  "aggregates": [
+    {
+      "group": "GR",
+      "n_seeds": 5,
+      "gradient_lp6_normalized_mean": 8.660346713956825e-05,
+      "gradient_lp6_normalized_sample_sd": 1.539844318265265e-05,
+      "energy_abs_max_shifted_mean": 2.5122328754237643e-05,
+      "energy_abs_max_shifted_sample_sd": 5.965155386332991e-06,
+      "C0_envelope_maximum_over_seeds": 0.0004046635168135126,
+      "physical_plus_learning_C0_maximum_over_seeds": 0.0004106524394973043
+    },
+    {
+      "group": "GC",
+      "n_seeds": 5,
+      "gradient_lp6_normalized_mean": 8.120533706599811e-05,
+      "gradient_lp6_normalized_sample_sd": 1.0682474606395992e-05,
+      "energy_abs_max_shifted_mean": 1.9436860727942338e-05,
+      "energy_abs_max_shifted_sample_sd": 3.709222951159923e-06,
+      "C0_envelope_maximum_over_seeds": 0.0002823051315339672,
+      "physical_plus_learning_C0_maximum_over_seeds": 0.0002882940542177589
+    }
+  ],
+  "records": [
+    {
+      "seed": 17,
+      "group": "GR",
+      "coordinates": "new(q,p)",
+      "energy_mean_shift": 1.470515075228683e-06,
+      "endpoint_grid": {
+        "n_points": 83521,
+        "gradient_lp6_normalized": 9.624869502349181e-05,
+        "gradient_lp6_lebesgue": 6.063287844250463e-05,
+        "gradient_rms": 2.7785733212680796e-05,
+        "gradient_component_abs_max": [
+          0.00016755855446694179,
+          0.00023282539706957203,
+          6.239491603379152e-05,
+          8.978572720726012e-05
+        ],
+        "energy_abs_max_shifted": 2.432000544069884e-05,
+        "energy_rms_shifted": 3.1407826751726656e-06
+      },
+      "midpoint_grid": {
+        "n_points": 65536,
+        "gradient_lp6_normalized": 7.698459371117164e-05,
+        "gradient_lp6_lebesgue": 4.849725506715481e-05,
+        "gradient_rms": 2.2772904689792893e-05,
+        "gradient_component_abs_max": [
+          0.00013494723159008154,
+          0.00018617348388052062,
+          5.494270331836914e-05,
+          8.267253685552114e-05
+        ],
+        "energy_abs_max_shifted": 1.8538873503881702e-05,
+        "energy_rms_shifted": 2.3867507470229054e-06
+      },
+      "independent_sobol": {
+        "n_points": 65536,
+        "gradient_lp6_normalized": 7.942200074758041e-05,
+        "gradient_lp6_lebesgue": 5.0032725283321457e-05,
+        "gradient_rms": 2.303875821491509e-05,
+        "gradient_component_abs_max": [
+          0.0001579788397037353,
+          0.00022283587279273013,
+          6.079218436337514e-05,
+          8.36554912895144e-05
+        ],
+        "energy_abs_max_shifted": 2.0954818264502576e-05,
+        "energy_rms_shifted": 2.4344002414992834e-06
+      },
+      "hessian_component_abs_bound": [
+        [
+          0.062301919491333096,
+          0.08886470015768115,
+          0.06676337963828893,
+          0.07732346718717928
+        ],
+        [
+          0.08886470015768115,
+          0.15163707505214946,
+          0.10030575520944711,
+          0.11749685087239005
+        ],
+        [
+          0.06676337963828893,
+          0.10030575520944711,
+          0.09300817738657267,
+          0.09295251258476467
+        ],
+        [
+          0.07732346718717928,
+          0.11749685087239005,
+          0.09295251258476467,
+          0.1264739545922191
+        ]
+      ],
+      "mean_quadrature_bound": 1.7635950786225355e-05,
+      "C0_envelope": 0.0002340857577944383,
+      "physical_plus_learning_C0": 0.00024007468047822995,
+      "gradient_autograd_probe_gap": 1.0787811616230769e-17,
+      "interval_certified": false,
+      "KAM_certificate": false
+    },
+    {
+      "seed": 17,
+      "group": "GC",
+      "coordinates": "new(q,p)",
+      "energy_mean_shift": -7.912177735923213e-06,
+      "endpoint_grid": {
+        "n_points": 83521,
+        "gradient_lp6_normalized": 9.131575297436074e-05,
+        "gradient_lp6_lebesgue": 5.752531967969873e-05,
+        "gradient_rms": 2.5446377482064117e-05,
+        "gradient_component_abs_max": [
+          0.00017275461644584286,
+          0.00020806062137204993,
+          8.173216524705331e-05,
+          6.272952315946254e-05
+        ],
+        "energy_abs_max_shifted": 2.002280564118513e-05,
+        "energy_rms_shifted": 2.8285128428835726e-06
+      },
+      "midpoint_grid": {
+        "n_points": 65536,
+        "gradient_lp6_normalized": 7.223791184906958e-05,
+        "gradient_lp6_lebesgue": 4.5507032869546525e-05,
+        "gradient_rms": 2.038035758072775e-05,
+        "gradient_component_abs_max": [
+          0.0001365793212591052,
+          0.00016337850169112586,
+          7.082595219779591e-05,
+          5.37876381189219e-05
+        ],
+        "energy_abs_max_shifted": 1.4883439884704904e-05,
+        "energy_rms_shifted": 2.0947068774880556e-06
+      },
+      "independent_sobol": {
+        "n_points": 65536,
+        "gradient_lp6_normalized": 7.476102310300437e-05,
+        "gradient_lp6_lebesgue": 4.709649335957607e-05,
+        "gradient_rms": 2.0661197137285504e-05,
+        "gradient_component_abs_max": [
+          0.00015730657874175348,
+          0.00019923970007856463,
+          7.427522254283235e-05,
+          5.6369317576562976e-05
+        ],
+        "energy_abs_max_shifted": 1.6898743593409977e-05,
+        "energy_rms_shifted": 2.143018790485824e-06
+      },
+      "hessian_component_abs_bound": [
+        [
+          0.08435381202439604,
+          0.08257579917462471,
+          0.06977351556237994,
+          0.07431850846365402
+        ],
+        [
+          0.08257579917462471,
+          0.09066303758636803,
+          0.07229575853526013,
+          0.07744196124235189
+        ],
+        [
+          0.06977351556237994,
+          0.07229575853526013,
+          0.07344208078542352,
+          0.07367478704607404
+        ],
+        [
+          0.07431850846365401,
+          0.07744196124235189,
+          0.07367478704607404,
+          0.08238489311735046
+        ]
+      ],
+      "mean_quadrature_bound": 1.3462069641664147e-05,
+      "C0_envelope": 0.00019005213093348507,
+      "physical_plus_learning_C0": 0.00019604105361727673,
+      "gradient_autograd_probe_gap": 1.0516761073109393e-17,
+      "interval_certified": false,
+      "KAM_certificate": false
+    },
+    {
+      "seed": 43,
+      "group": "GR",
+      "coordinates": "new(q,p)",
+      "energy_mean_shift": 4.682397367655592e-05,
+      "endpoint_grid": {
+        "n_points": 83521,
+        "gradient_lp6_normalized": 8.980168792404853e-05,
+        "gradient_lp6_lebesgue": 5.6571518465799486e-05,
+        "gradient_rms": 2.623077474921284e-05,
+        "gradient_component_abs_max": [
+          0.00017165142642218694,
+          0.00023327411394516814,
+          9.433489211367155e-05,
+          9.044485302574102e-05
+        ],
+        "energy_abs_max_shifted": 2.570058873238988e-05,
+        "energy_rms_shifted": 2.9042668572121392e-06
+      },
+      "midpoint_grid": {
+        "n_points": 65536,
+        "gradient_lp6_normalized": 7.134044126858011e-05,
+        "gradient_lp6_lebesgue": 4.49416618315365e-05,
+        "gradient_rms": 2.1358696604976462e-05,
+        "gradient_component_abs_max": [
+          0.00013773256708725663,
+          0.00019275981575503617,
+          8.390220428552869e-05,
+          8.087209404773242e-05
+        ],
+        "energy_abs_max_shifted": 1.9213811864270046e-05,
+        "energy_rms_shifted": 2.187048773241672e-06
+      },
+      "independent_sobol": {
+        "n_points": 65536,
+        "gradient_lp6_normalized": 7.368526932224339e-05,
+        "gradient_lp6_lebesgue": 4.641881094313369e-05,
+        "gradient_rms": 2.160594957267415e-05,
+        "gradient_component_abs_max": [
+          0.00015839856277437568,
+          0.0002177274682434386,
+          9.152510683677802e-05,
+          8.880416398559877e-05
+        ],
+        "energy_abs_max_shifted": 2.255573056821205e-05,
+        "energy_rms_shifted": 2.228323356215658e-06
+      },
+      "hessian_component_abs_bound": [
+        [
+          0.11272946405919484,
+          0.1672618795911021,
+          0.06748753450150985,
+          0.12179924306170987
+        ],
+        [
+          0.1672618795911021,
+          0.2857108941857002,
+          0.11475539054774081,
+          0.18123207114652468
+        ],
+        [
+          0.06748753450150985,
+          0.11475539054774081,
+          0.0608181809066246,
+          0.08314204873668025
+        ],
+        [
+          0.12179924306170987,
+          0.18123207114652465,
+          0.08314204873668027,
+          0.154625340947694
+        ]
+      ],
+      "mean_quadrature_bound": 2.4978999027474516e-05,
+      "C0_envelope": 0.00031236043674430036,
+      "physical_plus_learning_C0": 0.00031834935942809205,
+      "gradient_autograd_probe_gap": 1.088267930632325e-17,
+      "interval_certified": false,
+      "KAM_certificate": false
+    },
+    {
+      "seed": 43,
+      "group": "GC",
+      "coordinates": "new(q,p)",
+      "energy_mean_shift": 4.2455774692106674e-05,
+      "endpoint_grid": {
+        "n_points": 83521,
+        "gradient_lp6_normalized": 0.00010273762434521208,
+        "gradient_lp6_lebesgue": 6.472064776436234e-05,
+        "gradient_rms": 2.6911158449493625e-05,
+        "gradient_component_abs_max": [
+          0.0001961586102461308,
+          0.000294611550310376,
+          5.5194283518672414e-05,
+          9.875501724314311e-05
+        ],
+        "energy_abs_max_shifted": 2.387731032699971e-05,
+        "energy_rms_shifted": 2.8415896167739718e-06
+      },
+      "midpoint_grid": {
+        "n_points": 65536,
+        "gradient_lp6_normalized": 8.27353927727068e-05,
+        "gradient_lp6_lebesgue": 5.212003146282673e-05,
+        "gradient_rms": 2.1854507107719485e-05,
+        "gradient_component_abs_max": [
+          0.00015485031412388714,
+          0.000238738535443736,
+          4.787160520509655e-05,
+          8.735202946516815e-05
+        ],
+        "energy_abs_max_shifted": 1.7888643724420606e-05,
+        "energy_rms_shifted": 2.1362470449467837e-06
+      },
+      "independent_sobol": {
+        "n_points": 65536,
+        "gradient_lp6_normalized": 8.513436028784376e-05,
+        "gradient_lp6_lebesgue": 5.363128629799426e-05,
+        "gradient_rms": 2.213330937595403e-05,
+        "gradient_component_abs_max": [
+          0.00016031863424544515,
+          0.0002678895600151394,
+          4.898985601401454e-05,
+          9.296042285094559e-05
+        ],
+        "energy_abs_max_shifted": 2.155499027994865e-05,
+        "energy_rms_shifted": 2.1829533593661537e-06
+      },
+      "hessian_component_abs_bound": [
+        [
+          0.07895645566226343,
+          0.11161621053042968,
+          0.06587025130384061,
+          0.10340364845721772
+        ],
+        [
+          0.11161621053042968,
+          0.19429327538482355,
+          0.10266068207912253,
+          0.15966320416747767
+        ],
+        [
+          0.06587025130384061,
+          0.10266068207912253,
+          0.07410709132857154,
+          0.10674123438284494
+        ],
+        [
+          0.10340364845721772,
+          0.15966320416747767,
+          0.10674123438284494,
+          0.18670870825286368
+        ]
+      ],
+      "mean_quadrature_bound": 2.173118207310068e-05,
+      "C0_envelope": 0.00027619623068873394,
+      "physical_plus_learning_C0": 0.0002821851533725256,
+      "gradient_autograd_probe_gap": 1.0652286344670081e-17,
+      "interval_certified": false,
+      "KAM_certificate": false
+    },
+    {
+      "seed": 91,
+      "group": "GR",
+      "coordinates": "new(q,p)",
+      "energy_mean_shift": -5.497156933442255e-06,
+      "endpoint_grid": {
+        "n_points": 83521,
+        "gradient_lp6_normalized": 0.00010610133759651341,
+        "gradient_lp6_lebesgue": 6.683965432992479e-05,
+        "gradient_rms": 3.548472640242521e-05,
+        "gradient_component_abs_max": [
+          0.00023655642314492385,
+          0.0002736992489834678,
+          0.0001858975718837662,
+          0.00015632140881490953
+        ],
+        "energy_abs_max_shifted": 3.923575575001332e-05,
+        "energy_rms_shifted": 4.012525034900056e-06
+      },
+      "midpoint_grid": {
+        "n_points": 65536,
+        "gradient_lp6_normalized": 8.75684398966206e-05,
+        "gradient_lp6_lebesgue": 5.516466036610316e-05,
+        "gradient_rms": 2.9584114298074677e-05,
+        "gradient_component_abs_max": [
+          0.00019128226267216177,
+          0.00022758625925762334,
+          0.0001658472806526843,
+          0.00014352427516477252
+        ],
+        "energy_abs_max_shifted": 3.062446108096445e-05,
+        "energy_rms_shifted": 3.1032882409936286e-06
+      },
+      "independent_sobol": {
+        "n_points": 65536,
+        "gradient_lp6_normalized": 8.964726756669775e-05,
+        "gradient_lp6_lebesgue": 5.6474239736420225e-05,
+        "gradient_rms": 2.985692163807503e-05,
+        "gradient_component_abs_max": [
+          0.00021376737486246915,
+          0.00025307926237240296,
+          0.00017783734577188616,
+          0.00014956589389472207
+        ],
+        "energy_abs_max_shifted": 3.335135248565865e-05,
+        "energy_rms_shifted": 3.1508537637495952e-06
+      },
+      "hessian_component_abs_bound": [
+        [
+          0.15283458645451742,
+          0.1704950250886684,
+          0.13208018865758964,
+          0.15108228720242625
+        ],
+        [
+          0.1704950250886684,
+          0.2465493778575735,
+          0.1816634210382537,
+          0.1817726257445083
+        ],
+        [
+          0.13208018865758964,
+          0.18166342103825375,
+          0.1563605658346248,
+          0.1406492363392834
+        ],
+        [
+          0.15108228720242625,
+          0.1817726257445083,
+          0.1406492363392834,
+          0.18012266538882415
+        ]
+      ],
+      "mean_quadrature_bound": 2.9942512839173982e-05,
+      "C0_envelope": 0.0004046635168135126,
+      "physical_plus_learning_C0": 0.0004106524394973043,
+      "gradient_autograd_probe_gap": 1.0760706561918632e-17,
+      "interval_certified": false,
+      "KAM_certificate": false
+    },
+    {
+      "seed": 91,
+      "group": "GC",
+      "coordinates": "new(q,p)",
+      "energy_mean_shift": 2.10995169780817e-05,
+      "endpoint_grid": {
+        "n_points": 83521,
+        "gradient_lp6_normalized": 0.00011674701699862427,
+        "gradient_lp6_lebesgue": 7.354601211450065e-05,
+        "gradient_rms": 3.4314278978568596e-05,
+        "gradient_component_abs_max": [
+          0.0002472220279114689,
+          0.00034401070719173557,
+          0.00013736396698628048,
+          0.00016746643079510313
+        ],
+        "energy_abs_max_shifted": 2.6997213422213715e-05,
+        "energy_rms_shifted": 3.674382584949748e-06
+      },
+      "midpoint_grid": {
+        "n_points": 65536,
+        "gradient_lp6_normalized": 9.560213424616713e-05,
+        "gradient_lp6_lebesgue": 6.022557067581075e-05,
+        "gradient_rms": 2.800289109885309e-05,
+        "gradient_component_abs_max": [
+          0.00019877657785709324,
+          0.00028442139517511884,
+          0.0001169883022132517,
+          0.00014465420549862184
+        ],
+        "energy_abs_max_shifted": 2.015687570791824e-05,
+        "energy_rms_shifted": 2.7512823083943387e-06
+      },
+      "independent_sobol": {
+        "n_points": 65536,
+        "gradient_lp6_normalized": 9.795210074808116e-05,
+        "gradient_lp6_lebesgue": 6.17059568069654e-05,
+        "gradient_rms": 2.8316036467046516e-05,
+        "gradient_component_abs_max": [
+          0.00022022104659803193,
+          0.0003160893089348241,
+          0.00012624470795391028,
+          0.00015332623657729453
+        ],
+        "energy_abs_max_shifted": 2.338400151445096e-05,
+        "energy_rms_shifted": 2.8111023652283784e-06
+      },
+      "hessian_component_abs_bound": [
+        [
+          0.10345323960188997,
+          0.1161488307495011,
+          0.08940432413430024,
+          0.10961629701819237
+        ],
+        [
+          0.11614883074950111,
+          0.168335225355825,
+          0.1127582021634684,
+          0.1297000836618386
+        ],
+        [
+          0.08940432413430023,
+          0.1127582021634684,
+          0.09580421839047912,
+          0.10604880976946178
+        ],
+        [
+          0.10961629701819237,
+          0.1297000836618386,
+          0.10604880976946178,
+          0.1507085529555058
+        ]
+      ],
+      "mean_quadrature_bound": 2.1089731294909663e-05,
+      "C0_envelope": 0.0002823051315339672,
+      "physical_plus_learning_C0": 0.0002882940542177589,
+      "gradient_autograd_probe_gap": 1.0923336887791457e-17,
+      "interval_certified": false,
+      "KAM_certificate": false
+    },
+    {
+      "seed": 137,
+      "group": "GR",
+      "coordinates": "new(q,p)",
+      "energy_mean_shift": 3.5966059187825716e-05,
+      "endpoint_grid": {
+        "n_points": 83521,
+        "gradient_lp6_normalized": 9.48424703455737e-05,
+        "gradient_lp6_lebesgue": 5.9747012406209295e-05,
+        "gradient_rms": 2.6192736118175193e-05,
+        "gradient_component_abs_max": [
+          0.0001663725972278374,
+          0.00024053574624415545,
+          6.748504697962101e-05,
+          7.400802111745682e-05
+        ],
+        "energy_abs_max_shifted": 2.2209399613098963e-05,
+        "energy_rms_shifted": 2.9504940464795402e-06
+      },
+      "midpoint_grid": {
+        "n_points": 65536,
+        "gradient_lp6_normalized": 7.568199636535126e-05,
+        "gradient_lp6_lebesgue": 4.767667015938667e-05,
+        "gradient_rms": 2.1170920702958646e-05,
+        "gradient_component_abs_max": [
+          0.0001321070981097266,
+          0.00019226787077534916,
+          5.816662584831962e-05,
+          6.567780392612753e-05
+        ],
+        "energy_abs_max_shifted": 1.644456095965911e-05,
+        "energy_rms_shifted": 2.2105856079016264e-06
+      },
+      "independent_sobol": {
+        "n_points": 65536,
+        "gradient_lp6_normalized": 7.817146168271617e-05,
+        "gradient_lp6_lebesgue": 4.92449350375523e-05,
+        "gradient_rms": 2.1441279789531997e-05,
+        "gradient_component_abs_max": [
+          0.00015914421743443228,
+          0.00022462987774390675,
+          6.316607045492294e-05,
+          7.024082499844898e-05
+        ],
+        "energy_abs_max_shifted": 1.939779738137974e-05,
+        "energy_rms_shifted": 2.256121785801873e-06
+      },
+      "hessian_component_abs_bound": [
+        [
+          0.07895682030487829,
+          0.059914182499929754,
+          0.0631183399907774,
+          0.07199849141604245
+        ],
+        [
+          0.059914182499929754,
+          0.057084738835768964,
+          0.0510736933228577,
+          0.05733885589740864
+        ],
+        [
+          0.0631183399907774,
+          0.0510736933228577,
+          0.0668530818649035,
+          0.0605467799176675
+        ],
+        [
+          0.07199849141604245,
+          0.057338855897408655,
+          0.060546779917667486,
+          0.09577027875976395
+        ]
+      ],
+      "mean_quadrature_bound": 1.2152706696179799e-05,
+      "C0_envelope": 0.00016624783523950178,
+      "physical_plus_learning_C0": 0.00017223675792329344,
+      "gradient_autograd_probe_gap": 1.0462550964485118e-17,
+      "interval_certified": false,
+      "KAM_certificate": false
+    },
+    {
+      "seed": 137,
+      "group": "GC",
+      "coordinates": "new(q,p)",
+      "energy_mean_shift": 2.603241571447309e-05,
+      "endpoint_grid": {
+        "n_points": 83521,
+        "gradient_lp6_normalized": 9.381143005681575e-05,
+        "gradient_lp6_lebesgue": 5.909749772466138e-05,
+        "gradient_rms": 2.5976881337426752e-05,
+        "gradient_component_abs_max": [
+          0.00019861290859940215,
+          0.00026049933685319586,
+          6.471089981159699e-05,
+          7.761296166477958e-05
+        ],
+        "energy_abs_max_shifted": 2.40952699784185e-05,
+        "energy_rms_shifted": 2.797343911022911e-06
+      },
+      "midpoint_grid": {
+        "n_points": 65536,
+        "gradient_lp6_normalized": 7.466842225605469e-05,
+        "gradient_lp6_lebesgue": 4.7038158481421074e-05,
+        "gradient_rms": 2.0871131128085116e-05,
+        "gradient_component_abs_max": [
+          0.00016133716989733023,
+          0.00020693658195149119,
+          5.6327192798248976e-05,
+          6.779662277040659e-05
+        ],
+        "energy_abs_max_shifted": 1.7896950689188247e-05,
+        "energy_rms_shifted": 2.070143913788635e-06
+      },
+      "independent_sobol": {
+        "n_points": 65536,
+        "gradient_lp6_normalized": 7.707063599249625e-05,
+        "gradient_lp6_lebesgue": 4.8551458307865735e-05,
+        "gradient_rms": 2.11533981837788e-05,
+        "gradient_component_abs_max": [
+          0.00017554861579675168,
+          0.0002279477434905614,
+          6.0753618439260387e-05,
+          7.197908677773866e-05
+        ],
+        "energy_abs_max_shifted": 2.1012782813423067e-05,
+        "energy_rms_shifted": 2.118101447224245e-06
+      },
+      "hessian_component_abs_bound": [
+        [
+          0.08702243021159271,
+          0.10713576649505387,
+          0.07371020277381944,
+          0.10625353316776794
+        ],
+        [
+          0.10713576649505387,
+          0.16351248541423843,
+          0.10579158202266292,
+          0.14605256049726142
+        ],
+        [
+          0.07371020277381944,
+          0.10579158202266292,
+          0.0823079564792605,
+          0.10192328440795514
+        ],
+        [
+          0.10625353316776794,
+          0.1460525604972614,
+          0.10192328440795514,
+          0.15784480449697322
+        ]
+      ],
+      "mean_quadrature_bound": 1.9966132674237663e-05,
+      "C0_envelope": 0.0002677037422006686,
+      "physical_plus_learning_C0": 0.0002736926648844603,
+      "gradient_autograd_probe_gap": 1.0869126779167182e-17,
+      "interval_certified": false,
+      "KAM_certificate": false
+    },
+    {
+      "seed": 211,
+      "group": "GR",
+      "coordinates": "new(q,p)",
+      "energy_mean_shift": 2.3922196591754132e-05,
+      "endpoint_grid": {
+        "n_points": 83521,
+        "gradient_lp6_normalized": 0.0001310021063241723,
+        "gradient_lp6_lebesgue": 8.252615566919549e-05,
+        "gradient_rms": 3.9196414892030686e-05,
+        "gradient_component_abs_max": [
+          0.0002312356003955544,
+          0.00038039018134013305,
+          0.0001135740521685769,
+          0.00014346392850075188
+        ],
+        "energy_abs_max_shifted": 3.15039437134567e-05,
+        "energy_rms_shifted": 4.333779733903585e-06
+      },
+      "midpoint_grid": {
+        "n_points": 65536,
+        "gradient_lp6_normalized": 0.00011008981700195672,
+        "gradient_lp6_lebesgue": 6.935223890991989e-05,
+        "gradient_rms": 3.283076590811283e-05,
+        "gradient_component_abs_max": [
+          0.00018270198547211912,
+          0.0003164863050868563,
+          9.88131876462181e-05,
+          0.00012217402298782832
+        ],
+        "energy_abs_max_shifted": 2.429394646145142e-05,
+        "energy_rms_shifted": 3.348692083022387e-06
+      },
+      "independent_sobol": {
+        "n_points": 65536,
+        "gradient_lp6_normalized": 0.00011209133637860357,
+        "gradient_lp6_lebesgue": 7.06131171071248e-05,
+        "gradient_rms": 3.313173168418456e-05,
+        "gradient_component_abs_max": [
+          0.00019540114712342715,
+          0.0003530686454561729,
+          9.749866274013086e-05,
+          0.00013992404619533148
+        ],
+        "energy_abs_max_shifted": 2.9351945071435197e-05,
+        "energy_rms_shifted": 3.408897409357001e-06
+      },
+      "hessian_component_abs_bound": [
+        [
+          0.1144338979506921,
+          0.12794544636138158,
+          0.11168769675823846,
+          0.0880412141303096
+        ],
+        [
+          0.12794544636138158,
+          0.19680991612766957,
+          0.1542106223746503,
+          0.10157838294290833
+        ],
+        [
+          0.11168769675823847,
+          0.1542106223746503,
+          0.15669935879215516,
+          0.088844494700755
+        ],
+        [
+          0.0880412141303096,
+          0.10157838294290833,
+          0.088844494700755,
+          0.07670729594380629
+        ]
+      ],
+      "mean_quadrature_bound": 2.216188431047864e-05,
+      "C0_envelope": 0.00029353583609974,
+      "physical_plus_learning_C0": 0.0002995247587835317,
+      "gradient_autograd_probe_gap": 1.0950441942103595e-17,
+      "interval_certified": false,
+      "KAM_certificate": false
+    },
+    {
+      "seed": 211,
+      "group": "GC",
+      "coordinates": "new(q,p)",
+      "energy_mean_shift": 6.333736012665866e-05,
+      "endpoint_grid": {
+        "n_points": 83521,
+        "gradient_lp6_normalized": 8.726849998239332e-05,
+        "gradient_lp6_lebesgue": 5.4975710060283853e-05,
+        "gradient_rms": 2.189746490490078e-05,
+        "gradient_component_abs_max": [
+          0.00014644945864094518,
+          0.00021031570694967532,
+          4.6417441819215416e-05,
+          3.5252045960913515e-05
+        ],
+        "energy_abs_max_shifted": 1.7141364912610577e-05,
+        "energy_rms_shifted": 2.3602082774073645e-06
+      },
+      "midpoint_grid": {
+        "n_points": 65536,
+        "gradient_lp6_normalized": 6.860125726576546e-05,
+        "gradient_lp6_lebesgue": 4.3216084039195756e-05,
+        "gradient_rms": 1.7288274960922528e-05,
+        "gradient_component_abs_max": [
+          0.00011465051645996921,
+          0.0001657093068739418,
+          3.7790153654035705e-05,
+          3.204493008552424e-05
+        ],
+        "energy_abs_max_shifted": 1.229588206338566e-05,
+        "energy_rms_shifted": 1.719455680840976e-06
+      },
+      "independent_sobol": {
+        "n_points": 65536,
+        "gradient_lp6_normalized": 7.110856519856498e-05,
+        "gradient_lp6_lebesgue": 4.479558906074701e-05,
+        "gradient_rms": 1.755156605670461e-05,
+        "gradient_component_abs_max": [
+          0.0001301820704692559,
+          0.00020152007794960376,
+          3.958974157852517e-05,
+          3.299807904958787e-05
+        ],
+        "energy_abs_max_shifted": 1.4333785438479027e-05,
+        "energy_rms_shifted": 1.7631849165684839e-06
+      },
+      "hessian_component_abs_bound": [
+        [
+          0.09026466914518101,
+          0.059244594268865094,
+          0.07901787275332578,
+          0.05687321653200372
+        ],
+        [
+          0.059244594268865094,
+          0.04718019422341923,
+          0.056436391497156485,
+          0.04178940848260708
+        ],
+        [
+          0.07901787275332577,
+          0.05643639149715648,
+          0.0832259997188996,
+          0.05491067205777236
+        ],
+        [
+          0.05687321653200373,
+          0.041789408482607066,
+          0.05491067205777236,
+          0.04326300518305385
+        ]
+      ],
+      "mean_quadrature_bound": 1.0739496593040108e-05,
+      "C0_envelope": 0.00015078008227197554,
+      "physical_plus_learning_C0": 0.0001567690049557672,
+      "gradient_autograd_probe_gap": 1.0733601507606494e-17,
+      "interval_certified": false,
+      "KAM_certificate": false
+    }
+  ],
+  "source_inputs_unchanged": true,
+  "max_gradient_autograd_probe_gap": 1.0950441942103595e-17,
+  "scope": "New-coordinate error budget for actual newly trained variable-mass G models; no torus or interval certificate"
+}

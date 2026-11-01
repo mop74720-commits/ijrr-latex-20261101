@@ -1,0 +1,406 @@
+[
+  {
+    "step": 0,
+    "validation_normalized_mse": 1.0590299127409986
+  },
+  {
+    "step": 100,
+    "validation_normalized_mse": 0.30777099121261764
+  },
+  {
+    "step": 200,
+    "validation_normalized_mse": 0.053834426043012945
+  },
+  {
+    "step": 300,
+    "validation_normalized_mse": 0.034773512597471225
+  },
+  {
+    "step": 400,
+    "validation_normalized_mse": 0.02355931185271436
+  },
+  {
+    "step": 500,
+    "validation_normalized_mse": 0.016763203146778885
+  },
+  {
+    "step": 600,
+    "validation_normalized_mse": 0.01213520004962034
+  },
+  {
+    "step": 700,
+    "validation_normalized_mse": 0.00878399472830699
+  },
+  {
+    "step": 800,
+    "validation_normalized_mse": 0.006914293736177069
+  },
+  {
+    "step": 900,
+    "validation_normalized_mse": 0.005212948007988457
+  },
+  {
+    "step": 1000,
+    "validation_normalized_mse": 0.004015382579922946
+  },
+  {
+    "step": 1100,
+    "validation_normalized_mse": 0.0034145400708041123
+  },
+  {
+    "step": 1200,
+    "validation_normalized_mse": 0.002828265996811033
+  },
+  {
+    "step": 1300,
+    "validation_normalized_mse": 0.002316461003110833
+  },
+  {
+    "step": 1400,
+    "validation_normalized_mse": 0.0019408321901799525
+  },
+  {
+    "step": 1500,
+    "validation_normalized_mse": 0.0017753997545405908
+  },
+  {
+    "step": 1600,
+    "validation_normalized_mse": 0.0014866697078168862
+  },
+  {
+    "step": 1700,
+    "validation_normalized_mse": 0.001431142800469991
+  },
+  {
+    "step": 1800,
+    "validation_normalized_mse": 0.0011900511026003045
+  },
+  {
+    "step": 1900,
+    "validation_normalized_mse": 0.0011207289356575123
+  },
+  {
+    "step": 2000,
+    "validation_normalized_mse": 0.0010044340631795252
+  },
+  {
+    "step": 2100,
+    "validation_normalized_mse": 0.000953269746650392
+  },
+  {
+    "step": 2200,
+    "validation_normalized_mse": 0.0008422896985298411
+  },
+  {
+    "step": 2300,
+    "validation_normalized_mse": 0.0007700268252600271
+  },
+  {
+    "step": 2400,
+    "validation_normalized_mse": 0.0007526565188891529
+  },
+  {
+    "step": 2500,
+    "validation_normalized_mse": 0.0007007640098371844
+  },
+  {
+    "step": 2600,
+    "validation_normalized_mse": 0.0006479864421705905
+  },
+  {
+    "step": 2700,
+    "validation_normalized_mse": 0.0006051492532452265
+  },
+  {
+    "step": 2800,
+    "validation_normalized_mse": 0.0005746984422283879
+  },
+  {
+    "step": 2900,
+    "validation_normalized_mse": 0.0005650548060344321
+  },
+  {
+    "step": 3000,
+    "validation_normalized_mse": 0.0005480735195157128
+  },
+  {
+    "step": 3100,
+    "validation_normalized_mse": 0.0005199555135460617
+  },
+  {
+    "step": 3200,
+    "validation_normalized_mse": 0.0005099446101463155
+  },
+  {
+    "step": 3300,
+    "validation_normalized_mse": 0.0004751352086022867
+  },
+  {
+    "step": 3400,
+    "validation_normalized_mse": 0.00046626034729077776
+  },
+  {
+    "step": 3500,
+    "validation_normalized_mse": 0.00042011131674255306
+  },
+  {
+    "step": 3600,
+    "validation_normalized_mse": 0.0004395489210622299
+  },
+  {
+    "step": 3700,
+    "validation_normalized_mse": 0.00039612038633045826
+  },
+  {
+    "step": 3800,
+    "validation_normalized_mse": 0.00037589784097605744
+  },
+  {
+    "step": 3900,
+    "validation_normalized_mse": 0.00039056991205798757
+  },
+  {
+    "step": 4000,
+    "validation_normalized_mse": 0.0003765992897460317
+  },
+  {
+    "step": 4100,
+    "validation_normalized_mse": 0.0003501104500047815
+  },
+  {
+    "step": 4200,
+    "validation_normalized_mse": 0.0003337397364242192
+  },
+  {
+    "step": 4300,
+    "validation_normalized_mse": 0.0003295465840231068
+  },
+  {
+    "step": 4400,
+    "validation_normalized_mse": 0.0003052000503393075
+  },
+  {
+    "step": 4500,
+    "validation_normalized_mse": 0.0003373618536830679
+  },
+  {
+    "step": 4600,
+    "validation_normalized_mse": 0.0003041044199462271
+  },
+  {
+    "step": 4700,
+    "validation_normalized_mse": 0.0002740126501210596
+  },
+  {
+    "step": 4800,
+    "validation_normalized_mse": 0.00027129406667301855
+  },
+  {
+    "step": 4900,
+    "validation_normalized_mse": 0.00027421591797880795
+  },
+  {
+    "step": 5000,
+    "validation_normalized_mse": 0.0002751347976109855
+  },
+  {
+    "step": 5100,
+    "validation_normalized_mse": 0.0002455187523407545
+  },
+  {
+    "step": 5200,
+    "validation_normalized_mse": 0.00024699696357590226
+  },
+  {
+    "step": 5300,
+    "validation_normalized_mse": 0.0002389121992132642
+  },
+  {
+    "step": 5400,
+    "validation_normalized_mse": 0.00024197579705855077
+  },
+  {
+    "step": 5500,
+    "validation_normalized_mse": 0.00023814295854152068
+  },
+  {
+    "step": 5600,
+    "validation_normalized_mse": 0.00023420751792100378
+  },
+  {
+    "step": 5700,
+    "validation_normalized_mse": 0.00023385961582696318
+  },
+  {
+    "step": 5800,
+    "validation_normalized_mse": 0.00022465020816192662
+  },
+  {
+    "step": 5900,
+    "validation_normalized_mse": 0.0002271582735421441
+  },
+  {
+    "step": 6000,
+    "validation_normalized_mse": 0.00022130048442653172
+  },
+  {
+    "step": 6100,
+    "validation_normalized_mse": 0.0002234480519948808
+  },
+  {
+    "step": 6200,
+    "validation_normalized_mse": 0.00021147218285658305
+  },
+  {
+    "step": 6300,
+    "validation_normalized_mse": 0.00021769280638255574
+  },
+  {
+    "step": 6400,
+    "validation_normalized_mse": 0.0002086285133617104
+  },
+  {
+    "step": 6500,
+    "validation_normalized_mse": 0.0002101519914092789
+  },
+  {
+    "step": 6600,
+    "validation_normalized_mse": 0.00021016677640343476
+  },
+  {
+    "step": 6700,
+    "validation_normalized_mse": 0.00020708385798226227
+  },
+  {
+    "step": 6800,
+    "validation_normalized_mse": 0.00020160165402067213
+  },
+  {
+    "step": 6900,
+    "validation_normalized_mse": 0.00020876695025717355
+  },
+  {
+    "step": 7000,
+    "validation_normalized_mse": 0.0002007954192121141
+  },
+  {
+    "step": 7100,
+    "validation_normalized_mse": 0.00019840913345394815
+  },
+  {
+    "step": 7200,
+    "validation_normalized_mse": 0.00018940203204716448
+  },
+  {
+    "step": 7300,
+    "validation_normalized_mse": 0.00018536944749314625
+  },
+  {
+    "step": 7400,
+    "validation_normalized_mse": 0.00018063956195467807
+  },
+  {
+    "step": 7500,
+    "validation_normalized_mse": 0.000185555455642242
+  },
+  {
+    "step": 7600,
+    "validation_normalized_mse": 0.00017885516129054131
+  },
+  {
+    "step": 7700,
+    "validation_normalized_mse": 0.00017663975193176894
+  },
+  {
+    "step": 7800,
+    "validation_normalized_mse": 0.00017647398542513523
+  },
+  {
+    "step": 7900,
+    "validation_normalized_mse": 0.00017661844108827655
+  },
+  {
+    "step": 8000,
+    "validation_normalized_mse": 0.00017302050728300515
+  },
+  {
+    "step": 8100,
+    "validation_normalized_mse": 0.00017176036669300956
+  },
+  {
+    "step": 8200,
+    "validation_normalized_mse": 0.0001723941719371506
+  },
+  {
+    "step": 8300,
+    "validation_normalized_mse": 0.00017096667962136273
+  },
+  {
+    "step": 8400,
+    "validation_normalized_mse": 0.0001704178292771431
+  },
+  {
+    "step": 8500,
+    "validation_normalized_mse": 0.00016949370045752607
+  },
+  {
+    "step": 8600,
+    "validation_normalized_mse": 0.0001660487704290189
+  },
+  {
+    "step": 8700,
+    "validation_normalized_mse": 0.0001720976320916433
+  },
+  {
+    "step": 8800,
+    "validation_normalized_mse": 0.00017153241222249516
+  },
+  {
+    "step": 8900,
+    "validation_normalized_mse": 0.00016083618510926809
+  },
+  {
+    "step": 9000,
+    "validation_normalized_mse": 0.00016453928036493722
+  },
+  {
+    "step": 9100,
+    "validation_normalized_mse": 0.00016357904009590244
+  },
+  {
+    "step": 9200,
+    "validation_normalized_mse": 0.0001622616247404645
+  },
+  {
+    "step": 9300,
+    "validation_normalized_mse": 0.00016226435764849797
+  },
+  {
+    "step": 9400,
+    "validation_normalized_mse": 0.0001600591694274713
+  },
+  {
+    "step": 9500,
+    "validation_normalized_mse": 0.0001569849705048086
+  },
+  {
+    "step": 9600,
+    "validation_normalized_mse": 0.00015833920312052248
+  },
+  {
+    "step": 9700,
+    "validation_normalized_mse": 0.00015728616564521242
+  },
+  {
+    "step": 9800,
+    "validation_normalized_mse": 0.0001519250803017574
+  },
+  {
+    "step": 9900,
+    "validation_normalized_mse": 0.0001522784336196129
+  },
+  {
+    "step": 10000,
+    "validation_normalized_mse": 0.0001526801804432524
+  }
+]

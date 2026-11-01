@@ -1,0 +1,224 @@
+{
+  "date": "2026-11-01",
+  "purpose": "Additional numerical time-convergence check after h16/h32; no model selection or retraining.",
+  "basis": "Observed h16-to-h32 motion still affects full-state model contrasts. All fixed original seeds and models receive h64.",
+  "divisor": 64,
+  "seeds": [
+    17,
+    43,
+    91,
+    137,
+    211
+  ],
+  "groups": [
+    "H0",
+    "GR",
+    "GC",
+    "Teacher"
+  ],
+  "grid": "Unchanged 914 output times, eight held-out trajectories per seed, endpoint 15.992993212174294 seconds.",
+  "weights": "Unchanged saved 10000-update GR and GC weights; no selection or updates.",
+  "algorithm": "Accepted fine_step.run_seed low-level float64 midpoint and analytic H0 Cayley trajectory.",
+  "primary_metrics": [
+    "continuous_tip_rmse_mm",
+    "continuous_state_relative_l2"
+  ],
+  "statistics": "Per-trajectory time metrics, then mean of eight per seed, paired differences and mean/sample SD over all five seeds.",
+  "convergence_checks": "Compare h32-to-h64 trajectories and error changes with h64 GR-GC distances; retain h16/h32 results unchanged.",
+  "work_limit": "All five seeds at h64 only; no h128.",
+  "claim_limits": "Existing-data numerical check only; mixed signs and output specificity retained. No fresh-data confirmation claim.",
+  "accepted_protocol_sha256": "05376cc9b51ecc3ee1d121152fc93d11cbb563053e44ea287768354cd3eb1a16",
+  "original_protected_manifest_sha256": "0b1cf2432f9b654ba5b359ab035d5abfff2698152515475014e8678dcef6089c",
+  "inputs": [
+    {
+      "path": "code/neural_physics_refinement.py",
+      "sha256": "0eea7c635d7ace0073170e48a2eab69db6a77129f46e08e59d3f6b872e271221"
+    },
+    {
+      "path": "code/train_neural_hnn.py",
+      "sha256": "3dadee3db2a884eb93e1b8ca75fa4f0496890095dbd82ac9880e9b7e2acf92e5"
+    },
+    {
+      "path": "results/neural_learning_10000/protocol.json",
+      "sha256": "b966a82f3666cdda6e0f3b738ad6b80e17a647aca0375dd3fcad229abfb689fa"
+    },
+    {
+      "path": "results/learning/data/seed_17.npz",
+      "sha256": "f02a36438e9d23894a4f7261b652f00d5d048b427f18a4433fb602791aec6c86"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_17/GR_weights.npz",
+      "sha256": "c1dad775b3d9f6eb9e79d074f2fdae16b97031b4e5cfcb82cbdaa7fb64648822"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_17/GR_rollout.npz",
+      "sha256": "7b4f0d6ca3934b6446a2eb8bcce8a4af448cf0de7e394656e8abe131ee67ba0f"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_17/GC_weights.npz",
+      "sha256": "3741547f85a25bd7ba8845dc16c8da783ea85dd8bfcb4ffbe6333e6b45cf84de"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_17/GC_rollout.npz",
+      "sha256": "3d75e3268f7c0cc7f15c299293966db561015f8a650b62ba7be6eee1f4708592"
+    },
+    {
+      "path": "results/neural_physics_refinement/seed_17/h8_trajectories.npz",
+      "sha256": "55e89a085d5c793c13fcc282b5620df0eeaa59e70be39a3f93a61009946a4a87"
+    },
+    {
+      "path": "results/neural_physics_refinement/seed_17/h8_records.json",
+      "sha256": "9ae63329f5d5ab7b1d86e665250b3ccb29563da8d6fc4d47453eb42686049ff3"
+    },
+    {
+      "path": "results/learning/data/seed_43.npz",
+      "sha256": "4283c88184af6ea1e39c96572b6d1891adfd23f339a813f329d6d82cdbd8e40a"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_43/GR_weights.npz",
+      "sha256": "c4f3f3c1df9c8462d84ff03a07841e3a39e3bb42458fba36721627fda26b35b5"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_43/GR_rollout.npz",
+      "sha256": "0ad73d8872f7231c7b02d5ffa746ab549b015952347b0af59c83ce005ceac6e2"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_43/GC_weights.npz",
+      "sha256": "8791a66a5a26f132c4b92ed6176498353d0bdc85b07b9e3c3af522a605a8c107"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_43/GC_rollout.npz",
+      "sha256": "30bc796bc7a8c6b32fd14877fd04868e4c0eb52d3f53a0c246f486c4e25a5126"
+    },
+    {
+      "path": "results/neural_physics_refinement/seed_43/h8_trajectories.npz",
+      "sha256": "1c9c995d1538f9768c80006386bb05b26cca820ae9b846d189ddb595b1130167"
+    },
+    {
+      "path": "results/neural_physics_refinement/seed_43/h8_records.json",
+      "sha256": "b4572ba99d43f234167c4e22827413356ae5a01b2bb7c9bedba659f12c2da7e1"
+    },
+    {
+      "path": "results/learning/data/seed_91.npz",
+      "sha256": "d00061656bcf5ac2d77dfcd983de1bf211e2dd8bea899a32488dac34cce4864f"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_91/GR_weights.npz",
+      "sha256": "039463690996f6979ee5950b8ae59ce6a3d1ad5cd6aa70f1ceeb032d4e8d8635"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_91/GR_rollout.npz",
+      "sha256": "4fb3078b01895bb2d477fcebd01fd10f71fccc39f00c4989d2f09e4b3c88baef"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_91/GC_weights.npz",
+      "sha256": "85cfb42e8a196ce52dd8bc13b588b738b9bce0cc618df483999d39a99e7bc578"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_91/GC_rollout.npz",
+      "sha256": "c040869a8422bdfb35186b98a90ff3758c8b7a7327a1a74913629f3b5af2f1e6"
+    },
+    {
+      "path": "results/neural_physics_refinement/seed_91/h8_trajectories.npz",
+      "sha256": "7afbca7abbcc0962f3155a067f0cd46c90cf5b68761e8a834ba9fe4dbdbf00bf"
+    },
+    {
+      "path": "results/neural_physics_refinement/seed_91/h8_records.json",
+      "sha256": "2e7b559eddcbc5ea14bc2d34ebfc21c121cd22e3326a2771f229814d2c44562a"
+    },
+    {
+      "path": "results/learning/data/seed_137.npz",
+      "sha256": "e40c692789963e6b75de6e8e1bdac288505b589275baa80e8145178992b737cf"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_137/GR_weights.npz",
+      "sha256": "a68f8c67cd99a9f054751ec88e0776f00c5d84baef5a410b08df0c1407ad71fc"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_137/GR_rollout.npz",
+      "sha256": "6d864222c96723739103c81dcc263af8b0b7b31b8e7d96ef5cb5c6a1f280ead2"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_137/GC_weights.npz",
+      "sha256": "dbf6baafd07b5c93ed8f6ee5182bfc1f31f20be890e59fd66e21f711ab4c19fe"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_137/GC_rollout.npz",
+      "sha256": "97816f0b53184d762f7f5336e1ca9cfce94aaae3570cbb63a0e59c6d5b5d2177"
+    },
+    {
+      "path": "results/neural_physics_refinement/seed_137/h8_trajectories.npz",
+      "sha256": "e1b5dbf921b655fe84150bc58510c8f5e487c90348f1da78bce4cb7d78a92947"
+    },
+    {
+      "path": "results/neural_physics_refinement/seed_137/h8_records.json",
+      "sha256": "637012ff7a5bbbf6581de2eda8b9d87a6643f8c0336d5e3c8d9ce65b71671bfa"
+    },
+    {
+      "path": "results/learning/data/seed_211.npz",
+      "sha256": "e183c94bae91648c4d9d4695d0cc199b710cbba83b91897f83f3517c3fd853c2"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_211/GR_weights.npz",
+      "sha256": "0d3141edd9a4a61bbfc09f9b571aef22ebe46e4961dfe1597c4eb130df790bd3"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_211/GR_rollout.npz",
+      "sha256": "5353de47723c62baffb814de87f02c60a0242c0e674b7c471a3da63a94caa29b"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_211/GC_weights.npz",
+      "sha256": "8ba2ff42d19683c54d36a8af03bf2110a3ddc0ecc76910be4cf40270f01016ed"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_211/GC_rollout.npz",
+      "sha256": "55bcaba48c80359e7a0ba5b4d3fda60d648d71980c82a996dcad352b0988354c"
+    },
+    {
+      "path": "results/neural_physics_refinement/seed_211/h8_trajectories.npz",
+      "sha256": "5b30aec797a3225724962503835fdb3431800eeb90046e133cbba6f988e37cdf"
+    },
+    {
+      "path": "results/neural_physics_refinement/seed_211/h8_records.json",
+      "sha256": "73c281cc9c43b319a7f7092bc64491c96cbd82f12c35aa222b1ab5d97ae2cd3b"
+    }
+  ],
+  "accepted_outputs": {
+    "fine_step.py": "c09329b50a6444ef0e19a96fa63a391d23acf5433d2f3f5c99ad2a1cafee13ee",
+    "fine_step/protocol.json": "05376cc9b51ecc3ee1d121152fc93d11cbb563053e44ea287768354cd3eb1a16",
+    "fine_step/execution_script.py": "c09329b50a6444ef0e19a96fa63a391d23acf5433d2f3f5c99ad2a1cafee13ee",
+    "fine_step/original_h_verification.json": "c0ef6ba9da1d88d2a3689856ccf0c5010576c930e33f40cd4a56b8664ec4296a",
+    "fine_step/h16_runtime.json": "7adc5f59f55f06cb25396e6ef9f46f61fb3173170d1c414256a73c4f69df22b3",
+    "fine_step/h32_runtime.json": "81ac2d3ef52d6147801192b2bc4c7198381faa858e1a20ad4e6ac00992775899",
+    "fine_step/trajectory_metrics.csv": "b09b5736b9da3020a53f1984a23f201f577bb9ad1379f54cfbdbf2e90a62fbb1",
+    "fine_step/seed_metrics.csv": "1811393d036e5c611a58d819bf61ba020afaea9f9001f59152f21502250bb947",
+    "fine_step/solver_diagnostics.csv": "11775859b6b676de5d43536bde3e58645d6ee4c107110abc28cf1f99adb78171",
+    "fine_step/paired_seed_differences.csv": "e7828cbcfaf4fa5923e45c926c5baef724b7021f5ba388042895f4d5a880d238",
+    "fine_step/paired_summary.csv": "50d20f11e8a1e763d6261ee02c55ed701a68d17d6613864078b013156393499b",
+    "fine_step/refinement_vs_representation.csv": "27a5643e1826a9c10d5bb7826e1e6c9ca0bb895d72047e187b9d314d47e49061",
+    "fine_step/summary.json": "75a36789a66b6b56349a6cf290b1aba37fefd72d7e71443786f343d11ecc9e11",
+    "fine_step/protection_verification.json": "dbfd7a4ea617617400984099d91fe1e965c2662ea8719f9b40668b238f53d894",
+    "fine_step/independent_verification.json": "df66bb1bb84778fc9f9acc4a80833e491721e614910267a17e710b1bc216ba2e",
+    "fine_step/continuous_H0_baseline.csv": "8726f1a82fb0aa11e49cd937134128db85c48ab1332a58db2be02d40b1435163",
+    "fine_step/seed_17/h16_records.json": "76a4424092b9c5d266650bde20cd865b5fd591c1c928f01e16a3e750c9407f0a",
+    "fine_step/seed_17/h16_trajectories.npz": "96ecd45c1a80cf4887600bd973563a6362429dca127ce76221714752a7ad28ce",
+    "fine_step/seed_17/h32_records.json": "201e7f7553003aa39234e5be2ea181998daaf657647e80433888046c6df2ce3f",
+    "fine_step/seed_17/h32_trajectories.npz": "527f947426ba2214f87ba1d8f2dceade593e68882970a4c8e8ae1dcc72ef4d9f",
+    "fine_step/seed_43/h16_records.json": "8b8be9e12d7b468b336f9752c86467d301e8512fee07bf29dcf6e68a9ad8fe3b",
+    "fine_step/seed_43/h16_trajectories.npz": "563d7971edd1f58f46588e4bf88c040ba42187740e49110639a6b80ebaa476cf",
+    "fine_step/seed_43/h32_records.json": "40d578977f087cc90f4a4ae2dc595643d7407e675fee98880be742a262baccdc",
+    "fine_step/seed_43/h32_trajectories.npz": "78570833c188cb1433077100ff5d4a6d376993796145a59c071eda09d3e96965",
+    "fine_step/seed_91/h16_records.json": "eaae4d1301c75b277f07f5816170f97a6933d776170a766c6b2f1d0c1b6ee681",
+    "fine_step/seed_91/h16_trajectories.npz": "9987765d5c7210118e881d83a8b135480dd4df731f143f02dc2aa260298c8699",
+    "fine_step/seed_91/h32_records.json": "fb7ba332cc8fc877d268d326f51ca0371349f5bc7888f7f347cc23d5404869b1",
+    "fine_step/seed_91/h32_trajectories.npz": "d0877f242a4d1f36111811d63737ca632fdcc88613b0a7be8c814aba334d7d26",
+    "fine_step/seed_137/h16_records.json": "e31f6e3b822f2a378be60a08627afbc162469e06a17f0eb28afc280c1c871c6d",
+    "fine_step/seed_137/h16_trajectories.npz": "1b58ff7706295a54875aae5de5d1371c4c779bdf7aa4ec68ca00e163bea97220",
+    "fine_step/seed_137/h32_records.json": "4e25bedd0aa8e170a42d1ca5addd4fd1e72b8c384635b66c3fe4e56a877b981b",
+    "fine_step/seed_137/h32_trajectories.npz": "29ba6a7eb24c0404d0b8f4808978dba150d24a36a9a41df47222fe5924daf600",
+    "fine_step/seed_211/h16_records.json": "9a422b77512cd1d67bff35e7e3ac0b16cf556548a011062bfe0c9ee01b0b4585",
+    "fine_step/seed_211/h16_trajectories.npz": "c850943adf0664ef5a4f1ffd05acf1962b04a8b7fdf632d86e47e2a1ccb6b730",
+    "fine_step/seed_211/h32_records.json": "4558b6044ae8723d47b3f23d429c633fea957ae6f9fecd7bd5a13974713ff075",
+    "fine_step/seed_211/h32_trajectories.npz": "a4011367dcd70624d15f7677f7f8ee94e17e931bddfc11f89327b8c354854836"
+  }
+}

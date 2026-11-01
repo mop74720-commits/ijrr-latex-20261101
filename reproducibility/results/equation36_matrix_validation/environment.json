@@ -1,0 +1,8 @@
+{
+  "utc": "2026-11-01T11:27:21.064047+00:00",
+  "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]",
+  "numpy": "1.26.4",
+  "scipy": "1.13.1",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "script_sha256": "b3e8291b32a865ea86eb10a35bab535c00cfd0f691e67c4a1951eeb8739fa729"
+}

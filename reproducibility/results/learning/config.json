@@ -1,0 +1,32 @@
+{
+  "seeds": [
+    17,
+    43,
+    91,
+    137,
+    211
+  ],
+  "train_trajectories": 12,
+  "val_trajectories": 4,
+  "test_trajectories": 8,
+  "train_duration_s": 2.0,
+  "val_duration_s": 4.0,
+  "test_duration_s": 40.0,
+  "step_tau": 0.01,
+  "training_stride": 8,
+  "test_sample_stride": 20,
+  "noise_bound": 1e-06,
+  "ridge": 1e-14,
+  "state_order": [
+    "X1",
+    "X2",
+    "Y1",
+    "Y2"
+  ],
+  "label_units": "dimensionless dz/dtau",
+  "test_times_units": "SI seconds",
+  "normalization": "No data-dependent normalization; use frozen canonical physical chart.",
+  "supervision": "Midpoint finite increments generated exclusively by the conservative constant-mass Eq36 teacher, plus bounded uniform noise.",
+  "validation": "Independent whole trajectories; fixed predeclared ridge, no test-set hyperparameter selection.",
+  "prediction": "All fitted models use converged implicit midpoint; unrestricted learned momentum quartics are not claimed to retain the original physical coefficient form."
+}

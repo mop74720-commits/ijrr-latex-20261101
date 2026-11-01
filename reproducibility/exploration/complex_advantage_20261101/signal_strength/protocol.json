@@ -1,0 +1,34 @@
+{
+  "amplitude_multiplier": 2.0,
+  "noise_bounds": [
+    1e-06,
+    0.0
+  ],
+  "seeds": [
+    17,
+    43,
+    91
+  ],
+  "groups": [
+    "GR",
+    "GC"
+  ],
+  "updates": 10000,
+  "batch_size": 512,
+  "real_parameters": 673,
+  "angle_gate_rad": 0.22,
+  "fine_divisor": 16,
+  "checkpoint_selection": "Unmodified train_neural_hnn.train_one; independent matching-noise validation labels; fixed seed+3000 subset2048",
+  "clean_validation": "Final full-set scaled gradient RMS only; no checkpoint selection",
+  "noise_seeds": "train=seed+10000; val=seed+110000",
+  "protected": {
+    "files_checked": 453,
+    "all_unchanged": true,
+    "manifest_sha256": "0b1cf2432f9b654ba5b359ab035d5abfff2698152515475014e8678dcef6089c"
+  },
+  "production_source_hashes": {
+    "learning_experiment.py": "48ccea8f1c4617620a073ecb030d7d42308dba1a9fad4b629ea0c417b8fe6ec3",
+    "train_neural_hnn.py": "3dadee3db2a884eb93e1b8ca75fa4f0496890095dbd82ac9880e9b7e2acf92e5",
+    "neural_physics_refinement.py": "0eea7c635d7ace0073170e48a2eab69db6a77129f46e08e59d3f6b872e271221"
+  }
+}

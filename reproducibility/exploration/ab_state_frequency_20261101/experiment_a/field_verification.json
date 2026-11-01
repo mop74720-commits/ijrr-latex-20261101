@@ -1,0 +1,55 @@
+{
+  "status": "passed",
+  "records": [
+    {
+      "seed": 17,
+      "group": "GR",
+      "field_gap": 1.0842021724855044e-19
+    },
+    {
+      "seed": 17,
+      "group": "GC",
+      "field_gap": 2.7755575615628914e-17
+    },
+    {
+      "seed": 43,
+      "group": "GR",
+      "field_gap": 1.1102230246251565e-16
+    },
+    {
+      "seed": 43,
+      "group": "GC",
+      "field_gap": 6.938893903907228e-18
+    },
+    {
+      "seed": 91,
+      "group": "GR",
+      "field_gap": 1.3877787807814457e-17
+    },
+    {
+      "seed": 91,
+      "group": "GC",
+      "field_gap": 2.7755575615628914e-17
+    },
+    {
+      "seed": 137,
+      "group": "GR",
+      "field_gap": 2.7755575615628914e-17
+    },
+    {
+      "seed": 137,
+      "group": "GC",
+      "field_gap": 2.7755575615628914e-17
+    },
+    {
+      "seed": 211,
+      "group": "GR",
+      "field_gap": 2.7755575615628914e-17
+    },
+    {
+      "seed": 211,
+      "group": "GC",
+      "field_gap": 6.938893903907228e-18
+    }
+  ]
+}

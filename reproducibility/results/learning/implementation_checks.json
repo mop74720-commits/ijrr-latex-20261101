@@ -1,0 +1,33 @@
+{
+  "direct_eq36_vs_midpoint_max_gap": 2.7755575615628914e-17,
+  "canonical_tangent_defect_max": 2.2376383541313633e-16,
+  "matched_features_max_gap": 1.3877787807814457e-17,
+  "reference_40s_refinement_max_state_gap": 3.9957876937779524e-10,
+  "convergence": [
+    {
+      "step_tau": 0.08,
+      "endpoint_error": 0.026696787034383697
+    },
+    {
+      "step_tau": 0.04,
+      "endpoint_error": 0.006914636118103229,
+      "observed_order": 1.9489408867851907
+    },
+    {
+      "step_tau": 0.02,
+      "endpoint_error": 0.0017414129993359975,
+      "observed_order": 1.9893949337660746
+    },
+    {
+      "step_tau": 0.01,
+      "endpoint_error": 0.0004361102439384257,
+      "observed_order": 1.9974936140803927
+    }
+  ],
+  "single_step_solver": {
+    "maximum_implicit_residual": 2.688821387764051e-17,
+    "mean_iterations_per_step": 2.05,
+    "elapsed_seconds": 3.310357099999237
+  },
+  "claim_boundary": "This verifies the explicitly declared constant-mass conservative specialization only; it does not repair or certify the frozen general Birkhoff derivation."
+}

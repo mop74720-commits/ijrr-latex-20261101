@@ -1,0 +1,10 @@
+{
+  "all_passed": true,
+  "threshold_rad": 0.22,
+  "seeds": [
+    17,
+    43,
+    91
+  ],
+  "scope": "Both noise conditions share newly integrated amplitude-x2 states. No samples excluded."
+}

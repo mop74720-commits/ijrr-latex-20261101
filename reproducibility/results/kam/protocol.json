@@ -1,0 +1,33 @@
+{
+  "model": {
+    "M(q)": "1+0.3*q^2",
+    "K(q)": "1+0.4*q^2",
+    "C": 0.0,
+    "Fext": 0.0
+  },
+  "parameter_status": "Dimensionless diagnostic choices; not fitted physical robot parameters.",
+  "amplitudes": [
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    1.0,
+    1.2
+  ],
+  "step_sizes": [
+    0.1,
+    0.05,
+    0.025
+  ],
+  "horizon": 300.0,
+  "initial_state": "[amplitude, 0]",
+  "integrator": "Imported scalar equation (36), midpoint coefficient interpretation from (35).",
+  "reference": "Endpoint-regularized action/period quadrature, independently checked by DOP853 events.",
+  "twist": "Symmetric amplitude finite differences, delta A=1e-4 and 5e-5; ratio delta omega/delta I.",
+  "phase_frequency": "Weighted average of unwrapped atan2(-p,q) increments; weights exp(-1/(u*(1-u))).",
+  "crossing_frequency": "Linear fit of cubic-interpolated downward q=0 crossing times against crossing index.",
+  "spectrum": "Hann-windowed q samples; logarithmic parabolic peak interpolation; no multiple-frequency claim.",
+  "finite_resonance_cutoff": 128,
+  "source_integrator_sha256": "5ab34c0ee36b71217c264f295c0939b1c88973a41b12f8de8951d85a17dfca7e",
+  "claim_scope": "Numerical structure, frequency, twist and drift diagnostics; no rigorous KAM certificate."
+}

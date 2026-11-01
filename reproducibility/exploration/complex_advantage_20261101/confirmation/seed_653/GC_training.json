@@ -1,0 +1,70 @@
+{
+  "seed": 653,
+  "group": "GC",
+  "real_parameter_count": 673,
+  "training_steps": 10000,
+  "selected_validation_step": 9800,
+  "validation_normalized_mse": 5.090186798643481e-08,
+  "training_seconds": 30.410132499999236,
+  "numpy_torch_field_max_difference": 5.551115123125783e-17,
+  "validation_reporting_points": 2284,
+  "clean_label_rhs_max_gap": 5.3637649877202875e-15,
+  "clean_gradient_rms": 1.6544912705448216e-05,
+  "common_scale_clean_gradient_rms": 0.00018207242724077203,
+  "common_reporting_output_rms": [
+    0.08449042871141585,
+    0.5041844697932402,
+    0.084352715897993,
+    0.5037616555675446
+  ],
+  "clean_field_mse": 2.7373413643090186e-10,
+  "clean_field_relative_l2": 4.535014938603693e-05,
+  "nonlinear_residual_relative_l2": 3.9694191057567654,
+  "nonlinear_momentum_relative_l2": 3.271909041434888,
+  "spurious_kinematic_residual_rms": 1.3247589905421412e-05,
+  "noisy_full_validation_normalized_mse": 3.3174411699283956e-08,
+  "quadratic_baseline_field_relative_l2": 1.1424883132211097e-05,
+  "validation_nonlinear_field_l2": 0.00039839655082021753,
+  "validation_field_error_component_rmse": [
+    1.7337760267193324e-05,
+    7.099249644962639e-06,
+    2.528939788758852e-05,
+    1.0216928286068688e-05
+  ],
+  "train_only_input_rms": [
+    0.08435469462297684,
+    0.08188479689071904,
+    0.08449043445043687,
+    0.0819529983803169
+  ],
+  "train_only_output_rms": [
+    0.08449042871141585,
+    0.5041844697932402,
+    0.084352715897993,
+    0.5037616555675446
+  ],
+  "train_only_energy_scale": 0.015428907474128697,
+  "status": "completed",
+  "setting": {
+    "name": "traj1_updates10000",
+    "train_trajectories": 1,
+    "updates": 10000,
+    "amplitude_multiplier": 1.0,
+    "noise_bound": 1e-06,
+    "gc_over_gr": [
+      0.5366051487022399,
+      0.39280326902096263,
+      0.7183100701084913
+    ],
+    "mean_log_gr_over_gc": 0.6292643589359522,
+    "gc_wins": 3,
+    "eligible": true
+  },
+  "train_trajectory_ids": [
+    0
+  ],
+  "dataset_path": "confirmation\\prospective_amplitude1_data\\seed_653.npz",
+  "dataset_sha256": "9882a6ac39ca01e3e364bb22a8723a6ba87ce21e38cbb972b68a85ae00c3b8f3",
+  "nomination_sha256": "a19f79238b431ef42e40023dca92207a7abbceb965ff7cc419a65d5315dfbb8a",
+  "weights_sha256": "6097317b5c185eb06174731d84cb523ab5a52c1ae94774e23605e88fde7d3fe5"
+}

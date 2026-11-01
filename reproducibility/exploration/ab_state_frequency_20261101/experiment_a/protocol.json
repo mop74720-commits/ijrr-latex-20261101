@@ -1,0 +1,87 @@
+{
+  "scope": "A only, fixed original physical model/weights/all40held-out initials; no manuscript or GitHub changes",
+  "seeds": [
+    17,
+    43,
+    91,
+    137,
+    211
+  ],
+  "groups": [
+    "H0",
+    "H4",
+    "GR",
+    "GC",
+    "Teacher"
+  ],
+  "reuse": "All16s h32/h64 saved outputs unchanged; no old driver rerun",
+  "long_duration_requested_seconds": 64,
+  "long_grid": "Original output stride20 extended without changing spacing; end no later than64s",
+  "continuous_integrator": {
+    "method": "DOP853 batch32dimension",
+    "rtol": 1e-11,
+    "atol": 1e-13
+  },
+  "refinement": {
+    "trajectory_per_seed": 0,
+    "rtol": 5e-13,
+    "atol": 5e-15,
+    "models": [
+      "H4",
+      "GR",
+      "GC",
+      "Teacher"
+    ]
+  },
+  "H4": "H0-(d.X)^4/24, not the angle-averaged normal form",
+  "frequency": "Smooth exp[-1/(s(1-s))] weighted phase increments of X-iY, full/half windows; tau frequency",
+  "primary": [
+    "state_relative_l2",
+    "frequency_abs_error_1",
+    "frequency_abs_error_2"
+  ],
+  "comparisons": [
+    "GR-H0",
+    "GC-H0",
+    "GR-H4",
+    "GC-H4",
+    "GC-GR"
+  ],
+  "exploratory_success_rule": "All3primary metrics require>=4/5 directional seed wins and mean paired relative improvement>=5%; distinguish numerical-resolution checks from success, no significance claim",
+  "statistics": "First per trajectory over time, mean8withinseed, then mean/sampleSD over5seeds; no timepoint pseudoreplication",
+  "input_sha256": {
+    "exploration/complex_advantage_20261101/fine_step/seed_17/h32_trajectories.npz": "527f947426ba2214f87ba1d8f2dceade593e68882970a4c8e8ae1dcc72ef4d9f",
+    "exploration/complex_advantage_20261101/fine_step/seed_17/h32_records.json": "201e7f7553003aa39234e5be2ea181998daaf657647e80433888046c6df2ce3f",
+    "exploration/complex_advantage_20261101/fine_step/seed_17/h64_trajectories.npz": "fc1d0a93e87333213b17d9fb594a19c93fd6a8d9fb80eb4344198cbab028e369",
+    "exploration/complex_advantage_20261101/fine_step/seed_17/h64_records.json": "e56124f265f7fdcf2a981961846e902a04a279bfaf2a51080c82ca3b0205ed4a",
+    "results/neural_learning_10000/seed_17/GR_weights.npz": "c1dad775b3d9f6eb9e79d074f2fdae16b97031b4e5cfcb82cbdaa7fb64648822",
+    "results/neural_learning_10000/seed_17/GC_weights.npz": "3741547f85a25bd7ba8845dc16c8da783ea85dd8bfcb4ffbe6333e6b45cf84de",
+    "exploration/complex_advantage_20261101/fine_step/seed_43/h32_trajectories.npz": "78570833c188cb1433077100ff5d4a6d376993796145a59c071eda09d3e96965",
+    "exploration/complex_advantage_20261101/fine_step/seed_43/h32_records.json": "40d578977f087cc90f4a4ae2dc595643d7407e675fee98880be742a262baccdc",
+    "exploration/complex_advantage_20261101/fine_step/seed_43/h64_trajectories.npz": "90c5405c7dc8d17694627b0adcb9212b51765afed946c0a01287d5afb3723a35",
+    "exploration/complex_advantage_20261101/fine_step/seed_43/h64_records.json": "2b03d2a90c15dcbf66787cff69b001f2b3dfe9ad9e05e2bd724dc0eae6de4224",
+    "results/neural_learning_10000/seed_43/GR_weights.npz": "c4f3f3c1df9c8462d84ff03a07841e3a39e3bb42458fba36721627fda26b35b5",
+    "results/neural_learning_10000/seed_43/GC_weights.npz": "8791a66a5a26f132c4b92ed6176498353d0bdc85b07b9e3c3af522a605a8c107",
+    "exploration/complex_advantage_20261101/fine_step/seed_91/h32_trajectories.npz": "d0877f242a4d1f36111811d63737ca632fdcc88613b0a7be8c814aba334d7d26",
+    "exploration/complex_advantage_20261101/fine_step/seed_91/h32_records.json": "fb7ba332cc8fc877d268d326f51ca0371349f5bc7888f7f347cc23d5404869b1",
+    "exploration/complex_advantage_20261101/fine_step/seed_91/h64_trajectories.npz": "2da186ee456569d075267dc2335ddb2f56a81eb73b6ffb1bea6213e6da429ef1",
+    "exploration/complex_advantage_20261101/fine_step/seed_91/h64_records.json": "d379a7b8c699db0b1825aef7d35df4d1e69892c1c58c91bf1d040cf449494ab8",
+    "results/neural_learning_10000/seed_91/GR_weights.npz": "039463690996f6979ee5950b8ae59ce6a3d1ad5cd6aa70f1ceeb032d4e8d8635",
+    "results/neural_learning_10000/seed_91/GC_weights.npz": "85cfb42e8a196ce52dd8bc13b588b738b9bce0cc618df483999d39a99e7bc578",
+    "exploration/complex_advantage_20261101/fine_step/seed_137/h32_trajectories.npz": "29ba6a7eb24c0404d0b8f4808978dba150d24a36a9a41df47222fe5924daf600",
+    "exploration/complex_advantage_20261101/fine_step/seed_137/h32_records.json": "4e25bedd0aa8e170a42d1ca5addd4fd1e72b8c384635b66c3fe4e56a877b981b",
+    "exploration/complex_advantage_20261101/fine_step/seed_137/h64_trajectories.npz": "8d28214fe3f47193bdb23acc3ce0c93443e06fd8af77477ce9f45954bd0b61ca",
+    "exploration/complex_advantage_20261101/fine_step/seed_137/h64_records.json": "74d0c17992ace30dbf0d3dd2a8faf26a09486c4b853b91c226144245f9fc5cdf",
+    "results/neural_learning_10000/seed_137/GR_weights.npz": "a68f8c67cd99a9f054751ec88e0776f00c5d84baef5a410b08df0c1407ad71fc",
+    "results/neural_learning_10000/seed_137/GC_weights.npz": "dbf6baafd07b5c93ed8f6ee5182bfc1f31f20be890e59fd66e21f711ab4c19fe",
+    "exploration/complex_advantage_20261101/fine_step/seed_211/h32_trajectories.npz": "a4011367dcd70624d15f7677f7f8ee94e17e931bddfc11f89327b8c354854836",
+    "exploration/complex_advantage_20261101/fine_step/seed_211/h32_records.json": "4558b6044ae8723d47b3f23d429c633fea957ae6f9fecd7bd5a13974713ff075",
+    "exploration/complex_advantage_20261101/fine_step/seed_211/h64_trajectories.npz": "fba4a9149b9800de2e5158259110efbe651957e9d48c2af7bca5e0b08f9d9005",
+    "exploration/complex_advantage_20261101/fine_step/seed_211/h64_records.json": "2e34b74889da35d132414c3e9aaf7645487f14388788b76eb23037876c23351a",
+    "results/neural_learning_10000/seed_211/GR_weights.npz": "0d3141edd9a4a61bbfc09f9b571aef22ebe46e4961dfe1597c4eb130df790bd3",
+    "results/neural_learning_10000/seed_211/GC_weights.npz": "8ba2ff42d19683c54d36a8af03bf2110a3ddc0ecc76910be4cf40270f01016ed",
+    "code/neural_physics_refinement.py": "0eea7c635d7ace0073170e48a2eab69db6a77129f46e08e59d3f6b872e271221",
+    "code/train_neural_hnn.py": "3dadee3db2a884eb93e1b8ca75fa4f0496890095dbd82ac9880e9b7e2acf92e5",
+    "results/learning/inputs/reference_model_spec.json": "fd18c090c9f58dac7a5813a5445b7f14c5409ec767c5cb9a4ec38dd2e883ae8c"
+  }
+}

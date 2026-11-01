@@ -1,0 +1,98 @@
+{
+  "seed": 17,
+  "level": "B030mT",
+  "field_T": 0.03,
+  "data_sha256": "4fa6821e8a96bb32293c5eaa5bdd8d48a50efb7ea51b6b132bbca4c731fc1ed4",
+  "source_data_sha256": "f02a36438e9d23894a4f7261b652f00d5d048b427f18a4433fb602791aec6c86",
+  "diagnostics": {
+    "train": {
+      "reused": true,
+      "projection": {
+        "displacement_mass_relative_max": 6.531955448995791e-16,
+        "velocity_mass_relative_max": 5.890592124918569e-16,
+        "overlap": [
+          [
+            0.9999999999999994,
+            4.9873299934333204e-18
+          ],
+          [
+            4.2365199889871086e-17,
+            1.0000000000000002
+          ]
+        ],
+        "canonical_component_abs_max": 0.152842895316286
+      },
+      "midpoint_label_rhs_gap": 4.704570066849101e-15
+    },
+    "val": {
+      "reused": true,
+      "projection": {
+        "displacement_mass_relative_max": 5.830770597119407e-16,
+        "velocity_mass_relative_max": 4.82693316614934e-16,
+        "overlap": [
+          [
+            0.9999999999999994,
+            4.9873299934333204e-18
+          ],
+          [
+            4.2365199889871086e-17,
+            1.0000000000000002
+          ]
+        ],
+        "canonical_component_abs_max": 0.12947047141376425
+      },
+      "midpoint_label_rhs_gap": 5.523359547510154e-15
+    }
+  },
+  "test_projection": {
+    "displacement_mass_relative_max": 5.775084062960836e-16,
+    "velocity_mass_relative_max": 6.320202399153564e-16,
+    "overlap": [
+      [
+        0.9999999999999994,
+        4.9873299934333204e-18
+      ],
+      [
+        4.2365199889871086e-17,
+        1.0000000000000002
+      ]
+    ],
+    "canonical_component_abs_max": 0.17304250956602205
+  },
+  "energy_geometry_screen": {
+    "gate": 0.15,
+    "initial_energy_max": 0.08607387263687952,
+    "lower_stiffness_min_eigenvalue": 0.9999045077182273,
+    "all_space_slope_energy_bound": 0.10854178742810937,
+    "initial_screen": {
+      "max_abs_slope": 0.06056822489869843,
+      "max_abs_tip_slope": 0.06038505285920108,
+      "max_abs_curvature_per_m": 2.425881540279276,
+      "max_surface_bending_strain_proxy": 0.0014555289241675654,
+      "max_abs_tip_displacement_m": 0.002154060929798364,
+      "slope_screen_passed": true,
+      "scope": "Spatial extrema exact for each supplied FE time state; temporal sampling is not a global certificate."
+    },
+    "continuous_model_energy_screen_passed": true,
+    "scope": "Conservative exact finite-dimensional model, real-arithmetic bootstrap; numerical evaluation not an interval or physical-calibration certificate."
+  },
+  "signals": {
+    "nonlinear_to_linear_force_l2": 9.30564391135794e-06,
+    "H4_remainder_to_linear_force_l2": 1.5415153413797124e-09,
+    "nonlinear_to_noise_force_l2": 4.663472529015132,
+    "nonlinear_force_component_rms": 2.707034760737335e-06,
+    "label_noise_component_rms": 5.80476188911748e-07,
+    "noise_equivalent_baseline_canonical_derivative_component_rms": [
+      5.788232605745055e-07,
+      5.867398743277622e-07,
+      5.83517832641013e-07,
+      5.774185230636008e-07
+    ],
+    "SI_tip_velocity_label_noise_rms_m_s": 9.632595968411559e-08,
+    "SI_modal_acceleration_label_noise_component_rms": [
+      5.160510749255161e-09,
+      1.266606103851889e-08
+    ],
+    "max_abs_tip_slope": 0.07239706708927045
+  }
+}

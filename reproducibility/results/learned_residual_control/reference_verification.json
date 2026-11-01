@@ -1,0 +1,7 @@
+{
+  "refinement_max_gap": 7.467870722852044e-13,
+  "nfev": 21854,
+  "tight_nfev": 35141,
+  "trajectory_sha256": "805a6b2c2d0a25d7f71efde4f9838b7ecaa82964813da8eb9aa78fd63a946511",
+  "reference": "H0 plus prescribed physical magnetic input; not H* plus input"
+}

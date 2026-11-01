@@ -13,3 +13,17 @@
 compile_check.*
 .DS_Store
 Thumbs.db
+
+# Runtime caches and isolated rerun output
+__pycache__/
+*.pyc
+*.pyo
+*.nbc
+*.nbi
+reproduction_runs/
+
+# Large scientific trajectories are provided in the repository Release ZIP.
+reproducibility/**/*.npz
+!reproducibility/results/learning/data/*.npz
+!reproducibility/**/*_weights.npz
+!reproducibility/exploration/ab_state_frequency_20261101/physical_design/B*mT.npz

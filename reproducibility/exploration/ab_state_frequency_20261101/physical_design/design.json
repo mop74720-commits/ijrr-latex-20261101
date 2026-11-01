@@ -1,0 +1,810 @@
+{
+  "baseline_reconstruction_max_gaps": {
+    "omega": 0.0,
+    "nu": 0.0,
+    "d": 1.2573275753879898e-14,
+    "modal_scale": 0.0,
+    "tip_map_m": 2.6020852139652106e-18
+  },
+  "levels": [
+    {
+      "name": "B030mT",
+      "field_T": 0.03,
+      "omega": [
+        11.417287282852458,
+        70.24049294294339
+      ],
+      "nu": [
+        1.0,
+        6.152117504167307
+      ],
+      "d": [
+        0.22567077268329347,
+        0.3217988056102878
+      ],
+      "energy_scale_J": 6.000000000000001e-07,
+      "tip_map_m": [
+        0.013506053757608574,
+        0.005470926469222191
+      ],
+      "initial_projection": {
+        "17/train": {
+          "displacement_mass_relative_max": 6.531955448995791e-16,
+          "velocity_mass_relative_max": 5.890592124918569e-16,
+          "overlap": [
+            [
+              0.9999999999999994,
+              4.9873299934333204e-18
+            ],
+            [
+              4.2365199889871086e-17,
+              1.0000000000000002
+            ]
+          ],
+          "canonical_component_abs_max": 0.152842895316286
+        },
+        "17/val": {
+          "displacement_mass_relative_max": 5.830770597119407e-16,
+          "velocity_mass_relative_max": 4.82693316614934e-16,
+          "overlap": [
+            [
+              0.9999999999999994,
+              4.9873299934333204e-18
+            ],
+            [
+              4.2365199889871086e-17,
+              1.0000000000000002
+            ]
+          ],
+          "canonical_component_abs_max": 0.12947047141376425
+        },
+        "17/test": {
+          "displacement_mass_relative_max": 5.775084062960836e-16,
+          "velocity_mass_relative_max": 6.320202399153564e-16,
+          "overlap": [
+            [
+              0.9999999999999994,
+              4.9873299934333204e-18
+            ],
+            [
+              4.2365199889871086e-17,
+              1.0000000000000002
+            ]
+          ],
+          "canonical_component_abs_max": 0.17304250956602205
+        },
+        "43/train": {
+          "displacement_mass_relative_max": 6.084326850065484e-16,
+          "velocity_mass_relative_max": 6.324539172913185e-16,
+          "overlap": [
+            [
+              0.9999999999999994,
+              4.9873299934333204e-18
+            ],
+            [
+              4.2365199889871086e-17,
+              1.0000000000000002
+            ]
+          ],
+          "canonical_component_abs_max": 0.17616324617688234
+        },
+        "43/val": {
+          "displacement_mass_relative_max": 5.761306135309884e-16,
+          "velocity_mass_relative_max": 5.562293165434926e-16,
+          "overlap": [
+            [
+              0.9999999999999994,
+              4.9873299934333204e-18
+            ],
+            [
+              4.2365199889871086e-17,
+              1.0000000000000002
+            ]
+          ],
+          "canonical_component_abs_max": 0.18502498713638027
+        },
+        "43/test": {
+          "displacement_mass_relative_max": 5.9887066128346e-16,
+          "velocity_mass_relative_max": 4.816726562964082e-16,
+          "overlap": [
+            [
+              0.9999999999999994,
+              4.9873299934333204e-18
+            ],
+            [
+              4.2365199889871086e-17,
+              1.0000000000000002
+            ]
+          ],
+          "canonical_component_abs_max": 0.17763677345119833
+        },
+        "91/train": {
+          "displacement_mass_relative_max": 6.563293238706923e-16,
+          "velocity_mass_relative_max": 5.584663014800492e-16,
+          "overlap": [
+            [
+              0.9999999999999994,
+              4.9873299934333204e-18
+            ],
+            [
+              4.2365199889871086e-17,
+              1.0000000000000002
+            ]
+          ],
+          "canonical_component_abs_max": 0.180956942052623
+        },
+        "91/val": {
+          "displacement_mass_relative_max": 6.075220163352877e-16,
+          "velocity_mass_relative_max": 5.18720819803012e-16,
+          "overlap": [
+            [
+              0.9999999999999994,
+              4.9873299934333204e-18
+            ],
+            [
+              4.2365199889871086e-17,
+              1.0000000000000002
+            ]
+          ],
+          "canonical_component_abs_max": 0.18469189286658494
+        },
+        "91/test": {
+          "displacement_mass_relative_max": 6.06028290403622e-16,
+          "velocity_mass_relative_max": 5.952480483882342e-16,
+          "overlap": [
+            [
+              0.9999999999999994,
+              4.9873299934333204e-18
+            ],
+            [
+              4.2365199889871086e-17,
+              1.0000000000000002
+            ]
+          ],
+          "canonical_component_abs_max": 0.18834732726989845
+        },
+        "137/train": {
+          "displacement_mass_relative_max": 6.33159937961437e-16,
+          "velocity_mass_relative_max": 6.356279614358937e-16,
+          "overlap": [
+            [
+              0.9999999999999994,
+              4.9873299934333204e-18
+            ],
+            [
+              4.2365199889871086e-17,
+              1.0000000000000002
+            ]
+          ],
+          "canonical_component_abs_max": 0.1741141311924421
+        },
+        "137/val": {
+          "displacement_mass_relative_max": 5.773201634318918e-16,
+          "velocity_mass_relative_max": 4.953774197643885e-16,
+          "overlap": [
+            [
+              0.9999999999999994,
+              4.9873299934333204e-18
+            ],
+            [
+              4.2365199889871086e-17,
+              1.0000000000000002
+            ]
+          ],
+          "canonical_component_abs_max": 0.1387860750807333
+        },
+        "137/test": {
+          "displacement_mass_relative_max": 6.127677065264613e-16,
+          "velocity_mass_relative_max": 4.1109948051362606e-16,
+          "overlap": [
+            [
+              0.9999999999999994,
+              4.9873299934333204e-18
+            ],
+            [
+              4.2365199889871086e-17,
+              1.0000000000000002
+            ]
+          ],
+          "canonical_component_abs_max": 0.1917297415304497
+        },
+        "211/train": {
+          "displacement_mass_relative_max": 6.237557655501153e-16,
+          "velocity_mass_relative_max": 5.297272323265087e-16,
+          "overlap": [
+            [
+              0.9999999999999994,
+              4.9873299934333204e-18
+            ],
+            [
+              4.2365199889871086e-17,
+              1.0000000000000002
+            ]
+          ],
+          "canonical_component_abs_max": 0.19685116085241242
+        },
+        "211/val": {
+          "displacement_mass_relative_max": 5.461891184364111e-16,
+          "velocity_mass_relative_max": 5.330738199646084e-16,
+          "overlap": [
+            [
+              0.9999999999999994,
+              4.9873299934333204e-18
+            ],
+            [
+              4.2365199889871086e-17,
+              1.0000000000000002
+            ]
+          ],
+          "canonical_component_abs_max": 0.17953801424084903
+        },
+        "211/test": {
+          "displacement_mass_relative_max": 6.131288085832088e-16,
+          "velocity_mass_relative_max": 4.3305276346314434e-16,
+          "overlap": [
+            [
+              0.9999999999999994,
+              4.9873299934333204e-18
+            ],
+            [
+              4.2365199889871086e-17,
+              1.0000000000000002
+            ]
+          ],
+          "canonical_component_abs_max": 0.12269969676606858
+        }
+      },
+      "screen": {
+        "gate": 0.15,
+        "initial_energy_max": 0.0962313229204347,
+        "lower_stiffness_min_eigenvalue": 0.9999045077182273,
+        "all_space_slope_energy_bound": 0.11476765966422478,
+        "initial_screen": {
+          "max_abs_slope": 0.09061983716671584,
+          "max_abs_tip_slope": 0.09030008570307896,
+          "max_abs_curvature_per_m": 3.826797510887469,
+          "max_surface_bending_strain_proxy": 0.002296078506532481,
+          "max_abs_tip_displacement_m": 0.003236895435696571,
+          "slope_screen_passed": true,
+          "scope": "Spatial extrema exact for each supplied FE time state; temporal sampling is not a global certificate."
+        },
+        "continuous_model_energy_screen_passed": true,
+        "scope": "Conservative exact finite-dimensional model, real-arithmetic bootstrap; numerical evaluation not an interval or physical-calibration certificate."
+      },
+      "model_npz_sha256": "2884dca5900d3f325f9b2fb9ca1fcf0d89568ab9f65ed3bb2cf6c979374f031a"
+    },
+    {
+      "name": "B045mT",
+      "field_T": 0.045,
+      "omega": [
+        11.559215196109704,
+        70.53281354089472
+      ],
+      "nu": [
+        1.0,
+        6.10186871204135
+      ],
+      "d": [
+        0.2682004358277102,
+        0.38737681003118674
+      ],
+      "energy_scale_J": 9.000000000000001e-07,
+      "tip_map_m": [
+        0.016283645444922244,
+        0.006637353346056022
+      ],
+      "initial_projection": {
+        "17/train": {
+          "displacement_mass_relative_max": 0.0020641688953209,
+          "velocity_mass_relative_max": 0.002243893505816584,
+          "overlap": [
+            [
+              0.9999969657042773,
+              -0.002402816173601551
+            ],
+            [
+              0.002401623674902719,
+              0.9999947246480353
+            ]
+          ],
+          "canonical_component_abs_max": 0.12568956646736643
+        },
+        "17/val": {
+          "displacement_mass_relative_max": 0.001287140046041442,
+          "velocity_mass_relative_max": 0.002058998546508018,
+          "overlap": [
+            [
+              0.9999969657042773,
+              -0.002402816173601551
+            ],
+            [
+              0.002401623674902719,
+              0.9999947246480353
+            ]
+          ],
+          "canonical_component_abs_max": 0.10706685398860816
+        },
+        "17/test": {
+          "displacement_mass_relative_max": 0.0022420862161265875,
+          "velocity_mass_relative_max": 0.0021990882158376083,
+          "overlap": [
+            [
+              0.9999969657042773,
+              -0.002402816173601551
+            ],
+            [
+              0.002401623674902719,
+              0.9999947246480353
+            ]
+          ],
+          "canonical_component_abs_max": 0.14307133291084637
+        },
+        "43/train": {
+          "displacement_mass_relative_max": 0.002097883302050899,
+          "velocity_mass_relative_max": 0.0022416687787953594,
+          "overlap": [
+            [
+              0.9999969657042773,
+              -0.002402816173601551
+            ],
+            [
+              0.002401623674902719,
+              0.9999947246480353
+            ]
+          ],
+          "canonical_component_abs_max": 0.14569656854212926
+        },
+        "43/val": {
+          "displacement_mass_relative_max": 0.0022480225562338876,
+          "velocity_mass_relative_max": 0.001997814299333246,
+          "overlap": [
+            [
+              0.9999969657042773,
+              -0.002402816173601551
+            ],
+            [
+              0.002401623674902719,
+              0.9999947246480353
+            ]
+          ],
+          "canonical_component_abs_max": 0.1510135550461843
+        },
+        "43/test": {
+          "displacement_mass_relative_max": 0.0012563282401565356,
+          "velocity_mass_relative_max": 0.0021386946107612033,
+          "overlap": [
+            [
+              0.9999969657042773,
+              -0.002402816173601551
+            ],
+            [
+              0.002401623674902719,
+              0.9999947246480353
+            ]
+          ],
+          "canonical_component_abs_max": 0.14677055835086336
+        },
+        "91/train": {
+          "displacement_mass_relative_max": 0.002145924285126252,
+          "velocity_mass_relative_max": 0.002253203315906012,
+          "overlap": [
+            [
+              0.9999969657042773,
+              -0.002402816173601551
+            ],
+            [
+              0.002401623674902719,
+              0.9999947246480353
+            ]
+          ],
+          "canonical_component_abs_max": 0.14733134094087946
+        },
+        "91/val": {
+          "displacement_mass_relative_max": 0.002105608956658643,
+          "velocity_mass_relative_max": 0.002242053048673973,
+          "overlap": [
+            [
+              0.9999969657042773,
+              -0.002402816173601551
+            ],
+            [
+              0.002401623674902719,
+              0.9999947246480353
+            ]
+          ],
+          "canonical_component_abs_max": 0.1510012238162242
+        },
+        "91/test": {
+          "displacement_mass_relative_max": 0.0017773710053760419,
+          "velocity_mass_relative_max": 0.0022487800134624314,
+          "overlap": [
+            [
+              0.9999969657042773,
+              -0.002402816173601551
+            ],
+            [
+              0.002401623674902719,
+              0.9999947246480353
+            ]
+          ],
+          "canonical_component_abs_max": 0.15350655043288391
+        },
+        "137/train": {
+          "displacement_mass_relative_max": 0.002145939520168796,
+          "velocity_mass_relative_max": 0.0022456115582548883,
+          "overlap": [
+            [
+              0.9999969657042773,
+              -0.002402816173601551
+            ],
+            [
+              0.002401623674902719,
+              0.9999947246480353
+            ]
+          ],
+          "canonical_component_abs_max": 0.1427913187727442
+        },
+        "137/val": {
+          "displacement_mass_relative_max": 0.0005946830217790651,
+          "velocity_mass_relative_max": 0.002069548015328575,
+          "overlap": [
+            [
+              0.9999969657042773,
+              -0.002402816173601551
+            ],
+            [
+              0.002401623674902719,
+              0.9999947246480353
+            ]
+          ],
+          "canonical_component_abs_max": 0.11481989440848121
+        },
+        "137/test": {
+          "displacement_mass_relative_max": 0.001352505950326381,
+          "velocity_mass_relative_max": 0.002253312252438033,
+          "overlap": [
+            [
+              0.9999969657042773,
+              -0.002402816173601551
+            ],
+            [
+              0.002401623674902719,
+              0.9999947246480353
+            ]
+          ],
+          "canonical_component_abs_max": 0.15582839944133609
+        },
+        "211/train": {
+          "displacement_mass_relative_max": 0.0022028959349400484,
+          "velocity_mass_relative_max": 0.0022427822597346136,
+          "overlap": [
+            [
+              0.9999969657042773,
+              -0.002402816173601551
+            ],
+            [
+              0.002401623674902719,
+              0.9999947246480353
+            ]
+          ],
+          "canonical_component_abs_max": 0.160633279608559
+        },
+        "211/val": {
+          "displacement_mass_relative_max": 0.002016805835848372,
+          "velocity_mass_relative_max": 0.0022213564863754988,
+          "overlap": [
+            [
+              0.9999969657042773,
+              -0.002402816173601551
+            ],
+            [
+              0.002401623674902719,
+              0.9999947246480353
+            ]
+          ],
+          "canonical_component_abs_max": 0.14616563845936983
+        },
+        "211/test": {
+          "displacement_mass_relative_max": 0.002098507139363386,
+          "velocity_mass_relative_max": 0.0022530272422451514,
+          "overlap": [
+            [
+              0.9999969657042773,
+              -0.002402816173601551
+            ],
+            [
+              0.002401623674902719,
+              0.9999947246480353
+            ]
+          ],
+          "canonical_component_abs_max": 0.10138353224321461
+        }
+      },
+      "screen": {
+        "gate": 0.15,
+        "initial_energy_max": 0.06549917422814613,
+        "lower_stiffness_min_eigenvalue": 0.999865121048396,
+        "all_space_slope_energy_bound": 0.1134658456677673,
+        "initial_screen": {
+          "max_abs_slope": 0.0900311326594675,
+          "max_abs_tip_slope": 0.08944908549538327,
+          "max_abs_curvature_per_m": 3.829205572912493,
+          "max_surface_bending_strain_proxy": 0.0022975233437474954,
+          "max_abs_tip_displacement_m": 0.0032315582307558153,
+          "slope_screen_passed": true,
+          "scope": "Spatial extrema exact for each supplied FE time state; temporal sampling is not a global certificate."
+        },
+        "continuous_model_energy_screen_passed": true,
+        "scope": "Conservative exact finite-dimensional model, real-arithmetic bootstrap; numerical evaluation not an interval or physical-calibration certificate."
+      },
+      "model_npz_sha256": "08355b1da2e285578fb575f80593c0a3224fbf1d36ce82b4e68bacd28b5f73cd"
+    },
+    {
+      "name": "B060mT",
+      "field_T": 0.06,
+      "omega": [
+        11.694606798866111,
+        70.8187548049742
+      ],
+      "nu": [
+        1.0,
+        6.055676434699854
+      ],
+      "d": [
+        0.3008167558972521,
+        0.4398509746787003
+      ],
+      "energy_scale_J": 1.2000000000000002e-06,
+      "tip_map_m": [
+        0.018524583734921662,
+        0.007594777521428647
+      ],
+      "initial_projection": {
+        "17/train": {
+          "displacement_mass_relative_max": 0.004093950240268034,
+          "velocity_mass_relative_max": 0.004450238232814093,
+          "overlap": [
+            [
+              0.9999882638412083,
+              -0.004725697836943573
+            ],
+            [
+              0.004721025960538527,
+              0.9999794392871226
+            ]
+          ],
+          "canonical_component_abs_max": 0.1101133474850114
+        },
+        "17/val": {
+          "displacement_mass_relative_max": 0.002553114041531886,
+          "velocity_mass_relative_max": 0.004083304415172378,
+          "overlap": [
+            [
+              0.9999882638412083,
+              -0.004725697836943573
+            ],
+            [
+              0.004721025960538527,
+              0.9999794392871226
+            ]
+          ],
+          "canonical_component_abs_max": 0.09384247101754996
+        },
+        "17/test": {
+          "displacement_mass_relative_max": 0.004446561107725442,
+          "velocity_mass_relative_max": 0.004361228071379308,
+          "overlap": [
+            [
+              0.9999882638412083,
+              -0.004725697836943573
+            ],
+            [
+              0.004721025960538527,
+              0.9999794392871226
+            ]
+          ],
+          "canonical_component_abs_max": 0.1253762793100772
+        },
+        "43/train": {
+          "displacement_mass_relative_max": 0.004160796717487519,
+          "velocity_mass_relative_max": 0.004445732338759531,
+          "overlap": [
+            [
+              0.9999882638412083,
+              -0.004725697836943573
+            ],
+            [
+              0.004721025960538527,
+              0.9999794392871226
+            ]
+          ],
+          "canonical_component_abs_max": 0.12771494738027897
+        },
+        "43/val": {
+          "displacement_mass_relative_max": 0.004458416089379018,
+          "velocity_mass_relative_max": 0.003961933664218191,
+          "overlap": [
+            [
+              0.9999882638412083,
+              -0.004725697836943573
+            ],
+            [
+              0.004721025960538527,
+              0.9999794392871226
+            ]
+          ],
+          "canonical_component_abs_max": 0.13073166373496004
+        },
+        "43/test": {
+          "displacement_mass_relative_max": 0.002492011163195395,
+          "velocity_mass_relative_max": 0.0042414056920207326,
+          "overlap": [
+            [
+              0.9999882638412083,
+              -0.004725697836943573
+            ],
+            [
+              0.004721025960538527,
+              0.9999794392871226
+            ]
+          ],
+          "canonical_component_abs_max": 0.12853388523475565
+        },
+        "91/train": {
+          "displacement_mass_relative_max": 0.004256044755852825,
+          "velocity_mass_relative_max": 0.0044686521354239265,
+          "overlap": [
+            [
+              0.9999882638412083,
+              -0.004725697836943573
+            ],
+            [
+              0.004721025960538527,
+              0.9999794392871226
+            ]
+          ],
+          "canonical_component_abs_max": 0.12724083158563526
+        },
+        "91/val": {
+          "displacement_mass_relative_max": 0.004176114291932058,
+          "velocity_mass_relative_max": 0.004446495257347558,
+          "overlap": [
+            [
+              0.9999882638412083,
+              -0.004725697836943573
+            ],
+            [
+              0.004721025960538527,
+              0.9999794392871226
+            ]
+          ],
+          "canonical_component_abs_max": 0.13093835977150278
+        },
+        "91/test": {
+          "displacement_mass_relative_max": 0.003524666427087451,
+          "velocity_mass_relative_max": 0.0044598541383198565,
+          "overlap": [
+            [
+              0.9999882638412083,
+              -0.004725697836943573
+            ],
+            [
+              0.004721025960538527,
+              0.9999794392871226
+            ]
+          ],
+          "canonical_component_abs_max": 0.1327067247302269
+        },
+        "137/train": {
+          "displacement_mass_relative_max": 0.004255778918784178,
+          "velocity_mass_relative_max": 0.004453561011389187,
+          "overlap": [
+            [
+              0.9999882638412083,
+              -0.004725697836943573
+            ],
+            [
+              0.004721025960538527,
+              0.9999794392871226
+            ]
+          ],
+          "canonical_component_abs_max": 0.12418574109170089
+        },
+        "137/val": {
+          "displacement_mass_relative_max": 0.001178934757328879,
+          "velocity_mass_relative_max": 0.004104615694265463,
+          "overlap": [
+            [
+              0.9999882638412083,
+              -0.004725697836943573
+            ],
+            [
+              0.004721025960538527,
+              0.9999794392871226
+            ]
+          ],
+          "canonical_component_abs_max": 0.10067973075730709
+        },
+        "137/test": {
+          "displacement_mass_relative_max": 0.0026827405845936637,
+          "velocity_mass_relative_max": 0.004468871101898642,
+          "overlap": [
+            [
+              0.9999882638412083,
+              -0.004725697836943573
+            ],
+            [
+              0.004721025960538527,
+              0.9999794392871226
+            ]
+          ],
+          "canonical_component_abs_max": 0.13434921631878663
+        },
+        "211/train": {
+          "displacement_mass_relative_max": 0.004368987652902735,
+          "velocity_mass_relative_max": 0.004447943051904391,
+          "overlap": [
+            [
+              0.9999882638412083,
+              -0.004725697836943573
+            ],
+            [
+              0.004721025960538527,
+              0.9999794392871226
+            ]
+          ],
+          "canonical_component_abs_max": 0.1390321455373923
+        },
+        "211/val": {
+          "displacement_mass_relative_max": 0.004000039420214368,
+          "velocity_mass_relative_max": 0.004405578845852238,
+          "overlap": [
+            [
+              0.9999882638412083,
+              -0.004725697836943573
+            ],
+            [
+              0.004721025960538527,
+              0.9999794392871226
+            ]
+          ],
+          "canonical_component_abs_max": 0.1262253209985896
+        },
+        "211/test": {
+          "displacement_mass_relative_max": 0.004162033597661045,
+          "velocity_mass_relative_max": 0.004468300203143084,
+          "overlap": [
+            [
+              0.9999882638412083,
+              -0.004725697836943573
+            ],
+            [
+              0.004721025960538527,
+              0.9999794392871226
+            ]
+          ],
+          "canonical_component_abs_max": 0.08880268888195657
+        }
+      },
+      "screen": {
+        "gate": 0.15,
+        "initial_energy_max": 0.050113631794147136,
+        "lower_stiffness_min_eigenvalue": 0.9998303177242125,
+        "all_space_slope_energy_bound": 0.11230236748014097,
+        "initial_screen": {
+          "max_abs_slope": 0.08949339123682112,
+          "max_abs_tip_slope": 0.08861230684309093,
+          "max_abs_curvature_per_m": 3.831563991367004,
+          "max_surface_bending_strain_proxy": 0.002298938394820202,
+          "max_abs_tip_displacement_m": 0.0032262955785189104,
+          "slope_screen_passed": true,
+          "scope": "Spatial extrema exact for each supplied FE time state; temporal sampling is not a global certificate."
+        },
+        "continuous_model_energy_screen_passed": true,
+        "scope": "Conservative exact finite-dimensional model, real-arithmetic bootstrap; numerical evaluation not an interval or physical-calibration certificate."
+      },
+      "model_npz_sha256": "a1f5f31b59fb6c24b8b22198eb9ee1bfff1692e0097e40c38ce9074503e9b666"
+    }
+  ],
+  "physics_warning": "Replacing theta≈s by theta=atan(s) changes the magnetic quartic coefficient from -muB/24 to -3muB/8 in an x-graph dipole geometry. This own kinematic comparison shows omitted geometry is of the same order as the retained magnetic residual, not that an exact nonlinear rod has been validated."
+}

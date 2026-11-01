@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "object": "Original H* plant; H0 nominal desired trajectory; learned conservative force residual matching",
+  "seeds": [
+    17,
+    43,
+    91,
+    137,
+    211
+  ],
+  "initials_per_seed": 8,
+  "policies": [
+    "none",
+    "oracle",
+    "GR",
+    "GC"
+  ],
+  "methods": [
+    "I",
+    "II",
+    "III"
+  ],
+  "residual": "rhat=J grad(Hhat)-J grad(H0); true momentum r=-d*(sin(theta)-theta)",
+  "physical_port": "b(q)=d*cos(theta), scalar u=By/B0, max abs(u)=.2",
+  "compensation": "u_ff=-dot(b,rhat_p)/dot(b,b); oracle=(sin(theta)-theta)/cos(theta)",
+  "feedback": "u=clip(u_ref-kp*(sin(theta)-sin(theta_ref))-kd*(v-v_ref)+u_ff,-.2,.2)",
+  "reference": "H0 with same bounded smooth u_ref, zero initial, independent DOP853; fixed before outcomes",
+  "kp": 1.0,
+  "kd": 0.5,
+  "base_h_tau": 0.009999813692010036,
+  "base_steps": 9128,
+  "duration_seconds": 7.994744909130721,
+  "primary_step_divisors": [
+    1,
+    2
+  ],
+  "zero_initial_response_step_divisors": [
+    0.5,
+    1,
+    2,
+    4
+  ],
+  "output_stride_in_h0": 8,
+  "weights": "Original full12-trajectory/10k GR/GC, no retraining or outcome selection",
+  "discarded_components": "Kinematic residual and momentum residual orthogonal to b are recorded; never independently actuated",
+  "structure": "Exact potential-kick type2 generator S=q.P-ell*u*sin(d.q); fixed u versus sampled feedback differentiated separately",
+  "primary_metrics": [
+    "tracking_tip_rmse_mm",
+    "tracking_state_relative_l2",
+    "tail_half_tracking_tip_rmse_mm"
+  ],
+  "secondary_metrics": [
+    "integral_u_squared_seconds",
+    "max_abs_u",
+    "saturation_fraction",
+    "residual_projection_errors",
+    "work_energy_defect"
+  ],
+  "statistics": "8 trajectories per seed block, then5 seed mean/sampleSD; time points not independent replicates",
+  "scope": "Numerical compensation of a known simulation mismatch using independently trained weights; not experimental disturbance identification or general arbitrary-vector control",
+  "all_failures_retained": true,
+  "inputs": [
+    {
+      "path": "results/learning/inputs/reference_model_spec.json",
+      "sha256": "fd18c090c9f58dac7a5813a5445b7f14c5409ec767c5cb9a4ec38dd2e883ae8c"
+    },
+    {
+      "path": "results/learning/data/seed_17.npz",
+      "sha256": "f02a36438e9d23894a4f7261b652f00d5d048b427f18a4433fb602791aec6c86"
+    },
+    {
+      "path": "results/learning/data/seed_43.npz",
+      "sha256": "4283c88184af6ea1e39c96572b6d1891adfd23f339a813f329d6d82cdbd8e40a"
+    },
+    {
+      "path": "results/learning/data/seed_91.npz",
+      "sha256": "d00061656bcf5ac2d77dfcd983de1bf211e2dd8bea899a32488dac34cce4864f"
+    },
+    {
+      "path": "results/learning/data/seed_137.npz",
+      "sha256": "e40c692789963e6b75de6e8e1bdac288505b589275baa80e8145178992b737cf"
+    },
+    {
+      "path": "results/learning/data/seed_211.npz",
+      "sha256": "e183c94bae91648c4d9d4695d0cc199b710cbba83b91897f83f3517c3fd853c2"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_17/GR_weights.npz",
+      "sha256": "c1dad775b3d9f6eb9e79d074f2fdae16b97031b4e5cfcb82cbdaa7fb64648822"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_17/GC_weights.npz",
+      "sha256": "3741547f85a25bd7ba8845dc16c8da783ea85dd8bfcb4ffbe6333e6b45cf84de"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_43/GR_weights.npz",
+      "sha256": "c4f3f3c1df9c8462d84ff03a07841e3a39e3bb42458fba36721627fda26b35b5"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_43/GC_weights.npz",
+      "sha256": "8791a66a5a26f132c4b92ed6176498353d0bdc85b07b9e3c3af522a605a8c107"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_91/GR_weights.npz",
+      "sha256": "039463690996f6979ee5950b8ae59ce6a3d1ad5cd6aa70f1ceeb032d4e8d8635"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_91/GC_weights.npz",
+      "sha256": "85cfb42e8a196ce52dd8bc13b588b738b9bce0cc618df483999d39a99e7bc578"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_137/GR_weights.npz",
+      "sha256": "a68f8c67cd99a9f054751ec88e0776f00c5d84baef5a410b08df0c1407ad71fc"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_137/GC_weights.npz",
+      "sha256": "dbf6baafd07b5c93ed8f6ee5182bfc1f31f20be890e59fd66e21f711ab4c19fe"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_211/GR_weights.npz",
+      "sha256": "0d3141edd9a4a61bbfc09f9b571aef22ebe46e4961dfe1597c4eb130df790bd3"
+    },
+    {
+      "path": "results/neural_learning_10000/seed_211/GC_weights.npz",
+      "sha256": "8ba2ff42d19683c54d36a8af03bf2110a3ddc0ecc76910be4cf40270f01016ed"
+    },
+    {
+      "path": "code/control_comparison.py",
+      "sha256": "bcab9128e397505a5594c5bc6e4620973e792ca9191f6cf235224536a3784f0b"
+    },
+    {
+      "path": "code/neural_physics_refinement.py",
+      "sha256": "0eea7c635d7ace0073170e48a2eab69db6a77129f46e08e59d3f6b872e271221"
+    },
+    {
+      "path": "code/train_neural_hnn.py",
+      "sha256": "3dadee3db2a884eb93e1b8ca75fa4f0496890095dbd82ac9880e9b7e2acf92e5"
+    }
+  ]
+}

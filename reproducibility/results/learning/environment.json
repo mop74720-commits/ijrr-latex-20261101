@@ -1,0 +1,8 @@
+{
+  "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]",
+  "executable": "D:\\Apps\\Miniconda3\\python.exe",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "numpy": "1.26.4",
+  "script_sha256": "d566a7a40a5cef8932a728f8aa1e98b5df74d63d020bfc7c060b6023f84e2db5",
+  "threads": 1
+}

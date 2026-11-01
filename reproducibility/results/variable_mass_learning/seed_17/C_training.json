@@ -1,0 +1,15 @@
+{
+  "seed": 17,
+  "group": "C",
+  "real_parameter_count": 673,
+  "training_steps": 10000,
+  "selected_validation_step": 9800,
+  "validation_normalized_mse": 0.00013265803155398514,
+  "training_seconds": 27.703626700000314,
+  "numpy_torch_field_max_difference": 4.440892098500626e-16,
+  "status": "completed",
+  "weights_sha256": "31b4eeebcc2a664c01afb1dd1b538b67806d502a2b79a09c629cf477d0d2509d",
+  "dataset_sha256": "cc2c113b9d9f4cc7ccfec13343987534f5b410ac82e15853d1ee7bac10555905",
+  "protocol_sha256": "16bb7e277e864a1b0f301d08406f5fd19f70c2a2ef261346a8fc120f70789f3b",
+  "full_clean_validation_relative_l2": 0.005107487644460767
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "source": "E:/回写/稿件版本2/IJRR_CHNN_KAM_v10_20261007/reproducibility/reviewer_revision_20261008/stability_scan/inputs/reference_model_spec.json",
+    "copy": "E:/1030/IJRR_1025_20261030/results/learning/inputs/reference_model_spec.json",
+    "sha256": "fd18c090c9f58dac7a5813a5445b7f14c5409ec767c5cb9a4ec38dd2e883ae8c"
+  },
+  {
+    "source": "E:/回写/稿件版本2/IJRR_CHNN_KAM_主线补齐稿_20261002/reproducibility/unified_model/learning/feature_model.py",
+    "copy": "E:/1030/IJRR_1025_20261030/results/learning/inputs/feature_model.py",
+    "sha256": "60becfbe1d1f04c135b01245cae0858968c14d778caf9810d87dc2cfa693c3f2"
+  },
+  {
+    "source": "E:/回写/稿件版本2/IJRR_CHNN_KAM_主线补齐稿_20261002/reproducibility/unified_model/learning/run_learning.py",
+    "copy": "E:/1030/IJRR_1025_20261030/results/learning/inputs/run_learning.py",
+    "sha256": "7b494ee42007258b605d660ab1d553d330ed66e0a37aabdba88a177be7709ee6"
+  }
+]

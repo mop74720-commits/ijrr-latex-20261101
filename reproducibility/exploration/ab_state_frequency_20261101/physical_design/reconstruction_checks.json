@@ -1,0 +1,56 @@
+{
+  "original_source_sha256": "da1cd69ea2b8d5e6d2f5c835e85c25c7d4d9c33db99dd722f8ca8d63c5d611dd",
+  "original_source_unchanged": true,
+  "mass_matrix_max_gap": 0.0,
+  "elastic_matrix_max_gap": 0.0,
+  "levels": [
+    {
+      "field_T": 0.03,
+      "dimensional_acceleration_absolute_gap": 5.024362436517604e-12,
+      "dimensional_acceleration_relative_l2_gap": 2.4872449732191207e-10,
+      "linear_frequency_relative_change_32_to_64elements": [
+        4.597213892662096e-09,
+        3.0590598024014686e-07,
+        2.3686634612875416e-06,
+        9.046327113258728e-06,
+        2.461356441769571e-05,
+        5.4689244184841676e-05,
+        0.00010619256768120315,
+        0.0001872758207995411
+      ],
+      "scope": "Mesh check is for linearized modal frequencies only; not nonlinear solution or physical-model validation."
+    },
+    {
+      "field_T": 0.06,
+      "dimensional_acceleration_absolute_gap": 9.785098946391013e-12,
+      "dimensional_acceleration_relative_l2_gap": 2.2650993069447654e-10,
+      "linear_frequency_relative_change_32_to_64elements": [
+        1.2388831957953576e-08,
+        3.1148381794019615e-07,
+        2.3827451407863794e-06,
+        9.074015466356174e-06,
+        2.4659629330138345e-05,
+        5.475847672694569e-05,
+        0.00010628977668557343,
+        0.00018740590838770406
+      ],
+      "scope": "Mesh check is for linearized modal frequencies only; not nonlinear solution or physical-model validation."
+    },
+    {
+      "field_T": 0.12,
+      "dimensional_acceleration_absolute_gap": 5.825770855311108e-12,
+      "dimensional_acceleration_relative_l2_gap": 1.0420603551767969e-10,
+      "linear_frequency_relative_change_32_to_64elements": [
+        7.022580483648497e-09,
+        3.2050165964450846e-07,
+        2.4096283795315304e-06,
+        9.128048745940494e-06,
+        2.475005451578486e-05,
+        5.48947955774735e-05,
+        0.00010648165421296814,
+        0.00018766316134248434
+      ],
+      "scope": "Mesh check is for linearized modal frequencies only; not nonlinear solution or physical-model validation."
+    }
+  ]
+}

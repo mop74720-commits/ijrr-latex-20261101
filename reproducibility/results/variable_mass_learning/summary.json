@@ -1,0 +1,506 @@
+{
+  "prediction_count": 40,
+  "expected_predictions": 40,
+  "models": [
+    {
+      "divisor": 1,
+      "group": "R",
+      "n": 5,
+      "continuous_tip_rmse_mm_mean": {
+        "mean": 0.8501866916757542,
+        "sample_sd": 0.18930661594355327
+      },
+      "teacher_tip_rmse_mm_mean": {
+        "mean": 0.846633427463364,
+        "sample_sd": 0.19177303777800062
+      },
+      "continuous_state_relative_l2_mean": {
+        "mean": 0.8173523645830976,
+        "sample_sd": 0.0954361597105872
+      }
+    },
+    {
+      "divisor": 1,
+      "group": "C",
+      "n": 5,
+      "continuous_tip_rmse_mm_mean": {
+        "mean": 0.863645333358755,
+        "sample_sd": 0.2737722695938523
+      },
+      "teacher_tip_rmse_mm_mean": {
+        "mean": 0.8605558675435979,
+        "sample_sd": 0.28151913656257094
+      },
+      "continuous_state_relative_l2_mean": {
+        "mean": 0.7897055126314652,
+        "sample_sd": 0.10869291451846581
+      }
+    },
+    {
+      "divisor": 1,
+      "group": "GR",
+      "n": 5,
+      "continuous_tip_rmse_mm_mean": {
+        "mean": 0.07806811201048114,
+        "sample_sd": 0.008850691522789927
+      },
+      "teacher_tip_rmse_mm_mean": {
+        "mean": 0.0006107996114310714,
+        "sample_sd": 0.0002313508210090333
+      },
+      "continuous_state_relative_l2_mean": {
+        "mean": 0.12684591548054783,
+        "sample_sd": 0.01437837329619557
+      }
+    },
+    {
+      "divisor": 1,
+      "group": "GC",
+      "n": 5,
+      "continuous_tip_rmse_mm_mean": {
+        "mean": 0.0780871228035334,
+        "sample_sd": 0.008617153642078315
+      },
+      "teacher_tip_rmse_mm_mean": {
+        "mean": 0.00042709005587684556,
+        "sample_sd": 0.00023010329339794461
+      },
+      "continuous_state_relative_l2_mean": {
+        "mean": 0.12687874523001527,
+        "sample_sd": 0.013941438673167229
+      }
+    },
+    {
+      "divisor": 4,
+      "group": "R",
+      "n": 5,
+      "continuous_tip_rmse_mm_mean": {
+        "mean": 0.848307975153563,
+        "sample_sd": 0.19126256429988647
+      },
+      "teacher_tip_rmse_mm_mean": {
+        "mean": 0.8481328552638038,
+        "sample_sd": 0.1914439329543732
+      },
+      "continuous_state_relative_l2_mean": {
+        "mean": 0.8170094716012496,
+        "sample_sd": 0.10102412980711462
+      }
+    },
+    {
+      "divisor": 4,
+      "group": "C",
+      "n": 5,
+      "continuous_tip_rmse_mm_mean": {
+        "mean": 0.861576638705942,
+        "sample_sd": 0.28124860844678096
+      },
+      "teacher_tip_rmse_mm_mean": {
+        "mean": 0.8614408431988231,
+        "sample_sd": 0.28173848675128127
+      },
+      "continuous_state_relative_l2_mean": {
+        "mean": 0.7897558232198618,
+        "sample_sd": 0.11743546348449438
+      }
+    },
+    {
+      "divisor": 4,
+      "group": "GR",
+      "n": 5,
+      "continuous_tip_rmse_mm_mean": {
+        "mean": 0.0049011053711249305,
+        "sample_sd": 0.0007817869013760196
+      },
+      "teacher_tip_rmse_mm_mean": {
+        "mean": 0.0006114232025731823,
+        "sample_sd": 0.00023179879264069455
+      },
+      "continuous_state_relative_l2_mean": {
+        "mean": 0.008028009242307772,
+        "sample_sd": 0.0013188009446668866
+      }
+    },
+    {
+      "divisor": 4,
+      "group": "GC",
+      "n": 5,
+      "continuous_tip_rmse_mm_mean": {
+        "mean": 0.0049012836663911655,
+        "sample_sd": 0.0005247278304871141
+      },
+      "teacher_tip_rmse_mm_mean": {
+        "mean": 0.00042764837413856646,
+        "sample_sd": 0.0002305339016226344
+      },
+      "continuous_state_relative_l2_mean": {
+        "mean": 0.008056483895939052,
+        "sample_sd": 0.0008507520667595901
+      }
+    }
+  ],
+  "paired_contrasts": [
+    {
+      "divisor": 1,
+      "metric": "continuous_tip_rmse_mm_mean",
+      "contrast": "R-GR",
+      "n": 5,
+      "mean": 0.7721185796652732,
+      "sample_sd": 0.1956126049123121,
+      "positive_seeds": 5
+    },
+    {
+      "divisor": 1,
+      "metric": "continuous_tip_rmse_mm_mean",
+      "contrast": "C-GC",
+      "n": 5,
+      "mean": 0.7855582105552215,
+      "sample_sd": 0.27784036029958775,
+      "positive_seeds": 5
+    },
+    {
+      "divisor": 1,
+      "metric": "continuous_tip_rmse_mm_mean",
+      "contrast": "R-C",
+      "n": 5,
+      "mean": -0.013458641683000538,
+      "sample_sd": 0.1274098205267236,
+      "positive_seeds": 3
+    },
+    {
+      "divisor": 1,
+      "metric": "continuous_tip_rmse_mm_mean",
+      "contrast": "GR-GC",
+      "n": 5,
+      "mean": -1.9010793052276487e-05,
+      "sample_sd": 0.0003181214084590403,
+      "positive_seeds": 2
+    },
+    {
+      "divisor": 1,
+      "metric": "continuous_tip_rmse_mm_mean",
+      "contrast": "(GR-GC)-(R-C)",
+      "n": 5,
+      "mean": 0.013439630889948262,
+      "sample_sd": 0.12742111475249598,
+      "positive_seeds": 2
+    },
+    {
+      "divisor": 1,
+      "metric": "teacher_tip_rmse_mm_mean",
+      "contrast": "R-GR",
+      "n": 5,
+      "mean": 0.8460226278519329,
+      "sample_sd": 0.1917784687300224,
+      "positive_seeds": 5
+    },
+    {
+      "divisor": 1,
+      "metric": "teacher_tip_rmse_mm_mean",
+      "contrast": "C-GC",
+      "n": 5,
+      "mean": 0.8601287774877212,
+      "sample_sd": 0.28153721493576667,
+      "positive_seeds": 5
+    },
+    {
+      "divisor": 1,
+      "metric": "teacher_tip_rmse_mm_mean",
+      "contrast": "R-C",
+      "n": 5,
+      "mean": -0.013922440080234022,
+      "sample_sd": 0.1342634193792945,
+      "positive_seeds": 3
+    },
+    {
+      "divisor": 1,
+      "metric": "teacher_tip_rmse_mm_mean",
+      "contrast": "GR-GC",
+      "n": 5,
+      "mean": 0.0001837095555542258,
+      "sample_sd": 6.689691622293829e-05,
+      "positive_seeds": 5
+    },
+    {
+      "divisor": 1,
+      "metric": "teacher_tip_rmse_mm_mean",
+      "contrast": "(GR-GC)-(R-C)",
+      "n": 5,
+      "mean": 0.014106149635788249,
+      "sample_sd": 0.13422810673667493,
+      "positive_seeds": 2
+    },
+    {
+      "divisor": 1,
+      "metric": "continuous_state_relative_l2_mean",
+      "contrast": "R-GR",
+      "n": 5,
+      "mean": 0.6905064491025499,
+      "sample_sd": 0.09521355478292796,
+      "positive_seeds": 5
+    },
+    {
+      "divisor": 1,
+      "metric": "continuous_state_relative_l2_mean",
+      "contrast": "C-GC",
+      "n": 5,
+      "mean": 0.66282676740145,
+      "sample_sd": 0.11383249952536278,
+      "positive_seeds": 5
+    },
+    {
+      "divisor": 1,
+      "metric": "continuous_state_relative_l2_mean",
+      "contrast": "R-C",
+      "n": 5,
+      "mean": 0.027646851951632478,
+      "sample_sd": 0.09455107137118934,
+      "positive_seeds": 3
+    },
+    {
+      "divisor": 1,
+      "metric": "continuous_state_relative_l2_mean",
+      "contrast": "GR-GC",
+      "n": 5,
+      "mean": -3.2829749467450096e-05,
+      "sample_sd": 0.0005879440167103248,
+      "positive_seeds": 2
+    },
+    {
+      "divisor": 1,
+      "metric": "continuous_state_relative_l2_mean",
+      "contrast": "(GR-GC)-(R-C)",
+      "n": 5,
+      "mean": -0.027679681701099933,
+      "sample_sd": 0.0946279987632936,
+      "positive_seeds": 2
+    },
+    {
+      "divisor": 1,
+      "metric": "teacher_state_relative_l2_mean",
+      "contrast": "R-GR",
+      "n": 5,
+      "mean": 0.8142123618565844,
+      "sample_sd": 0.1020034182925176,
+      "positive_seeds": 5
+    },
+    {
+      "divisor": 1,
+      "metric": "teacher_state_relative_l2_mean",
+      "contrast": "C-GC",
+      "n": 5,
+      "mean": 0.7876419288151479,
+      "sample_sd": 0.11813833057840019,
+      "positive_seeds": 5
+    },
+    {
+      "divisor": 1,
+      "metric": "teacher_state_relative_l2_mean",
+      "contrast": "R-C",
+      "n": 5,
+      "mean": 0.0267484121527952,
+      "sample_sd": 0.09529694291178516,
+      "positive_seeds": 3
+    },
+    {
+      "divisor": 1,
+      "metric": "teacher_state_relative_l2_mean",
+      "contrast": "GR-GC",
+      "n": 5,
+      "mean": 0.0001779791113588329,
+      "sample_sd": 0.0002930585712476079,
+      "positive_seeds": 3
+    },
+    {
+      "divisor": 1,
+      "metric": "teacher_state_relative_l2_mean",
+      "contrast": "(GR-GC)-(R-C)",
+      "n": 5,
+      "mean": -0.026570433041436366,
+      "sample_sd": 0.09527543372425007,
+      "positive_seeds": 2
+    },
+    {
+      "divisor": 4,
+      "metric": "continuous_tip_rmse_mm_mean",
+      "contrast": "R-GR",
+      "n": 5,
+      "mean": 0.8434068697824383,
+      "sample_sd": 0.19190082193164557,
+      "positive_seeds": 5
+    },
+    {
+      "divisor": 4,
+      "metric": "continuous_tip_rmse_mm_mean",
+      "contrast": "C-GC",
+      "n": 5,
+      "mean": 0.8566753550395507,
+      "sample_sd": 0.2814987497883991,
+      "positive_seeds": 5
+    },
+    {
+      "divisor": 4,
+      "metric": "continuous_tip_rmse_mm_mean",
+      "contrast": "R-C",
+      "n": 5,
+      "mean": -0.013268663552378745,
+      "sample_sd": 0.13370864675759994,
+      "positive_seeds": 3
+    },
+    {
+      "divisor": 4,
+      "metric": "continuous_tip_rmse_mm_mean",
+      "contrast": "GR-GC",
+      "n": 5,
+      "mean": -1.7829526623523024e-07,
+      "sample_sd": 0.0003078903096812034,
+      "positive_seeds": 2
+    },
+    {
+      "divisor": 4,
+      "metric": "continuous_tip_rmse_mm_mean",
+      "contrast": "(GR-GC)-(R-C)",
+      "n": 5,
+      "mean": 0.013268485257112512,
+      "sample_sd": 0.1336973442515773,
+      "positive_seeds": 2
+    },
+    {
+      "divisor": 4,
+      "metric": "teacher_tip_rmse_mm_mean",
+      "contrast": "R-GR",
+      "n": 5,
+      "mean": 0.8475214320612305,
+      "sample_sd": 0.19145007590866572,
+      "positive_seeds": 5
+    },
+    {
+      "divisor": 4,
+      "metric": "teacher_tip_rmse_mm_mean",
+      "contrast": "C-GC",
+      "n": 5,
+      "mean": 0.8610131948246847,
+      "sample_sd": 0.28175673371760024,
+      "positive_seeds": 5
+    },
+    {
+      "divisor": 4,
+      "metric": "teacher_tip_rmse_mm_mean",
+      "contrast": "R-C",
+      "n": 5,
+      "mean": -0.013307987935019371,
+      "sample_sd": 0.13404312454830153,
+      "positive_seeds": 3
+    },
+    {
+      "divisor": 4,
+      "metric": "teacher_tip_rmse_mm_mean",
+      "contrast": "GR-GC",
+      "n": 5,
+      "mean": 0.00018377482843461593,
+      "sample_sd": 6.679608327577544e-05,
+      "positive_seeds": 5
+    },
+    {
+      "divisor": 4,
+      "metric": "teacher_tip_rmse_mm_mean",
+      "contrast": "(GR-GC)-(R-C)",
+      "n": 5,
+      "mean": 0.013491762763453994,
+      "sample_sd": 0.13400775788432948,
+      "positive_seeds": 2
+    },
+    {
+      "divisor": 4,
+      "metric": "continuous_state_relative_l2_mean",
+      "contrast": "R-GR",
+      "n": 5,
+      "mean": 0.8089814623589419,
+      "sample_sd": 0.10117701354299925,
+      "positive_seeds": 5
+    },
+    {
+      "divisor": 4,
+      "metric": "continuous_state_relative_l2_mean",
+      "contrast": "C-GC",
+      "n": 5,
+      "mean": 0.7816993393239228,
+      "sample_sd": 0.11780670979980329,
+      "positive_seeds": 5
+    },
+    {
+      "divisor": 4,
+      "metric": "continuous_state_relative_l2_mean",
+      "contrast": "R-C",
+      "n": 5,
+      "mean": 0.027253648381387753,
+      "sample_sd": 0.09544691881182092,
+      "positive_seeds": 3
+    },
+    {
+      "divisor": 4,
+      "metric": "continuous_state_relative_l2_mean",
+      "contrast": "GR-GC",
+      "n": 5,
+      "mean": -2.8474653631279342e-05,
+      "sample_sd": 0.0005905041734513034,
+      "positive_seeds": 2
+    },
+    {
+      "divisor": 4,
+      "metric": "continuous_state_relative_l2_mean",
+      "contrast": "(GR-GC)-(R-C)",
+      "n": 5,
+      "mean": -0.027282123035019035,
+      "sample_sd": 0.09543632085018791,
+      "positive_seeds": 2
+    },
+    {
+      "divisor": 4,
+      "metric": "teacher_state_relative_l2_mean",
+      "contrast": "R-GR",
+      "n": 5,
+      "mean": 0.8163089929109557,
+      "sample_sd": 0.10146808874751383,
+      "positive_seeds": 5
+    },
+    {
+      "divisor": 4,
+      "metric": "teacher_state_relative_l2_mean",
+      "contrast": "C-GC",
+      "n": 5,
+      "mean": 0.7893373455291268,
+      "sample_sd": 0.11811016539835208,
+      "positive_seeds": 5
+    },
+    {
+      "divisor": 4,
+      "metric": "teacher_state_relative_l2_mean",
+      "contrast": "R-C",
+      "n": 5,
+      "mean": 0.027149619028740312,
+      "sample_sd": 0.09528803143291509,
+      "positive_seeds": 3
+    },
+    {
+      "divisor": 4,
+      "metric": "teacher_state_relative_l2_mean",
+      "contrast": "GR-GC",
+      "n": 5,
+      "mean": 0.00017797164691138326,
+      "sample_sd": 0.00029298483723421895,
+      "positive_seeds": 3
+    },
+    {
+      "divisor": 4,
+      "metric": "teacher_state_relative_l2_mean",
+      "contrast": "(GR-GC)-(R-C)",
+      "n": 5,
+      "mean": -0.026971647381828927,
+      "sample_sd": 0.09526463331532657,
+      "positive_seeds": 2
+    }
+  ],
+  "scope": "Same beam in a nonlinear canonical chart; conservative H+i0; no empirical superiority or physically calibrated variable mass claim",
+  "protocol_sha256": "16bb7e277e864a1b0f301d08406f5fd19f70c2a2ef261346a8fc120f70789f3b"
+}

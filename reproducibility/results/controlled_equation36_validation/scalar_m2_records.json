@@ -1,0 +1,182 @@
+[
+  {
+    "method": "I",
+    "h": 0.2,
+    "endpoint_state_l2": 0.0009383091229339468,
+    "state_absolute_rms": 0.00037810002718889564,
+    "fixed_input_symplectic_defect": 3.1401849173675503e-16,
+    "path": "results/controlled_equation36_validation/scalar_m2/I_h0.2.npz",
+    "sha256": "c5476346dc9f6f66fae879d863978dc44d0c150a058e1fa51f2fcb1fd10f7029"
+  },
+  {
+    "method": "II",
+    "h": 0.2,
+    "endpoint_state_l2": 0.007050420399029247,
+    "state_absolute_rms": 0.003551613860734833,
+    "fixed_input_symplectic_defect": 3.1401849173675503e-16,
+    "path": "results/controlled_equation36_validation/scalar_m2/II_h0.2.npz",
+    "sha256": "9049768424afcc37dbb7793fb63a7fb07e416290766d193dd4d5bdb84b92765f"
+  },
+  {
+    "method": "III",
+    "h": 0.2,
+    "endpoint_state_l2": 0.0009383091229339263,
+    "state_absolute_rms": 0.0003781000271888867,
+    "fixed_input_symplectic_defect": 3.1401849173675503e-16,
+    "path": "results/controlled_equation36_validation/scalar_m2/III_h0.2.npz",
+    "sha256": "174ebe88ae6f49e6d600e3a76b07300c0d3e462036cc93469cce99429b3dde9d"
+  },
+  {
+    "method": "bad_fixed_increment",
+    "h": 0.2,
+    "endpoint_state_l2": 0.33652777184845917,
+    "state_absolute_rms": 0.18012058347763363,
+    "fixed_input_symplectic_defect": 3.1401849173675503e-16,
+    "path": "results/controlled_equation36_validation/scalar_m2/bad_fixed_increment_h0.2.npz",
+    "sha256": "0ee1e9fe8235d82e9b2917e5d3a9200c70c92fc17288ff5cc1fa5e778d676ad9"
+  },
+  {
+    "method": "I",
+    "h": 0.1,
+    "endpoint_state_l2": 0.00023519056747394766,
+    "state_absolute_rms": 9.416627152376104e-05,
+    "fixed_input_symplectic_defect": 0.0,
+    "path": "results/controlled_equation36_validation/scalar_m2/I_h0.1.npz",
+    "sha256": "5c9d182f3e0a818931f673015e56bdaa406433a0b1efbe74f73803c5156fe059"
+  },
+  {
+    "method": "II",
+    "h": 0.1,
+    "endpoint_state_l2": 0.0036706464913461817,
+    "state_absolute_rms": 0.0018012049183183242,
+    "fixed_input_symplectic_defect": 0.0,
+    "path": "results/controlled_equation36_validation/scalar_m2/II_h0.1.npz",
+    "sha256": "305f7136eb8279aa246cb0130c75d67cd9a5c2a9da179f62e85d29c7af9e5455"
+  },
+  {
+    "method": "III",
+    "h": 0.1,
+    "endpoint_state_l2": 0.0002351905674740273,
+    "state_absolute_rms": 9.416627152375063e-05,
+    "fixed_input_symplectic_defect": 0.0,
+    "path": "results/controlled_equation36_validation/scalar_m2/III_h0.1.npz",
+    "sha256": "7f69032bfe6e7086d24f84db217e8e24ce6481135f3bf8d0e43f3dd519fb0190"
+  },
+  {
+    "method": "bad_fixed_increment",
+    "h": 0.1,
+    "endpoint_state_l2": 0.7656960692756912,
+    "state_absolute_rms": 0.40023908494454163,
+    "fixed_input_symplectic_defect": 0.0,
+    "path": "results/controlled_equation36_validation/scalar_m2/bad_fixed_increment_h0.1.npz",
+    "sha256": "762496b97e9b8d6b52dae6c865cd5e60e6f0fc02fc278b9ec64dc5065e75976a"
+  },
+  {
+    "method": "I",
+    "h": 0.05,
+    "endpoint_state_l2": 5.88360856152265e-05,
+    "state_absolute_rms": 2.3485098102302238e-05,
+    "fixed_input_symplectic_defect": 0.0,
+    "path": "results/controlled_equation36_validation/scalar_m2/I_h0.05.npz",
+    "sha256": "10ea9d1d9533cacfa6f68d4f9ed3cdc778c5805cf7b50ae33cba2dc5816df397"
+  },
+  {
+    "method": "II",
+    "h": 0.05,
+    "endpoint_state_l2": 0.0018730992906535854,
+    "state_absolute_rms": 0.0009072350918905755,
+    "fixed_input_symplectic_defect": 0.0,
+    "path": "results/controlled_equation36_validation/scalar_m2/II_h0.05.npz",
+    "sha256": "8a0efcfd55169dcb9d15032072fa43329cf9be23f5db45e3d30953256263240a"
+  },
+  {
+    "method": "III",
+    "h": 0.05,
+    "endpoint_state_l2": 5.88360856145097e-05,
+    "state_absolute_rms": 2.348509810209511e-05,
+    "fixed_input_symplectic_defect": 0.0,
+    "path": "results/controlled_equation36_validation/scalar_m2/III_h0.05.npz",
+    "sha256": "1b6e9c89b772e5bd1e7724de8b7c3bf16af67c4179d3f630aaa75755e762a71f"
+  },
+  {
+    "method": "bad_fixed_increment",
+    "h": 0.05,
+    "endpoint_state_l2": 1.6263023266127499,
+    "state_absolute_rms": 0.8413746246275234,
+    "fixed_input_symplectic_defect": 0.0,
+    "path": "results/controlled_equation36_validation/scalar_m2/bad_fixed_increment_h0.05.npz",
+    "sha256": "ef8d2f8f4245d4c9f11c5d9fe80880141d64c7e7a2ec7f8f08dc74c63f32d4f9"
+  },
+  {
+    "method": "I",
+    "h": 0.025,
+    "endpoint_state_l2": 1.4711425913130492e-05,
+    "state_absolute_rms": 5.863505557477557e-06,
+    "fixed_input_symplectic_defect": 0.0,
+    "path": "results/controlled_equation36_validation/scalar_m2/I_h0.025.npz",
+    "sha256": "ffb94c5b2de9f501e3068a0da699fbd206e53cab5d2db40bc56575927455ece0"
+  },
+  {
+    "method": "II",
+    "h": 0.025,
+    "endpoint_state_l2": 0.0009461442331593282,
+    "state_absolute_rms": 0.0004553013050508634,
+    "fixed_input_symplectic_defect": 0.0,
+    "path": "results/controlled_equation36_validation/scalar_m2/II_h0.025.npz",
+    "sha256": "20d68f67d7076e2a3791f8cf6be2a189a6b00b665ded3f40f6db3611971f33f0"
+  },
+  {
+    "method": "III",
+    "h": 0.025,
+    "endpoint_state_l2": 1.4711425913116223e-05,
+    "state_absolute_rms": 5.8635055575304285e-06,
+    "fixed_input_symplectic_defect": 0.0,
+    "path": "results/controlled_equation36_validation/scalar_m2/III_h0.025.npz",
+    "sha256": "12cdb3aa032bb576f27a1f9277d5a8a63563cbbc357616b7ce1434eb18609a7f"
+  },
+  {
+    "method": "bad_fixed_increment",
+    "h": 0.025,
+    "endpoint_state_l2": 3.3481194467898105,
+    "state_absolute_rms": 1.7239178191787023,
+    "fixed_input_symplectic_defect": 0.0,
+    "path": "results/controlled_equation36_validation/scalar_m2/bad_fixed_increment_h0.025.npz",
+    "sha256": "7b009cffd5e6b9b29e2cd4b10c4e7753dcbde7b7c56dc53e35e6d3fc99b6aa4e"
+  },
+  {
+    "method": "I",
+    "h": 0.0125,
+    "endpoint_state_l2": 3.678006787861915e-06,
+    "state_absolute_rms": 1.4648614856628144e-06,
+    "fixed_input_symplectic_defect": 1.5700924586837752e-16,
+    "path": "results/controlled_equation36_validation/scalar_m2/I_h0.0125.npz",
+    "sha256": "b7d4a0828b6f3c6f6fb0f5a6a2e8bd733456d908d5c626c258f58f5ef6fdb774"
+  },
+  {
+    "method": "II",
+    "h": 0.0125,
+    "endpoint_state_l2": 0.0004754879168076285,
+    "state_absolute_rms": 0.00022807417549685702,
+    "fixed_input_symplectic_defect": 1.5700924586837752e-16,
+    "path": "results/controlled_equation36_validation/scalar_m2/II_h0.0125.npz",
+    "sha256": "8eab88c95961cc2937b71a5a783bcd2a9379b28dcc71e6cc50fb2bc34c164ed7"
+  },
+  {
+    "method": "III",
+    "h": 0.0125,
+    "endpoint_state_l2": 3.6780067872882156e-06,
+    "state_absolute_rms": 1.4648614856362912e-06,
+    "fixed_input_symplectic_defect": 1.5700924586837752e-16,
+    "path": "results/controlled_equation36_validation/scalar_m2/III_h0.0125.npz",
+    "sha256": "cd76d9ba2d1f13ddf30a6c24683752ab6afbff8d538ccf738bbc88cf949486d4"
+  },
+  {
+    "method": "bad_fixed_increment",
+    "h": 0.0125,
+    "endpoint_state_l2": 6.791927035785076,
+    "state_absolute_rms": 3.489097419584495,
+    "fixed_input_symplectic_defect": 1.5700924586837752e-16,
+    "path": "results/controlled_equation36_validation/scalar_m2/bad_fixed_increment_h0.0125.npz",
+    "sha256": "f7fde9299a0e027f8da39cd86ea901c016a205544e7dd2d7182252d8713387dc"
+  }
+]

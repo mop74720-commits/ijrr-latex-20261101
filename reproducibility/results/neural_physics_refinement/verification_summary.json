@@ -1,0 +1,14 @@
+{
+  "all_model_step_seed_cases": 100,
+  "per_trajectory_rows": 800,
+  "matched_common_grid_files": 20,
+  "independent_tip_seed_metric_max_gap": 0.0,
+  "independent_state_relative_seed_metric_max_gap": 0.0,
+  "all_47_original_inputs_hashes_unchanged": true,
+  "actual_execution_snapshot_matches_environment": true,
+  "final_analysis_script_sha256": "5c08099889c2307886d4deac61d8ba0737a62c2e1655079f81280f52e48e09a7",
+  "baseline_residual_scope": "H0: one analytic Cayley step from each retained common-grid state. Neural and teacher: all internal integration steps.",
+  "figures_visually_checked": true,
+  "full_manuscript_compilation": "Left to parent agent; this subtask does not modify main.tex.",
+  "completed_repeat_run_preserves_execution_metadata": true
+}

@@ -1,0 +1,32 @@
+{
+  "seed": 17,
+  "group": "C",
+  "real_parameter_count": 673,
+  "training_steps": 10000,
+  "selected_validation_step": 10000,
+  "validation_normalized_mse": 0.00023049983937185956,
+  "training_seconds": 22.69466939999984,
+  "numpy_torch_field_max_difference": 4.440892098500626e-16,
+  "state_relative_l2_mean": 1.0009457610658354,
+  "tip_rmse_mm_mean": 1.1601626183500118,
+  "tip_rmse_mm_per_trajectory": [
+    0.8805617840961925,
+    0.560246337245756,
+    0.894760515101764,
+    0.7519156608305144,
+    2.2894731418615404,
+    0.903708079331499,
+    2.3071228496975764,
+    0.6935125786352515
+  ],
+  "teacher_tip_rmse_mm_mean": 1.160820304936337,
+  "max_phase_error_rad": 16.49352631557872,
+  "teacher_state_relative_l2_mean": 1.0163300819757042,
+  "max_own_energy_drift_relative": 3.478274843853944e-05,
+  "max_target_energy_drift_relative": 0.0062625256203483245,
+  "status": "completed",
+  "forecast_seconds": 15.992993212174294,
+  "forecast_seconds_wall": 5.912730199999714,
+  "max_implicit_residual": 9.38311928155855e-15,
+  "mean_fixed_point_iterations": 7.0
+}

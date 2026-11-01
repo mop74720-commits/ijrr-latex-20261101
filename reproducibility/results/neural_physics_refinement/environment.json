@@ -1,0 +1,12 @@
+{
+  "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "numpy": "1.26.4",
+  "numba": "0.60.0",
+  "script_sha256": "ced866e4f1c3fa47cd0851e513eeb04ab527a77fc242f2ada383e1a0ff29b42a",
+  "workers": 4,
+  "utc_started": "2026-10-31T10:09:11.201510+00:00",
+  "fastmath": false,
+  "threads_per_blas": 1,
+  "execution_source_snapshot": "E:/1030/IJRR_1025_20261030/results/neural_physics_refinement/execution_script.py"
+}

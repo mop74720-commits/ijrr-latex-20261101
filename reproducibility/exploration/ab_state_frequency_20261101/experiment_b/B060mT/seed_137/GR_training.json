@@ -1,0 +1,18 @@
+{
+  "seed": 137,
+  "group": "GR",
+  "real_parameter_count": 673,
+  "training_steps": 10000,
+  "selected_validation_step": 9800,
+  "validation_normalized_mse": 4.763414483114345e-10,
+  "training_seconds": 37.236366699995415,
+  "numpy_torch_field_max_difference": 2.7755575615628914e-17,
+  "status": "completed",
+  "level": "B060mT",
+  "baseline_weights_reused": false,
+  "clean_validation_relative_l2": 1.2913185419432875e-05,
+  "numpy_jit_field_gap": 3.469446951953614e-18,
+  "data_sha256": "35de2d807a5b2191125835206415c920e1d1f014ea6a961acc77a7d990ba682f",
+  "weights_sha256": "0a65b91d02f08be4e609748c9790e377fd8b54d92f3358dfa76e36d1bab4d6a0",
+  "protocol_sha256": "859075ce2c2f3bc245bfd19c9c43d1ee74d82aac10b533e942321d6f4639b0ac"
+}
